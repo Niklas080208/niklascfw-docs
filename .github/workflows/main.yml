@@ -1,0 +1,29 @@
+name: Retype Build & Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Retype site
+        run: npm run build
+
+      - name: Start Retype server
+        run: npm run start
+        # Achtung: normal läuft GitHub Actions nicht dauerhaft. Starten ist nur für Testzwecke sinnvoll.
