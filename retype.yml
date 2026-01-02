@@ -1,0 +1,36 @@
+input: .
+output: .retype
+
+url: docs-dev.cfwzone.de # Use your website address here
+
+start:
+  # Uncomment the next line to try Retype Pro features
+  # pro: true
+
+branding:
+  logo: /assets/logo.png
+  logoDark: /assets/logo-dark.png
+  favicon: ./favicon.ico
+  label: "Docs"
+  # title: "Nintendo Switch CFW Dokumentation"
+
+favicon: /assets/favicon.ico
+
+links:
+- text: 🔍 Serial Checker
+  link: https://serialcheck.niklascfw.de
+- text: 📺 YouTube
+  link: https://youtube.com/@NiklasCFW
+- text: 💬 Discord
+  link: "https://discord.gg/niklascfw"
+
+footer:
+  copyright: "&copy; {{ year }} [NiklasCFW](https://youtube.com/@NiklasCFW). Alle Rechte vorbehalten."
+
+editor:
+  enabled: true
+
+edit:
+  repo: github.com/Niklas080208/niklascfw-docs
+
+locale: de

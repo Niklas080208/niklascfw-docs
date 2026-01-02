@@ -1,0 +1,139 @@
+# 3DS Jailbreak Anleitung
+
+Diese Anleitung beschreibt **schrittweise**, wie du deinen Nintendo 3DS oder 2DS jailbreakst, Custom Firmware installierst und dein System sicher einrichtest – basierend auf der **MSET9‑Methode** (System Settings Exploit), wie sie in aktuellen Guides genutzt wird.
+
+---
+
+<div style="background-color: #ffe0b2; border-left: 6px solid #ff6f00; padding: 1rem; margin: 1rem 0; border-radius: 6px; color: #4e342e;">
+<h4 style="margin-top: 0; color: #e65100;">⚠️ Wichtiger Hinweis</h4>
+<p style="margin-bottom: 0;">
+Der Jailbreak erfolgt auf eigene Gefahr. Diese Anleitung ist sorgfältig zusammengestellt und entspricht etablierten Best Practices, aber du solltest jeden Schritt genau befolgen und ein <strong>NAND‑Backup erstellen</strong>, wenn du fertig bist.
+</p>
+</div>
+
+---
+
+## Unterstützte Geräte
+
+| Gerät                  | Unterstützt |
+|------------------------|-------------|
+| Nintendo 3DS           | ✅          |
+| Nintendo 3DS XL        | ✅          |
+| Nintendo 2DS           | ✅          |
+| New Nintendo 3DS       | ✅          |
+| New Nintendo 3DS XL    | ✅          |
+| New Nintendo 2DS XL    | ✅          |
+
+---
+
+## Voraussetzungen
+
+### Benötigte Hardware
+
+- Nintendo 3DS / 2DS (beliebiges Modell)  
+- SD‑ oder microSD‑Karte (min. **4 GB** - bis max. **128GB**, mit **FAT32** formatiert)  
+- PC oder Laptop mit SD‑Kartenleser  
+
+
+## Empfohlene SD‑Karten
+
+| SD‑Karte                     | Bewertung      |
+|-----------------------------|----------------|
+| Samsung EVO Plus / Select    | ⭐⭐⭐⭐⭐          |
+| SanDisk Ultra               | ⭐⭐             |
+| Kingston Canvas Select Plus | ⭐⭐⭐            |
+
+> SD‑Karten müssen mit **FAT32** formatiert werden – der 3DS unterstützt kein exFAT.
+
+
+
+---
+
+## Schritt 1 – SD‑Karte vorbereiten
+
+1. Stecke die SD‑Karte in deinen PC.  
+2. Formatiere sie, falls nötig, mit **FAT32**. **[Anleitung zum SD Karten Formatieren](sd_format.md)**
+3. Kopiere die Dateien (siehe nächster Schritt) ins Root‑Verzeichnis.
+
+---
+## Benötigte Dateien
+Lade den MSET9 Ordner herunter:
+   → [MSET9 Exploit](https://github.com/hacks-guide/MSET9/releases/download/v2.1/MSET9-v2.1.zip)
+   
+Kopiere alle Dateien in das **Root‑Verzeichnis deiner SD‑Karte**:
+
+---
+
+## Schritt 2 – MSET9 Exploit vorbereiten
+
+Die MSET9‑Methode nutzt eine Schwachstelle in der **System Settings App**, um SafeB9SInstaller auszuführen.
+
+### Vorbereitung (auf dem PC)
+
+1. SD‑Karte in den PC einlegen.  
+2. Kopiere alle MSET9‑Dateien ins SD‑Karten‑Root.  
+3. Starte das MSET9‑Script auf deinem PC:  
+   - **Windows:** doppelt auf `MSET9‑Windows.bat` klicken  
+   - **macOS:** doppelt auf `MSET9-macOS.command` klicken  
+   - **Linux:** `python3 mset9.py` ausführen  
+4. Gib deine **Konsolen‑Modellnummer** ein, wenn du dazu aufgefordert wirst.
+   - **Tipp**: Wenn du ZR ZL Schultertaste hast handelt es sich um ein **New 2DS oder New 3DS Gerät**
+5. Wähle „1“ (Create hacked ID1) und bestätige, um den exploitfähigen Ordner zu erzeugen.  
+6. Falls angezeigt, bestätige sämtliche Warnhinweise.  
+7. Nachdem die Meldung „Created hacked ID1.“ erscheint, drücke Enter.  
+8. Entferne die SD‑Karte vom PC und stecke sie wieder in die Konsole. :contentReference[oaicite:5]{index=5}
+
+> Deine HOME‑Menü‑Daten können vorübergehend verschwinden, das ist normal.
+
+---
+
+## Schritt 3 – MSET9 Triggern
+
+Jetzt wird der eigentliche Exploit ausgeführt, um **SafeB9SInstaller** zu starten.
+
+1. Schalte den 3DS ein und wähle **System Settings** (Systemeinstellungen) im HOME‑Menü.  
+2. Navigiere zu `Data Management → Nintendo 3DS → Extra Data`.  
+3. **Berühre nichts, drücke keine Knöpfe**, warte bis „No SD Card“ angezeigt wird (SD‑Karte entfernen).  
+4. SD‑Karte erneut in den PC stecken.  
+5. Starte wieder das MSET9‑Script wie oben beschrieben.  
+6. Gib erneut dein Konsolen‑Modell ein.  
+7. Wähle „3“ (inject MSET9) und bestätige – du solltest die Meldung “MSET9 successfully injected!” sehen.  
+8. Stecke die SD‑Karte zurück in die Konsole **ohne Knöpfe zu drücken**.  
+9. Die Konsole sollte automatisch in **SafeB9SInstaller** booten. :contentReference[oaicite:7]{index=7}
+
+---
+
+## Schritt 4 – boot9strap installieren
+
+1. In SafeB9SInstaller folge den Anweisungen auf dem Bildschirm.  
+2. Drücke die angezeigte Tastenkombination, wenn du dazu aufgefordert wirst.  
+   - Wenn oben der Bildschirm leer ist, gib den Combo blind ein: **D‑Pad Left → Down → Right → Up → A**  
+3. Warte, bis alle Schritte abgeschlossen sind.  
+4. Drücke **A**, um neu zu starten.  
+5. Du landest im **Luma3DS Konfigurationsmenü**, speichere unverändert mit **Start**.
+
+---
+
+## Fertig!
+
+Du hast deinen Nintendo 3DS erfolgreich gehackt! 🎉  
+Jetzt kannst du Homebrew nutzen, Mods ausprobieren und vieles mehr. Viel Spaß mit deinem modifizierten Gerät!
+
+---
+
+## Wichtige Tastenkombinationen
+
+- **Luma3DS-Konfigurationsmenü:** Halte **Select** beim Einschalten gedrückt.  
+- **GodMode9 starten:** Halte **Start** beim Einschalten gedrückt.  
+- **Rosalina-Menü öffnen:** Halte **Linke Schultertaste + Steuerkreuz nach unten + Select** gedrückt (oder bei geänderter Konfiguration **X + Y**).  
+- **Debug-LED-Modus:** Halte **Start + Select + X** beim Einschalten gedrückt.
+
+
+
+---
+
+<div style="background-color: #d0ebff; border-left: 6px solid #1976d2; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 8px; color: #0d47a1; font-weight: 600; font-size: 1.1rem;">
+  <p style="margin: 0;">
+    <strong>Fazit:</strong> Mit dem <span style="color:#ef6c00;">MSET9‑Exploit</span> und <span style="color:#ef6c00;">SafeB9SInstaller</span> installierst du <span style="color:#1976d2;">Custom Firmware</span> stabil und sicher auf nahezu jedem 3DS/2DS. Diese Anleitung folgt dem etablierten Ablauf, der in aktuellen <span style="color:#1976d2;">2024/2025‑Guides</span> verwendet wird.
+  </p>
+</div>
