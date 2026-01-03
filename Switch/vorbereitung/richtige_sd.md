@@ -88,5 +88,5 @@ Für eine reibungslose Nutzung der Nintendo Switch mit CFW empfehlen sich vor al
 ---
 
 <div style="background-color: #e7f3ff; border-left: 4px solid #2196F3; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
-<p style="color: #212529; margin: 0;"><strong>Fazit:</strong> Eine hochwertige microSD-Karte ist bei einer CFW-Nutzung der Nintendo Switch kein Luxus, sondern eine Notwendigkeit. Wer hier spart, riskiert Frust und Datenverlust – wer investiert, spielt sorgenfrei.</p>
+<p style="color: #212529; margin: 0;"><strong>Fazit:</strong> Eine hochwertige microSD-Karte ist bei einer CFW-Nutzung der Nintendo Switch kein Luxus, sondern eine Notwendigkeit. Wer hier spart, riskiert Frust und Datenverlust und wer investiert, spielt sorgenfrei.</p>
 </div>
