@@ -15,6 +15,7 @@ Bevor du mit der RCM-Methode beginnst, stelle sicher, dass:
 - ✅ Du einen **RCM-Jig** besitzt
 - ✅ Ein **USB-C-Datenkabel** vorhanden ist
 - ✅ Du den entsprechenden **Payload (hekate.bin)** heruntergeladen hast
+- ✅ Wichtig das Pack vorbereitet hast wie in **[Ersteinrichtung ab 1.4.0](guide1)**
 
 ## 🖥️ Plattform-spezifische Anleitungen
 
