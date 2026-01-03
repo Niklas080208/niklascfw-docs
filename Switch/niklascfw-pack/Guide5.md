@@ -50,5 +50,3 @@ Der Download der **Firmware** funktioniert genauso wie beim **Update des CFW_Pac
 ## ✅ Fertig
 
 Die Firmware wurde erfolgreich aktualisiert!
-
-Test2
