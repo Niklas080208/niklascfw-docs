@@ -21,7 +21,7 @@
 ### Schritt 1: Pack herunterladen
 
 1. Lade das **aktuelle Release** herunter:  
-   → [NiklasCFW_Pack](https://github.com/Woody-NX/NiklasCFW_Pack/releases/latest)
+   → [NiklasCFW_Pack](https://github.com/Woody-NX/NiklasCFW_Pack/releases/download/1.4.1/NiklasCFW_Pack.zip)
 
 ![|700x420](/images/Guide1/Pre1.4.0GH1.png)
 ![|700x420](/images/Guide1/Pre1.4.0GH2.png)
