@@ -1,15 +1,16 @@
-Anleitung: Fehlercode 2001-0123 (UltraHand-ID) beheben
+Anleitung: Fehlercode 2001-0123 beheben
+Prigramm ID: 420000000007E51A (UltraHand-ID)
 
 Ursache:
 Der Fehlercode 2001-0123 steht in diesem Zusammenhang für UltraHand.
 Die installierte System-Firmware ist zu niedrig für die verwendete UltraHand-Version
-oder das CFW-Pack ist nicht aktuell bzw. nicht korrekt installiert.
 
-Lösung – Schritt für Schritt:
+Lösung:
 
 1. CFW-Pack aktualisieren
-- Lade die neuste Niklas CFW herunter. https://github.com/Woody-NX/NiklasCFW_Pack/releases/latest
+- Lade die neuste Niklas CFW herunter. [Neustes CFW Pack](https://github.com/Woody-NX/NiklasCFW_Pack/releases/latest)
 - Falls nötig, das Pack manuell aktualisieren.
+Anleitung zur [Ersteinrichtung](https://docs.niklascfw.de/switch/niklascfw-pack/guide1.4.0/)
 
 2. Overlay temporär deaktivieren
 - SD-Karte in den PC einlegen
@@ -19,8 +20,8 @@ Lösung – Schritt für Schritt:
   ovlmenu.ovl -> ovlmenu.ovl.bak
 
 3. Firmware herunterladen
-- Aktuelle Firmware herunterladen:
-  https://github.com/THZoria/NX_Firmware/releases
+- [Aktuelle Firmware](https://github.com/THZoria/NX_Firmware/releases) herunterladen.
+  
 
 4. Firmware installieren
 - Firmware entpacken
