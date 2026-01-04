@@ -8,7 +8,7 @@ oder das CFW-Pack ist nicht aktuell bzw. nicht korrekt installiert.
 Lösung – Schritt für Schritt:
 
 1. CFW-Pack aktualisieren
-- Lade die neuste Niklas CFW herunter. 
+- Lade die neuste Niklas CFW herunter. https://github.com/Woody-NX/NiklasCFW_Pack/releases/latest
 - Falls nötig, das Pack manuell aktualisieren.
 
 2. Overlay temporär deaktivieren
