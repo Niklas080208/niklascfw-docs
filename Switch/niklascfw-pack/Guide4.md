@@ -10,6 +10,8 @@
 <p style="color: #212529; margin-bottom: 0;">Ansonsten funktioniert der Download über UltraHand nicht!</p>
 </div>
 
+**[Anleitung Uhrzeit Synchronisieren](https://docs.niklascfw.de/switch/nachher/dbi_time/)**
+
 ---
 
 ## 🔄 CFW Pack aktualisieren
@@ -200,6 +202,7 @@ Der Download der **Firmware** funktioniert genauso wie beim **Update des CFW_Pac
 ## ✅ Fertig
 
 Das Update sollte erfolgreich abgeschlossen sein!
+
 
 
 
