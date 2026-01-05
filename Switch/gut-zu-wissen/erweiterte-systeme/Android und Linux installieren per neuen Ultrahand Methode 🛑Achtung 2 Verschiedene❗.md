@@ -1,4 +1,14 @@
 # Anleitung: Android und Linux installieren per neuen Ultrahand Methode 🛑Achtung 2 Verschiedene❗
+---
+
+## ⚠️ Voraussetzungen
+
+<div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
+<h4 style="color: #856404; margin-top: 0;">⚠️ Wichtig</h4>
+<p style="color: #212529; margin-bottom: 0;"><strong>Bitte darauf achten, dass deine Uhrzeit synchronisiert ist.</strong></p>
+<p style="color: #212529; margin-bottom: 0;">Ansonsten funktioniert der Download über UltraHand nicht!</p>
+</div>
+
 
 ---
 
