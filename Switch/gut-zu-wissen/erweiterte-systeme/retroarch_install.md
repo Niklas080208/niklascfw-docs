@@ -10,6 +10,7 @@
 
 **[Anleitung Uhrzeit Synchronisieren](https://docs.niklascfw.de/switch/nachher/dbi_time/)**
 
+
 ![|700x420](/images/allgemein/retroarch_logo.png)
 
 **RetroArch** ist eine sogenannte “Frontend”-Anwendung für **Emulatoren**, Spiel-Engines und Mediaplayer. Für die Nintendo Switch ist RetroArch eine Homebrew-App, die es ermöglicht, klassische Spielekonsolen auf der Switch zu emulieren.
