@@ -94,7 +94,7 @@
 5. Wähle **1.NiklasCFW - Update Script.te (Clean)** aus  
    *Das Clean Script wird empfohlen, da es Probleme vermeidet*
 
-   Bei größer 1.4.1 Wähle Wähle ganz unten **NiklasCFW - Install Skript.te** aus
+   **Bei größer 1.4.1 Wähle Wähle ganz unten NiklasCFW - Install Skript.te aus**
 
 6. Das **Update Script** zeigt dir die Details an:
    - Lies die Informationen auf dem Bildschirm
@@ -200,5 +200,6 @@ Der Download der **Firmware** funktioniert genauso wie beim **Update des CFW_Pac
 ## ✅ Fertig
 
 Das Update sollte erfolgreich abgeschlossen sein!
+
 
 
