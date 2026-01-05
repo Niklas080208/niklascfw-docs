@@ -6,7 +6,9 @@
 <h4 style="color: #856404; margin-top: 0;">⚠️ Wichtig</h4>
 <p style="color: #212529; margin-bottom: 0;"><strong>Bitte darauf achten, dass deine Uhrzeit synchronisiert ist.</strong></p>
 <p style="color: #212529; margin-bottom: 0;">Ansonsten funktioniert der Download über UltraHand nicht!</p>
-</div> 
+</div>
+
+**[Anleitung Uhrzeit Synchronisieren](https://docs.niklascfw.de/switch/nachher/dbi_time/)**
 
 ![|700x420](/images/allgemein/retroarch_logo.png)
 
