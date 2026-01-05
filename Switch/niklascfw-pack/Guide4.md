@@ -74,6 +74,7 @@
 
 ![|700x420](/images/Guide4/Bild9.jpg)
 
+>⚠️ Achtung nur kleiner als 1.4.1
 <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
 <h4 style="color: #856404; margin-top: 0;">📋 Welches Script soll ich wählen?</h4>
 <p style="color: #212529; margin-bottom: 0.5rem;"><strong>🟢 Clean Script (Empfohlen):</strong></p>
@@ -90,7 +91,6 @@
 </ul>
 </div>
 
->⚠️ Achtung nur kleiner als 1.4.1
 5. Wähle **1.NiklasCFW - Update Script.te (Clean)** aus  
    *Das Clean Script wird empfohlen, da es Probleme vermeidet*
 
@@ -200,4 +200,5 @@ Der Download der **Firmware** funktioniert genauso wie beim **Update des CFW_Pac
 ## ✅ Fertig
 
 Das Update sollte erfolgreich abgeschlossen sein!
+
 
