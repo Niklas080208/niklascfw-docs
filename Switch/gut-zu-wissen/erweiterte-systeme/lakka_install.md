@@ -10,9 +10,9 @@
 
 **[Anleitung Uhrzeit Synchronisieren](https://docs.niklascfw.de/switch/nachher/dbi_time/)**
 
-
-Lakka basiert auf LibreELEC und nutzt die RetroArch-Oberfläche als zentrales Benutzerinterface. Unterstützt werden zahlreiche klassische Plattformen wie NES, SNES, Game Boy, Genesis, PlayStation, Dreamcast, N64 usw.
-
+---
+>**Lakka** basiert auf **LibreELEC** und nutzt die **RetroArch-Oberfläche** als zentrales **Benutzerinterface**. Unterstützt werden zahlreiche klassische Plattformen wie NES, SNES, Game Boy, Genesis, PlayStation, Dreamcast, N64 usw.
+---
 
 ## Lakka direkt über UltraHand installieren
 
