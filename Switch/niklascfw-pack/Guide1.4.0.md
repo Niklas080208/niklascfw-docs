@@ -97,7 +97,7 @@ Es gibt **zwei Möglichkeiten**, das CFW Pack auf die SD-Karte zu kopieren:
 
 1. Im **Launch Menü** angekommen, wähle **Tegra Explorer** aus
 2. Falls eine Meldung erscheint, drücke diese weg
-3. Wähle ganz unten **NiklasCFW - Install Skript.te** aus
+3. Wähle **NiklasCFW - Install Skript.te** aus
 4. Folge den **Anweisungen** im nächsten Fenster
 
 ![|700x420](/images/Guide1/Bild15.jpeg)
