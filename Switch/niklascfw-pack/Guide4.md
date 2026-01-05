@@ -74,9 +74,8 @@
 
 ![|700x420](/images/Guide4/Bild9.jpg)
 
->
 <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
-⚠️ Achtung nur kleiner als 1.4.1
+<strong>⚠️ Achtung nur kleiner als 1.4.1
 <h4 style="color: #856404; margin-top: 0;">📋 Welches Script soll ich wählen?</h4>
 <p style="color: #212529; margin-bottom: 0.5rem;"><strong>🟢 Clean Script (Empfohlen):</strong></p>
 <ul style="color: #212529; margin-bottom: 0.5rem;">
@@ -201,6 +200,7 @@ Der Download der **Firmware** funktioniert genauso wie beim **Update des CFW_Pac
 ## ✅ Fertig
 
 Das Update sollte erfolgreich abgeschlossen sein!
+
 
 
 
