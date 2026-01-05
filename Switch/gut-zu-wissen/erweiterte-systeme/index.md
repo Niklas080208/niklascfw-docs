@@ -4,8 +4,7 @@ Alternative Betriebssysteme auf deiner Switch installieren.
 
 ## 📋 Verfügbare Guides:
 
-- 🤖 **[Android auf Switch](Android Switch Guide)** - Android System installieren
-- 🐧 **[Android & Linux installieren](Android und Linux installieren per neuen Ultrahand Methode 🛑Achtung 2 Verschiedene❗)** - Alternative OS Installation
+- 🐧 **[Android & Linux installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/android-und-linux-installieren-per-neuen-ultrahand-methode-achtung-2-verschiedene/)** - Alternative OS Installation
 - 🎮 **[Lakka Installation](lakka_install)** - Retro Gaming OS
 - 🕹️ **[RetroArch Installation](retroarch_install)** - Retro Gaming Setup
 
