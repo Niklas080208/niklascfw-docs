@@ -9,6 +9,7 @@
 <p style="color: #212529; margin-bottom: 0;">Ansonsten funktioniert der Download über UltraHand nicht!</p>
 </div>
 
+**[Anleitung Uhrzeit Synchronisieren](https://docs.niklascfw.de/switch/nachher/dbi_time/)**
 
 ---
 
