@@ -135,5 +135,7 @@ graph TD
   <h2 style="margin-bottom: 1rem;">🚀 Bereit loszulegen?</h2>
   <p style="font-size: 1.1em; margin-bottom: 1.5rem;">Starte jetzt mit der Modifikation deiner Nintendo Switch!</p>
   <a href="/Switch/" style="background: white; color: #667eea; padding: 1rem 2rem; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 1.1em;">📖 Zur Dokumentation →</a>
-</div>
+</div> 
+
+Test
 
