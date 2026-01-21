@@ -137,5 +137,3 @@ graph TD
   <a href="/Switch/" style="background: white; color: #667eea; padding: 1rem 2rem; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 1.1em;">📖 Zur Dokumentation →</a>
 </div> 
 
-Test
-
