@@ -1,6 +1,6 @@
-# Niklas CFW Downloader – Fehlerbehebung
+# NIKLASCFW Downloader Fehlerbehebung.
 
-Es kann vorkommen, dass Downloads im **Niklas CFW Downloader** abbrechen.  
+Es kann vorkommen, dass Downloads im **NIKLASCFW Downloader** abbrechen.  
 In diesem Fall gehe bitte die folgenden Schritte durch.
 
 ## Downloads brechen ab was tun?
@@ -30,4 +30,5 @@ Erst danach sollten Downloads erneut gestartet werden.
 ---
 
 Wenn die Probleme weiterhin bestehen, empfiehlt sich ein Neustart der Konsole und ein erneuter Durchlauf aller Schritte.
+
 
