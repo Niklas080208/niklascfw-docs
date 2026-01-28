@@ -5,7 +5,7 @@ Probleme mit Homebrew-Apps und Tools beheben.
 ## 📋 Verfügbare Lösungen:
 
 - 🛠️ **[Ultrahand öffnen](ultrahand_oeffnen)** - Ultrahand nicht startbar?
-- 🤔 **[Niklas CFW Downloader lädt nicht herunter](NiklasCFWDownloadprobleme) 
+- 🤔 **[Niklas CFW Downloader lädt nicht herunter](NiklasCFWDownloadprobleme)** - Niklas CFW Updater Reparieren! 
 ---
 
 <div style="background: #d1ecf1; border: 2px solid #17a2b8; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; color: #212529;">
