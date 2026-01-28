@@ -3,7 +3,7 @@
 Es kann vorkommen, dass Downloads im **Niklas CFW Downloader** abbrechen.  
 In diesem Fall gehe bitte die folgenden Schritte durch.
 
-## Downloads brechen ab – was tun?
+## Downloads brechen ab was tun?
 
 Wenn deine Downloads abbrechen, liegt das häufig an einer falsch gesetzten Systemzeit.
 
@@ -30,3 +30,4 @@ Erst danach sollten Downloads erneut gestartet werden.
 ---
 
 Wenn die Probleme weiterhin bestehen, empfiehlt sich ein Neustart der Konsole und ein erneuter Durchlauf aller Schritte.
+
