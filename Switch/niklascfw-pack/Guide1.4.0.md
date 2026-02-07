@@ -69,7 +69,7 @@ Es gibt **zwei Möglichkeiten**, das CFW Pack auf die SD-Karte zu kopieren:
 
 ![|700x420](/images/Guide1/Bild4.png)
 ![|700x420](/images/Guide1/Bild5.png)
-![|700x420](/images/Guide1/Bild6.png)
+![|700x420](/images/Guide1/SwitchSDvorinstall.png)
 
 4. **SD-Karte zurück in die Switch** einstecken oder **USB-Kabel** entfernen
 5. **Hekate** erneut starten
