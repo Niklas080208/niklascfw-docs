@@ -17,12 +17,15 @@ branding:
 favicon: /assets/favicon.ico
 
 links:
-- text: 🔍 Serial Checker
+- text: Serial Checker
   link: https://serialcheck.niklascfw.de
-- text: 📺 YouTube
+  icon: /assets/switch.png
+- text: YouTube
   link: https://youtube.com/@NiklasCFW
-- text: 💬 Discord
+  icon: /assets/youtube.png
+- text: Discord
   link: "https://discord.gg/niklascfw"
+  icon: /assets/discord.png
 
 footer:
   copyright: "&copy; {{ year }} [NiklasCFW](https://youtube.com/@NiklasCFW). Alle Rechte vorbehalten."
