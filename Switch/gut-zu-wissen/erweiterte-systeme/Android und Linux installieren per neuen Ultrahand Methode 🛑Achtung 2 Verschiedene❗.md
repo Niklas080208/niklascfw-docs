@@ -90,7 +90,13 @@ Diese Methode ist für dich, wenn deine SD-Karte als **RAW-Partition** eingerich
 - Boote die Switch neu (Reboot NX > Hekate). Die Switch startet direkt in Hekate.
 - Geh zu Tools > Partition SD Card und wähle Flash Linux.
   Der Linux Flasher öffnet sich und fragt ob du Continue (Weiter) machen oder Cancel (Abbrechen) willst.
+### 6) Joy-Con Dumpen
 
+- Klick unten links auf **Nyx Settings**
+
+![|700x420](/images/allgemein/hekate_nyx_settings.jpg)
+
+- Wähle nun **Dump Joy-Con BT** aus und bestätige die Meldung anschließend durch Klicken auf **Ok** 
 
 ---
 
@@ -128,3 +134,10 @@ Diese Methode ist die einfachste, wenn dein emuMMC bereits im **SD File-Format**
 - Geh zu Tools > Partition SD Card und wähle Flash Linux.
 - Der Linux Flasher öffnet sich und fragt ob du Continue (Weiter) machen oder Cancel (Abbrechen) willst.
 
+### 6) Joy-Con Dumpen
+
+- Klick unten links auf **Nyx Settings**
+
+![|700x420](/images/allgemein/hekate_nyx_settings.jpg)
+
+- Wähle nun **Dump Joy-Con BT** aus und bestätige die Meldung anschließend durch Klicken auf **Ok** 
