@@ -76,29 +76,9 @@
 
 ![|700x420](/images/Guide4/Bild9.jpg)
 
-<div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
-<strong>⚠️ Achtung nur kleiner als 1.4.1
-<h4 style="color: #856404; margin-top: 0;">📋 Welches Script soll ich wählen?</h4>
-<p style="color: #212529; margin-bottom: 0.5rem;"><strong>🟢 Clean Script (Empfohlen):</strong></p>
-<ul style="color: #212529; margin-bottom: 0.5rem;">
-<li>Entfernt alte Apps und Mods, die mit der neuen Atmosphere-Version nicht kompatibel sind</li>
-<li>Verhindert Abstürze und Probleme</li>
-<li>Deine Spiele und Spielstände bleiben erhalten</li>
-</ul>
-<p style="color: #212529; margin-bottom: 0.5rem;"><strong>🟡 Dirty Script:</strong></p>
-<ul style="color: #212529; margin-bottom: 0;">
-<li>Behält alle alten Apps und Mods</li>
-<li>Kann zu Abstürzen führen, da alte Apps nicht mit der neuen Atmosphere funktionieren</li>
-<li>Nur verwenden, wenn du genau weißt, was du tust</li>
-</ul>
-</div>
+5. Wähle **NiklasCFW - Install Skript.te** aus  
 
-5. Wähle **1.NiklasCFW - Update Script.te (Clean)** aus  
-   *Das Clean Script wird empfohlen, da es Probleme vermeidet*
-
-   **Bei größer 1.4.1 Wähle Wähle ganz unten NiklasCFW - Install Skript.te aus**
-
-6. Das **Update Script** zeigt dir die Details an:
+6. Das **NiklasCFW - Install Skript.te** zeigt dir die Details an:
    - Lies die Informationen auf dem Bildschirm
    - Drücke **A** (oder **Power** bei Switch Lite) um die Installation zu starten
    - Zum Abbrechen drücke **B** oder eine **Lautstärke-Taste**
@@ -202,6 +182,7 @@ Der Download der **Firmware** funktioniert genauso wie beim **Update des CFW_Pac
 ## ✅ Fertig
 
 Das Update sollte erfolgreich abgeschlossen sein!
+
 
 
 
