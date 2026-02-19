@@ -1,12 +1,12 @@
-# Ersteinrichtung ab 1.5.0 Final Release
+# Ersteinrichtung 1.5.0 Final Release
 
 ---
 
 <div style="background-color: #e7f3ff; border-left: 4px solid #2196F3; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
 <h4 style="color: #1565C0; margin-top: 0;">ℹ️ Wichtiger Hinweis</h4>
-<p style="color: #212529; margin-bottom: 0;"> <strong>Nur OFW 21.X. Der emuMMC bleibt unberührt</strong>. Das heißt, dass Spielstände, Spiele und Einstellungen (sofern vorhanden) erhalten bleiben. 
+<p style="color: #212529; margin-bottom: 0;"> <strong>FW 21.2.0 kompatibel. Der emuMMC bleibt unberührt</strong>. Das heißt, dass Spielstände, Spiele und Einstellungen (sofern vorhanden) erhalten bleiben. 
 
-**Anders gesagt solange ihr nicht an irgendeinem schritt Formatieren drück bleibt alles bestehen.**</p>
+**Anders gesagt solange ihr nicht an irgendeinem schritt Formatieren drück bleibt alles bestehen. Löscht die Ordner wie auf den Beispielbildern. Macht Packups von Thorparty App Ordnern**</p>
 </div>
 
 ## ✅ Voraussetzungen
