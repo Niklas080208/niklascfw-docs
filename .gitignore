@@ -25,3 +25,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Retype (https://github.com/retypeapp/retype/blob/main/.gitignore)
+.retype/
+/.obsidian
+retype.manifest
+/templating
