@@ -32,6 +32,9 @@ footer:
 
 editor:
   enabled: true
+  
+generator:
+  paths: root
 
 edit:
   repo: github.com/Niklas080208/niklascfw-docs
