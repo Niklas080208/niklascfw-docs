@@ -28,8 +28,9 @@ Folge diesen Anleitungen Schritt für Schritt:
 <div style="border: 2px solid #007bff; border-radius: 8px; padding: 1.5rem;">
 <h3>📥 1. Ersteinrichtung unter 1.5.0</h3>
 <p>Download, Installation und erste Einrichtung des Packs</p>
-<a href="[Guide1](https://docs.niklascfw.de/switch/niklascfw-pack/guide1.4.0/)" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: #007bff; color: white; border-radius: 6px; text-decoration: none;">→ Guide starten</a>
-</div>
+
+→[Guide starten](https://docs.niklascfw.de/switch/niklascfw-pack/guide1.4.0/)
+
 
 <div style="border: 2px solid #007bff; border-radius: 8px; padding: 1.5rem;">
 <h3>✨ 1.2 Ersteinrichtung 1.5.0</h3>
