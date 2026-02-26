@@ -1,6 +1,9 @@
 input: .
 output: .retype
 
+exclude:
+  - "RETYPE_AGENT_REFERENCE.md"
+
 url: docs.niklascfw.de # Use your website address here
 
 start:

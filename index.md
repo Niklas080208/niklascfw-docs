@@ -16,7 +16,8 @@ Diese Dokumentation bietet dir **alles**, was du für die Einrichtung und Nutzun
 - ✅ **[CFW Installation](/Switch/erweiterte-guides/switch_v1_softmod_guide)** - Der Hauptguide
 
 ### 🛠️ **Erweiterte Features**
-- 🎯 **[NiklasCFW Pack](/Switch/niklascfw-pack/)** - Alles-in-einem Paket
+- 🚀 **[OmniNX Setup](/Switch/omninx/einfuehrung)** – OmniNX einrichten
+- 🎯 **[NiklasCFW Pack](/Switch/niklascfw-pack/guide1.4.0)** - Alles-in-einem Paket
 - 💾 **[NAND Backup](/Switch/system-backup/nand_backup)** - Sicherheit zuerst!
 - 🎨 **[Themes & Customization](/Switch/gut-zu-wissen/customization/theme_install)** - Switch individuell gestalten
 - 🎮 **[Game Installation](/Switch/gut-zu-wissen/)**

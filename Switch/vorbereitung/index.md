@@ -64,7 +64,7 @@ Nach der Vorbereitung kannst du mit der eigentlichen CFW-Installation beginnen:
 
 - 🚀 [CFW Installation](/Switch/erweiterte-guides/switch_v1_softmod_guide) - Der Hauptguide
 - 💾 [NAND Backup](/Switch/system-backup/nand_backup) - Sicherheit zuerst!
-- 🎯 [NiklasCFW Pack](/Switch/niklascfw-pack/) - Alles-in-einem Paket
+- 🎯 [NiklasCFW Pack](/Switch/niklascfw-pack/guide1.4.0) - Alles-in-einem Paket
 
 ---
 

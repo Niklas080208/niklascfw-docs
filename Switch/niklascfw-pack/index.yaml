@@ -2,3 +2,4 @@ icon: "/assets/grosseN.png"
 label: "NiklasCFW Pack"
 expanded: false
 order: 100
+link: false
