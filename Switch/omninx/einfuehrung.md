@@ -81,6 +81,9 @@ SD-File oder SD-Partition in Hekate anlegen.
 >>> [Pack einrichten](pack_einrichten)
 Forwarder, Systemzeit (NTP), optionale Apps.
 
+>>> [Overclocking (OC)](overclocking) *(optional, nur OC-Pack)*
+Übertakten/Undervolting mit RAM Patcher, OC Switchcraft EOS, sys-clk – nur für Fortgeschrittene.
+
 >>> [Updates](./updates/omninx-update)
 Pack und Firmware (Daybreak) aktualisieren.
 >>>
@@ -96,6 +99,7 @@ Pack und Firmware (Daybreak) aktualisieren.
 | **[Installation – OmniNX](installation_omninx)** | Installer-Payload starten (Update vs. saubere Installation) |
 | **[emuMMC erstellen](emummc_erstellen)** | SD-File oder SD-Partition |
 | **[Pack einrichten](pack_einrichten)** | Forwarder, Systemzeit, optionale Apps |
+| **[Overclocking (OC)](overclocking)** | Übertakten/Undervolting (nur OC-Pack, fortgeschritten) |
 | **[Updates](./updates/omninx-update)** | OmniNX-Pack und Firmware aktualisieren |
 
 ---
