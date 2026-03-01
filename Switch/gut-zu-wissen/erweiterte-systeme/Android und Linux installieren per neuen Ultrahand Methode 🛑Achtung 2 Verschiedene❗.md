@@ -62,7 +62,7 @@ Diese Methode ist für dich, wenn deine SD-Karte als **RAW-Partition** eingerich
 - Führe die Restores für **Boot0 & Boot1** und **SD emuMMC RAW GPP** durch.
 
 ### 4) Android und/oder Linux herunterladen:
-- Boote in deine CFW und lade die Android-Installationsdateien oder Linux-Installationsdateien über **Ultrahand > Niklas CFW downloader >Android und/oder Linux** herunter.
+- Boote in deine CFW und lade die Android-Installationsdateien oder Linux-Installationsdateien über **Ultrahand (L und R und +)> Niklas CFW downloader >Android und/oder Linux** herunter.
 - **Achtung:** Die Switch darf nicht in den Standby gehen während des Downloads.
 
 1) NiklasCFW Downloader
@@ -118,7 +118,8 @@ Diese Methode ist die einfachste, wenn dein emuMMC bereits im **SD File-Format**
 - Kopiere alle zuvor gesicherten Datennwieder auf die SD-Karte.
 
 ### 4) Methode 2: Android-Partition mit bestehendem SD File emuMMC
-- Boote in deine CFW und lade die Android-Installationsdateien über **Ultrahand > Niklas CFW downloader >Android und/oder Linux** herunter.
+- Boote in deine CFW und lade die Android-Installationsdateien über **Ultrahand (L und R und +)> Niklas CFW downloader >Android und/oder Linux** herunter.
+- **Achtung:** herunter.
 - **Achtung:** Die Switch darf nicht in den Standby gehen während des Downloads. 
 
 ### 5) Android installieren
