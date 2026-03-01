@@ -88,8 +88,8 @@ Es gibt **zwei Möglichkeiten**, das CFW Pack auf die SD-Karte zu kopieren:
 3. Wähle **Dump from Sysnand** aus
 4. Drücke die **Power-Taste** und wähle **Reboot to Hekate**
 
-![|700x420](/images/Guide1/Bild13.jpeg)
 ![|700x420](/images/Guide1/Bild14.png)
+![|700x420](/images/Guide1/Bild13.jpeg)
 
 ---
 
