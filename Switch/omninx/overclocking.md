@@ -10,18 +10,16 @@ Falsches bzw. zu starkes Übertakten kann zu **irreparablen Schäden** an der Ha
 
 - **OmniNX OC Pack** installiert
 - Folgende Tools mittels **Package Manager** in Ultrahand aktiviert:
-
-  **Packages**
-  - RAM Patcher
-  - OC Switchcraft EOS
-
-  **Overlays**
-  - sys-clk
-  - Status Monitor
-  - FPSLocker (optional)
-  - ReverseNX-RT (optional)
-
-- **SaltyNX**
+  - **Packages**
+    - RAM Patcher
+    - OC Switchcraft EOS
+  - **Overlays**
+    - sys-clk
+    - Status Monitor
+    - FPSLocker (optional)
+    - ReverseNX-RT (optional)
+  - **Sysmodules**
+    - SaltyNX
 
 ---
 
@@ -30,9 +28,9 @@ Falsches bzw. zu starkes Übertakten kann zu **irreparablen Schäden** an der Ha
 | Tool | Beschreibung |
 |------|--------------|
 | **RAM Patcher** | Wird hauptsächlich für die Freischaltung der 8‑GB-RAM-Module verwendet, bringt aber auch die benötigte „kip“-Grundlage mit, um ungedeckeltes Übertakten möglich zu machen. (4‑GB-Rampatch inkl. Kip) |
-| **OC Switchcraft EOS** | Bietet Einstellungen zur Regulierung der maximalen Taktraten von RAM/CPU/GPU sowie die Definition der Spannungswerte für Undervolting oder extremes OC. |
-| **sys-clk** | Sysmodule zum Einstellen der Taktfrequenzen von CPU, GPU und RAM – global oder je nach Anwendung und angedocktem Zustand. |
-| **Status Monitor** | Überwachungstool mit mehreren Menüs: aktuelle Taktraten, Stromverbrauch, Auflösung, FPS. |
+| **OC Switchcraft EOS** | Bietet diverse Einstellungen zur Regulierung der maximalen Taktraten von RAM/CPU/GPU sowie die Definition der Spannungswerte für Undervolting oder extremes OC. |
+| **sys-clk** | Mit dem Switch-Sysmodule können die Taktfrequenzen von CPU, GPU und RAM global oder je nach laufender Anwendung und angedocktem Zustand eingestellt werden. |
+| **Status Monitor** | Detailliertes Überwachungstool mit mehreren Menüs: aktuelle Taktraten, Stromverbrauch, Auflösung, FPS. |
 | **FPSLocker** | Reguliert die Bildwiederholfrequenz (FPS) von Spielen. |
 | **ReverseNX-RT** | Alternative zu ReverseNX, schaltet in Echtzeit zwischen Handheld- und Docking-Modus. |
 | **SaltyNX** | Sysmodule zum Einfügen von benutzerdefiniertem Code. |
@@ -51,7 +49,7 @@ Die **loader.kip** muss beim Start geladen werden; ohne sie kann die Konsole nic
 
 ### Referenzwerte (Dock)
 
-| | CPU | GPU | RAM |
+| <p> | CPU | GPU | RAM |
 |--|-----|-----|-----|
 | **Nintendo (Standard)** | 1020 / 1785 MHz Boost | 768 / 921 MHz Boost | 1600 MHz |
 | **nVidia (max.)** | bis 2000 MHz | bis 1000 MHz | bis 1866 MHz |
@@ -60,7 +58,7 @@ Die **loader.kip** muss beim Start geladen werden; ohne sie kann die Konsole nic
 
 ### Referenzwerte (Handheld)
 
-| | CPU | GPU | RAM |
+| <p> | CPU | GPU | RAM |
 |--|-----|-----|-----|
 | **Nintendo (Standard)** | 1020 MHz | 307 / 460 MHz Boost | 1333 MHz |
 | **nVidia (max.)** | bis 2000 MHz | bis 1000 MHz | bis 1866 MHz |
@@ -76,24 +74,31 @@ In der Regel sollten Werte wie **2397 / 1267 / 1996** MHz oder ähnlich sichtbar
 Vor dem Übertakten von CPU/GPU/RAM die Grundeinstellung vornehmen. Nur die relevanten Werte anpassen, der Rest sollte **Default** bleiben.
 
 **RAM**
-- **Timings:** Reaktionszeit des Arbeitsspeichers
-- **Max Clock:** Maximale RAM-Taktrate
+- **Timings:** Definieren die Reaktionszeit des Arbeitsspeichers
+- **Max Clock:** Maximale Taktrate für den Arbeitsspeicher
 - **Vddq:** Versorgung der Datenausgangspuffer, Signalintegrität
-- **Vdd2:** Spannungsversorgung des Speichercontrollers; Stabilität CPU–RAM
+- **Vdd2:** Spannungsversorgung des Speichercontrollers in der CPU; regelt die Stabilität der CPU-RAM-Kommunikation
 
 **CPU**
-- **UV Level:** Vordefinierte Undervolt-Level
-- **High Freq UV Level:** Undervolt bei maximaler Taktfrequenz („1“ Minimum für uncapped OC)
-- **Low/High Freq VMin:** Mindestspannung bei niedriger/hoher Taktfrequenz
+- **UV Level:** Vordefinierte Undervolt-Level; je höher der Wert, desto stärker das Undervolting
+- **High Freq UV Level:** Undervolt bei maximaler Taktfrequenz; niedrige Werte meist stabiler, **„1“** ist das Minimum für uncapped OC
+- **Low Freq VMin / High Freq VMin:** Mindestspannung bei niedrigster bzw. höchster Taktfrequenz
 - **Volt Limit:** Maximale Spannungsaufnahme
-- **Boost Clock / Max Clock:** Taktfrequenzen
+- **Boost Clock:** Taktfrequenz, die automatisch genutzt wird (z. B. um Ladezeiten zu beschleunigen)
+- **Max Clock:** Maximal erlaubte Taktfrequenz
 
 **GPU**
-- **UV Level:** tabellenbasierte Spannungsregulierung
-- **Auto Vmin Offset / Vmin / Vmax / Volt Offset:** Spannung und Undervolting
+- **UV Level:** Tabellenbasierte Spannungsregulierung
+- **Auto Vmin Offset:** Dynamische Offset-Skalierung von Spannung und Taktfrequenz
+- **Vmin / Vmax:** Regelung der Minimal- bzw. Maximalspannung
+- **Volt Offset:** Undervolting-Offset zur Spannungsreduzierung
+
+Nun können die ersten Werte gesetzt werden (orientiere dich an den Einstellungen im Menü):
+
+![OC Switchcraft EOS – Einstellungen](/images/omninx/overclocking/oc-switchraft-eos_ram.jpg)
 
 !!!warning Timings
-Die **Timings** müssen zum verbauten **RAM-Modul** passen. Dafür im Menü das passende **Preset/Template** der Entwickler laden.
+Die **Timings** müssen zum verbauten **RAM-Modul** passen. Dafür im Menü das passende **Preset/Template** der Entwickler laden – alle verfügbaren RAM-Module sind dort vordefiniert.
 !!!
 
 Nach dem Setzen aller Werte die Konsole **einmal neustarten**, damit die Einstellungen aktiv werden.
@@ -107,15 +112,29 @@ Startet die Konsole nicht mehr in die CFW: **loader.kip** unter `sd:/atmosphere/
 ## sys-clk Overlay
 
 1. Im Ultrahand-Menü unter **Overlays** **sys-clk** auswählen.
-2. Unter **Settings** aktivieren: **Uncapped Clocks**, **Boost Mode Override**, **Auto CPU Boost**.
-3. Unter **Temporary Overrides** die Frequenzen anpassen. Zum Einstieg die **Referenzwerte** aus der Tabelle (z. B. nVidia-Max oder 2397/1267/1996 MHz) nutzen.
-4. Im **Status Monitor** prüfen, ob Taktraten und **Stromverbrauch (W)** stimmen – im Handheld **max. 8,6 W** (V2/OLED) bzw. **6,5 W** (V1/Lite).
+2. Unter **Settings** aktivieren: **Uncapped Clocks**, **Boost Mode Override**, **Auto CPU Boost** – für vollen Zugriff auf die Einstellungen und maximale Taktraten.
+3. Unter **Temporary Overrides** die Frequenzen anpassen. Zum Einstieg die **Referenzwerte** aus der Tabelle nutzen (z. B. nVidia-Max). Mutige können sich auch gleich an den Maximalwerten **2397 / 1267 / 1996** MHz versuchen und im Worst Case die Konsole neustarten.
+
+![sys-clk – Temporary Overrides](/images/omninx/overclocking/sysclk_temporary.jpg)
+
+4. Im **Status Monitor** prüfen, ob Taktraten und **Stromverbrauch (W)** stimmen – im Handheld **max. 8,6 W** (V2/OLED) bzw. **6,5 W** (V1/Lite) für den Akku einhalten.
+
+![Status Monitor – Taktraten und Verbrauch](/images/omninx/overclocking/sysclk_statusmonitor.jpg)
 
 !!!info Hänger
 Reagiert die Konsole nicht mehr: **Power-Taste lange** drücken zum Neustart.
 !!!
 
-Empfohlen: **10–15 Minuten** mit einem anspruchsvollen Spiel testen (z. B. Zelda TotK, Batman Arkham Knight, Tomb Raider, Metro, Witcher 3, Hogwarts Legacy). Keine Grafikfehler oder Abstürze → Einstellung ist stabil.
+Da es nur wenige Benchmarks (z. B. Ultracam, Furmark-NX) gibt und diese nicht ausreichend genau testen, **10–15 Minuten** mit einem anspruchsvollen Spiel testen. Geeignet sind z. B.:
+
+- Zelda – Tears of the Kingdom
+- Batman Arkham Knight
+- Tomb Raider: Definitive Edition
+- Metro 2033 / Last Light
+- The Witcher 3: Wild Hunt
+- Hogwarts Legacy
+
+Keine Grafikfehler oder Abstürze nach einigen Minuten → **Einstellung ist stabil.**
 
 ---
 
@@ -123,6 +142,37 @@ Empfohlen: **10–15 Minuten** mit einem anspruchsvollen Spiel testen (z. B. Z
 
 Jede CPU, GPU und jeder RAM ist unterschiedlich. Nach erfolgreichem Maximum bei CPU/GPU kann der **Arbeitsspeicher (RAM)** feinjustiert werden.
 
-Viele getestete Konsolen laufen stabil bis **2200 MHz RAM** und teils darüber. Für höhere/stabilere Taktraten: **Vddq** auf 640 mV, **Vdd2** auf 1175 mV – dabei die **max. Leistungsaufnahme** (siehe Disclaimer) beachten.
+Viele getestete Konsolen laufen stabil bis **2200 MHz RAM** und teils darüber. Für höhere oder stabilere Taktraten: **Vddq** auf 640 mV, **Vdd2** auf 1175 mV setzen – dabei die **max. Leistungsaufnahme** (siehe Disclaimer) beachten.
 
 **Faustregel:** Je höher der Takt, desto mehr Spannung/Strom wird benötigt.
+
+---
+
+## Maximale Bildqualität
+
+Wenn die nötige Leistung aus der Konsole geholt ist, kannst du mit dem **ReverseNX-RT**-Overlay mehr Grafikqualität und Auflösung aus den Spielen holen (ohne Mods). Stellst du ein Spiel auf **„Fake Docked“** (entspricht dem normalen Dockmodus), bekommst du z. B. mehr Auflösung, Tiefenschärfe und Details in der Ferne.
+
+!!!warning Nicht global
+Die Einstellung ist **nicht** wie beim sys-clk-Overlay global – für **jedes Spiel** muss ReverseNX-RT einzeln gesetzt und gespeichert werden.
+!!!
+
+!!!danger Reihenfolge
+**Zuerst das Spiel starten**, danach das Overlay einstellen. Sonst sind keine Einstellungen möglich.
+!!!
+
+---
+
+## Maximale Auflösung (FPS)
+
+Für viele wichtiger als reine Auflösung ist eine stabile, hohe **Bildwiederholungsrate (FPS)**. Dafür sorgt der **FPSLocker**.
+
+!!!warning 30-FPS-Limit vieler Spiele
+Viele Spiele (z. B. **Zelda – Breath of the Wild**) unterstützen ab Werk **keine** über 30 FPS. Wer höhere FPS ohne passenden Patch einstellt, erlebt, dass Figuren und die Welt **deutlich schneller** laufen – das Spielgefühl stimmt dann nicht.
+!!!
+
+Um **über 30 FPS** das richtige Spielgefühl zu bekommen, bietet der FPSLocker unter **„Advanced settings“** die nötigen Tools. Dort findest du in der Regel:
+
+- **Check/download config file**
+- **Convert config to patch file**
+
+Den **Konverter ausführen**, Spiel **neustarten**. Anschließend kannst du die Bildrate schrittweise bis z. B. **60 FPS** erhöhen. Die englischen Beschreibungen im Menü erklären die Schritte im Detail.
