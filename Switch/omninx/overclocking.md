@@ -98,8 +98,8 @@ Vor dem Übertakten von CPU/GPU/RAM die Grundeinstellung vornehmen. Nur die rele
 Nun können die ersten Werte gesetzt werden (orientiere dich an den Einstellungen im Menü):
 
 ![OC Switchcraft EOS – Einstellungen](/images/omninx/overclocking/021_OC-Switchraft-EOS_Ram.jpg)
-<a href="CPU"><img src="/images/omninx/overclocking/022_OC-Switchraft-EOS_CPU.jpg" width="450"></a>
-<a href="GPU"><img src="/images/omninx/overclocking/023_OC-Switchraft-EOS_GPU.jpg" width="450"></a>
+<a href="/images/omninx/overclocking/022_OC-Switchraft-EOS_CPU.jpg"><img src="/images/omninx/overclocking/022_OC-Switchraft-EOS_CPU.jpg" width="450"></a>
+<a href="/images/omninx/overclocking/023_OC-Switchraft-EOS_GPU.jpg"><img src="/images/omninx/overclocking/023_OC-Switchraft-EOS_GPU.jpg" width="450"></a>
 
 
 !!!warning Timings
@@ -121,8 +121,8 @@ Startet die Konsole nicht mehr in die CFW: **loader.kip** unter `sd:/atmosphere/
 3. Unter **Temporary Overrides** die Frequenzen anpassen. Zum Einstieg die **Referenzwerte** aus der Tabelle nutzen (z. B. nVidia-Max). Mutige können sich auch gleich an den Maximalwerten **2397 / 1267 / 1996** MHz versuchen und im Worst Case die Konsole neustarten.
 
 ![sys-clk – Temporary Overrides](/images/omninx/overclocking/031_SysClk_Main.jpg)
-<a href="Config"><img src="/images/omninx/overclocking/032_SysClk_Config.jpg" width="450"></a>
-<a href="Temporary"><img src="/images/omninx/overclocking/033_SysClk_Temporary.jpg" width="450"></a>
+<a href="/images/omninx/overclocking/032_SysClk_Config.jpg"><img src="/images/omninx/overclocking/032_SysClk_Config.jpg" width="450"></a>
+<a href="/images/omninx/overclocking/033_SysClk_Temporary.jpg"><img src="/images/omninx/overclocking/033_SysClk_Temporary.jpg" width="450"></a>
 
 4. Im **Status Monitor** prüfen, ob Taktraten und **Stromverbrauch (W)** stimmen – im Handheld **max. 8,6 W** (V2/OLED) bzw. **6,5 W** (V1/Lite) für den Akku einhalten.
 
@@ -159,8 +159,8 @@ Viele getestete Konsolen laufen stabil bis **2200 MHz RAM** und teils darüber. 
 
 Wenn die nötige Leistung aus der Konsole geholt ist, kannst du mit dem **ReverseNX-RT**-Overlay mehr Grafikqualität und Auflösung aus den Spielen holen (ohne Mods). Stellst du ein Spiel auf **„Fake Docked“** (entspricht dem normalen Dockmodus), bekommst du z. B. mehr Auflösung, Tiefenschärfe und Details in der Ferne auch im Handheldbetrieb angezeigt. Die Auflösung wird dann aber von max. 1080p auf die tatsächliche Auflösung des Switch-Bildschirms runterskaliert. Dieser Prozess bringt dir aber am Ende ein schärferes Bild.
 
-<a href="Ultrahand - ReverseNX-RT - Standard"><img src="/images/omninx/overclocking/041_MaxQuali-Standard.jpg" width="450"></a>
-<a href="Ultrahand - ReverseNX-RT - Fake"><img src="/images/omninx/overclocking/042_MaxQuali-FakeDocked.jpg" width="450"></a>
+<a href="/images/omninx/overclocking/041_MaxQuali-Standard.jpg"><img src="/images/omninx/overclocking/041_MaxQuali-Standard.jpg" width="450"></a>
+<a href="/images/omninx/overclocking/042_MaxQuali-FakeDocked.jpg"><img src="/images/omninx/overclocking/042_MaxQuali-FakeDocked.jpg" width="450"></a>
 
 !!!warning Nicht global
 Die Einstellung ist **nicht** wie beim sys-clk-Overlay global – für **jedes Spiel** muss ReverseNX-RT einzeln gesetzt und gespeichert werden.
@@ -188,9 +188,9 @@ Um **über 30 FPS** das richtige Spielgefühl zu bekommen, bietet der FPSLocker 
 - **Check/download config file**
 - **Convert config to patch file**
 
-<a href="Ultrahand - FPSLocker - Check patch"><img src="/images/omninx/overclocking/052_FPSLocker_Check-Download.jpg" width="300"></a>
-<a href="Ultrahand - FPSLocker - Convert patch"><img src="/images/omninx/overclocking/053_FPSLocker_Convert.jpg" width="300"></a>
-<a href="Ultrahand - FPSLocker - Apply patch"><img src="/images/omninx/overclocking/054_FPSLocker_Convert.jpg" width="300"></a>
+<a href="/images/omninx/overclocking/052_FPSLocker_Check-Download.jpg"><img src="/images/omninx/overclocking/052_FPSLocker_Check-Download.jpg" width="300"></a>
+<a href="/images/omninx/overclocking/053_FPSLocker_Convert.jpg"><img src="/images/omninx/overclocking/053_FPSLocker_Convert.jpg" width="300"></a>
+<a href="/images/omninx/overclocking/054_FPSLocker_Convert.jpg"><img src="/images/omninx/overclocking/054_FPSLocker_Convert.jpg" width="300"></a>
 
 Einfach den **Konverter ausführen**, Spiel **neustarten** und anschließend kannst du die Bildrate schrittweise bis z. B. **60 FPS** erhöhen. Die englischen Beschreibungen im Menü erklären die Schritte im Detail.
 
