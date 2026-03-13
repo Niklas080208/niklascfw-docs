@@ -104,6 +104,7 @@ Nun können die ersten Werte gesetzt werden (orientiere dich an den Einstellunge
 <a href="/images/omninx/overclocking/023_oc-switchraft-eos_gpu.jpg">
   <img src="/images/omninx/overclocking/023_oc-switchraft-eos_gpu.jpg" width="450">
 </a>
+<br><br>
 
 
 !!!warning Timings
@@ -131,7 +132,7 @@ Startet die Konsole nicht mehr in die CFW: **loader.kip** unter `sd:/atmosphere/
 <a href="/images/omninx/overclocking/033_sysclk_temporary.jpg">
   <img src="/images/omninx/overclocking/033_sysclk_temporary.jpg" width="450">
 </a>
-<br>
+<br><br>
 
 
 4. Im **Status Monitor** prüfen, ob Taktraten und **Stromverbrauch (W)** stimmen – im Handheld **max. 8,6 W** (V2/OLED) bzw. **6,5 W** (V1/Lite) für den Akku einhalten.
@@ -175,7 +176,7 @@ Wenn die nötige Leistung aus der Konsole geholt ist, kannst du mit dem **Revers
 <a href="/images/omninx/overclocking/042_maxquali-fakedocked.jpg">
   <img src="/images/omninx/overclocking/042_maxquali-fakedocked.jpg" width="450">
 </a>
-<br>
+<br><br>
 
 
 !!!warning Nicht global
@@ -213,7 +214,8 @@ Um **über 30 FPS** das richtige Spielgefühl zu bekommen, bietet der FPSLocker 
 <a href="/images/omninx/overclocking/054_fpslocker_convert.jpg">
   <img src="/images/omninx/overclocking/054_fpslocker_convert.jpg" width="300">
 </a>
-<br>
+<br><br>
+
 
 Einfach den **Konverter ausführen**, Spiel **neustarten** und anschließend kannst du die Bildrate schrittweise bis z. B. **60 FPS** erhöhen. Die englischen Beschreibungen im Menü erklären die Schritte im Detail.
 
