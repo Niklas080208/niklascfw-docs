@@ -45,6 +45,8 @@ Die **loader.kip** muss beim Start geladen werden; ohne sie kann die Konsole nic
 2. **„RAM Patch inkl. OC Kip Patch! – 4 GB“** ausführen. (Bei 8‑GB-Umbau den passenden Punkt wählen.)
 3. Konsole/CFW **neustarten** – die Kip-Datei wird danach automatisch geladen.
 
+![Ultrahand - RAM Patcher](/images/omninx/overclocking/010_OC-Aktivierung_RamPatcher.jpg)
+
 **Prüfen mit sys-clk:** Unter **Temporary Overrides** die maximalen Werte für CPU/GPU/RAM prüfen und mit der Tabelle vergleichen.
 
 ### Referenzwerte (Dock)
@@ -95,7 +97,10 @@ Vor dem Übertakten von CPU/GPU/RAM die Grundeinstellung vornehmen. Nur die rele
 
 Nun können die ersten Werte gesetzt werden (orientiere dich an den Einstellungen im Menü):
 
-![OC Switchcraft EOS – Einstellungen](/images/omninx/overclocking/oc-switchraft-eos_ram.jpg)
+![OC Switchcraft EOS – Einstellungen](/images/omninx/overclocking/021_OC-Switchraft-EOS_Ram.jpg)
+<a href="CPU"><img src="/images/omninx/overclocking/022_OC-Switchraft-EOS_CPU.jpg" width="450"></a>
+<a href="GPU"><img src="/images/omninx/overclocking/023_OC-Switchraft-EOS_GPU.jpg" width="450"></a>
+
 
 !!!warning Timings
 Die **Timings** müssen zum verbauten **RAM-Modul** passen. Dafür im Menü das passende **Preset/Template** der Entwickler laden – alle verfügbaren RAM-Module sind dort vordefiniert.
@@ -115,11 +120,13 @@ Startet die Konsole nicht mehr in die CFW: **loader.kip** unter `sd:/atmosphere/
 2. Unter **Settings** aktivieren: **Uncapped Clocks**, **Boost Mode Override**, **Auto CPU Boost** – für vollen Zugriff auf die Einstellungen und maximale Taktraten.
 3. Unter **Temporary Overrides** die Frequenzen anpassen. Zum Einstieg die **Referenzwerte** aus der Tabelle nutzen (z. B. nVidia-Max). Mutige können sich auch gleich an den Maximalwerten **2397 / 1267 / 1996** MHz versuchen und im Worst Case die Konsole neustarten.
 
-![sys-clk – Temporary Overrides](/images/omninx/overclocking/sysclk_temporary.jpg)
+![sys-clk – Temporary Overrides](/images/omninx/overclocking/031_SysClk_Main.jpg)
+<a href="Config"><img src="/images/omninx/overclocking/032_SysClk_Config.jpg" width="450"></a>
+<a href="Temporary"><img src="/images/omninx/overclocking/033_SysClk_Temporary.jpg" width="450"></a>
 
 4. Im **Status Monitor** prüfen, ob Taktraten und **Stromverbrauch (W)** stimmen – im Handheld **max. 8,6 W** (V2/OLED) bzw. **6,5 W** (V1/Lite) für den Akku einhalten.
 
-![Status Monitor – Taktraten und Verbrauch](/images/omninx/overclocking/sysclk_statusmonitor.jpg)
+![Status Monitor – Taktraten und Verbrauch](/images/omninx/overclocking/034_SysClk_StatusMonitor.jpg)
 
 !!!info Hänger
 Reagiert die Konsole nicht mehr: **Power-Taste lange** drücken zum Neustart.
@@ -150,7 +157,10 @@ Viele getestete Konsolen laufen stabil bis **2200 MHz RAM** und teils darüber. 
 
 ## Maximale Bildqualität
 
-Wenn die nötige Leistung aus der Konsole geholt ist, kannst du mit dem **ReverseNX-RT**-Overlay mehr Grafikqualität und Auflösung aus den Spielen holen (ohne Mods). Stellst du ein Spiel auf **„Fake Docked“** (entspricht dem normalen Dockmodus), bekommst du z. B. mehr Auflösung, Tiefenschärfe und Details in der Ferne.
+Wenn die nötige Leistung aus der Konsole geholt ist, kannst du mit dem **ReverseNX-RT**-Overlay mehr Grafikqualität und Auflösung aus den Spielen holen (ohne Mods). Stellst du ein Spiel auf **„Fake Docked“** (entspricht dem normalen Dockmodus), bekommst du z. B. mehr Auflösung, Tiefenschärfe und Details in der Ferne auch im Handheldbetrieb angezeigt. Die Auflösung wird dann aber von max. 1080p auf die tatsächliche Auflösung des Switch-Bildschirms runterskaliert. Dieser Prozess bringt dir aber am Ende ein schärferes Bild.
+
+<a href="Ultrahand - ReverseNX-RT - Standard"><img src="/images/omninx/overclocking/041_MaxQuali-Standard.jpg" width="450"></a>
+<a href="Ultrahand - ReverseNX-RT - Fake"><img src="/images/omninx/overclocking/042_MaxQuali-FakeDocked.jpg" width="450"></a>
 
 !!!warning Nicht global
 Die Einstellung ist **nicht** wie beim sys-clk-Overlay global – für **jedes Spiel** muss ReverseNX-RT einzeln gesetzt und gespeichert werden.
@@ -160,14 +170,17 @@ Die Einstellung ist **nicht** wie beim sys-clk-Overlay global – für **jedes S
 **Zuerst das Spiel starten**, danach das Overlay einstellen. Sonst sind keine Einstellungen möglich.
 !!!
 
+
 ---
 
-## Maximale Auflösung (FPS)
+## Bildwiederholrate / Frames per Second (FPS)
 
 Für viele wichtiger als reine Auflösung ist eine stabile, hohe **Bildwiederholungsrate (FPS)**. Dafür sorgt der **FPSLocker**.
 
+![Ultrahand - FPSLocker](/images/omninx/overclocking/051_FPSLocker_Main.jpg)
+
 !!!warning 30-FPS-Limit vieler Spiele
-Viele Spiele (z. B. **Zelda – Breath of the Wild**) unterstützen ab Werk **keine** über 30 FPS. Wer höhere FPS ohne passenden Patch einstellt, erlebt, dass Figuren und die Welt **deutlich schneller** laufen – das Spielgefühl stimmt dann nicht.
+Viele Spiele (z. B. **Zelda – Breath of the Wild**) unterstützen ab Werk **keine Werte über 30 FPS.** Wer höhere FPS ohne passenden Patch einstellt, erlebt dass Figuren und die Welt **deutlich schneller** laufen – das Spielgefühl stimmt dann nicht.
 !!!
 
 Um **über 30 FPS** das richtige Spielgefühl zu bekommen, bietet der FPSLocker unter **„Advanced settings“** die nötigen Tools. Dort findest du in der Regel:
@@ -175,4 +188,22 @@ Um **über 30 FPS** das richtige Spielgefühl zu bekommen, bietet der FPSLocker 
 - **Check/download config file**
 - **Convert config to patch file**
 
-Den **Konverter ausführen**, Spiel **neustarten**. Anschließend kannst du die Bildrate schrittweise bis z. B. **60 FPS** erhöhen. Die englischen Beschreibungen im Menü erklären die Schritte im Detail.
+<a href="Ultrahand - FPSLocker - Check patch"><img src="/images/omninx/overclocking/052_FPSLocker_Check-Download.jpg" width="300"></a>
+<a href="Ultrahand - FPSLocker - Convert patch"><img src="/images/omninx/overclocking/053_FPSLocker_Convert.jpg" width="300"></a>
+<a href="Ultrahand - FPSLocker - Apply patch"><img src="/images/omninx/overclocking/054_FPSLocker_Convert.jpg" width="300"></a>
+
+Einfach den **Konverter ausführen**, Spiel **neustarten** und anschließend kannst du die Bildrate schrittweise bis z. B. **60 FPS** erhöhen. Die englischen Beschreibungen im Menü erklären die Schritte im Detail.
+
+Denk aber bitte daran, dass du für höhere Frameraten auch entsprechend mehr Leistung brauchst und die Nintendo Switch gerne an ihre Grenzen gerät. Das bedeutet, während ein "The Legend of Zelda: Tears of the Kingdom" problemlos bei dir mit 60 FPS läuft, kann ein "Batman: Arkham Knight" weiterhin mit 35 FPS vor sich hindümpeln. Manche Spiele sind einfach zu hardwarehungrig und das gilt vor allem für Third-Party-Games.
+
+
+---
+
+## Problembehebungen / Bugfixes
+
+**Maximale Taktfrequenz zu niedrig**
+
+> Es kann wie immer vorkommen, dass bei der ganze Konfiguration manche Werte vergessen werden, die essentiell sind um maximalen Taktraten **"Uncapped Clocks"** einstellen zu können. Solltest du z. B. deinen GPU-Takt trotz aktiviertem "Uncapped Clocks" im Sys-Clk-Overlay nicht über 998/1075 MHz betreiben können, kann das zwei Ursachen haben:
+>
+> 1. Dein System hat einen viel zu hohen Gesamtverbrauch und die internen Schutzmechanismen von OC Switchcraft EOS und sys-clk overlay drosseln dies durch Begrenzung des Maximaltakts. Dann musst du mit **Undervolting** der CPU und des RAMs entgegenwirken.
+> 2. Oder, und das ist viel wahrscheinlicher, du hast vergessen den Wert **"High Freq UV Level = 1"** zu setzen.
