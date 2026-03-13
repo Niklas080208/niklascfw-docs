@@ -98,8 +98,11 @@ Vor dem Übertakten von CPU/GPU/RAM die Grundeinstellung vornehmen. Nur die rele
 Nun können die ersten Werte gesetzt werden (orientiere dich an den Einstellungen im Menü):
 
 ![OC Switchcraft EOS – Einstellungen](/images/omninx/overclocking/021_OC-Switchraft-EOS_Ram.jpg)
-<a href="022_OC-Switchraft-EOS_CPU.jpg"><img src="/images/omninx/overclocking/022_OC-Switchraft-EOS_CPU.jpg" width="450"></a>
-<a href="023_OC-Switchraft-EOS_GPU.jpg"><img src="/images/omninx/overclocking/023_OC-Switchraft-EOS_GPU.jpg" width="450"></a>
+<a href="022_oc-switchraft-eos_cpu.jpg"><img src="/images/omninx/overclocking/022_OC-Switchraft-EOS_CPU.jpg" width="450"></a>
+<a href="023_oc-switchraft-eos_gpu.jpg"><img src="/images/omninx/overclocking/023_oc-switchraft-eos_gpu.jpg" width="450"></a>
+test
+<a href="023_OC-Switchraft-EOS_GPU.jpg.jpg"><img src="/images/omninx/overclocking/023_oc-switchraft-eos_gpu.jpg" width="450"></a>
+
 
 
 !!!warning Timings
