@@ -2,6 +2,17 @@
 
 You are writing documentation for a **Retype** project. Retype is a static site generator that transforms Markdown `.md` files into a polished website. Beyond standard Markdown, Retype provides many powerful components and configuration options. **Always prefer Retype-specific components over plain Markdown when they improve readability or navigation.**
 
+## Upstream Changes Included (through v4.4.0)
+
+Use this reference with the following newer Retype capabilities in mind:
+
+- **Custom icon packs**: Add SVGs under `_components/icon/<pack>/<name>.svg` and reference with `:icon-<pack>-<name>:` (for example `:icon-lucide-rocket:`).
+- **Collapsible callouts**: Use `!!-` (collapsed by default) or `!!+` (expanded by default), and combine with variants like `!!-danger`.
+- **Last updated metadata**: Project/page support now includes `lastUpdated`, `lastUpdatedBy`, and Git-backed values. Manual values override Git values on that page.
+- **Translations and labels**: Use `locale` plus `labels.default` and `labels.<locale>` to override built-in UI text with per-locale control.
+- **Search indexing controls**: `search.exclude`, `search.include`, and `search.excludeCode` provide fine-grained control over searchable content.
+- **Templating include line ranges**: Includes support line range suffixes like `{{ include "partial#2-5" }}` and mixed ranges like `#1-3,5,7-8`.
+
 ---
 
 ## Project Structure
@@ -36,14 +47,14 @@ Every `.md` page can have a YAML frontmatter block at the top. Key properties:
 ```yaml
 ---
 label: Custom Nav Label     # Label shown in navigation sidebar
-icon: rocket                # Octicon name, emoji ":rocket:", SVG, or image path
+icon: rocket                # Octicon name, emoji ":rocket:", custom pack icon (icon-pack-name), SVG, or image path
 order: 100                  # Navigation order (higher = higher position, negative = bottom)
 layout: default             # default | page | central | blog
 visibility: public          # public | hidden | protected | private
 tags: [guide, setup]        # Tags (auto-generates tag index pages)
 category: tutorials         # Category (auto-generates category pages)
 date: 2024-01-15            # Publish date (yyyy-mm-dd), used for blog ordering
-author: Jane Smith          # Author name, email, or object with name/email/link/avatar
+author: Jane Smith          # Author name, email, or object (see Author section below)
 image: ../static/hero.jpg   # Feature image for page previews/cards
 expanded: true              # Expand folder in nav (only in index.yml)
 redirect: other-page.md     # Redirect this page to another
@@ -69,6 +80,48 @@ Separate `.yml` file alternative: `page-name.yml` alongside `page-name.md` with 
 
 Folder configuration: place `index.yml` inside a folder with `label`, `icon`, `order`, `expanded`, `visibility`, `permalink`.
 
+### Author Configuration
+
+The `author` (or `authors`) property is flexible and accepts multiple formats:
+
+```yaml
+---
+# Simple string (name or email)
+author: Frank Esposito
+author: frank@example.com
+
+# List of authors (mixed types allowed)
+authors: [Frank, Annette Jones, steffen@example.com]
+
+# Detailed author object
+author:
+  name: Frank Esposito
+  email: frank@example.com
+  link: https://twitter.com/frank
+  avatar: https://example.com/frank.jpg
+
+# List of mixed author types
+authors:
+  - name: Frank Esposito
+    email: frank@example.com
+    link: https://twitter.com/frank
+    avatar: https://example.com/frank.jpg
+  - Annette Jones
+  - steffen@example.com
+---
+```
+
+**Author object properties:**
+
+| Property | Type | Description |
+| --- | --- | --- |
+| `name` | `string` | Display name of the author |
+| `email` | `string` | Email address (used for Gravatar if no avatar set) |
+| `link` | `string` | URL to author profile or website |
+| `avatar` | `string` | Path to local image, external URL, inline SVG, icon shortcode, or emoji shortcode |
+
+Both `author` and `authors` are valid and interchangeable. When set, author info is displayed on the page.
+
 ---
 
 ## Components Reference
@@ -89,11 +142,21 @@ Critical information here. Supports **markdown** inside.
 !!!success
 This is a success callout.
 !!!
+
+!!-warning Maintenance window
+This callout is collapsed by default.
+!!!
+
+!!+tip Quick checklist
+This callout is expanded by default.
+!!!
 ```
 
 **Variants:** `base`, `primary` (default), `secondary`, `success`, `question`, `tip`, `danger`, `warning`, `info`, `light`, `dark`, `ghost`, `contrast`
 
 **Syntax:** `!!!variant Optional Title`
+
+**Collapsible syntax:** `!!-variant Optional Title` (collapsed) or `!!+variant Optional Title` (expanded)
 
 **GitHub Alerts** are also supported:
 
@@ -486,6 +549,16 @@ Embed any iframe content (videos, maps, etc.).
 
 **Octicons (Icons):** Use `:icon-name:` syntax. E.g., `:icon-star:`, `:icon-check-circle:`, `:icon-alert:`, `:icon-git-branch:`, `:icon-rocket:`
 
+**Custom icon packs:** Add SVG icons under `_components/icon/<pack>/<name>.svg`, then use:
+
+```md
+:icon-lucide-rocket:
+:icon-fa-rocket:
+:icon-tabler-rocket:
+```
+
+This same icon syntax works in frontmatter and config values that accept `icon`.
+
 Icons and emojis work in headings, paragraphs, table cells, panel titles, callout titles, column titles, and more.
 
 Full Octicon list: https://primer.github.io/octicons/
@@ -585,6 +658,9 @@ Retype supports Scriban-based templating. Enable via frontmatter `templating: tr
 {{ include "snippets/support" }}
 {{ include "components/header" }}
 {{ include "../external/readme.md" }}
+{{ include "partial#2" }}
+{{ include "partial#2-5" }}
+{{ include "partial#1-3,5,7-8" }}
 ```
 
 Resolution order: current dir → `_includes`-prefixed → walk up to project root.
@@ -610,6 +686,13 @@ Access retype.yml data:
 
 ```md
 {{ data.version }}
+```
+
+### Label and Locale Access in Templates
+
+```md
+{{ project.labels["Search_NoResults_Label"] }}
+{{ project.labels.fr["Search_NoResults_Label"] }}
 ```
 
 ### Escaping
@@ -675,6 +758,9 @@ blog:
 search:
   minChars: 2
   maxResults: 20
+  exclude: ["/drafts/**"]
+  include: ["/drafts/release-notes/**"]
+  excludeCode: true
 
 generator:
   paths: root
@@ -685,6 +771,20 @@ start:
 templating:
   enabled: true
   loopLimit: 2000
+
+lastUpdated:
+  date:
+    enabled: true
+    source: committer
+  by:
+    enabled: true
+    source: committer
+
+labels:
+  default:
+    search_input_placeholder: Search docs
+  fr:
+    search_input_placeholder: Rechercher dans la documentation
 
 data:
   version: "1.0.0"
