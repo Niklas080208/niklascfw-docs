@@ -1,3 +1,9 @@
+---
+icon: ":wrench:"
+label: "SD auf FAT32 formatieren"
+order: 101
+---
+
 # SD auf FAT32 formatieren
 
 In dieser Anleitung findest du **drei verschiedene Methoden**, um deine SD-Karte auf **FAT32** zu formatieren.  

@@ -1,3 +1,9 @@
+---
+icon: ":mag:"
+label: "Switch Modell prüfen"
+order: 300
+---
+
 # Prüfe, ob deine Nintendo Switch ungepatcht ist
 
 Diese Anleitung hilft dir dabei zu prüfen, ob deine Nintendo Switch ungepatcht ist und ob du CFW ohne Modchip nutzen kannst.

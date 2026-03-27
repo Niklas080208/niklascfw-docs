@@ -1,3 +1,9 @@
+---
+icon: ":rocket:"
+label: "emuMMC Firmware Update"
+order: 99
+---
+
 # Firmware der CFW (emuMMC) updaten
 
 ---

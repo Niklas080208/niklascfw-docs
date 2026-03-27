@@ -1,3 +1,9 @@
+---
+icon: ":sparkles:"
+label: "Ersteinrichtung 1.5.0"
+order: 400
+---
+
 # Ersteinrichtung 1.5.0 Final Release
 
 ---

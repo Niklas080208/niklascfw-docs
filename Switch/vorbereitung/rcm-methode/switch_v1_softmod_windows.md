@@ -1,3 +1,9 @@
+---
+icon: "/assets/win11.png"
+label: "Windows"
+order: 300
+---
+
 # Nintendo Switch V1 – Softmod mit Hekate-Payload (Windows)
 
 ## Benötigt:

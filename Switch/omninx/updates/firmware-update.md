@@ -1,3 +1,12 @@
+---
+icon: cpu
+label: "Switch Firmware"
+order: 10
+author:
+  name: NiklasCFW
+  avatar: /assets/niklas-pfp.png
+---
+
 # Firmware updaten
 
 Hier geht es um das **Aktualisieren** der **Switch-Firmware** (Horizon OS) in der CFW/emuMMC mit **Daybreak**.

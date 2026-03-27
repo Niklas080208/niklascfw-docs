@@ -1,3 +1,9 @@
+---
+icon: ":video_game:"
+label: "Nintendo Switch V1 - Softmod Guide"
+order: 200
+---
+
 # 🎮 Nintendo Switch V1 - Softmod Guide
 
 <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%); border-radius: 12px; color: white;">

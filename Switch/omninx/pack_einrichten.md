@@ -1,3 +1,12 @@
+---
+icon: tools
+label: "Pack einrichten"
+order: 20
+author:
+  name: NiklasCFW
+  avatar: /assets/niklas-pfp.png
+---
+
 # OmniNX einrichten
 
 Nach dem ersten Start der CFW (OmniNX) solltest du noch ein paar Dinge einrichten: **Forwarder**, **Systemzeit** und optional **zusätzliche Apps**.

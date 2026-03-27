@@ -1,3 +1,12 @@
+---
+icon: copy
+label: "emuMMC erstellen"
+order: 30
+author:
+  name: NiklasCFW
+  avatar: /assets/niklas-pfp.png
+---
+
 # emuMMC erstellen
 
 ---

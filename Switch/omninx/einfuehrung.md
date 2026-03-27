@@ -1,3 +1,12 @@
+---
+icon: book
+label: "Einführung"
+order: 80
+author:
+  name: NiklasCFW
+  avatar: /assets/niklas-pfp.png
+---
+
 # OmniNX Setup
 
 <div style="text-align: center; margin: 2rem 0;">

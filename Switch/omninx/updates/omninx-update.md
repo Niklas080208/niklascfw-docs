@@ -1,3 +1,12 @@
+---
+icon: package
+label: "OmniNX Pack"
+order: 20
+author:
+  name: NiklasCFW
+  avatar: /assets/niklas-pfp.png
+---
+
 # OmniNX-Pack aktualisieren
 
 Hier geht es um das **Aktualisieren** des **OmniNX-Packs** (z. B. Standard/Light/OC) in der CFW/emuMMC – per **UltraHand**, **OmniNX Downloader** und **OmniNX Installer**.

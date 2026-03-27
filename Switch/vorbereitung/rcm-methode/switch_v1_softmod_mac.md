@@ -1,3 +1,9 @@
+---
+icon: "/assets/apple.png"
+label: "macOS"
+order: 200
+---
+
 # Nintendo Switch V1 – Softmod mit Hekate-Payload (macOS)
 
 Es gibt mehrere Möglichkeiten die Payload über macOS an eure Nintendo Switch zu schicken, hier erklären wir euch zwei davon. Einmal via CrystalRCM (ein offline Tool) und einmal per WebRCM (erfordert eine Internetverbindung). Welche Methode ihr davon auswählt liegt an euch.

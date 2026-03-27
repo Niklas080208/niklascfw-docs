@@ -1,3 +1,12 @@
+---
+icon: cpu
+label: "Overclocking (OC)"
+order: 10
+author:
+  name: Ch3ck3rM0n
+  avatar: /assets/ch3ck3rm0n-pfp.png
+---
+
 # Overclocking / Undervolting (nur für Fortgeschrittene)
 
 !!!danger Haftungsausschluss

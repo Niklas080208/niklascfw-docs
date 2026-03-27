@@ -1,3 +1,9 @@
+---
+icon: ":arrows_counterclockwise:"
+label: "NAND Backup wiederherstellen"
+order: 100
+---
+
 # NAND Backup wiederherstellen
 
 > Es wird **zwingend das NAND Backup** benötigt, welches wir im Tutorial **[NAND Backup erstellen](https://docs.niklascfw.de/switch/system-backup/nand_backup/)** erzeugt haben.

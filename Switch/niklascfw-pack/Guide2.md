@@ -1,3 +1,9 @@
+---
+icon: ":cd:"
+label: "emuMMC erstellen"
+order: 300
+---
+
 # emuMMC erstellen
 
 ---

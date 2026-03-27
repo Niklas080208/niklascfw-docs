@@ -1,3 +1,9 @@
+---
+icon: ":floppy_disk:"
+label: "Richtige SD-Karte"
+order: 200
+---
+
 # Die richtige Speicherkarte
 
 Die microSD-Karte ist das Herzstück des Systems. Hier liegen Spiele, Homebrew-Apps und oft auch wichtige Systemdaten. Eine minderwertige oder zu langsame Speicherkarte kann dabei nicht nur zu langen Ladezeiten führen, sondern auch zu Datenfehlern, Abstürzen oder gar einem beschädigten Dateisystem.

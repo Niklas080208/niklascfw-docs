@@ -1,3 +1,9 @@
+---
+icon: ":floppy_disk:"
+label: "NAND Backup erstellen"
+order: 200
+---
+
 # NAND Backup erstellen
 
 ## Anleitung

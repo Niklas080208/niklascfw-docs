@@ -1,3 +1,9 @@
+---
+icon: ":wrench:"
+label: "Pack einrichten"
+order: 200
+---
+
 # NiklasCFW_Pack einrichten
 
 ---

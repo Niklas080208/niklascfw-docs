@@ -1,3 +1,8 @@
+---
+icon: ":arrows_counterclockwise:"
+label: "OFW zu emuMMC Guide"
+order: 100
+---
 
 # :package: Anleitung: OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)
 

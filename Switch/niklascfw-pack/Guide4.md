@@ -1,3 +1,9 @@
+---
+icon: ":package:"
+label: "CFW Pack Update"
+order: 100
+---
+
 # NiklasCFW_Pack und Firmware updaten
 
 ---

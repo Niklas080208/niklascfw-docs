@@ -1,3 +1,9 @@
+---
+icon: ":cd:"
+label: "SD Partition Backup und Restore"
+order: 50
+---
+
 # 💾 SD Partition Backup und Restore (emuMMC)
 
 ---

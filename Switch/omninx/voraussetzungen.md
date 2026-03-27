@@ -1,3 +1,12 @@
+---
+icon: checklist
+label: "Voraussetzungen"
+order: 70
+author:
+  name: NiklasCFW
+  avatar: /assets/niklas-pfp.png
+---
+
 # Voraussetzungen
 
 Bevor du mit dem OmniNX Setup startest, solltest du folgende Punkte erfüllen.

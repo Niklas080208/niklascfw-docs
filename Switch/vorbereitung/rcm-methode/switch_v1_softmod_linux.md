@@ -1,3 +1,9 @@
+---
+icon: "/assets/linux.png"
+label: "Linux, Android, ChromeOS"
+order: 100
+---
+
 # Nintendo Switch V1 – Softmod mit Hekate-Payload (Linux, Android, ChromeOS)
 
 Mit **[WebRCM](https://webrcm.github.io/)** kann der Payload direkt im Browser gesendet werden – ohne zusätzliche Software.

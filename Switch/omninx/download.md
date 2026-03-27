@@ -1,3 +1,11 @@
+---
+icon: package
+label: "Download"
+order: 60
+author:
+  name: NiklasCFW
+  avatar: /assets/niklas-pfp.png
+---
 # OmniNX Herunterladen
 
 ## Download & Entpacken

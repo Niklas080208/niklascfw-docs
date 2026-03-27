@@ -1,3 +1,12 @@
+---
+icon: rocket
+label: "Installation"
+order: 55
+author:
+  name: NiklasCFW
+  avatar: /assets/niklas-pfp.png
+---
+
 # Installation von OmniNX
 
 Nach dem [Download](download) und dem Kopieren des Packs auf die SD-Karte startest du hier den **OmniNX Installer** und führst die Installation durch.
