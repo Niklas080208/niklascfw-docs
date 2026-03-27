@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826749989363">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827933639466">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>RCM Methode - Einf&#252;hrung</title>
@@ -25,14 +25,20 @@
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.niklascfw.de/switch/vorbereitung/rcm-methode/">
+    <meta name="twitter:title" content="RCM Methode - Einführung">
+    <meta name="twitter:description" content="Die RCM-Methode (Recovery Mode) ist der Standardweg, um Custom Firmware auf einer ungepatchten Nintendo Switch V1 zu installieren. Sie nutzt eine">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.2.0.826749989363" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.4.0.827933639466" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -47,10 +53,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="/" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -64,19 +70,19 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                 <span>Serial Checker</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                 <span>YouTube</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                 <span>Discord</span>
                             </a>
                         </li>
@@ -131,19 +137,19 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                         <span>Serial Checker</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                         <span>YouTube</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                         <span>Discord</span>
                                     </a>
                                 </li>
@@ -169,26 +175,11 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="rcm-methode---einführung" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#rcm-methode---einführung">#</doc-anchor-trigger>
-        <span>RCM Methode - Einführung</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="rcm-methode---einführung">RCM Methode - Einführung</h1>
 <p>Die <strong>RCM-Methode (Recovery Mode)</strong> ist der Standardweg, um Custom Firmware auf einer ungepatchten Nintendo Switch V1 zu installieren. Sie nutzt eine Schwachstelle im Boot-Prozess der Switch, um einen Payload (wie Hekate) direkt zu starten.</p>
-<doc-anchor-target id="-was-ist-rcm">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-was-ist-rcm">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F3AF;</span> Was ist RCM?</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-was-ist-rcm"><span class="docs-emoji">&#x1F3AF;</span> Was ist RCM?</h2>
 <p>RCM steht für <strong>Recovery Mode</strong> - ein spezieller Boot-Modus der Nintendo Switch, der normalerweise für Reparaturen und Updates verwendet wird. Durch diese Methode können wir den Boot-Prozess umgehen und direkt einen Payload starten, ohne die System-Firmware zu modifizieren.</p>
-<doc-anchor-target id="-voraussetzungen">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-voraussetzungen">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4CB;</span> Voraussetzungen</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-voraussetzungen"><span class="docs-emoji">&#x1F4CB;</span> Voraussetzungen</h2>
 <p>Bevor du mit der RCM-Methode beginnst, stelle sicher, dass:</p>
 <ul>
 <li><span class="docs-emoji">&#x2705;</span> Deine Switch eine <strong>ungepatchte V1</strong> ist (Serial Check durchgeführt)</li>
@@ -198,24 +189,14 @@
 <li><span class="docs-emoji">&#x2705;</span> Du den entsprechenden <strong>Payload (hekate.bin)</strong> heruntergeladen hast</li>
 <li><span class="docs-emoji">&#x2705;</span> Wichtig das du das Pack vorbereitet hast wie in <strong><a href="https://docs.niklascfw.de/switch/niklascfw-pack/guide1.4.0/">Ersteinrichtung ab 1.4.0</a></strong></li>
 </ul>
-<doc-anchor-target id="-plattform-spezifische-anleitungen">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-plattform-spezifische-anleitungen">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F5A5;&#xFE0F;</span> Plattform-spezifische Anleitungen</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-plattform-spezifische-anleitungen"><span class="docs-emoji">&#x1F5A5;&#xFE0F;</span> Plattform-spezifische Anleitungen</h2>
 <p>Wähle die Anleitung, die zu deinem Betriebssystem passt:</p>
 <ul>
 <li>🪟 <strong><a href="/switch/vorbereitung/rcm-methode/switch_v1_softmod_windows/">Windows Anleitung</a></strong> - Mit TegraRcmGUI</li>
 <li><span class="docs-emoji">&#x1F34E;</span> <strong><a href="/switch/vorbereitung/rcm-methode/switch_v1_softmod_mac/">macOS Anleitung</a></strong> - Mit Web Fusée Launcher</li>
 <li><span class="docs-emoji">&#x1F427;</span> <strong><a href="/switch/vorbereitung/rcm-methode/switch_v1_softmod_linux/">Linux Anleitung</a></strong> - Mit Command Line Tools</li>
 </ul>
-<doc-anchor-target id="-wichtige-hinweise">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-wichtige-hinweise">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Wichtige Hinweise</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-wichtige-hinweise"><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Wichtige Hinweise</h2>
 <ul>
 <li><span class="docs-emoji">&#x1F512;</span> <strong>RCM funktioniert nur bei ungepatchten Switch V1</strong> Konsolen</li>
 <li><span class="docs-emoji">&#x1F4BE;</span> <strong>FAT32 ist Pflicht</strong> - exFAT funktioniert nicht!</li>

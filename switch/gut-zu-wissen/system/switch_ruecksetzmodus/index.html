@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826749989363">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827933639466">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>Nintendo Switch – Werkseinstellungen zur&#252;cksetzen oder Konsole zur&#252;cksetzen ohne Speicherdaten zu l&#246;schen (CFW/Hekate)</title>
@@ -29,14 +29,22 @@
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/system/switch_ruecksetzmodus/">
+    <meta name="twitter:title" content="Nintendo Switch – Werkseinstellungen zurücksetzen oder Konsole zurücksetzen ohne Speicherdaten zu löschen (CFW/Hekate)">
+    <meta name="twitter:description" content="Diese Anleitung beschreibt, wie du deine Nintendo Switch im Rücksetzmodus zurücksetzt. Du kannst dabei wählen, ob die Konsole komplett auf">
+    <meta name="twitter:image" content="https://docs.niklascfw.de/images/cfw_ruecksetzmodus/volume_ruecksetzmodus.jpg">
+    <meta name="twitter:image:alt" content="Nintendo Switch – Werkseinstellungen zurücksetzen oder Konsole zurücksetzen ohne Speicherdaten zu löschen (CFW/Hekate)">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.2.0.826749989363" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.4.0.827933639466" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -51,10 +59,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="/" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -68,19 +76,19 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                 <span>Serial Checker</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                 <span>YouTube</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                 <span>Discord</span>
                             </a>
                         </li>
@@ -135,19 +143,19 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                         <span>Serial Checker</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                         <span>YouTube</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                         <span>Discord</span>
                                     </a>
                                 </li>
@@ -173,21 +181,11 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="nintendo-switch--werkseinstellungen-zurücksetzen-oder-konsole-zurücksetzen-ohne-speicherdaten-zu-löschen-cfwhekate" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#nintendo-switch--werkseinstellungen-zurücksetzen-oder-konsole-zurücksetzen-ohne-speicherdaten-zu-löschen-cfwhekate">#</doc-anchor-trigger>
-        <span>Nintendo Switch – Werkseinstellungen zurücksetzen oder Konsole zurücksetzen ohne Speicherdaten zu löschen (CFW/Hekate)</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="nintendo-switch--werkseinstellungen-zurücksetzen-oder-konsole-zurücksetzen-ohne-speicherdaten-zu-löschen-cfwhekate">Nintendo Switch – Werkseinstellungen zurücksetzen oder Konsole zurücksetzen ohne Speicherdaten zu löschen (CFW/Hekate)</h1>
 <p>Diese Anleitung beschreibt, wie du deine Nintendo Switch im <strong>Rücksetzmodus</strong> zurücksetzt.<br />
 Du kannst dabei wählen, ob die Konsole <strong>komplett auf Werkseinstellungen</strong> gesetzt wird (alle Daten weg) oder ob du sie <strong>ohne Löschen der Speicherdaten</strong> zurücksetzt.</p>
 <hr>
-<doc-anchor-target id="wichtige-hinweise">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#wichtige-hinweise">#</doc-anchor-trigger>
-        <span>Wichtige Hinweise</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="wichtige-hinweise">Wichtige Hinweise</h2>
 <ul>
 <li><p><strong>Option 1 – Werkseinstellungen:</strong><br />
 Alle <strong>Speicherdaten, Screenshots, Videos, Nutzerinformationen und Konten</strong> werden gelöscht.<br />
@@ -200,12 +198,7 @@ Deine <strong>Speicherdaten, Screenshots, Videos und Nutzerinformationen</strong
 </ul>
 <p>In beiden Fällen gilt: Software auf der microSD-Karte (außer Screenshots und Videos) kann nachher <strong>nicht mehr genutzt</strong> werden.</p>
 <hr>
-<doc-anchor-target id="umsetzung">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#umsetzung">#</doc-anchor-trigger>
-        <span>Umsetzung</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="umsetzung">Umsetzung</h2>
 <ul>
 <li>Du bist im <strong>Hekate-Menü</strong>.</li>
 <li>Gehe auf <strong>Launch</strong> und drücke <strong>einmal auf CFW</strong>.</li>
@@ -214,12 +207,7 @@ Deine <strong>Speicherdaten, Screenshots, Videos und Nutzerinformationen</strong
 <p><span class="docs-emoji">&#x2728;</span> Tipp: das geht auch mit der OFW.</p>
 </blockquote>
 <hr>
-<doc-anchor-target id="schritt-für-schritt-anleitung">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritt-für-schritt-anleitung">#</doc-anchor-trigger>
-        <span>Schritt-für-Schritt-Anleitung</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="schritt-für-schritt-anleitung">Schritt-für-Schritt-Anleitung</h2>
 <ol>
 <li>Starte die Konsole mit <strong>CFW</strong>.</li>
 <li>Warte, bis das <strong>Niklas CFW-Bootlogo mit Versionsnummer</strong> wieder <strong>verschwindet</strong>.</li>
@@ -240,12 +228,7 @@ Deine <strong>Speicherdaten, Screenshots, Videos und Nutzerinformationen</strong
 </li>
 </ol>
 <hr>
-<doc-anchor-target id="ergebnis">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ergebnis">#</doc-anchor-trigger>
-        <span>Ergebnis</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="ergebnis">Ergebnis</h2>
 <ul>
 <li><p><strong>Wenn du „Werkseinstellungen“ gewählt hast:</strong><br />
 Die Switch ist komplett zurückgesetzt, alle Daten sind gelöscht.</p>

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826749989363">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827933639466">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>&#127918; Nintendo Switch V1 - Softmod Guide</title>
@@ -25,15 +25,21 @@
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.niklascfw.de/switch/erweiterte-guides/switch_v1_softmod_guide/">
+    <meta name="twitter:title" content="🎮 Nintendo Switch V1 - Softmod Guide">
+    <meta name="twitter:description" content="🔧 TegraRcmGUI Installation:">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.2.0.826749989363" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.4.0.827933639466" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
-    <script id="mermaid-js" data-cfasync="false" src="/resources/js/mermaid.js?v=4.2.0" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
+    <script id="mermaid-js" data-cfasync="false" src="/resources/js/mermaid.js?v=4.4.0" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -48,10 +54,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="/" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -65,19 +71,19 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                 <span>Serial Checker</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                 <span>YouTube</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                 <span>Discord</span>
                             </a>
                         </li>
@@ -132,19 +138,19 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                         <span>Serial Checker</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                         <span>YouTube</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                         <span>Discord</span>
                                     </a>
                                 </li>
@@ -170,23 +176,13 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="-nintendo-switch-v1---softmod-guide" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-nintendo-switch-v1---softmod-guide">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F3AE;</span> Nintendo Switch V1 - Softmod Guide</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="-nintendo-switch-v1---softmod-guide"><span class="docs-emoji">&#x1F3AE;</span> Nintendo Switch V1 - Softmod Guide</h1>
 <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%); border-radius: 12px; color: white;">
   <h2 style="margin-bottom: 0.5rem;">🚀 Der komplette CFW Guide für Switch V1</h2>
   <p style="font-size: 1.1em; margin: 0;">Von Stock-Firmware zu vollständiger Custom Firmware</p>
 </div>
 <hr>
-<doc-anchor-target id="-was-du-brauchst">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-was-du-brauchst">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x2705;</span> <strong>Was du brauchst</strong></span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-was-du-brauchst"><span class="docs-emoji">&#x2705;</span> <strong>Was du brauchst</strong></h2>
 <div style="background: #d1ecf1; border: 2px solid #17a2b8; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; color: #212529;">
 <h4 style="margin-top: 0; color: #17a2b8;">📋 Hardware-Checklist</h4>
 <p style="margin-bottom: 0;">Stelle sicher, dass du <strong>alles</strong> hast, bevor du startest:</p>
@@ -221,18 +217,8 @@
 </ul>
 </div>
 </div>
-<doc-anchor-target id="-schritt-für-schritt-anleitung">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-schritt-für-schritt-anleitung">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F3AF;</span> <strong>Schritt-für-Schritt Anleitung</strong></span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="-schritt-1-pc-vorbereiten">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-schritt-1-pc-vorbereiten">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4CB;</span> <strong>Schritt 1: PC vorbereiten</strong></span>
-    </h3>
-</doc-anchor-target>
+<h2 id="-schritt-für-schritt-anleitung"><span class="docs-emoji">&#x1F3AF;</span> <strong>Schritt-für-Schritt Anleitung</strong></h2>
+<h3 id="-schritt-1-pc-vorbereiten"><span class="docs-emoji">&#x1F4CB;</span> <strong>Schritt 1: PC vorbereiten</strong></h3>
 <div style="background: #e8f5e8; border: 2px solid #28a745; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; color: #212529;">
 <h4 style="margin-top: 0; color: #28a745;">🔧 TegraRcmGUI einrichten</h4>
 <p style="margin-bottom: 0;">Das Tool zum Senden der Payloads</p>
@@ -251,12 +237,7 @@
 <p style="margin-bottom: 0;"><strong>Doppelklick-Trick</strong>: Du kannst Payloads auch per <strong>Doppelklick</strong> senden - viel schneller als der "Inject"-Button!</p>
 </div>
 <hr>
-<doc-anchor-target id="-schritt-2-rcm-modus-aktivieren">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-schritt-2-rcm-modus-aktivieren">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x26A1;</span> <strong>Schritt 2: RCM-Modus aktivieren</strong></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="-schritt-2-rcm-modus-aktivieren"><span class="docs-emoji">&#x26A1;</span> <strong>Schritt 2: RCM-Modus aktivieren</strong></h3>
 <div style="background: #fff3cd; border: 2px solid #ffc107; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; color: #212529;">
 <h4 style="margin-top: 0; color: #b8860b;">⚠️ Wichtig</h4>
 <p style="margin-bottom: 0;">Der RCM-Modus ist der <strong>einzige Weg</strong> zur CFW für Switch V1</p>
@@ -284,12 +265,7 @@
 ❌ <strong>Fehler</strong> = Nintendo-Logo erscheint → nochmal versuchen</p>
 </div>
 <hr>
-<doc-anchor-target id="-schritt-3-payload-senden">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-schritt-3-payload-senden">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F680;</span> <strong>Schritt 3: Payload senden</strong></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="-schritt-3-payload-senden"><span class="docs-emoji">&#x1F680;</span> <strong>Schritt 3: Payload senden</strong></h3>
 <div style="background: #d1ecf1; border: 2px solid #17a2b8; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; color: #212529;">
 <h4 style="margin-top: 0; color: #17a2b8;">🚀 CFW starten</h4>
 <p style="margin-bottom: 0;">Jetzt kommt der spannende Teil - CFW laden!</p>
@@ -315,12 +291,7 @@
     style A fill:#ffcdd2
     style F fill:#c8e6c9</pre></div>
 <hr>
-<doc-anchor-target id="-wichtige-hinweise">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-wichtige-hinweise">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x26A0;&#xFE0F;</span> <strong>Wichtige Hinweise</strong></span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-wichtige-hinweise"><span class="docs-emoji">&#x26A0;&#xFE0F;</span> <strong>Wichtige Hinweise</strong></h2>
 <div style="background: #f8d7da; border: 2px solid #dc3545; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; color: #212529;">
 <h4 style="margin-top: 0; color: #dc3545;">🚨 KRITISCH</h4>
 <p style="margin-bottom: 0;">Lies das <strong>unbedingt</strong>, bevor du anfängst!</p>
@@ -354,12 +325,7 @@
 </div>
 </div>
 <hr>
-<doc-anchor-target id="-geschafft-was-jetzt">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-geschafft-was-jetzt">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F389;</span> <strong>Geschafft! Was jetzt?</strong></span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-geschafft-was-jetzt"><span class="docs-emoji">&#x1F389;</span> <strong>Geschafft! Was jetzt?</strong></h2>
 <div style="background: #d4edda; border: 2px solid #28a745; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; color: #212529;">
 <h4 style="margin-top: 0; color: #28a745;">🎉 CFW läuft!</h4>
 <p style="margin-bottom: 0;">Herzlichen Glückwunsch! Deine Switch läuft jetzt mit Custom Firmware.</p>
@@ -372,12 +338,7 @@
     <a href="/switch/gut-zu-wissen/spiele/spiele_installation_dbi_sphaira/" style="background: white; color: #4caf50; padding: 0.8rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: bold;">⚙️ Optimieren</a>
   </div>
 </div>
-<doc-anchor-target id="-empfohlene-reihenfolge">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-empfohlene-reihenfolge">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4CB;</span> <strong>Empfohlene Reihenfolge:</strong></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="-empfohlene-reihenfolge"><span class="docs-emoji">&#x1F4CB;</span> <strong>Empfohlene Reihenfolge:</strong></h3>
 <ol>
 <li><span class="docs-emoji">&#x1F4BE;</span> <strong><a href="/switch/system-backup/nand_backup/">NAND Backup erstellen</a></strong> - Deine Konsole sichern</li>
 <li><span class="docs-emoji">&#x1F3AF;</span> <strong><a href="/switch/niklascfw-pack/guide1/">NiklasCFW Pack installieren</a></strong> - Alles-in-einem Paket</li>

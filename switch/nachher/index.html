@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826749989363">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827933639466">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>⚙️ Nach der CFW Installation</title>
@@ -25,14 +25,20 @@
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.niklascfw.de/switch/nachher/">
+    <meta name="twitter:title" content="⚙️ Nach der CFW Installation">
+    <meta name="twitter:description" content="Nach der erfolgreichen Installation von Custom Firmware gibt es noch einige wichtige Optimierungen und Einstellungen, die dein CFW-Erlebnis deutlich">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.2.0.826749989363" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.4.0.827933639466" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -47,10 +53,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="/" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -64,19 +70,19 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                 <span>Serial Checker</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                 <span>YouTube</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                 <span>Discord</span>
                             </a>
                         </li>
@@ -131,19 +137,19 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                         <span>Serial Checker</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                         <span>YouTube</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                         <span>Discord</span>
                                     </a>
                                 </li>
@@ -169,31 +175,16 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="-nach-der-cfw-installation" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-nach-der-cfw-installation">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x2699;&#xFE0F;</span> Nach der CFW Installation</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="-nach-der-cfw-installation"><span class="docs-emoji">&#x2699;&#xFE0F;</span> Nach der CFW Installation</h1>
 <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%); border-radius: 12px; color: white;">
   <h2 style="margin-bottom: 0.5rem;">🚀 System optimieren & anpassen</h2>
   <p style="font-size: 1.1em; margin: 0;">Nach der CFW-Installation deine Switch perfekt einrichten</p>
 </div>
 <hr>
-<doc-anchor-target id="-was-findest-du-hier">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-was-findest-du-hier">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F3AF;</span> <strong>Was findest du hier?</strong></span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-was-findest-du-hier"><span class="docs-emoji">&#x1F3AF;</span> <strong>Was findest du hier?</strong></h2>
 <p>Nach der erfolgreichen Installation von Custom Firmware gibt es noch einige wichtige Optimierungen und Einstellungen, die dein CFW-Erlebnis deutlich verbessern. Hier findest du alle Anleitungen, um deine Switch optimal einzurichten.</p>
 <hr>
-<doc-anchor-target id="-verfügbare-optimierungen">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-verfügbare-optimierungen">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4CB;</span> <strong>Verfügbare Optimierungen</strong></span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-verfügbare-optimierungen"><span class="docs-emoji">&#x1F4CB;</span> <strong>Verfügbare Optimierungen</strong></h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 2rem 0;">
 <div style="border: 2px solid #007bff; border-radius: 8px; padding: 1.5rem;">
 <h3>⚡ Auto RCM aktivieren</h3>
@@ -230,52 +221,27 @@
 </div>
 </div>
 <hr>
-<doc-anchor-target id="-was-passt-zu-dir">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-was-passt-zu-dir">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F50D;</span> <strong>Was passt zu dir?</strong></span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="-auto-rcm-switch-v1-ohne-modchip">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-auto-rcm-switch-v1-ohne-modchip">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x26A1;</span> <strong>Auto RCM</strong> (Switch V1 ohne Modchip)</span>
-    </h3>
-</doc-anchor-target>
+<h2 id="-was-passt-zu-dir"><span class="docs-emoji">&#x1F50D;</span> <strong>Was passt zu dir?</strong></h2>
+<h3 id="-auto-rcm-switch-v1-ohne-modchip"><span class="docs-emoji">&#x26A1;</span> <strong>Auto RCM</strong> (Switch V1 ohne Modchip)</h3>
 <ul>
 <li><strong>Für dich, wenn:</strong> Du eine Switch V1 ohne Modchip hast</li>
 <li><strong>Vorteil:</strong> Kein JIG mehr nötig - einfach Power-Taste drücken</li>
 <li><strong>Nachteil:</strong> Switch bootet immer in RCM, auch bei normalem Start</li>
 </ul>
-<doc-anchor-target id="-autoboot-switch-mit-modchip">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-autoboot-switch-mit-modchip">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F680;</span> <strong>Autoboot</strong> (Switch mit Modchip)</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="-autoboot-switch-mit-modchip"><span class="docs-emoji">&#x1F680;</span> <strong>Autoboot</strong> (Switch mit Modchip)</h3>
 <ul>
 <li><strong>Für dich, wenn:</strong> Du eine Switch mit Modchip besitzt</li>
 <li><strong>Vorteil:</strong> Startet automatisch in CFW ohne Menü</li>
 <li><strong>Zugriff auf Hekate:</strong> Vol Down beim Booten drücken</li>
 </ul>
-<doc-anchor-target id="-forwarder">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-forwarder">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4F1;</span> <strong>Forwarder</strong></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="-forwarder"><span class="docs-emoji">&#x1F4F1;</span> <strong>Forwarder</strong></h3>
 <ul>
 <li><strong>Für alle:</strong> Egal ob mit oder ohne Modchip</li>
 <li><strong>Vorteil:</strong> Homebrew-Apps direkt vom Homescreen starten</li>
 <li><strong>Bonus:</strong> Apps laufen automatisch im Highmemory Mode</li>
 </ul>
 <hr>
-<doc-anchor-target id="-wichtige-hinweise">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-wichtige-hinweise">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x26A0;&#xFE0F;</span> <strong>Wichtige Hinweise</strong></span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-wichtige-hinweise"><span class="docs-emoji">&#x26A0;&#xFE0F;</span> <strong>Wichtige Hinweise</strong></h2>
 <div style="background: #fff3cd; border: 2px solid #ffc107; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; color: #212529;">
 <h4 style="margin-top: 0; color: #b8860b;">💡 Auto RCM beachten</h4>
 <ul style="margin-bottom: 0;">
@@ -294,24 +260,14 @@
 </ul>
 </div>
 <hr>
-<doc-anchor-target id="-empfohlene-reihenfolge">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-empfohlene-reihenfolge">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4DA;</span> <strong>Empfohlene Reihenfolge</strong></span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-empfohlene-reihenfolge"><span class="docs-emoji">&#x1F4DA;</span> <strong>Empfohlene Reihenfolge</strong></h2>
 <ol>
 <li><span class="docs-emoji">&#x26A1;</span> <strong>[Auto RCM aktivieren](Auto RCM Aktivieren)</strong> - Wenn du Switch V1 ohne Modchip hast</li>
 <li><span class="docs-emoji">&#x1F680;</span> <strong><a href="/switch/nachher/autoboot_aktivieren/">Autoboot aktivieren</a></strong> - Wenn du Switch mit Modchip hast</li>
 <li><span class="docs-emoji">&#x1F4F1;</span> <strong><a href="/switch/nachher/forwarder_installieren/">Forwarder installieren</a></strong> - Für alle: Apps auf Homescreen</li>
 </ol>
 <hr>
-<doc-anchor-target id="-weiterführende-guides">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-weiterführende-guides">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F517;</span> <strong>Weiterführende Guides</strong></span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-weiterführende-guides"><span class="docs-emoji">&#x1F517;</span> <strong>Weiterführende Guides</strong></h2>
 <p>Nach der Optimierung kannst du noch mehr aus deiner Switch herausholen:</p>
 <ul>
 <li><span class="docs-emoji">&#x1F3AE;</span> <strong><a href="/switch/gut-zu-wissen/spiele/spiele_installation_dbi_sphaira/">Apps installieren</a></strong> - Spiele und Homebrew installieren</li>

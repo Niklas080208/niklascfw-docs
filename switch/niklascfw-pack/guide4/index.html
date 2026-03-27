@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826749989363">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827933639466">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>NiklasCFW_Pack und Firmware updaten</title>
@@ -29,14 +29,22 @@
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.niklascfw.de/switch/niklascfw-pack/guide4/">
+    <meta name="twitter:title" content="NiklasCFW_Pack und Firmware updaten">
+    <meta name="twitter:description" content="Anleitung Uhrzeit Synchronisieren">
+    <meta name="twitter:image" content="https://docs.niklascfw.de/images/guide4/bild1.jpg">
+    <meta name="twitter:image:alt" content="NiklasCFW_Pack und Firmware updaten">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.2.0.826749989363" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.4.0.827933639466" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -51,10 +59,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="/" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -68,19 +76,19 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                 <span>Serial Checker</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                 <span>YouTube</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                 <span>Discord</span>
                             </a>
                         </li>
@@ -135,19 +143,19 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                         <span>Serial Checker</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                         <span>YouTube</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                         <span>Discord</span>
                                     </a>
                                 </li>
@@ -173,19 +181,9 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="niklascfw_pack-und-firmware-updaten" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#niklascfw_pack-und-firmware-updaten">#</doc-anchor-trigger>
-        <span>NiklasCFW_Pack und Firmware updaten</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="niklascfw_pack-und-firmware-updaten">NiklasCFW_Pack und Firmware updaten</h1>
 <hr>
-<doc-anchor-target id="-voraussetzungen">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-voraussetzungen">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Voraussetzungen</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-voraussetzungen"><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Voraussetzungen</h2>
 <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
 <h4 style="color: #856404; margin-top: 0;">⚠️ Wichtig</h4>
 <p style="color: #212529; margin-bottom: 0;"><strong>Bitte darauf achten, dass deine Uhrzeit synchronisiert ist.</strong></p>
@@ -193,44 +191,23 @@
 </div>
 <p><strong><a href="https://docs.niklascfw.de/switch/nachher/dbi_time/">Anleitung Uhrzeit Synchronisieren</a></strong></p>
 <hr>
-<doc-anchor-target id="-cfw-pack-aktualisieren">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-cfw-pack-aktualisieren">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F504;</span> CFW Pack aktualisieren</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="schritt-1-vorbereitung">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritt-1-vorbereitung">#</doc-anchor-trigger>
-        <span>Schritt 1: Vorbereitung</span>
-    </h3>
-</doc-anchor-target>
+<h2 id="-cfw-pack-aktualisieren"><span class="docs-emoji">&#x1F504;</span> CFW Pack aktualisieren</h2>
+<h3 id="schritt-1-vorbereitung">Schritt 1: Vorbereitung</h3>
 <ol>
 <li>Starte die Switch in die <strong>CFW</strong></li>
 <li>Aktiviere die <strong>Internet-Verbindung</strong> in den Einstellungen der Switch</li>
 <li>Deaktiviere den <strong>Flugzeugmodus</strong></li>
 </ol>
-<doc-anchor-target id="schritt-2-ultrahand-öffnen">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritt-2-ultrahand-öffnen">#</doc-anchor-trigger>
-        <span>Schritt 2: UltraHand öffnen</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="schritt-2-ultrahand-öffnen">Schritt 2: UltraHand öffnen</h3>
 <ol>
 <li>Öffne <strong>UltraHand</strong><br />
 <em>Vom linken Bildschirmrand nach rechts wischen oder <strong>L + R + Plus</strong> gleichzeitig drücken</em></li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide4/bild1.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
-<doc-anchor-target id="schritt-3-update-checker-verwenden">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritt-3-update-checker-verwenden">#</doc-anchor-trigger>
-        <span>Schritt 3: Update-Checker verwenden</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="schritt-3-update-checker-verwenden">Schritt 3: Update-Checker verwenden</h3>
 <ol>
 <li>Gehe zu <strong>NiklasCFW Downloader</strong> → <strong>Update_Checker</strong></li>
 <li><strong>3x klicken</strong> für <span class="docs-emoji">&#x2714;&#xFE0F;</span></li>
@@ -249,21 +226,15 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<doc-anchor-target id="schritt-4-cfw-pack-herunterladen">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritt-4-cfw-pack-herunterladen">#</doc-anchor-trigger>
-        <span>Schritt 4: CFW Pack herunterladen</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="schritt-4-cfw-pack-herunterladen">Schritt 4: CFW Pack herunterladen</h3>
 <ol>
 <li>Nach dem <strong>Download</strong> gehe zurück zu den <strong>Paketen</strong></li>
 <li>Wähle <strong>NiklasCFW Downloader</strong> aus</li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide4/bild3.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="3">
 <li>Gehe zu <strong>CFW_Pack</strong> und wähle <strong>NiklasCFW_Pack x.x.x</strong> aus<br />
 <em>Auch hier steht x als Platzhalter für die Versionsnummer</em></li>
@@ -280,12 +251,7 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<doc-anchor-target id="schritt-5-update-script-ausführen">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritt-5-update-script-ausführen">#</doc-anchor-trigger>
-        <span>Schritt 5: Update Script ausführen</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="schritt-5-update-script-ausführen">Schritt 5: Update Script ausführen</h3>
 <ol>
 <li>Wenn das <strong>CFW_Pack</strong> erfolgreich geladen wurde, gehe zurück zu den <strong>Paketen</strong></li>
 <li>Wähle <strong>RebootNX</strong> → <strong>Boot Optionen</strong> oder <strong>Payloads</strong> → <strong>Tegra Explorer</strong></li>
@@ -309,11 +275,10 @@
 </ul>
 </li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide4/bild9.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="5">
 <li><p>Wähle <strong>NiklasCFW - Install Skript.te</strong> aus</p>
 </li>
@@ -325,11 +290,10 @@
 </ul>
 </li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide4/bild10.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="7">
 <li>Das Script führt automatisch folgende Schritte aus:
 <ul>
@@ -340,20 +304,14 @@
 </ul>
 </li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide4/bild11.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="8">
 <li>Nach dem <strong>Reboot</strong> zu <strong>Hekate</strong> kannst du deine <strong>CFW</strong> wieder starten</li>
 </ol>
-<doc-anchor-target id="schritt-6-update-prüfen">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritt-6-update-prüfen">#</doc-anchor-trigger>
-        <span>Schritt 6: Update prüfen</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="schritt-6-update-prüfen">Schritt 6: Update prüfen</h3>
 <p>Im <strong>Hekate</strong> oder beim <strong>Booten der CFW</strong> kannst du anhand der <strong>Versionsnummer</strong> erkennen, ob du auf <strong>der neuen Version</strong> bist.</p>
 <p><figure class="content-center">
     <img src="/images/guide4/bild9.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
@@ -365,24 +323,14 @@
 </figure>
 </p>
 <hr>
-<doc-anchor-target id="-firmware-der-cfw-updaten">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-firmware-der-cfw-updaten">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4F1;</span> Firmware der CFW updaten</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-firmware-der-cfw-updaten"><span class="docs-emoji">&#x1F4F1;</span> Firmware der CFW updaten</h2>
 <div style="background-color: #e7f3ff; border-left: 4px solid #2196F3; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
 <h4 style="color: #1565C0; margin-top: 0;">ℹ️ Hinweis</h4>
 <p style="color: #212529; margin-bottom: 0;">Es ist <strong>nicht immer notwendig</strong>, in der CFW die <strong>aktuellste Firmware</strong> zu haben.</p>
 <p style="color: #212529; margin-bottom: 0;">Frühestens, wenn ein <strong>Spiel</strong> nach einem <strong>Firmware-Update</strong> verlangt, würde ich eine Aktualisierung durchführen. Es schadet in der Regel aber nicht zu aktualisieren.</p>
 <p style="color: #212529; margin-bottom: 0;"><strong>Sollte man eine Firmware nicht aktualisieren sollen, werden wir das bekannt geben.</strong></p>
 </div>
-<doc-anchor-target id="schritt-1-firmware-herunterladen">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritt-1-firmware-herunterladen">#</doc-anchor-trigger>
-        <span>Schritt 1: Firmware herunterladen</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="schritt-1-firmware-herunterladen">Schritt 1: Firmware herunterladen</h3>
 <p>Der Download der <strong>Firmware</strong> funktioniert genauso wie beim <strong>Update des CFW_Packs</strong>:</p>
 <ol>
 <li><strong>UltraHand öffnen</strong> → <strong>NiklasCFW Downloader</strong> → <strong>Update_Checker</strong></li>
@@ -404,38 +352,30 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<doc-anchor-target id="schritt-2-firmware-installieren">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritt-2-firmware-installieren">#</doc-anchor-trigger>
-        <span>Schritt 2: Firmware installieren</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="schritt-2-firmware-installieren">Schritt 2: Firmware installieren</h3>
 <ol>
 <li>Wenn der <strong>Download</strong> beendet ist, schließe <strong>UltraHand</strong></li>
 <li>Starte <strong>Sphaira</strong></li>
 <li>Wir benötigen nun <strong>Daybreak</strong></li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide4/bild14.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="4">
 <li>In <strong>Daybreak</strong> wähle <strong>Install</strong> aus</li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide4/bild15.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="5">
 <li>Wähle das <strong>Firmware-Verzeichnis</strong> aus (z.B. <strong>Firmware.21.0.1</strong>)</li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide4/bild16.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="6">
 <li><strong>Daybreak</strong> validiert die Firmware automatisch:
 <ul>
@@ -445,38 +385,34 @@
 </ul>
 </li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide4/bild17.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="7">
 <li>Wähle <strong>Continue</strong> und dann <strong>Preserve Settings</strong> aus<br />
 <em>Dies behält deine aktuellen Einstellungen bei</em></li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide4/bild18.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="8">
 <li>Wähle <strong>Install (FAT32 + exFAT)</strong> aus<br />
 <em>Dies installiert die Treiber für beide Dateisysteme</em></li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide4/bild19.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="9">
 <li>Bestätige die Installation mit <strong>Continue</strong><br />
 <em>Die Meldung &quot;Ready to begin update installation&quot; erscheint</em></li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide4/bild20.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="10">
 <li>Die Installation startet automatisch:
 <ul>
@@ -486,21 +422,15 @@
 </ul>
 </li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide4/bild21.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="11">
 <li>Nach dem <strong>Neustart</strong> sollte die neue <strong>Firmware</strong> installiert sein</li>
 </ol>
 <hr>
-<doc-anchor-target id="-fertig">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-fertig">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x2705;</span> Fertig</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-fertig"><span class="docs-emoji">&#x2705;</span> Fertig</h2>
 <p>Das Update sollte erfolgreich abgeschlossen sein!</p>
 
                 

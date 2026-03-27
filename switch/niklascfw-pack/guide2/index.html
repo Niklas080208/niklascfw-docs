@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826749989363">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827933639466">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>emuMMC erstellen</title>
@@ -29,14 +29,22 @@
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.niklascfw.de/switch/niklascfw-pack/guide2/">
+    <meta name="twitter:title" content="emuMMC erstellen">
+    <meta name="twitter:description" content="Ein emuMMC (emulierte SD Card) ist eine virtuelle Version bzw. eine 1:1 Kopie des internen Speichers (eMMC) einer Nintendo Switch.">
+    <meta name="twitter:image" content="https://docs.niklascfw.de/images/guide2/bild1.jpg">
+    <meta name="twitter:image:alt" content="emuMMC erstellen">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.2.0.826749989363" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.4.0.827933639466" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -51,10 +59,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="/" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -68,19 +76,19 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                 <span>Serial Checker</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                 <span>YouTube</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                 <span>Discord</span>
                             </a>
                         </li>
@@ -135,19 +143,19 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                         <span>Serial Checker</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                         <span>YouTube</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                         <span>Discord</span>
                                     </a>
                                 </li>
@@ -173,45 +181,20 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="emummc-erstellen" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#emummc-erstellen">#</doc-anchor-trigger>
-        <span>emuMMC erstellen</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="emummc-erstellen">emuMMC erstellen</h1>
 <hr>
-<doc-anchor-target id="-was-ist-ein-emummc">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-was-ist-ein-emummc">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4D6;</span> Was ist ein emuMMC?</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-was-ist-ein-emummc"><span class="docs-emoji">&#x1F4D6;</span> Was ist ein emuMMC?</h2>
 <p>Ein <strong>emuMMC (emulierte SD Card)</strong> ist eine virtuelle Version bzw. eine 1:1 Kopie des <strong>internen Speichers (eMMC)</strong> einer Nintendo Switch.</p>
-<doc-anchor-target id="vorteile">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#vorteile">#</doc-anchor-trigger>
-        <span>Vorteile</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="vorteile">Vorteile</h3>
 <ul>
 <li>Ermöglicht die Nutzung einer <strong>Custom Firmware (CFW)</strong> auf der SD-Karte</li>
 <li><strong>System-Modifikationen</strong> ohne Änderung der originalen Firmware</li>
 <li><strong>Sicherheit</strong>: Originales System bleibt unverändert</li>
 </ul>
 <hr>
-<doc-anchor-target id="-vorbereitung">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-vorbereitung">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4CC;</span> Vorbereitung</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-vorbereitung"><span class="docs-emoji">&#x1F4CC;</span> Vorbereitung</h2>
 <p>Nachdem du das <strong>CFW Pack</strong> installiert hast (wir empfehlen natürlich unser <a href="https://github.com/Woody-NX/NiklasCFW_Pack/releases/latest">NiklasCFW_Pack</a>), musst du einen <strong>emuMMC</strong> erstellen.</p>
-<doc-anchor-target id="zwei-möglichkeiten">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#zwei-möglichkeiten">#</doc-anchor-trigger>
-        <span>Zwei Möglichkeiten</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="zwei-möglichkeiten">Zwei Möglichkeiten</h3>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -243,21 +226,15 @@
 <p style="color: #212529; margin-bottom: 0;">Meine persönliche Empfehlung bleibt bei <strong>SD File</strong>. Was du wählst, bleibt dir überlassen.</p>
 </div>
 <hr>
-<doc-anchor-target id="-sd-file-emummc-erstellen">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-sd-file-emummc-erstellen">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4C1;</span> SD-File emuMMC erstellen</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-sd-file-emummc-erstellen"><span class="docs-emoji">&#x1F4C1;</span> SD-File emuMMC erstellen</h2>
 <ol>
 <li>Starte <strong>Hekate</strong></li>
 <li>Falls du im <strong>Launch Menü</strong> landest, klicke oben rechts auf <strong>Close</strong></li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide2/bild1.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="3">
 <li>Gehe zu <strong>emuMMC</strong> → <strong>Create emuMMC</strong></li>
 <li>Wähle <strong>SD File</strong> aus</li>
@@ -275,12 +252,7 @@
 <li><strong>Hekate</strong> sucht nun nach freiem Speicher und erstellt einen <strong>emuMMC</strong></li>
 <li>Wenn der <strong>SD File emuMMC</strong> erstellt wurde, klicke oben rechts auf <strong>Close</strong></li>
 </ol>
-<doc-anchor-target id="erfolg-prüfen">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#erfolg-prüfen">#</doc-anchor-trigger>
-        <span>Erfolg prüfen</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="erfolg-prüfen">Erfolg prüfen</h3>
 <ul>
 <li>Links oben sollte ein <strong>grüner Haken</strong> sein</li>
 <li>Es sollte <strong>Enabled!</strong> stehen</li>
@@ -288,31 +260,20 @@
 <li>Gehe zu <strong>Launch</strong> und starte die <strong>CFW über CFW-EmuMMC</strong></li>
 </ul>
 <hr>
-<doc-anchor-target id="-sd-partition-emummc-erstellen">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-sd-partition-emummc-erstellen">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F5C2;&#xFE0F;</span> SD-Partition emuMMC erstellen</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-sd-partition-emummc-erstellen"><span class="docs-emoji">&#x1F5C2;&#xFE0F;</span> SD-Partition emuMMC erstellen</h2>
 <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
 <h4 style="color: #856404; margin-top: 0;">⚠️ Wichtig</h4>
 <p style="color: #212529; margin-bottom: 0;">Bei der SD-Partition-Methode wird die SD-Karte <strong>formatiert</strong>! Sichere alle wichtigen Daten vorher!</p>
 </div>
-<doc-anchor-target id="schritt-1-partitionierung-starten">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritt-1-partitionierung-starten">#</doc-anchor-trigger>
-        <span>Schritt 1: Partitionierung starten</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="schritt-1-partitionierung-starten">Schritt 1: Partitionierung starten</h3>
 <ol>
 <li>Wähle <strong>SD Partition</strong> aus</li>
 <li>Klicke auf <strong>Continue</strong></li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide2/bild4.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
 <h4 style="color: #856404; margin-top: 0;">⚠️ Datenverlust Warnung</h4>
 <p style="color: #212529; margin-bottom: 0;">Die <strong>gelb markierte Meldung</strong> erscheint, wenn deine SD-Karten-Daten <strong>größer als 1 GB</strong> sind. In diesem Fall wird <strong>alles gelöscht</strong>!</p>
@@ -330,40 +291,28 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<doc-anchor-target id="schritt-2-partition-größe-einstellen">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritt-2-partition-größe-einstellen">#</doc-anchor-trigger>
-        <span>Schritt 2: Partition-Größe einstellen</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="schritt-2-partition-größe-einstellen">Schritt 2: Partition-Größe einstellen</h3>
 <ol>
 <li><strong>Switch V1/V2 oder Lite</strong>:<br />
 Stelle den <strong>roten Regler</strong> auf <strong>29 Full</strong></li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide2/bild7.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="2">
 <li><strong>Switch OLED</strong>:<br />
 Stelle den <strong>roten Regler</strong> auf <strong>58 Full</strong></li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide2/bild8.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <ol start="3">
 <li><strong>Linux/Android (optional)</strong>:<br />
 Falls du zukünftig Linux oder Android nutzen möchtest, stelle die entsprechenden Regler auf deine Wunsch-Größe ein.</li>
 </ol>
-<doc-anchor-target id="schritt-3-partitionierung-durchführen">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritt-3-partitionierung-durchführen">#</doc-anchor-trigger>
-        <span>Schritt 3: Partitionierung durchführen</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="schritt-3-partitionierung-durchführen">Schritt 3: Partitionierung durchführen</h3>
 <ol>
 <li>Klicke unten rechts auf <strong>Next Step</strong></li>
 <li>Wähle <strong>Start</strong> aus</li>
@@ -383,17 +332,11 @@ Falls du zukünftig Linux oder Android nutzen möchtest, stelle die entsprechend
 <li>Wenn dies abgeschlossen ist, steht <strong>Done</strong> da</li>
 <li>Drücke diese Meldung weg und klicke oben rechts auf <strong>Close</strong></li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide2/bild11.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
-<doc-anchor-target id="schritt-4-emummc-auf-partition-erstellen">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritt-4-emummc-auf-partition-erstellen">#</doc-anchor-trigger>
-        <span>Schritt 4: emuMMC auf Partition erstellen</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="schritt-4-emummc-auf-partition-erstellen">Schritt 4: emuMMC auf Partition erstellen</h3>
 <ol>
 <li>Gehe zu <strong>emuMMC</strong> → <strong>Create emuMMC</strong> → <strong>SD Partition</strong></li>
 <li>Eine andere Meldung erscheint</li>
@@ -410,12 +353,7 @@ Falls du zukünftig Linux oder Android nutzen möchtest, stelle die entsprechend
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<doc-anchor-target id="erfolg-prüfen-1">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#erfolg-prüfen-1">#</doc-anchor-trigger>
-        <span>Erfolg prüfen</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="erfolg-prüfen-1">Erfolg prüfen</h3>
 <ul>
 <li>Links oben sollte ein <strong>grüner Haken</strong> sein</li>
 <li>Es sollte <strong>Enabled!</strong> stehen</li>
@@ -423,12 +361,7 @@ Falls du zukünftig Linux oder Android nutzen möchtest, stelle die entsprechend
 <li>Gehe zu <strong>Launch</strong> und starte die <strong>CFW über CFW-EmuMMC</strong></li>
 </ul>
 <hr>
-<doc-anchor-target id="-nächste-schritte">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-nächste-schritte">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x2705;</span> Nächste Schritte</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-nächste-schritte"><span class="docs-emoji">&#x2705;</span> Nächste Schritte</h2>
 <p>Wenn du deinen <strong>emuMMC</strong> erfolgreich erstellt hast:</p>
 <p>→ Weiter mit: <a href="/switch/niklascfw-pack/guide3/">NiklasCFW_Pack einrichten</a></p>
 

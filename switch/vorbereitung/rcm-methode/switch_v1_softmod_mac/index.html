@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826749989363">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827933639466">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>Nintendo Switch V1 – Softmod mit Hekate-Payload (macOS)</title>
@@ -29,14 +29,22 @@
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.niklascfw.de/switch/vorbereitung/rcm-methode/switch_v1_softmod_mac/">
+    <meta name="twitter:title" content="Nintendo Switch V1 – Softmod mit Hekate-Payload (macOS)">
+    <meta name="twitter:description" content="Es gibt mehrere Möglichkeiten die Payload über macOS an eure Nintendo Switch zu schicken, hier erklären wir euch zwei davon. Einmal via CrystalRCM (ein">
+    <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch_v1_softmod/crystalrcm1.png">
+    <meta name="twitter:image:alt" content="Nintendo Switch V1 – Softmod mit Hekate-Payload (macOS)">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.2.0.826749989363" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.4.0.827933639466" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -51,10 +59,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="/" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -68,19 +76,19 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                 <span>Serial Checker</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                 <span>YouTube</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                 <span>Discord</span>
                             </a>
                         </li>
@@ -135,19 +143,19 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                         <span>Serial Checker</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                         <span>YouTube</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                         <span>Discord</span>
                                     </a>
                                 </li>
@@ -173,20 +181,10 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="nintendo-switch-v1--softmod-mit-hekate-payload-macos" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#nintendo-switch-v1--softmod-mit-hekate-payload-macos">#</doc-anchor-trigger>
-        <span>Nintendo Switch V1 – Softmod mit Hekate-Payload (macOS)</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="nintendo-switch-v1--softmod-mit-hekate-payload-macos">Nintendo Switch V1 – Softmod mit Hekate-Payload (macOS)</h1>
 <p>Es gibt mehrere Möglichkeiten die Payload über macOS an eure Nintendo Switch zu schicken, hier erklären wir euch zwei davon. Einmal via CrystalRCM (ein offline Tool) und einmal per WebRCM (erfordert eine Internetverbindung). Welche Methode ihr davon auswählt liegt an euch.</p>
 <hr>
-<doc-anchor-target id="crystalrcm-offline-tool">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#crystalrcm-offline-tool">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F6E0;&#xFE0F;</span>CrystalRCM (offline Tool)</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="crystalrcm-offline-tool"><span class="docs-emoji">&#x1F6E0;&#xFE0F;</span>CrystalRCM (offline Tool)</h2>
 <ol>
 <li><p>Lade dir die aktuelle Version von <strong>CrystalRCM</strong> über <strong>Github</strong> herunter und installiere diese auf deinem Mac.
 → <a href="https://github.com/prayerie/CrystalRCM">CrystalRCM</a></p>
@@ -221,18 +219,8 @@
 </li>
 </ol>
 <hr>
-<doc-anchor-target id="-webrcm-erfordert-eine-internetverbindung">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-webrcm-erfordert-eine-internetverbindung">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F9F0;</span> WebRCM (erfordert eine Internetverbindung)</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="voraussetzungen">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#voraussetzungen">#</doc-anchor-trigger>
-        <span>Voraussetzungen</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-webrcm-erfordert-eine-internetverbindung"><span class="docs-emoji">&#x1F9F0;</span> WebRCM (erfordert eine Internetverbindung)</h2>
+<h2 id="voraussetzungen">Voraussetzungen</h2>
 <ul>
 <li><p><strong>Kompatibler Browser:</strong> Google Chrome, Microsoft Edge, Opera, Samsung Internet oder QQ Browser<br />
 <em>(Safari, Firefox &amp; Co. funktionieren nicht – wegen fehlender WebUSB-Unterstützung)</em></p>
@@ -241,12 +229,7 @@
 → Auf Windows stattdessen <strong>TegraRcmGUI</strong> oder <strong>TegraRcmSmash</strong> verwenden.</p>
 </li>
 </ul>
-<doc-anchor-target id="schritte">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#schritte">#</doc-anchor-trigger>
-        <span>Schritte</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="schritte">Schritte</h2>
 <ol>
 <li>Switch wie gewohnt in den <strong>RCM-Modus</strong> versetzen.</li>
 <li>Switch per <strong>USB-C-Datenkabel</strong> verbinden.</li>

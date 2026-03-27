@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826749989363">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827933639466">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>Overclocking / Undervolting (nur f&#252;r Fortgeschrittene)</title>
@@ -29,14 +29,22 @@
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.niklascfw.de/switch/omninx/overclocking/">
+    <meta name="twitter:title" content="Overclocking / Undervolting (nur für Fortgeschrittene)">
+    <meta name="twitter:description" content="Falsches bzw. zu starkes Übertakten kann zu irreparablen Schäden an der Hardware führen. Wir übernehmen hierfür keine Haftung. Außerdem wird davon">
+    <meta name="twitter:image" content="https://docs.niklascfw.de/images/omninx/overclocking/010_oc-aktivierung_rampatcher.jpg">
+    <meta name="twitter:image:alt" content="Overclocking / Undervolting (nur für Fortgeschrittene)">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.2.0.826749989363" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.4.0.827933639466" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -51,10 +59,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="/" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -68,19 +76,19 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                 <span>Serial Checker</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                 <span>YouTube</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                 <span>Discord</span>
                             </a>
                         </li>
@@ -135,19 +143,19 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                         <span>Serial Checker</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                         <span>YouTube</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                         <span>Discord</span>
                                     </a>
                                 </li>
@@ -173,12 +181,7 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="overclocking--undervolting-nur-für-fortgeschrittene" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#overclocking--undervolting-nur-für-fortgeschrittene">#</doc-anchor-trigger>
-        <span>Overclocking / Undervolting (nur für Fortgeschrittene)</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="overclocking--undervolting-nur-für-fortgeschrittene">Overclocking / Undervolting (nur für Fortgeschrittene)</h1>
 <div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350 items-center">
     <div class="flex items-center">
         <div>Von</div>
@@ -195,7 +198,7 @@
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-danger"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-danger" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-danger" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M21.71 6.15L15.85.29c-.19-.18-.44-.29-.71-.29H6.86c-.27 0-.52.11-.71.29L.29 6.15c-.18.19-.29.44-.29.71v8.28c0 .27.11.52.29.71l5.86 5.86c.19.18.44.29.71.29h8.28c.27 0 .52-.11.71-.29l5.86-5.86a.99.99 0 00.29-.71V6.86c0-.27-.11-.52-.29-.71zM20 14.73L14.73 20H7.27L2 14.73V7.27L7.27 2h7.45L20 7.27v7.46z"></path>
                     <path d="M11 12c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1zM11.01 14c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -209,12 +212,7 @@
     </div>
 </div>
 <hr>
-<doc-anchor-target id="grundvoraussetzungen">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#grundvoraussetzungen">#</doc-anchor-trigger>
-        <span>Grundvoraussetzungen</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="grundvoraussetzungen">Grundvoraussetzungen</h2>
 <ul>
 <li><strong>OmniNX OC Pack</strong> installiert</li>
 <li>Folgende Tools mittels <strong>Package Manager</strong> in Ultrahand aktiviert:
@@ -242,12 +240,7 @@
 </li>
 </ul>
 <hr>
-<doc-anchor-target id="tools-im-detail">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#tools-im-detail">#</doc-anchor-trigger>
-        <span>Tools im Detail</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="tools-im-detail">Tools im Detail</h2>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -289,30 +282,19 @@
 </table>
 </div>
 <hr>
-<doc-anchor-target id="oc-aktivierung">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#oc-aktivierung">#</doc-anchor-trigger>
-        <span>OC-Aktivierung</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="oc-aktivierung">OC-Aktivierung</h2>
 <p>Die <strong>loader.kip</strong> muss beim Start geladen werden; ohne sie kann die Konsole nicht über Nintendos Standardwerte hinaus betrieben werden.</p>
 <ol>
 <li><strong>RAM Patcher</strong> im Ultrahand-Menü öffnen.</li>
 <li><strong>„RAM Patch inkl. OC Kip Patch! – 4 GB“</strong> ausführen. (Bei 8‑GB-Umbau den passenden Punkt wählen.)</li>
 <li>Konsole/CFW <strong>neustarten</strong> – die Kip-Datei wird danach automatisch geladen.</li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/omninx/overclocking/010_oc-aktivierung_rampatcher.jpg" alt="Ultrahand - RAM Patcher" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
     <figcaption class="caption">Ultrahand - RAM Patcher</figcaption>
 </figure>
-</p>
 <p><strong>Prüfen mit sys-clk:</strong> Unter <strong>Temporary Overrides</strong> die maximalen Werte für CPU/GPU/RAM prüfen und mit der Tabelle vergleichen.</p>
-<doc-anchor-target id="referenzwerte-dock">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#referenzwerte-dock">#</doc-anchor-trigger>
-        <span>Referenzwerte (Dock)</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="referenzwerte-dock">Referenzwerte (Dock)</h3>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -351,12 +333,7 @@
 </tbody>
 </table>
 </div>
-<doc-anchor-target id="referenzwerte-handheld">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#referenzwerte-handheld">#</doc-anchor-trigger>
-        <span>Referenzwerte (Handheld)</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="referenzwerte-handheld">Referenzwerte (Handheld)</h3>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -397,12 +374,7 @@
 </div>
 <p>In der Regel sollten Werte wie <strong>2397 / 1267 / 1996</strong> MHz oder ähnlich sichtbar sein – mindestens höher als der Nintendo-Standard. Der RAM-Takt entspricht dem in <strong>OC Switchcraft EOS</strong> gesetzten Wert.</p>
 <hr>
-<doc-anchor-target id="oc-switchcraft-eos">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#oc-switchcraft-eos">#</doc-anchor-trigger>
-        <span>OC Switchcraft EOS</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="oc-switchcraft-eos">OC Switchcraft EOS</h2>
 <p>Vor dem Übertakten von CPU/GPU/RAM die Grundeinstellung vornehmen. Nur die relevanten Werte anpassen, der Rest sollte <strong>Default</strong> bleiben.</p>
 <p><strong>RAM</strong></p>
 <ul>
@@ -428,11 +400,10 @@
 <li><strong>Volt Offset:</strong> Undervolting-Offset zur Spannungsreduzierung</li>
 </ul>
 <p>Nun können die ersten Werte gesetzt werden (orientiere dich an den Einstellungen im Menü):</p>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/omninx/overclocking/021_oc-switchraft-eos_ram.jpg" alt="OC Switchcraft EOS – Einstellungen" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
     <figcaption class="caption">OC Switchcraft EOS – Einstellungen</figcaption>
 </figure>
-</p>
 <div class="content-center">
 <div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
     <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white border-r">
@@ -453,7 +424,7 @@
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
                     <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -471,7 +442,7 @@
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-danger"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-danger" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-danger" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M21.71 6.15L15.85.29c-.19-.18-.44-.29-.71-.29H6.86c-.27 0-.52.11-.71.29L.29 6.15c-.18.19-.29.44-.29.71v8.28c0 .27.11.52.29.71l5.86 5.86c.19.18.44.29.71.29h8.28c.27 0 .52-.11.71-.29l5.86-5.86a.99.99 0 00.29-.71V6.86c0-.27-.11-.52-.29-.71zM20 14.73L14.73 20H7.27L2 14.73V7.27L7.27 2h7.45L20 7.27v7.46z"></path>
                     <path d="M11 12c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1zM11.01 14c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -485,22 +456,16 @@
     </div>
 </div>
 <hr>
-<doc-anchor-target id="sys-clk-overlay">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#sys-clk-overlay">#</doc-anchor-trigger>
-        <span>sys-clk Overlay</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="sys-clk-overlay">sys-clk Overlay</h2>
 <ol>
 <li>Im Ultrahand-Menü unter <strong>Overlays</strong> <strong>sys-clk</strong> auswählen.</li>
 <li>Unter <strong>Settings</strong> aktivieren: <strong>Uncapped Clocks</strong>, <strong>Boost Mode Override</strong>, <strong>Auto CPU Boost</strong> – für vollen Zugriff auf die Einstellungen und maximale Taktraten.</li>
 <li>Unter <strong>Temporary Overrides</strong> die Frequenzen anpassen. Zum Einstieg die <strong>Referenzwerte</strong> aus der Tabelle nutzen (z. B. nVidia-Max). Mutige können sich auch gleich an den Maximalwerten <strong>2397 / 1267 / 1996</strong> MHz versuchen und im Worst Case die Konsole neustarten.</li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/omninx/overclocking/031_sysclk_main.jpg" alt="sys-clk – Temporary Overrides" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
     <figcaption class="caption">sys-clk – Temporary Overrides</figcaption>
 </figure>
-</p>
 <div class="content-center">
 <div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
     <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white border-r">
@@ -520,16 +485,15 @@
 <ol start="4">
 <li>Im <strong>Status Monitor</strong> prüfen, ob Taktraten und <strong>Stromverbrauch (W)</strong> stimmen – im Handheld <strong>max. 8,6 W</strong> (V2/OLED) bzw. <strong>6,5 W</strong> (V1/Lite) für den Akku einhalten.</li>
 </ol>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/omninx/overclocking/034_sysclk_statusmonitor.jpg" alt="Status Monitor – Taktraten und Verbrauch" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
     <figcaption class="caption">Status Monitor – Taktraten und Verbrauch</figcaption>
 </figure>
-</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
                     <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -554,22 +518,12 @@
 </ul>
 <p>Keine Grafikfehler oder Abstürze nach einigen Minuten → <strong>Einstellung ist stabil.</strong></p>
 <hr>
-<doc-anchor-target id="optimierung--feintuning">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#optimierung--feintuning">#</doc-anchor-trigger>
-        <span>Optimierung / Feintuning</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="optimierung--feintuning">Optimierung / Feintuning</h2>
 <p>Jede CPU, GPU und jeder RAM ist unterschiedlich. Nach erfolgreichem Maximum bei CPU/GPU kann der <strong>Arbeitsspeicher (RAM)</strong> feinjustiert werden.</p>
 <p>Viele getestete Konsolen laufen stabil bis <strong>2200 MHz RAM</strong> und teils darüber. Für höhere oder stabilere Taktraten: <strong>Vddq</strong> auf 640 mV, <strong>Vdd2</strong> auf 1175 mV setzen – dabei die <strong>max. Leistungsaufnahme</strong> (siehe Disclaimer) beachten.</p>
 <p><strong>Faustregel:</strong> Je höher der Takt, desto mehr Spannung/Strom wird benötigt.</p>
 <hr>
-<doc-anchor-target id="maximale-bildqualität">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#maximale-bildqualität">#</doc-anchor-trigger>
-        <span>Maximale Bildqualität</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="maximale-bildqualität">Maximale Bildqualität</h2>
 <p>Wenn die nötige Leistung aus der Konsole geholt ist, kannst du mit dem <strong>ReverseNX-RT</strong>-Overlay mehr Grafikqualität und Auflösung aus den Spielen holen (ohne Mods). Stellst du ein Spiel auf <strong>„Fake Docked“</strong> (entspricht dem normalen Dockmodus), bekommst du z. B. mehr Auflösung, Tiefenschärfe und Details in der Ferne auch im Handheldbetrieb angezeigt. Die Auflösung wird dann aber von max. 1080p auf die tatsächliche Auflösung des Switch-Bildschirms runterskaliert. Dieser Prozess bringt dir aber am Ende ein schärferes Bild.</p>
 <div class="content-center">
 <div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
@@ -591,7 +545,7 @@
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
                     <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -608,7 +562,7 @@
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-danger"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-danger" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-danger" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M21.71 6.15L15.85.29c-.19-.18-.44-.29-.71-.29H6.86c-.27 0-.52.11-.71.29L.29 6.15c-.18.19-.29.44-.29.71v8.28c0 .27.11.52.29.71l5.86 5.86c.19.18.44.29.71.29h8.28c.27 0 .52-.11.71-.29l5.86-5.86a.99.99 0 00.29-.71V6.86c0-.27-.11-.52-.29-.71zM20 14.73L14.73 20H7.27L2 14.73V7.27L7.27 2h7.45L20 7.27v7.46z"></path>
                     <path d="M11 12c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1zM11.01 14c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -622,23 +576,17 @@
     </div>
 </div>
 <hr>
-<doc-anchor-target id="bildwiederholrate--frames-per-second-fps">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#bildwiederholrate--frames-per-second-fps">#</doc-anchor-trigger>
-        <span>Bildwiederholrate / Frames per Second (FPS)</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="bildwiederholrate--frames-per-second-fps">Bildwiederholrate / Frames per Second (FPS)</h2>
 <p>Für viele wichtiger als reine Auflösung ist eine stabile, hohe <strong>Bildwiederholungsrate (FPS)</strong>. Dafür sorgt der <strong>FPSLocker</strong>.</p>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/omninx/overclocking/051_fpslocker_main.jpg" alt="Ultrahand - FPSLocker" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
     <figcaption class="caption">Ultrahand - FPSLocker</figcaption>
 </figure>
-</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
                     <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -681,12 +629,7 @@
 <p>Einfach den <strong>Konverter ausführen</strong>, Spiel <strong>neustarten</strong> und anschließend kannst du die Bildrate schrittweise bis z. B. <strong>60 FPS</strong> erhöhen. Die englischen Beschreibungen im Menü erklären die Schritte im Detail.</p>
 <p>Denk aber bitte daran, dass du für höhere Frameraten auch entsprechend mehr Leistung brauchst und die Nintendo Switch gerne an ihre Grenzen gerät. Das bedeutet, während ein &quot;The Legend of Zelda: Tears of the Kingdom&quot; problemlos bei dir mit 60 FPS läuft, kann ein &quot;Batman: Arkham Knight&quot; weiterhin mit 35 FPS vor sich hindümpeln. Manche Spiele sind einfach zu hardwarehungrig und das gilt vor allem für Third-Party-Games.</p>
 <hr>
-<doc-anchor-target id="problembehebungen--bugfixes">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#problembehebungen--bugfixes">#</doc-anchor-trigger>
-        <span>Problembehebungen / Bugfixes</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="problembehebungen--bugfixes">Problembehebungen / Bugfixes</h2>
 <p><strong>Maximale Taktfrequenz zu niedrig</strong></p>
 <blockquote>
 <p>Es kann wie immer vorkommen, dass bei der ganze Konfiguration manche Werte vergessen werden, die essentiell sind um maximalen Taktraten <strong>&quot;Uncapped Clocks&quot;</strong> einstellen zu können. Solltest du z. B. deinen GPU-Takt trotz aktiviertem &quot;Uncapped Clocks&quot; im Sys-Clk-Overlay nicht über 998/1075 MHz betreiben können, kann das zwei Ursachen haben:</p>

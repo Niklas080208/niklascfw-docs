@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826749989363">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827933639466">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>Nintendo Switch V1 – Softmod mit Hekate-Payload (Windows)</title>
@@ -25,14 +25,20 @@
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.niklascfw.de/switch/vorbereitung/rcm-methode/switch_v1_softmod_windows/">
+    <meta name="twitter:title" content="Nintendo Switch V1 – Softmod mit Hekate-Payload (Windows)">
+    <meta name="twitter:description" content="Nintendo Switch v1 (unpatched, Seriennummer prüfen)">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.2.0.826749989363" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.4.0.827933639466" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -47,10 +53,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="/" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -64,19 +70,19 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                 <span>Serial Checker</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                 <span>YouTube</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                 <span>Discord</span>
                             </a>
                         </li>
@@ -131,19 +137,19 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                         <span>Serial Checker</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                         <span>YouTube</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                         <span>Discord</span>
                                     </a>
                                 </li>
@@ -169,18 +175,8 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="nintendo-switch-v1--softmod-mit-hekate-payload-windows" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#nintendo-switch-v1--softmod-mit-hekate-payload-windows">#</doc-anchor-trigger>
-        <span>Nintendo Switch V1 – Softmod mit Hekate-Payload (Windows)</span>
-    </h1>
-</doc-anchor-target>
-<doc-anchor-target id="benötigt">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#benötigt">#</doc-anchor-trigger>
-        <span>Benötigt:</span>
-    </h2>
-</doc-anchor-target>
+<h1 id="nintendo-switch-v1--softmod-mit-hekate-payload-windows">Nintendo Switch V1 – Softmod mit Hekate-Payload (Windows)</h1>
+<h2 id="benötigt">Benötigt:</h2>
 <ul>
 <li><strong>Nintendo Switch v1</strong> (<em>unpatched</em>, Seriennummer prüfen)</li>
 <li><strong>microSD-Karte</strong> (<strong>FAT32 Pflicht</strong>, 64–256 GB empfohlen)</li>
@@ -191,12 +187,7 @@
 <li><strong>TegraRcmGUI</strong> (Payload-Tool für Windows)</li>
 </ul>
 <hr>
-<doc-anchor-target id="vorbereitung-am-pc-tegrarcmgui-installieren">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#vorbereitung-am-pc-tegrarcmgui-installieren">#</doc-anchor-trigger>
-        <span>Vorbereitung am PC (TegraRcmGUI installieren)</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="vorbereitung-am-pc-tegrarcmgui-installieren">Vorbereitung am PC (TegraRcmGUI installieren)</h2>
 <ol>
 <li><strong>TegraRcmGUI</strong> als <strong>ZIP</strong> herunterladen.</li>
 <li>ZIP mit <strong><a href="https://www.7-zip.org/">7‑Zip</a></strong> (kostenlos) <strong>entpacken</strong>.</li>
@@ -206,12 +197,7 @@
 <p>Tipp: In TegraRcmGUI kann man den Payload auch <strong>per Doppelklick</strong> senden – schneller als den „Inject“-Button zu suchen.</p>
 </blockquote>
 <hr>
-<doc-anchor-target id="rcm-modus-aktivieren-switch">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#rcm-modus-aktivieren-switch">#</doc-anchor-trigger>
-        <span>RCM-Modus aktivieren (Switch)</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="rcm-modus-aktivieren-switch">RCM-Modus aktivieren (Switch)</h2>
 <ol>
 <li>Switch <strong>ausschalten</strong>.</li>
 <li><strong>RCM-Jig</strong> in den rechten Joy‑Con‑Schacht einsetzen.</li>
@@ -220,12 +206,7 @@
 <li>Bildschirm bleibt <strong>schwarz</strong> (kein Logo = RCM aktiv).</li>
 </ol>
 <hr>
-<doc-anchor-target id="payload-senden-hekate">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#payload-senden-hekate">#</doc-anchor-trigger>
-        <span>Payload senden (Hekate)</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="payload-senden-hekate">Payload senden (Hekate)</h2>
 <ol>
 <li>Switch per <strong>USB‑C</strong> mit dem PC verbinden.</li>
 <li>In <strong>TegraRcmGUI</strong> die Switch als <strong>RCM-Gerät</strong> erkennen lassen.</li>
@@ -233,12 +214,7 @@
 <li><strong>Inject Payload</strong> klicken <strong>oder</strong> die Payload-Datei <strong>doppelklicken</strong>.</li>
 <li>Switch startet in <strong>Hekate</strong>.</li>
 </ol>
-<doc-anchor-target id="wenn-das-senden-nicht-klappt">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#wenn-das-senden-nicht-klappt">#</doc-anchor-trigger>
-        <span>Wenn das Senden nicht klappt</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="wenn-das-senden-nicht-klappt">Wenn das Senden nicht klappt</h3>
 <ul>
 <li><strong>TegraRcmGUI-Status prüfen:</strong>
 <ul>

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826749989363">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827933639466">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>RetroArch installieren</title>
@@ -29,14 +29,22 @@
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/retroarch_install/">
+    <meta name="twitter:title" content="RetroArch installieren">
+    <meta name="twitter:description" content="Anleitung Uhrzeit Synchronisieren">
+    <meta name="twitter:image" content="https://docs.niklascfw.de/images/allgemein/retroarch_logo.png">
+    <meta name="twitter:image:alt" content="RetroArch installieren">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.2.0.826749989363" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.4.0.827933639466" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -51,10 +59,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="/" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -68,19 +76,19 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                 <span>Serial Checker</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                 <span>YouTube</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                 <span>Discord</span>
                             </a>
                         </li>
@@ -135,19 +143,19 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                         <span>Serial Checker</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                         <span>YouTube</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                         <span>Discord</span>
                                     </a>
                                 </li>
@@ -173,37 +181,21 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="retroarch-installieren" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#retroarch-installieren">#</doc-anchor-trigger>
-        <span>RetroArch installieren</span>
-    </h1>
-</doc-anchor-target>
-<doc-anchor-target id="-voraussetzungen">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-voraussetzungen">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Voraussetzungen</span>
-    </h2>
-</doc-anchor-target>
+<h1 id="retroarch-installieren">RetroArch installieren</h1>
+<h2 id="-voraussetzungen"><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Voraussetzungen</h2>
 <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
 <h4 style="color: #856404; margin-top: 0;">⚠️ Wichtig</h4>
 <p style="color: #212529; margin-bottom: 0;"><strong>Bitte darauf achten, dass deine Uhrzeit synchronisiert ist.</strong></p>
 <p style="color: #212529; margin-bottom: 0;">Ansonsten funktioniert der Download über UltraHand nicht!</p>
 </div>
 <p><strong><a href="https://docs.niklascfw.de/switch/nachher/dbi_time/">Anleitung Uhrzeit Synchronisieren</a></strong></p>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/allgemein/retroarch_logo.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <p><strong>RetroArch</strong> ist eine sogenannte “Frontend”-Anwendung für <strong>Emulatoren</strong>, Spiel-Engines und Mediaplayer. Für die Nintendo Switch ist RetroArch eine Homebrew-App, die es ermöglicht, klassische Spielekonsolen auf der Switch zu emulieren.</p>
 <hr>
-<doc-anchor-target id="retroarch-direkt-über-ultrahand-installieren">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#retroarch-direkt-über-ultrahand-installieren">#</doc-anchor-trigger>
-        <span>RetroArch direkt über UltraHand installieren</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="retroarch-direkt-über-ultrahand-installieren">RetroArch direkt über UltraHand installieren</h2>
 <ol>
 <li><p>Öffne <strong>UltraHand</strong> (L,R und Plus-Taste gleichzeitig drücken) und auf <strong>NiklasCFW Downloader</strong> klicken.
 <figure class="content-center">
@@ -230,12 +222,7 @@
 </li>
 </ol>
 <hr>
-<doc-anchor-target id="installation-über-pc">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#installation-über-pc">#</doc-anchor-trigger>
-        <span>Installation über PC</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="installation-über-pc">Installation über PC</h2>
 <ol>
 <li>Lade dir die aktuelle Version von <strong>RetroArch</strong> herunter:<br />
 <span class="docs-emoji">&#x1F449;</span> <a href="https://buildbot.libretro.com/stable/1.21.0/nintendo/switch/libnx/RetroArch.7z">RetroArch Switch Download</a></li>
@@ -243,12 +230,7 @@
 <li>Starte in die <strong>CFW</strong> und erstelle mit Hilfe von <strong>Sphaira</strong> einen <strong>RetroArch Forwarder</strong>, da dieses immer im <strong>Highmemory-Mode</strong> ausgeführt werden muss.</li>
 </ol>
 <hr>
-<doc-anchor-target id="hinzufügen-von-roms">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#hinzufügen-von-roms">#</doc-anchor-trigger>
-        <span>Hinzufügen von ROMs</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="hinzufügen-von-roms">Hinzufügen von ROMs</h2>
 <ol>
 <li><strong>Erstelle</strong> im <strong>Root</strong> deiner Speicherkarte einen Ordner namens <code translate="no" v-pre>roms</code>.</li>
 <li><p>Für jedes System, das du nutzen möchtest, erstelle im <code translate="no" v-pre>roms</code>-Ordner einen passenden Unterordner.<br />
@@ -262,12 +244,7 @@ Zum Beispiel:</p>
 </li>
 </ol>
 <hr>
-<doc-anchor-target id="weitere-einstellungen">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#weitere-einstellungen">#</doc-anchor-trigger>
-        <span>Weitere Einstellungen</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="weitere-einstellungen">Weitere Einstellungen</h2>
 <p>Für das Feintuning der einzelnen Emulatoren in RetroArch müsst ihr die <a href="https://www.retroarch.com/">RetroArch Homepage</a> besuchen.</p>
 <blockquote>
 <p><span class="docs-emoji">&#x1F4A1;</span> <strong>Hinweis:</strong> Achte darauf, dass du nur ROMs nutzt, für die du eine entsprechende Lizenz oder das Originalspiel besitzt. Wir geben <strong>keine Hilfe bei Piracy</strong>!</p>

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826749989363">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827933639466">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>NiklasCFW_Pack einrichten</title>
@@ -29,14 +29,22 @@
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.niklascfw.de/switch/niklascfw-pack/guide3/">
+    <meta name="twitter:title" content="NiklasCFW_Pack einrichten">
+    <meta name="twitter:description" content="Forwarder sind Verknüpfungen, die es ermöglichen, Homebrew-Apps (wie Sphaira, DBI, Emulatoren oder andere Apps) direkt vom Startbildschirm mit vollem">
+    <meta name="twitter:image" content="https://docs.niklascfw.de/images/guide3/bild1.jpg">
+    <meta name="twitter:image:alt" content="NiklasCFW_Pack einrichten">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.2.0.826749989363" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.4.0.827933639466" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.2.0.826749989363" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.827933639466" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -51,10 +59,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="/" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -68,19 +76,19 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                 <span>Serial Checker</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                 <span>YouTube</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                 <span>Discord</span>
                             </a>
                         </li>
@@ -135,19 +143,19 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://serialcheck.niklascfw.de">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/switch.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/switch.png">
                                         <span>Serial Checker</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://youtube.com/@NiklasCFW">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/youtube.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/youtube.png">
                                         <span>YouTube</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/niklascfw">
-                                        <img class="mb-px mr-1" width="18" alt="" src="/assets/discord.png">
+                                        <img class="block shrink-0 mr-1.5" width="18" height="18" alt="" aria-hidden="true" src="/assets/discord.png">
                                         <span>Discord</span>
                                     </a>
                                 </li>
@@ -173,30 +181,15 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="niklascfw_pack-einrichten" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#niklascfw_pack-einrichten">#</doc-anchor-trigger>
-        <span>NiklasCFW_Pack einrichten</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="niklascfw_pack-einrichten">NiklasCFW_Pack einrichten</h1>
 <hr>
 <div style="background-color: #e7f3ff; border-left: 4px solid #2196F3; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
 <h4 style="color: #1565C0; margin-top: 0;">ℹ️ Einleitung</h4>
 <p style="color: #212529; margin-bottom: 0;">Nachdem du erfolgreich in die CFW booten konntest, sollten noch ein paar Kleinigkeiten eingerichtet werden.</p>
 </div>
 <hr>
-<doc-anchor-target id="-forwarder-erstellen">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-forwarder-erstellen">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F517;</span> Forwarder erstellen</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="was-sind-forwarder">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#was-sind-forwarder">#</doc-anchor-trigger>
-        <span>Was sind Forwarder?</span>
-    </h3>
-</doc-anchor-target>
+<h2 id="-forwarder-erstellen"><span class="docs-emoji">&#x1F517;</span> Forwarder erstellen</h2>
+<h3 id="was-sind-forwarder">Was sind Forwarder?</h3>
 <p><strong>Forwarder</strong> sind <strong>Verknüpfungen</strong>, die es ermöglichen, <strong>Homebrew-Apps</strong> (wie <strong>Sphaira, DBI, Emulatoren</strong> oder andere Apps) direkt vom <strong>Startbildschirm</strong> mit <strong>vollem RAM-Zugriff</strong> zu starten, anstatt über das <strong>HB-Menu</strong>.</p>
 <p><strong>Vorteile:</strong></p>
 <ul>
@@ -204,22 +197,12 @@
 <li>Kein Umweg über das <strong>HB-Menu</strong> nötig</li>
 <li><strong>Voller RAM-Zugriff</strong> für bessere Performance</li>
 </ul>
-<doc-anchor-target id="alte-forwarder-entfernen">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#alte-forwarder-entfernen">#</doc-anchor-trigger>
-        <span>Alte Forwarder entfernen</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="alte-forwarder-entfernen">Alte Forwarder entfernen</h3>
 <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
 <h4 style="color: #856404; margin-top: 0;">⚠️ Wichtig</h4>
 <p style="color: #212529; margin-bottom: 0;">Wenn du von einem anderen CFW Pack kommst und noch alte Forwarder hast, müssen diese <strong>vorher gelöscht werden</strong>. Dies funktioniert genauso, als würdest du ein Spiel löschen.</p>
 </div>
-<doc-anchor-target id="forwarder-installieren">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#forwarder-installieren">#</doc-anchor-trigger>
-        <span>Forwarder installieren</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="forwarder-installieren">Forwarder installieren</h3>
 <ol>
 <li>Öffne <strong>Sphaira</strong> (neues HB-Menu) durch Drücken auf das <strong>Album</strong></li>
 <li>Dort siehst du deine Apps, die bereits vorinstalliert sind oder die du hinzugefügt hast</li>
@@ -254,12 +237,7 @@
 <p style="color: #212529; margin: 0;"><small>ℹ️ <strong>Hinweis:</strong> Bei <strong>Tinfoil</strong> musst du das nicht machen, da Tinfoil beim Start selbst einen Forwarder installiert.</small></p>
 </div>
 <hr>
-<doc-anchor-target id="-systemzeit-synchronisieren">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-systemzeit-synchronisieren">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x23F0;</span> Systemzeit synchronisieren</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-systemzeit-synchronisieren"><span class="docs-emoji">&#x23F0;</span> Systemzeit synchronisieren</h2>
 <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
 <h4 style="color: #856404; margin-top: 0;">⚠️ Wichtig</h4>
 <p style="color: #212529; margin-bottom: 0;">Du solltest die <strong>Systemzeit synchronisieren</strong>, da du keine Verbindung mehr zu den <strong>Nintendo Servern</strong> hast.</p>
@@ -284,18 +262,8 @@
 </figure>
 </p>
 <hr>
-<doc-anchor-target id="-zusätzliche-apps-installieren">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-zusätzliche-apps-installieren">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4F1;</span> Zusätzliche Apps installieren</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="youtube-und-crunchyroll-gepatcht">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#youtube-und-crunchyroll-gepatcht">#</doc-anchor-trigger>
-        <span>YouTube und Crunchyroll (gepatcht)</span>
-    </h3>
-</doc-anchor-target>
+<h2 id="-zusätzliche-apps-installieren"><span class="docs-emoji">&#x1F4F1;</span> Zusätzliche Apps installieren</h2>
+<h3 id="youtube-und-crunchyroll-gepatcht">YouTube und Crunchyroll (gepatcht)</h3>
 <p>Du kannst zusätzlich eine <strong>gepatchte Version von YouTube und Crunchyroll</strong> installieren. Diese Apps funktionieren trotz der CFW, da sie nicht zu <strong>Nintendo</strong> kommunizieren.</p>
 <ol>
 <li>In <strong>DBI</strong> bleibend, gehe zu <strong>Browse SD Card</strong> → <strong>NSPs (Tools)</strong></li>
@@ -314,26 +282,15 @@
 </figure>
 </p>
 <hr>
-<doc-anchor-target id="-nintendo-account-erstellen">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-nintendo-account-erstellen">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F464;</span> Nintendo Account erstellen</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-nintendo-account-erstellen"><span class="docs-emoji">&#x1F464;</span> Nintendo Account erstellen</h2>
 <p>Für <strong>YouTube</strong> und <strong>Crunchyroll</strong> wird ein <strong>Nintendo &quot;Fake&quot; Account</strong> benötigt.</p>
 <p>Mit der <strong>App Linkalho</strong> kann dieser erstellt werden.</p>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="/images/guide3/bild10.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
 <hr>
-<doc-anchor-target id="-fertig">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-fertig">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F389;</span> Fertig</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-fertig"><span class="docs-emoji">&#x1F389;</span> Fertig</h2>
 <div style="background-color: #d4edda; border-left: 4px solid #28a745; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
 <h4 style="color: #155724; margin-top: 0;">✅ Erfolg!</h4>
 <p style="color: #212529; margin-bottom: 0;">Das CFW Pack ist jetzt fertig eingerichtet. Viel Spaß mit dem <strong>NiklasCFW_Pack</strong>!</p>
