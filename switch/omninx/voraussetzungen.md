@@ -87,10 +87,10 @@ Die **prod.keys** werden mithilfe von dem SysNAND gedumpt. Sie sind z. B. für
 
 | Punkt | Erledigt? |
 |-------|-----------|
-| Switch modbar (Serial-Check oder Modchip) | ☐ |
-| SD-Karte FAT32, ausreichend groß & schnell | ☐ |
-| Hekate (oder Bootloader) startbar | ☐ |
-| prod.keys später dumperbar (Lockpick RCM) | ☐ |
+| Switch modbar (Serial-Check oder Modchip) | :icon-checkbox: |
+| SD-Karte FAT32, ausreichend groß & schnell | :icon-checkbox: |
+| Hekate (oder Bootloader) startbar | :icon-checkbox: |
+| prod.keys später dumperbar (Lockpick RCM) | :icon-checkbox: |
 
 !!!success Alles erfüllt?
 Weiter mit dem **[Download von OmniNX](download)**.
