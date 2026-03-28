@@ -1,5 +1,5 @@
 ---
-icon: ":cd:"
+icon: archive
 label: "emuMMC erstellen"
 order: 300
 ---

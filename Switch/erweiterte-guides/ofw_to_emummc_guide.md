@@ -1,5 +1,5 @@
 ---
-icon: ":arrows_counterclockwise:"
+icon: sync
 label: "OFW zu emuMMC Guide"
 order: 100
 ---

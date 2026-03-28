@@ -1,5 +1,5 @@
 ---
-icon: ":video_game:"
+icon: device-mobile
 label: "Nintendo Switch V1 - Softmod Guide"
 order: 200
 ---

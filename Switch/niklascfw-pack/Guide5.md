@@ -1,5 +1,5 @@
 ---
-icon: ":rocket:"
+icon: rocket
 label: "emuMMC Firmware Update"
 order: 99
 ---

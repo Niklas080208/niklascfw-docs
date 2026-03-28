@@ -1,5 +1,5 @@
 ---
-icon: ":package:"
+icon: package
 label: "CFW Pack Update"
 order: 100
 ---

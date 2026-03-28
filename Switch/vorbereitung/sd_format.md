@@ -1,5 +1,5 @@
 ---
-icon: ":wrench:"
+icon: tools
 label: "SD auf FAT32 formatieren"
 order: 101
 ---

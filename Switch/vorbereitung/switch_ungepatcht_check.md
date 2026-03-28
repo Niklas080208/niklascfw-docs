@@ -1,5 +1,5 @@
 ---
-icon: ":mag:"
+icon: search
 label: "Switch Modell prüfen"
 order: 300
 ---

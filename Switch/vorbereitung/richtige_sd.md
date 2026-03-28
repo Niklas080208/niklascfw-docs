@@ -1,5 +1,5 @@
 ---
-icon: ":floppy_disk:"
+icon: database
 label: "Richtige SD-Karte"
 order: 200
 ---

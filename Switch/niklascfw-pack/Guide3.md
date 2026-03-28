@@ -1,5 +1,5 @@
 ---
-icon: ":wrench:"
+icon: tools
 label: "Pack einrichten"
 order: 200
 ---

@@ -1,5 +1,5 @@
 ---
-icon: ":arrows_counterclockwise:"
+icon: sync
 label: "NAND Backup wiederherstellen"
 order: 100
 ---

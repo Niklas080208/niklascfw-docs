@@ -1,5 +1,5 @@
 ---
-icon: ":cd:"
+icon: archive
 label: "SD Partition Backup und Restore"
 order: 50
 ---

@@ -1,5 +1,5 @@
 ---
-icon: ":gear:"
+icon: gear
 label: "Ersteinrichtung Alt"
 order: 400
 ---

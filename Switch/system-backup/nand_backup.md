@@ -1,5 +1,5 @@
 ---
-icon: ":floppy_disk:"
+icon: database
 label: "NAND Backup erstellen"
 order: 200
 ---

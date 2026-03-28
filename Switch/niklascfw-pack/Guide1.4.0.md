@@ -1,5 +1,5 @@
 ---
-icon: ":sparkles:"
+icon: sparkle-fill
 label: "Ersteinrichtung 1.5.0"
 order: 400
 ---
