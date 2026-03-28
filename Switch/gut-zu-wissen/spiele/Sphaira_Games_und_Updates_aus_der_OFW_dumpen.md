@@ -1,5 +1,6 @@
-# Sphaira: Games und Updates aus der OFW dumpen
+# :warning: **Nur bis OFW 21.2.0 Aktuell**  
 
+# Sphaira: Games und Updates aus der OFW dumpen
 
 
 > 💡 **Hinweis:**   Du bist zu 100 % selbst für dein Handeln verantwortlich.
