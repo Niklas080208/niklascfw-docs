@@ -1,3 +1,9 @@
+---
+icon: sync
+label: "NX Migrator Pro"
+order: 101
+---
+
 # SD kopieren mit NX Migrator Pro
 
 **Stheix** hat ein Tool erstellt, mit dem man die komplette SD-Karte inklusive aller Partitionen auf eine neue SD-Karte übertragen kann.

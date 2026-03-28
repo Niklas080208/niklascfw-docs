@@ -1,4 +1,4 @@
-# NIKLASCFW Downloader Fehlerbehebung.
+# NiklasCFW Downloader Fehlerbehebung
 
 Es kann vorkommen, dass Downloads im **NIKLASCFW Downloader** abbrechen.  
 In diesem Fall gehe bitte die folgenden Schritte durch.

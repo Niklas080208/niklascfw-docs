@@ -2,3 +2,4 @@ icon: database
 label: "System & Backup"
 expanded: false
 order: 600
+link: false

@@ -1,3 +1,9 @@
+---
+icon: copy
+label: "Gamecard dumpen (Sphaira)"
+order: 106
+---
+
 # Gamecard Dump Anleitung
 
 > ⚠️ **Hinweis:**  

@@ -1,3 +1,9 @@
+---
+icon: alert
+label: "Zurücksetzen / Werkseinstellungen"
+order: 100
+---
+
 # Nintendo Switch – Werkseinstellungen zurücksetzen oder Konsole zurücksetzen ohne Speicherdaten zu löschen (CFW/Hekate)
 
 Diese Anleitung beschreibt, wie du deine Nintendo Switch im **Rücksetzmodus** zurücksetzt.  

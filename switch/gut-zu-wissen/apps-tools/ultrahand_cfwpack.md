@@ -1,3 +1,9 @@
+---
+icon: package
+label: "UltraHand im Pack"
+order: 100
+---
+
 # UltraHand Funktionen im NiklasCFW Pack
 
 Hier gibt es eine Übersicht der Funktionen und installierten Overlays vom NiklasCFW Pack in **UltraHand**.

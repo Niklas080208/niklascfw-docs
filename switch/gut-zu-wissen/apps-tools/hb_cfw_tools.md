@@ -1,3 +1,9 @@
+---
+icon: tools
+label: "Homebrew & CFW Tools"
+order: 106
+---
+
 # Homebrew & CFW Tools
 
 ## A

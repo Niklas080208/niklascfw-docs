@@ -20,11 +20,11 @@ Diese Dokumentation bietet dir **alles**, was du für die Einrichtung und Nutzun
 - 🎯 **[NiklasCFW Pack](/switch/niklascfw-pack/guide1.4.0)** - Alles-in-einem Paket
 - 💾 **[NAND Backup](/switch/system-backup/nand_backup)** - Sicherheit zuerst!
 - 🎨 **[Themes & Customization](/switch/gut-zu-wissen/customization/theme_install)** - Switch individuell gestalten
-- 🎮 **[Game Installation](/switch/gut-zu-wissen/)**
+- 🎮 **[Game Installation](/switch/gut-zu-wissen/spiele/spiele_installation_dbi_sphaira)**
 - 🔧 **[RetroArch Setup](/switch/gut-zu-wissen/erweiterte-systeme/retroarch_install)**
 
 ### 🆘 **Support & Troubleshooting**
-- 🔧 **[Fehlerbehebung](/switch/fehlerbehebung/)** - Häufige Probleme lösen
+- 🔧 **[Fehlerbehebung](/switch/fehlerbehebung/system-boot/hekate_fix_archive_bits)** - Häufige Probleme lösen
 - 📱 **[Serialchecker](https://serialcheck.niklascfw.de)** - Online Tool
 - 💬 **[Discord Community](https://discord.gg/niklascfw)** - Hilfe von anderen Nutzern
 

@@ -1,4 +1,11 @@
-# Anleitung: Android und Linux installieren per neuen Ultrahand Methode 🛑Achtung 2 Verschiedene❗
+---
+icon: device-desktop
+label: "Android & Linux (Ultrahand)"
+order: 103
+---
+
+# Anleitung: Android und Linux mit Ultrahand installieren (zwei verschiedene Methoden)
+
 ---
 
 ## ⚠️ Voraussetzungen

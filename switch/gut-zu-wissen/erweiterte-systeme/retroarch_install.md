@@ -1,3 +1,9 @@
+---
+icon: device-mobile
+label: "RetroArch"
+order: 101
+---
+
 # RetroArch installieren
 
 ## ⚠️ Voraussetzungen

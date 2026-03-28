@@ -1,3 +1,9 @@
+---
+icon: copy
+label: "emuMMC-Typen"
+order: 102
+---
+
 # Welchen emuMMC hab ich?
 
 In dieser Anleitung erfährst du, wie du herausfinden kannst, **welchen emuMMC** du verwendest.  

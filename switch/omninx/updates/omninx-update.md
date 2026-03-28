@@ -81,5 +81,5 @@ Nach dem Neustart in **Hekate** die **Uhrzeit** setzen.
 ---
 
 !!!success Fertig
-OmniNX-Pack-Update ist abgeschlossen. Bei Problemen: [Fehlerbehebung](/switch/fehlerbehebung/).
+OmniNX-Pack-Update ist abgeschlossen. Bei Problemen: [Fehlerbehebung](/switch/fehlerbehebung/system-boot/hekate_fix_archive_bits).
 !!!

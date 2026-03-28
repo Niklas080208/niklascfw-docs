@@ -2,3 +2,4 @@ icon: light-bulb
 label: "Gut zu wissen"
 expanded: false
 order: 400
+link: false

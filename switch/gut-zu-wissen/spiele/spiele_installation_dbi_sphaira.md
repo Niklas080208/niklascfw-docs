@@ -1,3 +1,9 @@
+---
+icon: package
+label: "Spiele installieren (DBI/Sphaira)"
+order: 108
+---
+
 # Wie man Spiele (Gamecards) über DBI und Sphaira installiert
 
 > ⚠️ **Hinweis:**  

@@ -1,3 +1,9 @@
+---
+icon: lock
+label: "prod.keys (Lockpick)"
+order: 103
+---
+
 # prod.keys dumpen mit Lockpick RCM
 
 - Wenn ihr noch keine **prod.keys** habt könnt ihr diese über **Lockpick_RCM** dumpen. 

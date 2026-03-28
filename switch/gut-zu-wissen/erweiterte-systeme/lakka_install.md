@@ -1,3 +1,9 @@
+---
+icon: cpu
+label: "Lakka"
+order: 102
+---
+
 # Lakka installieren
 
 ## ⚠️ Voraussetzungen

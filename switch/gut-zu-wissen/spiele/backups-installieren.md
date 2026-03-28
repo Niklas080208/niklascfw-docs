@@ -1,4 +1,10 @@
-# 📘 Backups installieren (XCI / XCZ / NSP / NSZ)
+---
+icon: package
+label: "Backups installieren"
+order: 107
+---
+
+# Backups installieren (XCI / XCZ / NSP / NSZ)
 
 Diese Anleitung erklärt dir, wie du Switch-Backups über **Sphaira (MPT Install)** oder **DBI (MTP Responder)** installierst.
 
@@ -36,7 +42,7 @@ Diese Anleitung erklärt dir, wie du Switch-Backups über **Sphaira (MPT Install
 
 ---
 
-# 🟢 **Sphaira – MPT Install**
+# Sphaira – MPT Install
 
 > 
 >
@@ -69,7 +75,7 @@ Diese Anleitung erklärt dir, wie du Switch-Backups über **Sphaira (MPT Install
 
 ---
 
-# 🔵 **DBI – MTP Responder & SD Card Install**
+# DBI – MTP Responder & SD Card Install
 
 > **1. DBI öffnen**
 >

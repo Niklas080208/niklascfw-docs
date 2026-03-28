@@ -1,3 +1,9 @@
+---
+icon: home
+label: "Forwarder installieren"
+order: 85
+---
+
 # Forwarder installieren mit Sphaira
 
 **Forwarder** sind **Verknüpfungen** auf dem **Homescreen** der Switch, über den sich **Homebrews oder Apps direkt starten lassen**. Diese werden so immer **im Highmemory-Mode ausgeführt.**

@@ -75,5 +75,5 @@ Die **neueste Firmware** ist nicht immer nötig. Spätestens wenn ein **Spiel** 
 ---
 
 !!!success Fertig
-Firmware-Update ist abgeschlossen. Bei Problemen: [Fehlerbehebung](/switch/fehlerbehebung/).
+Firmware-Update ist abgeschlossen. Bei Problemen: [Fehlerbehebung](/switch/fehlerbehebung/system-boot/hekate_fix_archive_bits).
 !!!

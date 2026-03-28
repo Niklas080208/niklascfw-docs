@@ -1,3 +1,9 @@
+---
+icon: rocket
+label: "Title Override"
+order: 99
+---
+
 # Title Override (Highmemory Mode)
 
 ## 🧭 Anleitungsinformationen

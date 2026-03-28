@@ -1,3 +1,9 @@
+---
+icon: paintbrush
+label: "Themes installieren"
+order: 100
+---
+
 # Theme installieren
 
 > 💡**Achtung:** Nicht alle Themes sind mit der Version 20.x kompatibel – dies steht meistens bei den Themes dabei. Solltet ihr beim Reboot auf den Fehler 0100000000000001000 stoßen, so müsst ihr nach der Anleitung [0100000000000001000 beheben (Custom Theme entfernen)](https://docs.niklascfw.de/switch/fehlerbehebung/0100000000000001000_beheben_(custom_theme)/) vorgehen.

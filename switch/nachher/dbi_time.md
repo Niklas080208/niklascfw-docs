@@ -1,3 +1,9 @@
+---
+icon: clock
+label: "Uhrzeit mit DBI (NTP)"
+order: 80
+---
+
 # Uhrzeit mit DBI synchronisieren
 
 > **Hinweis:** Die Switch muss zwingend mit dem Internet verbunden sein.

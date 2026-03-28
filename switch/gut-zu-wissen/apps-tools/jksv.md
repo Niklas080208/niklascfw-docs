@@ -1,3 +1,9 @@
+---
+icon: archive
+label: "JKSV (Spielstände)"
+order: 105
+---
+
 # Spielstände sichern und wiederherstellen mit JKSV
 
 **JKSV** ist ein Homebrew-Tool für die Switch, mit dem man **Speicherstände** (Savegames) **sichern**, **wiederherstellen** und **verwalten** kann.

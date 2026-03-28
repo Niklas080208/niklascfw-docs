@@ -2,3 +2,4 @@ icon: tools
 label: "Fehlerbehebung"
 expanded: false
 order: 300
+link: false

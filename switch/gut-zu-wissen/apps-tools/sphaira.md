@@ -1,3 +1,9 @@
+---
+icon: package
+label: "Sphaira"
+order: 102
+---
+
 # Sphaira (ersetzt hbmenu)
 
 ## 🔍 Was ist Sphaira?

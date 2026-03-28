@@ -1,3 +1,9 @@
+---
+icon: workflow
+label: "UltraHand"
+order: 101
+---
+
 # UltraHand (Tesla Menu Ersatz)
 
 **UltraHand** ist ein mächtiges Homebrew-Overlay für die Nintendo Switch (HOS 16.0.0+), entwickelt als moderner Ersatz für das klassische *Tesla Menu*. Es bietet ein eigenes, interpretatives Skript-System (ähnlich Shell/BASH), mit dem du mithilfe von C/C++-Befehlen dein System flexibel verwalten kannst.

@@ -1,3 +1,9 @@
+---
+icon: cloud
+label: "JKSV Cloud"
+order: 104
+---
+
 # JKSV Cloud Backup einrichten
 
 JKSV bietet eine Funktion, mit der ihr Speicherdaten der JKSV-Homebrew-App direkt auf **Google Drive** oder einem **WebDAV-Server** sichern könnt. Die Einrichtung dieser Funktion wird im Folgenden detailliert beschrieben.

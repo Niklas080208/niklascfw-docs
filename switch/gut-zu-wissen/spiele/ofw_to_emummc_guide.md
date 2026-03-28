@@ -1,10 +1,10 @@
 ---
 icon: sync
 label: "OFW zu emuMMC Guide"
-order: 100
+order: 105
 ---
 
-# :package: Anleitung: OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)
+# Anleitung: OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)
 
 :warning: **Wichtig – nur wenn alle Bedingungen erfüllt sind, funktioniert das Dumpen:**
 

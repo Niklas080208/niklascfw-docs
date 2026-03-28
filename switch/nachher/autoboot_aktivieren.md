@@ -1,3 +1,9 @@
+---
+icon: play
+label: "Autoboot aktivieren"
+order: 90
+---
+
 # Autoboot aktivieren
 
 Sobald du deine Switch gemoddet hast, kannst du durch die Funktion **Autoboot** automatisch in die CFW booten, ohne über Hekate die CFW auswählen zu müssen. Dies funktioniert mit **jeder gemoddeten Switch**.

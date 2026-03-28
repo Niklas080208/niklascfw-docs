@@ -1,7 +1,14 @@
-# :warning: **Nur bis OFW 21.2.0 Aktuell**  
+---
+icon: download
+label: "Sphaira: OFW-Dumps"
+order: 104
+---
 
 # Sphaira: Games und Updates aus der OFW dumpen
 
+!!!warning Kompatibilität
+Gilt nur bis **OFW 21.2.0**.
+!!!
 
 > 💡 **Hinweis:**   Du bist zu 100 % selbst für dein Handeln verantwortlich.
 NiklasCFW übernimmt keinerlei Haftung für den eventuellen Bann. 

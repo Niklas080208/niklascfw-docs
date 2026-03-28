@@ -68,7 +68,7 @@ Du musst **Hekate** starten können, z. B. durch:
 - **RCM + Payload-Injection** (z. B. TegraRcmGUI) bei ungepatchter V1, oder  
 - **Modchip** bei V1/V2/OLED/Lite.
 
-Falls du noch gar keine CFW hast: [Vorbereitung](/switch/vorbereitung/).
+Falls du noch gar keine CFW hast: [Vorbereitung](/switch/vorbereitung/switch_ungepatcht_check).
 
 ---
 
