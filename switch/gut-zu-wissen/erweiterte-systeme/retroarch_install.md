@@ -30,7 +30,7 @@ order: 101
 ![|700x420](/images/switch/allgemein/lakka1.jpg)
 2. Runterscrollen und **RetroArch** auswählen.
 ![|700x420](/images/switch/allgemein/retroarch1.jpg)
-3. Auf **Lakka** klicken und den Download starten (⬇️ Download läuft, ⬆️ Entpacken läuft).
+3. Auf **RetroArsch** klicken und den Download starten (⬇️ Download läuft, ⬆️ Entpacken läuft).
 ![|700x420](/images/switch/allgemein/retroarch2.jpg)
 4. RetroArch wurde nun erfolgreich installiert.
 
