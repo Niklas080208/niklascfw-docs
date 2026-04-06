@@ -13,7 +13,6 @@ Diese Dokumentation bietet dir **alles**, was du für die Einrichtung und Nutzun
 ### 🚀 **Schnellstart**
 - ✅ **[Switch Modell prüfen](/switch/vorbereitung/switch_ungepatcht_check)** - Ist deine Switch modbar?
 - ✅ **[SD-Karte vorbereiten](/switch/vorbereitung/richtige_sd)** - Die richtige Ausstattung
-- ✅ **[CFW Installation](/switch/erweiterte-guides/switch_v1_softmod_guide)** - Der Hauptguide
 
 ### 🛠️ **Erweiterte Features**
 - 🚀 **[OmniNX Setup](/switch/omninx/einfuehrung)** – OmniNX einrichten
@@ -61,7 +60,7 @@ Diese Dokumentation bietet dir **alles**, was du für die Einrichtung und Nutzun
 <h3>🎮 Switch V1 (2017-2018)</h3>
 <p><strong>✅ Vollständig modbar</strong></p>
 <p>RCM + Softmod möglich</p>
-<a href="/switch/switch_v1_softmod_guide" style="background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none;">→ Guide starten</a>
+<a href="/switch/vorbereitung/rcm-methode/switch_v1_softmod_windows" style="background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none;">→ Guide starten</a>
 </div>
 
 <div style="border: 2px solid #dc3545; border-radius: 8px; padding: 1rem; text-align: center;">
