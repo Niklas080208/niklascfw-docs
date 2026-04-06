@@ -4,51 +4,178 @@ visibility: hidden
 
 # Willkommen bei den NiklasCFW Docs
 
----
+Diese Dokumentation führt dich durch **Vorbereitung**, **Backups**, **Nachbereitung**, **Vertiefung** und **CFW-Pakete** rund um die Nintendo Switch. Das **Inhaltsverzeichnis** folgt der **Reihenfolge der Seitenleiste** (unter „Nintendo Switch“); darunter Kurzinfos, Hinweise und empfohlene Abläufe.
 
-## 📚 Was findest du hier?
+<nav class="niklas-toc" aria-label="Inhaltsverzeichnis">
+<div class="niklas-toc-panel">
 
-Diese Dokumentation bietet dir **alles**, was du für die Einrichtung und Nutzung von Custom Firmware auf der Nintendo Switch benötigst:
+<h2 class="niklas-toc-title">Inhaltsverzeichnis</h2>
 
-### 🚀 **Schnellstart**
-- ✅ **[Switch Modell prüfen](/switch/vorbereitung/switch_ungepatcht_check)** - Ist deine Switch modbar?
-- ✅ **[SD-Karte vorbereiten](/switch/vorbereitung/richtige_sd)** - Die richtige Ausstattung
+<ul class="niklas-toc-branches">
 
-### 🛠️ **Erweiterte Features**
-- 🚀 **[OmniNX Setup](/switch/omninx/einfuehrung)** – OmniNX einrichten
-- 🎯 **[NiklasCFW Pack](/switch/niklascfw-pack/guide1.4.0)** - Alles-in-einem Paket
-- 💾 **[NAND Backup](/switch/system-backup/nand_backup)** - Sicherheit zuerst!
-- 🎨 **[Themes & Customization](/switch/gut-zu-wissen/customization/theme_install)** - Switch individuell gestalten
-- 🎮 **[Game Installation](/switch/gut-zu-wissen/spiele/spiele_installation_dbi_sphaira)**
-- 🔧 **[RetroArch Setup](/switch/gut-zu-wissen/erweiterte-systeme/retroarch_install)**
+<li>
+  <div class="niklas-toc-branch-head">1. Vorbereitung</div>
+  <ul class="niklas-toc-links">
+    <li><a href="/switch/vorbereitung/switch_ungepatcht_check"><span class="niklas-toc-num">1.1</span> Switch Modell prüfen</a></li>
+    <li><a href="/switch/vorbereitung/richtige_sd"><span class="niklas-toc-num">1.2</span> Richtige SD-Karte</a></li>
+    <li><a href="/switch/vorbereitung/sd_format"><span class="niklas-toc-num">1.3</span> SD auf FAT32 formatieren</a></li>
+    <li><a href="/switch/vorbereitung/rcm-methode/switch_v1_softmod_windows"><span class="niklas-toc-num">1.4</span> RCM Softmod – Windows</a></li>
+    <li><a href="/switch/vorbereitung/rcm-methode/switch_v1_softmod_mac"><span class="niklas-toc-num">1.5</span> RCM Softmod – macOS</a></li>
+    <li><a href="/switch/vorbereitung/rcm-methode/switch_v1_softmod_linux"><span class="niklas-toc-num">1.6</span> RCM Softmod – Linux, Android, ChromeOS</a></li>
+  </ul>
+</li>
 
-### 🆘 **Support & Troubleshooting**
-- 🔧 **[Fehlerbehebung](/switch/fehlerbehebung/system-boot/hekate_fix_archive_bits)** - Häufige Probleme lösen
-- 📱 **[Serialchecker](https://serialcheck.niklascfw.de)** - Online Tool
-- 💬 **[Discord Community](https://discord.gg/niklascfw)** - Hilfe von anderen Nutzern
+<li>
+  <div class="niklas-toc-branch-head">2. System &amp; Backup</div>
+  <ul class="niklas-toc-links">
+    <li><a href="/switch/system-backup/sd_partition_backup_restore"><span class="niklas-toc-num">2.1</span> SD Partition Backup und Restore</a></li>
+    <li><a href="/switch/system-backup/nand_backup_restore"><span class="niklas-toc-num">2.2</span> NAND Backup wiederherstellen</a></li>
+    <li><a href="/switch/system-backup/nand_backup"><span class="niklas-toc-num">2.3</span> NAND Backup erstellen</a></li>
+  </ul>
+</li>
 
----
+<li>
+  <div class="niklas-toc-branch-head">3. Nachher</div>
+  <ul class="niklas-toc-links">
+    <li><a href="/switch/nachher/auto_rcm_aktivieren"><span class="niklas-toc-num">3.1</span> Auto RCM aktivieren</a></li>
+    <li><a href="/switch/nachher/autoboot_aktivieren"><span class="niklas-toc-num">3.2</span> Autoboot aktivieren</a></li>
+    <li><a href="/switch/nachher/forwarder_installieren"><span class="niklas-toc-num">3.3</span> Forwarder installieren</a></li>
+    <li><a href="/switch/nachher/dbi_time"><span class="niklas-toc-num">3.4</span> Uhrzeit mit DBI (NTP)</a></li>
+  </ul>
+</li>
 
-## ⚠️ **Wichtige Hinweise**
+<li>
+  <div class="niklas-toc-branch-head">4. Gut zu wissen</div>
+  <div class="niklas-toc-nested">
+    <div class="niklas-toc-sub">
+      <div class="niklas-toc-subhead">4.1 Apps &amp; Tools</div>
+      <ul class="niklas-toc-links">
+        <li><a href="/switch/gut-zu-wissen/apps-tools/ultrahand_cfwpack">UltraHand im Pack</a></li>
+        <li><a href="/switch/gut-zu-wissen/apps-tools/ultrahand">UltraHand</a></li>
+        <li><a href="/switch/gut-zu-wissen/apps-tools/sphaira">Sphaira</a></li>
+        <li><a href="/switch/gut-zu-wissen/apps-tools/prodkeys">prod.keys (Lockpick)</a></li>
+        <li><a href="/switch/gut-zu-wissen/apps-tools/jksv_cloud">JKSV Cloud</a></li>
+        <li><a href="/switch/gut-zu-wissen/apps-tools/jksv">JKSV (Spielstände)</a></li>
+        <li><a href="/switch/gut-zu-wissen/apps-tools/hb_cfw_tools">Homebrew &amp; CFW Tools</a></li>
+      </ul>
+    </div>
+    <div class="niklas-toc-sub">
+      <div class="niklas-toc-subhead">4.2 System</div>
+      <ul class="niklas-toc-links">
+        <li><a href="/switch/gut-zu-wissen/system/emummc_downgrade">emuMMC (Partition) downgraden</a></li>
+        <li><a href="/switch/gut-zu-wissen/system/switch_ruecksetzmodus">Zurücksetzen / Werkseinstellungen</a></li>
+        <li><a href="/switch/gut-zu-wissen/system/nxmigatorpro">NX Migrator Pro</a></li>
+        <li><a href="/switch/gut-zu-wissen/system/emummc_arten">emuMMC-Typen</a></li>
+      </ul>
+    </div>
+    <div class="niklas-toc-sub">
+      <div class="niklas-toc-subhead">4.3 Spiele</div>
+      <ul class="niklas-toc-links">
+        <li><a href="/switch/gut-zu-wissen/spiele/ofw_to_emummc_guide">OFW zu emuMMC Guide</a></li>
+        <li><a href="/switch/gut-zu-wissen/spiele/sphaira_games_und_updates_aus_der_ofw_dumpen">Sphaira: OFW-Dumps</a></li>
+        <li><a href="/switch/gut-zu-wissen/spiele/gamecard_mit_spaira_dumpen">Gamecard dumpen (Sphaira)</a></li>
+        <li><a href="/switch/gut-zu-wissen/spiele/backups-installieren">Backups installieren</a></li>
+        <li><a href="/switch/gut-zu-wissen/spiele/spiele_installation_dbi_sphaira">Spiele installieren (DBI/Sphaira)</a></li>
+      </ul>
+    </div>
+    <div class="niklas-toc-sub">
+      <div class="niklas-toc-subhead">4.4 Customization</div>
+      <ul class="niklas-toc-links">
+        <li><a href="/switch/gut-zu-wissen/customization/title_override">Title Override</a></li>
+        <li><a href="/switch/gut-zu-wissen/customization/theme_install">Themes installieren</a></li>
+      </ul>
+    </div>
+    <div class="niklas-toc-sub">
+      <div class="niklas-toc-subhead">4.5 Erweiterte Systeme</div>
+      <ul class="niklas-toc-links">
+        <li><a href="/switch/gut-zu-wissen/erweiterte-systeme/retroarch_install">RetroArch</a></li>
+        <li><a href="/switch/gut-zu-wissen/erweiterte-systeme/lakka_install">Lakka</a></li>
+        <li><a href="/switch/gut-zu-wissen/erweiterte-systeme/android-und-linux-installieren-ultrahand">Android &amp; Linux (Ultrahand)</a></li>
+      </ul>
+    </div>
+  </div>
+</li>
 
-<div style="background: #fff3cd; border: 2px solid #ffc107; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; color: #212529;">
-<h4 style="margin-top: 0; color: #b8860b;">⚠️ Bevor du startest</h4>
-<ul style="margin-bottom: 0;">
-<li>📖 <strong>Lies ALLE Anleitungen</strong> vollständig durch</li>
-<li>💾 <strong>Erstelle IMMER ein NAND Backup</strong> vor Modifikationen</li>
-<li>🎯 <strong>Verwende nur aktuelle Versionen</strong> aller Tools</li>
-<li>🚫 <strong>Nutze niemals exFAT</strong> - nur FAT32!</li>
+<li>
+  <div class="niklas-toc-branch-head">5. Fehlerbehebung</div>
+  <div class="niklas-toc-nested">
+    <div class="niklas-toc-sub">
+      <div class="niklas-toc-subhead">5.1 System &amp; Boot</div>
+      <ul class="niklas-toc-links">
+        <li><a href="/switch/fehlerbehebung/system-boot/hekate_fix_archive_bits">Hekate – Fix Archive Bits</a></li>
+        <li><a href="/switch/fehlerbehebung/system-boot/21230011_beheben">Fehlercode 2123-0011 (Switch) – kein Game geht mehr auf</a></li>
+        <li><a href="/switch/fehlerbehebung/system-boot/0100000000000bd00_beheben">Fehlercode 0100000000000bd00 beheben</a></li>
+        <li><a href="/switch/fehlerbehebung/system-boot/420000000000010_beheben_(ldn_mitm)">Fehlercode 420000000000010 beheben (ldn_mitm)</a></li>
+        <li><a href="/switch/fehlerbehebung/system-boot/fehlercode_2001-0123_ultrahand_anleitung">Fehlercode 2001-0123 – UltraHand</a></li>
+      </ul>
+    </div>
+    <div class="niklas-toc-sub">
+      <div class="niklas-toc-subhead">5.2 Apps &amp; Tools</div>
+      <ul class="niklas-toc-links">
+        <li><a href="/switch/fehlerbehebung/apps-tools/niklascfwdownloadprobleme">NiklasCFW Downloader Fehlerbehebung</a></li>
+        <li><a href="/switch/fehlerbehebung/apps-tools/ultrahand_oeffnen">UltraHand öffnen</a></li>
+      </ul>
+    </div>
+    <div class="niklas-toc-sub">
+      <div class="niklas-toc-subhead">5.3 Theme &amp; Visual</div>
+      <ul class="niklas-toc-links">
+        <li><a href="/switch/fehlerbehebung/theme-visual/0100000000000001000_beheben_(custom_theme)">Fehlercode 0100000000000001000 beheben (Custom Theme entfernen)</a></li>
+        <li><a href="/switch/fehlerbehebung/theme-visual/leere_lade_icons_switch_dbifix">Fix: Leere Lade-Icons auf dem Switch Home-Menü (DBI)</a></li>
+      </ul>
+    </div>
+    <div class="niklas-toc-sub">
+      <div class="niklas-toc-subhead">5.4 Hardware</div>
+      <ul class="niklas-toc-links">
+        <li><a href="/switch/fehlerbehebung/hardware/switch_macbook">Switch mit MacBook verbinden</a></li>
+      </ul>
+    </div>
+    <div class="niklas-toc-sub">
+      <div class="niklas-toc-subhead">5.5 Spiele</div>
+      <ul class="niklas-toc-links">
+        <li><a href="/switch/fehlerbehebung/spiele/plza_save">Defekten Legenden Z-A Spielstand reparieren</a></li>
+      </ul>
+    </div>
+  </div>
+</li>
+
+<li>
+  <div class="niklas-toc-branch-head">6. Erweiterte Guides</div>
+  <ul class="niklas-toc-links">
+    <li><a href="/switch/erweiterte-guides/ofw_to_emummc_guide"><span class="niklas-toc-num">6.1</span> OFW zu emuMMC Guide</a></li>
+  </ul>
+</li>
+
+<li>
+  <div class="niklas-toc-branch-head">7. NiklasCFW Pack</div>
+  <ul class="niklas-toc-links">
+    <li><a href="/switch/niklascfw-pack/guide1.4.0"><span class="niklas-toc-num">7.1</span> Ersteinrichtung 1.5.0</a></li>
+    <li><a href="/switch/niklascfw-pack/guide1"><span class="niklas-toc-num">7.2</span> Ersteinrichtung Alt</a></li>
+    <li><a href="/switch/niklascfw-pack/guide2"><span class="niklas-toc-num">7.3</span> emuMMC erstellen</a></li>
+    <li><a href="/switch/niklascfw-pack/guide3"><span class="niklas-toc-num">7.4</span> Pack einrichten</a></li>
+    <li><a href="/switch/niklascfw-pack/guide4"><span class="niklas-toc-num">7.5</span> CFW Pack Update</a></li>
+    <li><a href="/switch/niklascfw-pack/guide5"><span class="niklas-toc-num">7.6</span> emuMMC Firmware Update</a></li>
+  </ul>
+</li>
+
+<li>
+  <div class="niklas-toc-branch-head">8. OmniNX</div>
+  <ul class="niklas-toc-links">
+    <li><a href="/switch/omninx/einfuehrung"><span class="niklas-toc-num">8.1</span> Einführung</a></li>
+    <li><a href="/switch/omninx/voraussetzungen"><span class="niklas-toc-num">8.2</span> Voraussetzungen</a></li>
+    <li><a href="/switch/omninx/download"><span class="niklas-toc-num">8.3</span> Download</a></li>
+    <li><a href="/switch/omninx/installation_omninx"><span class="niklas-toc-num">8.4</span> Installation</a></li>
+    <li><a href="/switch/omninx/emummc_erstellen"><span class="niklas-toc-num">8.5</span> emuMMC erstellen</a></li>
+    <li><a href="/switch/omninx/pack_einrichten"><span class="niklas-toc-num">8.6</span> Pack einrichten</a></li>
+    <li><a href="/switch/omninx/overclocking"><span class="niklas-toc-num">8.7</span> Overclocking (OC)</a></li>
+    <li><a href="/switch/omninx/updates/firmware-update"><span class="niklas-toc-num">8.8</span> Switch Firmware</a></li>
+    <li><a href="/switch/omninx/updates/omninx-update"><span class="niklas-toc-num">8.9</span> OmniNX Pack</a></li>
+  </ul>
+</li>
+
 </ul>
-</div>
 
-<div style="background: #d1ecf1; border: 2px solid #17a2b8; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; color: #212529;">
-<h4 style="margin-top: 0; color: #17a2b8;">⚖️ Rechtliches</h4>
-<ul style="margin-bottom: 0;">
-<li>Diese Guides sind nur für <strong>Bildungszwecke</strong></li>
-<li><strong>Du</strong> trägst die Verantwortung für deine Konsole</li>
-<li><strong>Garantieverlust</strong> ist möglich</li>
-</ul>
 </div>
+</nav>
 
 ---
 
@@ -135,5 +262,4 @@ graph TD
   <h2 style="margin-bottom: 1rem;">🚀 Bereit loszulegen?</h2>
   <p style="font-size: 1.1em; margin-bottom: 1.5rem;">Starte jetzt mit der Modifikation deiner Nintendo Switch!</p>
   <a href="/switch/" style="background: white; color: #667eea; padding: 1rem 2rem; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 1.1em;">📖 Zur Dokumentation →</a>
-</div> 
-
+</div>

@@ -1,0 +1,210 @@
+/**
+ * Tree-style TOC for README (scoped .niklas-toc)
+ * Colors aligned with Retype (neutral surfaces, #5297F1 links); dark panel #161716
+ */
+
+.niklas-toc {
+  /* Light: same family as docs content */
+  --toc-bg: #f6f7f6;
+  --toc-border: #e2e4e2;
+  --toc-line: #c9ccc9;
+  --toc-head: #1a1c1a;
+  --toc-subhead: #4a4d4a;
+  --toc-link: #5297f1;
+  --toc-link-hover: #3d7fd4;
+  --toc-num: #6b706b;
+  --toc-branch-chip: #d1d4d1;
+  --toc-hover-bg: #e3e7f2;
+  --toc-radius: 8px;
+  --toc-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.06);
+  font-family: inherit;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 1.5rem 0 2rem;
+}
+
+/* Retype: dark scheme uses .dark on the root element (same blues as sidebar/links) */
+.dark .niklas-toc,
+html.dark .niklas-toc {
+  --toc-bg: #161716;
+  --toc-border: #2a2c2a;
+  --toc-line: #3d403d;
+  --toc-head: #e8eae8;
+  --toc-subhead: #b8bcb8;
+  --toc-link: #5297f1;
+  --toc-link-hover: #7eb4f5;
+  --toc-num: #8b908b;
+  --toc-branch-chip: #3a3d3a;
+  --toc-hover-bg: #353634;
+  --toc-shadow: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.niklas-toc-panel {
+  background: var(--toc-bg);
+  border: 1px solid var(--toc-border);
+  border-radius: var(--toc-radius);
+  box-shadow: var(--toc-shadow);
+  padding: 1.35rem 1.25rem 1.5rem 1.1rem;
+  overflow-x: auto;
+}
+
+.niklas-toc-title {
+  margin: 0 0 1rem 0.35rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid var(--toc-border);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--toc-head);
+}
+
+.niklas-toc-branches {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.niklas-toc-branches > li {
+  margin: 0;
+  padding: 0;
+}
+
+.niklas-toc-branches > li + li {
+  margin-top: 0.35rem;
+}
+
+.niklas-toc-branch-head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.85rem 0 0.4rem 0;
+  padding: 0.35rem 0.5rem;
+  border-radius: 6px;
+  font-weight: 700;
+  color: var(--toc-head);
+  background: color-mix(in srgb, var(--toc-border) 40%, transparent);
+}
+
+.niklas-toc-branches > li:first-child .niklas-toc-branch-head {
+  margin-top: 0;
+}
+
+.niklas-toc-branch-head::before {
+  content: "";
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 2px;
+  background: var(--toc-branch-chip);
+  flex-shrink: 0;
+}
+
+.niklas-toc-links {
+  list-style: none;
+  margin: 0 0 0 0.15rem;
+  padding: 0.15rem 0 0.25rem 1rem;
+  border-left: 2px solid var(--toc-line);
+}
+
+.niklas-toc-links li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.niklas-toc-links li + li {
+  margin-top: 0.2rem;
+}
+
+.niklas-toc-links li::before {
+  content: "";
+  position: absolute;
+  left: -1rem;
+  top: 0.75em;
+  width: 0.65rem;
+  height: 2px;
+  background: var(--toc-line);
+  border-radius: 1px;
+}
+
+.niklas-toc-links a {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.5rem;
+  padding: 0.28rem 0.45rem;
+  margin-left: 0.15rem;
+  border-radius: 6px;
+  text-decoration: none !important;
+  color: var(--toc-link) !important;
+  transition: background 0.15s ease, transform 0.12s ease, color 0.15s ease;
+}
+
+.niklas-toc-links a:hover {
+  background: var(--toc-hover-bg);
+  color: var(--toc-link-hover) !important;
+  transform: translateX(2px);
+}
+
+.niklas-toc-num {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  font-size: 0.88em;
+  color: var(--toc-num);
+  min-width: 2.5rem;
+}
+
+.niklas-toc-sub {
+  margin: 0.5rem 0 0.35rem 0;
+}
+
+.niklas-toc-sub:first-child {
+  margin-top: 0.25rem;
+}
+
+.niklas-toc-subhead {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--toc-subhead);
+  margin: 0.65rem 0 0.35rem 0;
+  padding-left: 0.15rem;
+  opacity: 0.95;
+}
+
+.niklas-toc-sub .niklas-toc-links {
+  margin-top: 0.15rem;
+  margin-bottom: 0.35rem;
+}
+
+.niklas-toc-sub .niklas-toc-links a .niklas-toc-num {
+  display: none;
+}
+
+.niklas-toc-nested {
+  margin-left: 0.25rem;
+  padding-left: 0;
+  border-left: none;
+}
+
+.niklas-toc-nested .niklas-toc-sub {
+  padding-left: 0.5rem;
+  border-left: 2px solid var(--toc-line);
+  margin-left: 0.15rem;
+}
+
+.niklas-toc-nested .niklas-toc-subhead {
+  padding-left: 0.35rem;
+}
+
+.niklas-toc-nested .niklas-toc-links {
+  border-left: none;
+  padding-left: 0.85rem;
+  margin-left: 0.35rem;
+}
+
+.niklas-toc-nested .niklas-toc-links li::before {
+  left: -0.85rem;
+  width: 0.55rem;
+}
