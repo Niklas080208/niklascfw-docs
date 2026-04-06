@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828808132628">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828824087236">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>Partition-emuMMC auf eine CFW-kompatible Firmware anpassen</title>
-    <meta name="title" content="Partition-emuMMC auf eine CFW-kompatible Firmware anpassen">
-    <meta name="description" content="Partition-emuMMC mit NANDFixPro (Level 1) auf eine CFW-kompatible Firmware – Hekate, Windows.">
+    <title>emuMMC (Partition) auf eine CFW-kompatible Firmware anpassen</title>
+    <meta name="title" content="emuMMC (Partition) auf eine CFW-kompatible Firmware anpassen">
+    <meta name="description" content="emuMMC (Partition) mit NANDFixPro (Level 1) auf eine CFW-kompatible Firmware bringen.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_downgrade/">
@@ -20,31 +20,34 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_downgrade/">
-    <meta property="og:title" content="Partition-emuMMC auf eine CFW-kompatible Firmware anpassen">
-    <meta property="og:description" content="Partition-emuMMC mit NANDFixPro (Level 1) auf eine CFW-kompatible Firmware – Hekate, Windows.">
-    <meta property="og:image" content="https://docs.niklascfw.de/images/switch/allgemein/placeholder.png">
+    <meta property="og:title" content="emuMMC (Partition) auf eine CFW-kompatible Firmware anpassen">
+    <meta property="og:description" content="emuMMC (Partition) mit NANDFixPro (Level 1) auf eine CFW-kompatible Firmware bringen.">
+    <meta property="og:image" content="https://docs.niklascfw.de/images/switch/gut-zu-wissen/system/emummc-downgrade/nandfixpro-extract.gif">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Partition-emuMMC auf eine CFW-kompatible Firmware anpassen">
+    <meta property="og:image:alt" content="emuMMC (Partition) auf eine CFW-kompatible Firmware anpassen">
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_downgrade/">
-    <meta name="twitter:title" content="Partition-emuMMC auf eine CFW-kompatible Firmware anpassen">
-    <meta name="twitter:description" content="Partition-emuMMC mit NANDFixPro (Level 1) auf eine CFW-kompatible Firmware – Hekate, Windows.">
-    <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/allgemein/placeholder.png">
-    <meta name="twitter:image:alt" content="Partition-emuMMC auf eine CFW-kompatible Firmware anpassen">
+    <meta name="twitter:title" content="emuMMC (Partition) auf eine CFW-kompatible Firmware anpassen">
+    <meta name="twitter:description" content="emuMMC (Partition) mit NANDFixPro (Level 1) auf eine CFW-kompatible Firmware bringen.">
+    <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/gut-zu-wissen/system/emummc-downgrade/nandfixpro-extract.gif">
+    <meta name="twitter:image:alt" content="emuMMC (Partition) auf eine CFW-kompatible Firmware anpassen">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.4.0.828808132628" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.4.0.828824087236" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.828808132628" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.828824087236" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.828808132628" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.828824087236" data-turbo-eval="false" defer></script>
+
+    <link rel="stylesheet" href="/static/css/toc-tree.css" />
+
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -181,8 +184,8 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<h1 id="partition-emummc-auf-eine-cfw-kompatible-firmware-anpassen">Partition-emuMMC auf eine CFW-kompatible Firmware anpassen</h1>
-<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">Partition-emuMMC mit NANDFixPro (Level 1) auf eine CFW-kompatible Firmware – Hekate, Windows.</div>
+<h1 id="emummc-partition-auf-eine-cfw-kompatible-firmware-anpassen">emuMMC (Partition) auf eine CFW-kompatible Firmware anpassen</h1>
+<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">emuMMC (Partition) mit NANDFixPro (Level 1) auf eine CFW-kompatible Firmware bringen.</div>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -196,7 +199,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Fortgeschritten &amp; Risiko</h5>
-<p>Diese Anleitung richtet sich an <strong>erfahrene Nutzer</strong>. Du arbeitest an <strong>eMMC/emuMMC-Daten</strong> und <strong>Firmware-Bestandteilen</strong>. <strong>Downgrades sind riskant</strong> – mach sie nur, wenn du die Folgen einschätzt und <strong>alle Sicherungen</strong> hast. Im Zweifel Schritte <strong>nicht</strong> überspringen. Falsche Bedienung kann zu <strong>Datenverlust</strong> oder einem <strong>nicht mehr startenden System</strong> führen.</p>
+<p>Diese Anleitung richtet sich an <strong>erfahrendere Nutzer</strong>. Du arbeitest am <strong>emuMMC</strong> und <strong>Firmware-Bestandteilen</strong>. <strong>Downgrades sind riskant</strong> – mach sie nur, wenn du die Folgen einschätzt und <strong>alle Backups</strong> hast. Im Zweifel Schritte <strong>nicht</strong> überspringen. Falsche Bedienung kann zu <strong>Datenverlust</strong> oder einer <strong>nicht mehr startenden CFW</strong> führen.</p>
         </div>
     </div>
 </div>
@@ -214,14 +217,13 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Optional: Video &amp; Firmware-Links</h5>
-<p>Wer sich zusätzlich <strong>visuell</strong> einarbeiten will: Auf dem <strong><a href="https://www.youtube.com/c/sthetixofficial">YouTube-Kanal des NANDFixPro-Autors</a></strong> gibt es ein aktuelles Tutorial zum <strong>Level-1</strong>-Downgrade; in der <strong>Videobeschreibung</strong> sind oft direkte <strong>Firmware-Links</strong> eingetragen.</p>
+<p>Wer eine <strong>visuelle</strong> veranschaulichung bevorzugt: Auf dem <strong><a href="https://youtube.com/@NiklasCFW">NiklasCFW-YouTube-Kanal</a></strong> gibt es ein <strong><a href="https://youtu.be/Qlioyg3Gfls?si=PrIquh9XKblOjQID">Video zu diesem Ablauf</a></strong>. Außerdem gibt es beim <strong><a href="https://www.youtube.com/c/sthetixofficial">YouTube-Kanal des NANDFixPro-Autors</a></strong> ein aktuelles Tutorial zum <strong>Level-1</strong>-Downgrade; in der <strong>Videobeschreibung</strong> sind oft direkte <strong>Firmware-Links</strong> eingetragen.</p>
         </div>
     </div>
 </div>
 <h2 id="einordnung-bluescreen--atmosphère-unterstützt-die-fw-noch-nicht">Einordnung: Bluescreen &amp; „Atmosphère unterstützt die FW noch nicht“</h2>
-<p>Wenn die Konsole nach einem <strong>System-Update</strong> in <strong>CFW</strong> (z. B. emuMMC oder „Semi-Stock“) nur noch einen <strong>blauen Bildschirm</strong> zeigt, liegt das oft daran, dass <strong>Atmosphère die installierte Firmware noch nicht unterstützt</strong> – das ist <strong>kein automatischer Brick</strong>.<br />
+<p>Wenn die Konsole nach einem <strong>System-Update</strong> in der <strong>CFW</strong> (z. B. emuMMC oder &quot;OFW&quot; Eintrag im Hekate Launch Menü) nur noch einen <strong>blauen oder gelben Bildschirm</strong> zeigt, liegt das oft daran, dass <strong>Atmosphère die installierte Firmware noch nicht unterstützt</strong> – das ist <strong>kein automatischer Brick</strong>.<br />
 <strong>Power-Taste ca. 12 Sekunden halten</strong> erzwingt eine Abschaltung; danach wieder normal in <strong>Hekate</strong> booten.</p>
-<p>In <strong>Hekate</strong> kannst du unter <strong>HW &amp; Fuses</strong> u. a. den <strong>Burnt-Fuse-Stand</strong> prüfen und mit einem <strong>Fuse-Check-Payload</strong> abgleichen. <strong>OFW (SysNAND)</strong> sollte weiterhin starten, solange dazu nichts verändert wurde – sinnvoll, das vor riskanten Schritten kurz zu verifizieren.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-tip"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -234,13 +236,13 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Szene &amp; Updates</h5>
-<p>Nach Wechseln in der Atmosphère-Entwicklung können <strong>neue Firmware-Releases</strong> eine Weile <strong>ohne passende Atmosphère-Version</strong> bleiben. Wer <strong>nicht warten</strong> will und die Risiken trägt, nutzt u. a. <strong>NANDFixPro Level 1</strong>, um die <strong>RAW-GPP</strong> (hier: des <strong>Partition-emuMMC</strong>) auf eine <strong>niedrigere, von Atmosphère unterstützte</strong> Systemversion anzupassen – <strong>ohne</strong> installierte Titel und Spielstände zu verlieren, wenn alles korrekt läuft.</p>
+<p>Nach Wechseln in der Atmosphère-Entwicklung können <strong>neue Firmware-Releases</strong> eine Weile <strong>ohne passende Atmosphère-Version</strong> bleiben. Wer <strong>nicht warten</strong> will und die Risiken trägt, nutzt u. a. <strong>NANDFixPro Level 1</strong>, um die <strong>RAW-GPP</strong> (hier: <strong>emuMMC (Partition)</strong>) auf eine <strong>niedrigere, von Atmosphère unterstützte</strong> Systemversion anzupassen – <strong>ohne</strong> installierte Titel und Spielstände zu verlieren, wenn alles korrekt läuft.</p>
         </div>
     </div>
 </div>
 <h2 id="wann-ist-das-nötig">Wann ist das nötig?</h2>
-<p>Wenn <strong>Atmosphère</strong> die <strong>Firmware deines Partition-emuMMC</strong> (z. B. nach SysNAND-Update und Neuaufbau des emuMMC) <strong>noch nicht unterstützt</strong>, lässt sich der emuMMC <strong>nicht normal in CFW starten</strong>.<br />
-Mit <strong>NANDFixPro</strong> und einer <strong>passenden Ziel-Firmware</strong> wird die <strong>RAW-GPP</strong> des <strong>SD-RAW-Partition-emuMMC</strong> auf diese Version gebracht.</p>
+<p>Wenn <strong>Atmosphère</strong> die <strong>Firmware deines emuMMC (Partition)</strong> (z. B. nach SysNAND-Update und Neuaufbau des emuMMC) <strong>noch nicht unterstützt</strong>, lässt sich der emuMMC <strong>nicht normal in CFW starten</strong>.<br />
+Mit <strong>NANDFixPro</strong> und einer <strong>passenden Ziel-Firmware</strong> wird die <strong>RAW-GPP</strong> des <strong>SD-RAW-emuMMC (Partition)</strong> auf diese Version gebracht.</p>
 <doc-callout id="voraussetzungen" left-border-class="bg-callout-info" callout-class="bg-callout-base-bg border-callout-base-border" collapsed>
     <template #icon>
         <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
@@ -253,9 +255,9 @@ Mit <strong>NANDFixPro</strong> und einer <strong>passenden Ziel-Firmware</stron
     </template>
     <template #title>Voraussetzungen</template>
 <ul>
-<li><strong>Nur Partition-emuMMC (SD RAW)</strong> – <strong>kein SD-File-emuMMC</strong>: Hekate kann einen <strong>Datei-basierten</strong> emuMMC für dieses Einbinden in <strong>USB-Tools</strong> / die beschriebenen Schritte <strong>nicht</strong> wie die RAW-Partition nutzen (siehe <a href="/switch/gut-zu-wissen/system/emummc_arten/">emuMMC-Typen</a>).</li>
+<li><strong>Nur emuMMC (Partition) (SD RAW)</strong> – <strong>kein SD-File-emuMMC</strong>: Hekate kann einen <strong>Datei-basierten</strong> emuMMC für dieses Einbinden in <strong>USB-Tools</strong> / die beschriebenen Schritte <strong>nicht</strong> wie die RAW-Partition nutzen (siehe <a href="/switch/gut-zu-wissen/system/emummc_arten/">emuMMC-Typen</a>).</li>
 <li><strong>USB-Datenkabel</strong> <strong>USB-A zu USB-C</strong>; möglichst <strong>USB-2.0</strong>-tauglich. Am PC <strong>keinen USB-3.0-Port</strong> für die Switch verwenden – der <strong>andere USB-Handshake</strong> führt hier oft zu <strong>instabilem Verhalten</strong> oder <strong>Übertragungsfehlern</strong>.</li>
-<li><strong>Windows-PC</strong>, <strong>Hekate</strong>, <strong>Lockpick RCM</strong> (o. Ä.) zum Key-Dump.</li>
+<li><strong>Windows-PC</strong>, <strong>Hekate</strong>, <strong>Lockpick RCM</strong> zum Key-Dump.</li>
 <li><strong>Zwei entpackte Ordner</strong> am PC: <strong>NANDFixPro</strong> und <strong>Ziel-Firmware</strong> (jeweils <strong>eigener Ordner</strong>).</li>
 </ul>
 </doc-callout>
@@ -268,16 +270,16 @@ Mit <strong>NANDFixPro</strong> und einer <strong>passenden Ziel-Firmware</stron
       <template #title>NANDFixPro bereitlegen</template>
 <p><strong>NANDFixPro</strong> von <a href="https://github.com/sthetix/NANDFixPro/releases">GitHub (Releases)</a> laden und das Archiv in einen <strong>eigenen Ordner</strong> entpacken.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="NANDFixPro – entpackter Ordner am PC (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <img src="/images/switch/gut-zu-wissen/system/emummc-downgrade/nandfixpro-extract.gif" alt="NANDFixPro – entpackter Ordner am PC (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption">NANDFixPro – entpackter Ordner am PC (Platzhalter)</figcaption>
 </figure>
    </doc-step>
    <doc-step id="kompatible-ziel-firmware" step-number="2">
       <template #title>Kompatible Ziel-Firmware</template>
-<p>Die <strong>Ziel-Firmware</strong> (muss zu deiner <strong>geplanten Atmosphère-Version</strong> passen) besorgen und in einen <strong>eigenen Ordner</strong> entpacken. <strong>Passende Pakete</strong> findest du über einschlägige <strong>Switch-CFW-Quellen</strong> oder verlinkt z. B. unter Tutorial-Videos zum Thema.</p>
+<p>Die <strong>Ziel-Firmware</strong> (muss zu deiner <strong>geplanten Atmosphère-Version</strong> passen) besorgen und in einen <strong>eigenen Ordner</strong> entpacken. <strong>Passende Pakete</strong> findest du z. B. bei <strong><a href="https://github.com/THZoria/NX_Firmware/releases">NX_Firmware (GitHub Releases)</a></strong>, außerdem über einschlägige <strong>Switch-CFW-Quellen</strong> oder verlinkt unter Tutorial-Videos zum Thema.</p>
 <p><strong>Hinweis:</strong> <strong>Quellen und Rechtslage</strong> sind <strong>eigenverantwortlich</strong> zu prüfen.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Firmware-Ordner für NANDFixPro (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <img src="/images/switch/gut-zu-wissen/system/emummc-downgrade/fw-extract.gif" alt="Firmware-Ordner für NANDFixPro (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption">Firmware-Ordner für NANDFixPro (Platzhalter)</figcaption>
 </figure>
    </doc-step>
@@ -293,7 +295,7 @@ Mit <strong>NANDFixPro</strong> und einer <strong>passenden Ziel-Firmware</stron
       <template #title>Lockpick RCM öffnen</template>
 <p>Im <strong>Launch</strong>-Menü <strong>Lockpick RCM</strong> starten.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Hekate – Launch-Menü mit Lockpick RCM (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <img src="/images/switch/gut-zu-wissen/system/emummc-downgrade/hekate-launch.jpg" alt="Hekate – Launch-Menü mit Lockpick RCM (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption">Hekate – Launch-Menü mit Lockpick RCM (Platzhalter)</figcaption>
 </figure>
    </doc-step>
@@ -301,7 +303,7 @@ Mit <strong>NANDFixPro</strong> und einer <strong>passenden Ziel-Firmware</stron
       <template #title>Keys vom SysNAND (höchste FW)</template>
 <p>Im Lockpick-RCM-Menü mit <strong>Vol +/-</strong> steuern, mit <strong>Power</strong> bestätigen. Wähle <strong>Dump from SysMMC</strong> (bzw. den Eintrag zum Auslesen vom <strong>SysNAND</strong> mit der <strong>höchsten Firmware</strong>).</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Lockpick RCM – Dump from SysMMC / NAND wählen (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <img src="/images/switch/gut-zu-wissen/system/emummc-downgrade/lockpick-dump.gif" alt="Lockpick RCM – Dump from SysMMC / NAND wählen (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption">Lockpick RCM – Dump from SysMMC / NAND wählen (Platzhalter)</figcaption>
 </figure>
    </doc-step>
@@ -318,108 +320,67 @@ Mit <strong>NANDFixPro</strong> und einer <strong>passenden Ziel-Firmware</stron
 <h2 id="pflicht-sysnand-komplett-sichern-hekate">Pflicht: SysNAND komplett sichern (Hekate)</h2>
 <p>Bevor du den <strong>emuMMC</strong> oder andere NAND-Bereiche anfasst, <strong>sichere den SysNAND vollständig</strong> – das ist die Rückversicherung, falls etwas schiefgeht.</p>
 <doc-steps>
-   <doc-step id="tools--backup-emmc-sys" step-number="1">
-      <template #title>Tools → Backup eMMC (Sys)</template>
-<p>Im <strong>Hekate-Hauptmenü</strong> <strong>Tools</strong> → <strong>Backup eMMC</strong>. Hier den <strong>SysNAND</strong> sichern (<strong>SD emuMMC Raw Partition</strong> bleibt <strong>OFF</strong> / Standard für reinen Sys-Backup-Pfad, je nach Hekate-Anzeige).</p>
+   <doc-step id="tools--backup-emmc" step-number="1">
+      <template #title>Tools → Backup eMMC</template>
+<p>Im <strong>Hekate-Hauptmenü</strong> <strong>Tools</strong> → <strong>Backup eMMC</strong>. Hier den <strong>SysNAND</strong> sichern (<strong>SD emuMMC Raw Partition</strong> bleibt <strong>OFF</strong>).</p>
    </doc-step>
-   <doc-step id="boot0--boot1-sys" step-number="2">
-      <template #title>BOOT0 &amp; BOOT1 (Sys)</template>
+   <doc-step id="boot0--boot1" step-number="2">
+      <template #title>BOOT0 &amp; BOOT1</template>
 <p>Zuerst <strong>eMMC BOOT0 &amp; BOOT1</strong> (bzw. die für den <strong>internen eMMC</strong> angebotenen BOOT0/1-Backups) erstellen.</p>
    </doc-step>
    <doc-step id="anschließend-emmc-raw-gpp" step-number="3">
       <template #title>Anschließend eMMC RAW GPP</template>
 <p>Danach <strong>eMMC RAW GPP</strong> sichern. Der Lauf kann je nach <strong>SD-Geschwindigkeit</strong> <strong>sehr lange</strong> dauern – <strong>nicht abbrechen</strong>, warten bis Hekate fertig ist.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Hekate – SysNAND Backup BOOT0/1 und RAW GPP (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <img src="/images/switch/gut-zu-wissen/system/emummc-downgrade/emmc-backup.gif" alt="Hekate – SysNAND Backup BOOT0/1 und RAW GPP (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption">Hekate – SysNAND Backup BOOT0/1 und RAW GPP (Platzhalter)</figcaption>
 </figure>
    </doc-step>
 </doc-steps>
 <hr>
-<h2 id="sicherung-des-partition-emummc-hekate">Sicherung des Partition-emuMMC (Hekate)</h2>
-<p>Zusätzlich – wenn du den <strong>emuMMC auf der SD-RAW-Partition</strong> anpasst – dieselbe Logik für <strong>diesen</strong> emuMMC:</p>
+<h2 id="downgrade-mit-nandfixpro-level-1">Downgrade mit NANDFixPro (Level 1)</h2>
 <doc-steps>
-   <doc-step id="tools--backup-emmc" step-number="1">
-      <template #title>Tools → Backup eMMC</template>
-<p>Wieder <strong>Tools</strong> → <strong>Backup eMMC</strong>.</p>
-<figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Hekate – Tools, Backup eMMC (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption">Hekate – Tools, Backup eMMC (Platzhalter)</figcaption>
-</figure>
-   </doc-step>
-   <doc-step id="sd-emummc-raw-partition-aktivieren" step-number="2">
-      <template #title>SD emuMMC Raw Partition aktivieren</template>
-<p><strong>SD emuMMC Raw Partition</strong> auf <strong>ON</strong> stellen.</p>
-   </doc-step>
-   <doc-step id="boot01-und-raw-gpp-des-emummc" step-number="3">
-      <template #title>BOOT0/1 und RAW GPP des emuMMC</template>
-<p><strong>SD emuMMC BOOT0 &amp; BOOT1</strong> sowie <strong>SD emuMMC RAW GPP</strong> sichern.</p>
-<figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Hekate – SD emuMMC Raw Partition ON, Backup-Optionen (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption">Hekate – SD emuMMC Raw Partition ON, Backup-Optionen (Platzhalter)</figcaption>
-</figure>
-   </doc-step>
-   <doc-step id="usb-und-sd-als-laufwerk" step-number="4">
-      <template #title>USB und SD als Laufwerk</template>
-<p>Menü schließen, Switch per <strong>USB</strong> mit dem PC verbinden. <strong>USB Tools</strong> → <strong>Read only</strong> beachten (später <strong>OFF</strong>), zunächst <strong>SD card</strong> wählen, damit der PC die SD sieht.</p>
-<figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Hekate – USB Tools, SD card als Laufwerk (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption">Hekate – USB Tools, SD card als Laufwerk (Platzhalter)</figcaption>
-</figure>
-   </doc-step>
-</doc-steps>
-<hr>
-<h2 id="raw-gpp-mit-nandfixpro-level-1">RAW GPP mit NANDFixPro (Level 1)</h2>
-<doc-steps>
-   <doc-step id="windows-11-kompatibilitätsmodus-falls-nötig" step-number="1">
-      <template #title>Windows 11: Kompatibilitätsmodus (falls nötig)</template>
-<p>Unter <strong>Windows 11 (64 Bit)</strong> ggf. für <strong>NANDFixPro.exe</strong> den <strong>Kompatibilitätsmodus Windows 7</strong> setzen: Rechtsklick → Eigenschaften → Kompatibilität.</p>
-<figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Windows – Kompatibilitätsmodus für NANDFixPro.exe (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption">Windows – Kompatibilitätsmodus für NANDFixPro.exe (Platzhalter)</figcaption>
-</figure>
-   </doc-step>
-   <doc-step id="nandfixpro-starten" step-number="2">
+   <doc-step id="nandfixpro-starten" step-number="1">
       <template #title>NANDFixPro starten</template>
 <p><strong>NANDFixPro.exe</strong> starten. Startet sie nicht, <strong>run.bat</strong> im selben Ordner ausführen. <strong>Popups</strong> ggf. mit <strong>OK</strong> bestätigen, bis alle Komponenten installiert sind.</p>
    </doc-step>
-   <doc-step id="level-1-und-ziel-firmware" step-number="3">
+   <doc-step id="level-1-und-ziel-firmware" step-number="2">
       <template #title>Level 1 und Ziel-Firmware</template>
 <p>Für einen <strong>einfachen Downgrade</strong> nutzt du <strong>Level 1</strong>: Ziel-<strong>Firmware-Ordner</strong> in NANDFixPro auswählen.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="NANDFixPro – Firmware-Ordner auswählen (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <img src="/images/switch/gut-zu-wissen/system/emummc-downgrade/nandfixpro-fw-select.gif" alt="NANDFixPro – Firmware-Ordner auswählen (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption">NANDFixPro – Firmware-Ordner auswählen (Platzhalter)</figcaption>
 </figure>
    </doc-step>
-   <doc-step id="switch-verbinden-usb-tools-sd-card" step-number="4">
+   <doc-step id="switch-verbinden-usb-tools-sd-card" step-number="3">
       <template #title>Switch verbinden, USB Tools, SD card</template>
 <p>Switch per <strong>USB</strong> (möglichst <strong>USB 2.0</strong>) verbinden. In <strong>Hekate</strong> → <strong>Tools</strong> → <strong>USB Tools</strong>: <strong>Read only</strong> auf <strong>OFF</strong>, dann <strong>SD card</strong>.</p>
    </doc-step>
-   <doc-step id="get-keys-from-sd" step-number="5">
+   <doc-step id="get-keys-from-sd" step-number="4">
       <template #title>Get Keys from SD</template>
-<p>In NANDFixPro <strong>Get Keys from SD</strong> – <strong>prod.keys</strong>-Import mit <strong>OK</strong> bestätigen. SD am PC <strong>sicher auswerfen</strong>. Auf der Switch Status mit <strong>Close</strong> schließen; <strong>USB</strong> kann je nach Ablauf <strong>zunächst stecken bleiben</strong>.</p>
+<p>In NANDFixPro <strong>Get Keys from SD</strong> – <strong>prod.keys</strong>-Import mit <strong>OK</strong> bestätigen. SD am PC <strong>sicher auswerfen</strong>. Auf der Switch Status mit <strong>Close</strong> schließen.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="NANDFixPro – Get Keys from SD (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <img src="/images/switch/gut-zu-wissen/system/emummc-downgrade/nandfixpro-get-keys.gif" alt="NANDFixPro – Get Keys from SD (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption">NANDFixPro – Get Keys from SD (Platzhalter)</figcaption>
 </figure>
    </doc-step>
-   <doc-step id="hekate-emu-raw-gpp-partition-emummc" step-number="6">
-      <template #title>Hekate: Emu RAW GPP (Partition-emuMMC)</template>
+   <doc-step id="hekate-emu-raw-gpp-emummc-partition" step-number="5">
+      <template #title>Hekate: Emu RAW GPP (emuMMC (Partition))</template>
 <p>Zurück in <strong>Hekate</strong>: <strong>eMMC RAW GPP</strong> gilt für den <strong>SysNAND</strong>. Für einen <strong>emuMMC in der RAW-Partition</strong> den Eintrag <strong>Emu RAW GPP</strong> / <strong>emu RAW GPP</strong> wählen (Bezeichnung je nach Hekate-Version).</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Hekate – Read only OFF, Emu RAW GPP (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <img src="/images/switch/gut-zu-wissen/system/emummc-downgrade/hekate-mount-emu.jpg" alt="Hekate – Read only OFF, Emu RAW GPP (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption">Hekate – Read only OFF, Emu RAW GPP (Platzhalter)</figcaption>
 </figure>
    </doc-step>
-   <doc-step id="start-level-1-process" step-number="7">
+   <doc-step id="start-level-1-process" step-number="6">
       <template #title>Start Level 1 Process</template>
 <p>In <strong>NANDFixPro</strong>: <strong>Start Level 1 Process</strong> → <strong>YES</strong>. Der Lauf dauert oft <strong>mehrere Minuten</strong> (realistisch <strong>gut 10 Minuten</strong> und mehr, je nach SD und PC) – <strong>warten</strong>, bis <strong>OK</strong> erscheint.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="NANDFixPro – Start Level 1 Process (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <img src="/images/switch/gut-zu-wissen/system/emummc-downgrade/nandfixpro-lvl1-main.gif" alt="NANDFixPro – Start Level 1 Process (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption">NANDFixPro – Start Level 1 Process (Platzhalter)</figcaption>
 </figure>
    </doc-step>
-   <doc-step id="usb-neu-verbinden-sd-card-erneut" step-number="8">
+   <doc-step id="usb-neu-verbinden-sd-card-erneut" step-number="7">
       <template #title>USB neu verbinden, SD card erneut</template>
 <p><strong>USB trennen</strong>, auf der Switch <strong>Close</strong>, Switch <strong>erneut</strong> verbinden, in Hekate wieder <strong>USB Tools</strong> → <strong>SD card</strong>.</p>
    </doc-step>
@@ -431,39 +392,25 @@ Mit <strong>NANDFixPro</strong> und einer <strong>passenden Ziel-Firmware</stron
       <template #title>Copy BOOT to SD</template>
 <p>In NANDFixPro <strong>Copy BOOT to SD</strong> → <strong>Yes</strong> → <strong>OK</strong>. SD danach wieder <strong>sicher auswerfen</strong>.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="NANDFixPro – Copy BOOT to SD (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <img src="/images/switch/gut-zu-wissen/system/emummc-downgrade/nandfixpro-copy-boot.gif" alt="NANDFixPro – Copy BOOT to SD (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption">NANDFixPro – Copy BOOT to SD (Platzhalter)</figcaption>
 </figure>
    </doc-step>
-   <doc-step id="usb-entfernen-hekate-restore" step-number="2">
-      <template #title>USB entfernen, Hekate Restore</template>
+   <doc-step id="sd-emummc-boot0--boot1-wiederherstellen" step-number="2">
+      <template #title>SD emuMMC BOOT0 &amp; BOOT1 wiederherstellen</template>
 <p>Popups schließen, <strong>USB</strong> abziehen. <strong>Tools</strong> → <strong>Restore eMMC</strong>. <strong>SD emuMMC Raw Partition</strong> <strong>ON</strong>.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Hekate – Restore eMMC, SD emuMMC Raw Partition (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <img src="/images/switch/gut-zu-wissen/system/emummc-downgrade/hekate-emu-restore.gif" alt="Hekate – Restore eMMC, SD emuMMC Raw Partition (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption">Hekate – Restore eMMC, SD emuMMC Raw Partition (Platzhalter)</figcaption>
 </figure>
-   </doc-step>
-   <doc-step id="sd-emummc-boot0--boot1-wiederherstellen" step-number="3">
-      <template #title>SD emuMMC BOOT0 &amp; BOOT1 wiederherstellen</template>
-<p><strong>SD emuMMC BOOT0 &amp; BOOT1</strong> aus der <strong>Sicherung</strong> zurückschreiben. <strong>Power</strong>-Abfragen und <strong>Hinweise</strong> in Hekate <strong>bestätigen</strong> (Text genau lesen). <strong>RAW GPP</strong> in diesem Schritt <strong>nicht</strong> verwechseln.</p>
-<figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Hekate – Restore SD emuMMC BOOT0 &amp; BOOT1 (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption">Hekate – Restore SD emuMMC BOOT0 &amp; BOOT1 (Platzhalter)</figcaption>
-</figure>
-   </doc-step>
-</doc-steps>
 <hr>
 <h2 id="abschluss-und-prüfung">Abschluss und Prüfung</h2>
-<doc-steps>
-   <doc-step id="cfw-starten" step-number="1">
+   </doc-step>
+   <doc-step id="cfw-starten" step-number="3">
       <template #title>CFW starten</template>
 <p>Über <strong>Home</strong> / <strong>Close</strong> ins <strong>Launch</strong>-Menü, <strong>Atmosphère</strong> (bzw. deinen <strong>emuMMC-CFW</strong>-Eintrag) starten – kein Bluescreen mehr, wenn Version und Schritte passen.</p>
-<figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Hekate – Launch-Menü, CFW starten (Platzhalter)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption">Hekate – Launch-Menü, CFW starten (Platzhalter)</figcaption>
-</figure>
    </doc-step>
-   <doc-step id="firmware-version-prüfen" step-number="2">
+   <doc-step id="firmware-version-prüfen" step-number="4">
       <template #title>Firmware-Version prüfen</template>
 <p>Unter <strong>Systemeinstellungen → Konsole</strong> die <strong>Systemversion</strong> prüfen – sie soll der <strong>Ziel-Firmware</strong> entsprechen. <strong>Spiele und Daten</strong> bleiben bei korrektem Ablauf erhalten.</p>
    </doc-step>
@@ -592,6 +539,6 @@ Mit <strong>NANDFixPro</strong> und einer <strong>passenden Ziel-Firmware</stron
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Partition-emuMMC anpassen", level: 4, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "emuMMC (Partition) downgraden", level: 4, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
