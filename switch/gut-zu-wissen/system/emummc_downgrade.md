@@ -2,12 +2,12 @@
 icon: tools
 label: "emuMMC (Partition) downgraden"
 order: 97
-description: "emuMMC (Partition) mit NANDFixPro (Level 1) auf eine CFW-kompatible Firmware bringen."
+description: "emuMMC (Partition) downgraden"
 meta:
   description: "SysNAND-Backup, emuMMC-RAW-Sicherung, NANDFixPro Level 1, BOOT0/1. USB 2.0, nur RAW-emuMMC (Partition). Fortgeschrittene."
 ---
 
-# emuMMC (Partition) auf eine CFW-kompatible Firmware anpassen
+# emuMMC (Partition) downgraden
 
 !!!warning Fortgeschritten & Risiko
 Diese Anleitung richtet sich an **erfahrendere Nutzer**. Du arbeitest am **emuMMC** und **Firmware-Bestandteilen**. **Downgrades sind riskant** – mach sie nur, wenn du die Folgen einschätzt und **alle Backups** hast. Im Zweifel Schritte **nicht** überspringen. Falsche Bedienung kann zu **Datenverlust** oder einer **nicht mehr startenden CFW** führen.
