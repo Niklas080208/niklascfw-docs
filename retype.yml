@@ -13,11 +13,12 @@ start:
 branding:
   logo: /assets/logo.png
   logoDark: /assets/logo-dark.png
-  favicon: ./favicon.ico
+  logoWidth: 135
+  favicon: ./favicon.png
   label: "Docs"
   # title: "Nintendo Switch CFW Dokumentation"
 
-favicon: /assets/favicon.ico
+favicon: /assets/favicon.png
 
 links:
 - text: Serial Checker
