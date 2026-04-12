@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828824844333">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829326871747">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.4.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>JKSV Cloud Backup einrichten</title>
     <meta name="title" content="JKSV Cloud Backup einrichten">
-    <meta name="description" content="JKSV bietet eine Funktion, mit der ihr Speicherdaten der JKSV-Homebrew-App direkt auf Google Drive oder einem WebDAV-Server sichern könnt. Die Einrichtung">
+    <meta name="description" content="JKSV bietet eine Funktion, mit der ihr Speicherdaten der JKSV-Homebrew-App direkt auf Google Drive oder einem WebDAV-Server sichern könnt. Die Einrichtung dieser Funktion wird im Folgenden detailliert beschrieben.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv_cloud/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://docs.niklascfw.de/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv_cloud/">
     <meta property="og:title" content="JKSV Cloud Backup einrichten">
-    <meta property="og:description" content="JKSV bietet eine Funktion, mit der ihr Speicherdaten der JKSV-Homebrew-App direkt auf Google Drive oder einem WebDAV-Server sichern könnt. Die Einrichtung">
+    <meta property="og:description" content="JKSV bietet eine Funktion, mit der ihr Speicherdaten der JKSV-Homebrew-App direkt auf Google Drive oder einem WebDAV-Server sichern könnt. Die Einrichtung dieser Funktion wird im Folgenden detailliert beschrieben.">
     <meta property="og:image" content="https://docs.niklascfw.de/images/switch/gut-zu-wissen/apps-tools/jksv/jksv_start.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -33,19 +34,22 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv_cloud/">
     <meta name="twitter:title" content="JKSV Cloud Backup einrichten">
-    <meta name="twitter:description" content="JKSV bietet eine Funktion, mit der ihr Speicherdaten der JKSV-Homebrew-App direkt auf Google Drive oder einem WebDAV-Server sichern könnt. Die Einrichtung">
+    <meta name="twitter:description" content="JKSV bietet eine Funktion, mit der ihr Speicherdaten der JKSV-Homebrew-App direkt auf Google Drive oder einem WebDAV-Server sichern könnt. Die Einrichtung dieser Funktion wird im Folgenden detailliert beschrieben.">
     <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/gut-zu-wissen/apps-tools/jksv/jksv_start.jpg">
     <meta name="twitter:image:alt" content="JKSV Cloud Backup einrichten">
 
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv_cloud.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.4.0.828824844333" rel="stylesheet">
+    <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
+    <link href="/resources/css/retype.css?v=4.5.3.829326871747" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.828824844333" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.828824844333" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="/resources/js/prism.js?v=4.4.0.828824844333" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.829326871747" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.829326871747" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="/resources/js/prism.js?v=4.5.3.829326871747" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
 
@@ -65,8 +69,8 @@
                 <div class="flex items-center px-2 md:px-6">
                     <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="135">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="135">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -181,9 +185,11 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
 <h1 id="jksv-cloud-backup-einrichten">JKSV Cloud Backup einrichten</h1>
 <p>JKSV bietet eine Funktion, mit der ihr Speicherdaten der JKSV-Homebrew-App direkt auf <strong>Google Drive</strong> oder einem <strong>WebDAV-Server</strong> sichern könnt. Die Einrichtung dieser Funktion wird im Folgenden detailliert beschrieben.
@@ -282,7 +288,7 @@ Scrolle bis <strong>„Google Workspace“</strong> und wähle <strong>„Google
 <hr>
 <h3 id="-nintendo-switch-vorbereiten"><span class="docs-emoji">&#x1F3AE;</span> Nintendo Switch vorbereiten</h3>
 <ol>
-<li><p>Kopiere die Datei <strong><code translate="no" v-pre>client_secret.json</code></strong> auf deine SD-Karte nach:</p>
+<li>Kopiere die Datei <strong><code translate="no" v-pre>client_secret.json</code></strong> auf deine SD-Karte nach:
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">sd:/config/JKSV</code></pre>
 </doc-codeblock></div>
@@ -310,7 +316,7 @@ JKSV legt automatisch einen Ordner <strong><code translate="no" v-pre>JKSV</code
 <ol>
 <li>Richte einen Cloudserver (z. B. <strong>Nextcloud</strong>) ein und stelle sicher, dass <strong>WebDAV aktiviert</strong> ist.</li>
 <li>Optional: Lege einen eigenen Benutzer für die Switch an (z. B. <code translate="no" v-pre>nxsaver</code>).</li>
-<li><p>Wenn du <strong>2FA</strong> aktiviert hast, erstelle in den Sicherheitseinstellungen ein <strong>App-Passwort</strong>,</p>
+<li>Wenn du <strong>2FA</strong> aktiviert hast, erstelle in den Sicherheitseinstellungen ein <strong>App-Passwort</strong>,
 <ol type="a" start="26">
 <li>B.:</li>
 </ol>
@@ -323,12 +329,13 @@ JKSV legt automatisch einen Ordner <strong><code translate="no" v-pre>JKSV</code
 <hr>
 <h3 id="-nintendo-switch-vorbereiten-1"><span class="docs-emoji">&#x1F3AE;</span> Nintendo Switch vorbereiten</h3>
 <ol>
-<li><p>Ermittle die WebDAV-Adresse deines Cloudservers, z. B.:</p>
+<li>Ermittle die WebDAV-Adresse deines Cloudservers, z. B.:
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">https://cloud.deinedomain.de/remote.php/dav/files/nxsaver</code></pre>
 </doc-codeblock></div>
 </li>
-<li><p>Erstelle am PC eine Datei namens <strong><code translate="no" v-pre>webdav.json</code></strong> mit folgendem Inhalt (Beispiel):</p>
+<li>
+<p>Erstelle am PC eine Datei namens <strong><code translate="no" v-pre>webdav.json</code></strong> mit folgendem Inhalt (Beispiel):</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-json"><code v-pre class="language-json">{
   &quot;origin&quot;: &quot;https://cloud.deinedomain.de&quot;,
@@ -343,15 +350,14 @@ Achte darauf, dass du <strong>kein zusätzliches „/“</strong> bei <code tran
 sonst funktioniert die Verbindung nicht korrekt.</p>
 </blockquote>
 </li>
-<li><p>Kopiere die Datei <strong><code translate="no" v-pre>webdav.json</code></strong> auf deine SD-Karte nach:</p>
+<li>Kopiere die Datei <strong><code translate="no" v-pre>webdav.json</code></strong> auf deine SD-Karte nach:
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">sd:/config/JKSV</code></pre>
 </doc-codeblock></div>
 </li>
-<li><p>Starte <strong>JKSV</strong>.<br />
+<li>Starte <strong>JKSV</strong>.<br />
 Wenn alles korrekt ist, erscheint die Meldung:<br />
-<strong>„WebDAV erfolgreich gestartet!“</strong></p>
-</li>
+<strong>„WebDAV erfolgreich gestartet!“</strong></li>
 </ol>
 <blockquote>
 <p><span class="docs-emoji">&#x26A0;&#xFE0F;</span> <strong>Wenn ihr fertig seid.</strong><br />
@@ -382,7 +388,7 @@ Alle bisherigen Backups müssen manuell in den automatisch angelegten <strong><c
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Vorheriger</span>
-                                <span class="block mt-1">JKSV (Spielstände)</span>
+                                <span class="block mt-1">JKSV (Spielst&#228;nde)</span>
                             </span>
                         </a>
                     </div>
@@ -435,6 +441,6 @@ Alle bisherigen Backups müssen manuell in den automatisch angelegten <strong><c
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "JKSV Cloud", level: 4, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "JKSV Cloud", level: 4, icon: "file", hasPrism: true, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/switch/gut-zu-wissen/apps-tools/jksv_cloud.md" }</script>
 </body>
 </html>

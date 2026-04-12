@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828824844333">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829326871747">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.4.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>UltraHand (Tesla Menu Ersatz)</title>
     <meta name="title" content="UltraHand (Tesla Menu Ersatz)">
-    <meta name="description" content="UltraHand ist ein mächtiges Homebrew-Overlay für die Nintendo Switch (HOS 16.0.0+), entwickelt als moderner Ersatz für das klassische Tesla Menu. Es bietet">
+    <meta name="description" content="UltraHand ist ein mächtiges Homebrew-Overlay für die Nintendo Switch (HOS 16.0.0+), entwickelt als moderner Ersatz für das klassische Tesla Menu. Es bietet ein eigenes, interpretatives Skript-System (ähnlich Shell/BASH), mit dem du mithilfe von C/C++-Befehlen dein System flexibel verwalten kannst.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://docs.niklascfw.de/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand/">
     <meta property="og:title" content="UltraHand (Tesla Menu Ersatz)">
-    <meta property="og:description" content="UltraHand ist ein mächtiges Homebrew-Overlay für die Nintendo Switch (HOS 16.0.0+), entwickelt als moderner Ersatz für das klassische Tesla Menu. Es bietet">
+    <meta property="og:description" content="UltraHand ist ein mächtiges Homebrew-Overlay für die Nintendo Switch (HOS 16.0.0+), entwickelt als moderner Ersatz für das klassische Tesla Menu. Es bietet ein eigenes, interpretatives Skript-System (ähnlich Shell/BASH), mit dem du mithilfe von C/C++-Befehlen dein System flexibel verwalten kannst.">
     <meta property="og:image" content="https://docs.niklascfw.de/images/switch/allgemein/ultrahand_pakete.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -33,18 +34,21 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand/">
     <meta name="twitter:title" content="UltraHand (Tesla Menu Ersatz)">
-    <meta name="twitter:description" content="UltraHand ist ein mächtiges Homebrew-Overlay für die Nintendo Switch (HOS 16.0.0+), entwickelt als moderner Ersatz für das klassische Tesla Menu. Es bietet">
+    <meta name="twitter:description" content="UltraHand ist ein mächtiges Homebrew-Overlay für die Nintendo Switch (HOS 16.0.0+), entwickelt als moderner Ersatz für das klassische Tesla Menu. Es bietet ein eigenes, interpretatives Skript-System (ähnlich Shell/BASH), mit dem du mithilfe von C/C++-Befehlen dein System flexibel verwalten kannst.">
     <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/allgemein/ultrahand_pakete.jpg">
     <meta name="twitter:image:alt" content="UltraHand (Tesla Menu Ersatz)">
 
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.4.0.828824844333" rel="stylesheet">
+    <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
+    <link href="/resources/css/retype.css?v=4.5.3.829326871747" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.828824844333" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.828824844333" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.829326871747" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.829326871747" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
 
@@ -64,8 +68,8 @@
                 <div class="flex items-center px-2 md:px-6">
                     <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="135">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="135">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -180,9 +184,11 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
 <h1 id="ultrahand-tesla-menu-ersatz">UltraHand (Tesla Menu Ersatz)</h1>
 <p><strong>UltraHand</strong> ist ein mächtiges Homebrew-Overlay für die Nintendo Switch (HOS 16.0.0+), entwickelt als moderner Ersatz für das klassische <em>Tesla Menu</em>. Es bietet ein eigenes, interpretatives Skript-System (ähnlich Shell/BASH), mit dem du mithilfe von C/C++-Befehlen dein System flexibel verwalten kannst.</p>
@@ -193,28 +199,36 @@
 <hr>
 <h2 id="hauptfunktionen">Hauptfunktionen</h2>
 <ul>
-<li><p><strong>Datei- und Verzeichnisverwaltung</strong><br />
+<li>
+<p><strong>Datei- und Verzeichnisverwaltung</strong><br />
 Erstelle, kopiere, verschiebe oder lösche Dateien und Ordner auf deiner SD-Karte einfach per Befehl.</p>
 </li>
-<li><p><strong>Dateien herunterladen</strong><br />
+<li>
+<p><strong>Dateien herunterladen</strong><br />
 Lade Dateien direkt von Repositories oder URLs auf deine SD-Karte.</p>
 </li>
-<li><p><strong>ZIP-Archive entpacken</strong><br />
+<li>
+<p><strong>ZIP-Archive entpacken</strong><br />
 Extrahiere ZIP-Dateien inklusive ihrer Ordnerstruktur.</p>
 </li>
-<li><p><strong>INI-Dateien bearbeiten</strong><br />
+<li>
+<p><strong>INI-Dateien bearbeiten</strong><br />
 Modifiziere Konfigurationsdateien — füge neue Abschnitte hinzu, ändere Schlüssel-Werte oder erstelle komplett neue Einträge.</p>
 </li>
-<li><p><strong>Hex-Bearbeitung</strong><br />
+<li>
+<p><strong>Hex-Bearbeitung</strong><br />
 Bearbeite Dateien direkt auf Byte-Ebene durch hexadezimales Editieren.</p>
 </li>
-<li><p><strong>Mod-Konvertierung</strong><br />
+<li>
+<p><strong>Mod-Konvertierung</strong><br />
 Wandle <code translate="no" v-pre>pchtxt</code>-Moddateien in gängige Formate wie <code translate="no" v-pre>IPS</code> oder Cheat-Codes um.</p>
 </li>
-<li><p><strong>Systemkommandos</strong><br />
+<li>
+<p><strong>Systemkommandos</strong><br />
 Führe Systembefehle wie Shutdown, Neustart, Booten in Hekate, Bildschirmhelligkeitssteuerung oder Bluetooth-Controller deaktivieren aus.</p>
 </li>
-<li><p><strong>Start-Skripte</strong><br />
+<li>
+<p><strong>Start-Skripte</strong><br />
 Lege automatisierte Befehle in einer <code translate="no" v-pre>boot_package.ini</code> ab, die beim Start ausgeführt werden.</p>
 </li>
 </ul>
@@ -306,6 +320,6 @@ Alternativ lässt sich Ultrahand mit L + R und der Plus taste öffnen.</p>
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "UltraHand", level: 4, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "UltraHand", level: 4, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/switch/gut-zu-wissen/apps-tools/ultrahand.md" }</script>
 </body>
 </html>

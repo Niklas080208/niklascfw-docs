@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828824844333">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829326871747">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.4.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>UltraHand Funktionen im NiklasCFW Pack</title>
@@ -16,6 +16,7 @@
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand_cfwpack/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://docs.niklascfw.de/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -37,14 +38,17 @@
     <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/allgemein/ultrahand_pakete.jpg">
     <meta name="twitter:image:alt" content="UltraHand Funktionen im NiklasCFW Pack">
 
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand_cfwpack.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.4.0.828824844333" rel="stylesheet">
+    <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
+    <link href="/resources/css/retype.css?v=4.5.3.829326871747" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.828824844333" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.828824844333" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.829326871747" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.829326871747" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
 
@@ -64,8 +68,8 @@
                 <div class="flex items-center px-2 md:px-6">
                     <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="135">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="135">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -180,9 +184,11 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
 <h1 id="ultrahand-funktionen-im-niklascfw-pack">UltraHand Funktionen im NiklasCFW Pack</h1>
 <p>Hier gibt es eine Übersicht der Funktionen und installierten Overlays vom NiklasCFW Pack in <strong>UltraHand</strong>.</p>
@@ -193,17 +199,23 @@
     <figcaption class="caption"></figcaption>
 </figure>
 <ul>
-<li><p><strong>NiklasCFW Downloader</strong> - Downloader für das NiklasCFW Pack über den man auch die Firmware, Android, verschiedene Apps, .ini&#x27;s, Lakka, Linux, Overlays, RetroArch und Sys Module herunterladen und installieren kann.</p>
+<li>
+<p><strong>NiklasCFW Downloader</strong> - Downloader für das NiklasCFW Pack über den man auch die Firmware, Android, verschiedene Apps, .ini&#x27;s, Lakka, Linux, Overlays, RetroArch und Sys Module herunterladen und installieren kann.</p>
 </li>
-<li><p><strong>RebootNX</strong> - Tool um die Switch neuzustarten, egal ob in Hekate, die CFW oder die OFW.</p>
+<li>
+<p><strong>RebootNX</strong> - Tool um die Switch neuzustarten, egal ob in Hekate, die CFW oder die OFW.</p>
 </li>
-<li><p><strong>Broomstick</strong> - Tool um einzelne Pakete und Overlays zu aktiveren bzw. zu deaktivieren.</p>
+<li>
+<p><strong>Broomstick</strong> - Tool um einzelne Pakete und Overlays zu aktiveren bzw. zu deaktivieren.</p>
 </li>
-<li><p><strong>Mod Alchemist</strong> - Mod Manager</p>
+<li>
+<p><strong>Mod Alchemist</strong> - Mod Manager</p>
 </li>
-<li><p><strong>Cool Curves</strong> - Kühlerkurven einstellen</p>
+<li>
+<p><strong>Cool Curves</strong> - Kühlerkurven einstellen</p>
 </li>
-<li><p><strong>Memory Config</strong> - Spielerei für diverse Einstellungen</p>
+<li>
+<p><strong>Memory Config</strong> - Spielerei für diverse Einstellungen</p>
 </li>
 </ul>
 <hr>
@@ -213,13 +225,17 @@
     <figcaption class="caption"></figcaption>
 </figure>
 <ul>
-<li><p><strong>EdiZon</strong> Cheat Management</p>
+<li>
+<p><strong>EdiZon</strong> Cheat Management</p>
 </li>
-<li><p><strong>sys-patch</strong> Patch Management</p>
+<li>
+<p><strong>sys-patch</strong> Patch Management</p>
 </li>
-<li><p><strong>Sysmodules</strong> Module Management</p>
+<li>
+<p><strong>Sysmodules</strong> Module Management</p>
 </li>
-<li><p><strong>BatteryChargeInfoNX</strong> Batterie Status</p>
+<li>
+<p><strong>BatteryChargeInfoNX</strong> Batterie Status</p>
 </li>
 </ul>
 
@@ -294,6 +310,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "UltraHand im Pack", level: 4, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "UltraHand im Pack", level: 4, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/switch/gut-zu-wissen/apps-tools/ultrahand_cfwpack.md" }</script>
 </body>
 </html>

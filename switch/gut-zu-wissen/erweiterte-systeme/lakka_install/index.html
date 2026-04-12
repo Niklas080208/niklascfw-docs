@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828824844333">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829326871747">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.4.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>Lakka installieren</title>
@@ -16,6 +16,7 @@
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/lakka_install/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://docs.niklascfw.de/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -37,14 +38,17 @@
     <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/allgemein/lakka1.jpg">
     <meta name="twitter:image:alt" content="Lakka installieren">
 
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/lakka_install.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.4.0.828824844333" rel="stylesheet">
+    <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
+    <link href="/resources/css/retype.css?v=4.5.3.829326871747" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.828824844333" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.828824844333" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.829326871747" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.829326871747" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
 
@@ -64,8 +68,8 @@
                 <div class="flex items-center px-2 md:px-6">
                     <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="135">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="135">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -180,9 +184,11 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
 <h1 id="lakka-installieren">Lakka installieren</h1>
 <h2 id="-voraussetzungen"><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Voraussetzungen</h2>
@@ -199,52 +205,71 @@
 <hr>
 <h2 id="lakka-direkt-über-ultrahand-installieren">Lakka direkt über UltraHand installieren</h2>
 <ol>
-<li>Öffne <strong>UltraHand</strong> (L,R und Plus-Taste gleichzeitig drücken) und auf <strong>NiklasCFW Downloader</strong> klicken.
+<li>
+<p>Öffne <strong>UltraHand</strong> (L,R und Plus-Taste gleichzeitig drücken) und auf <strong>NiklasCFW Downloader</strong> klicken.
 <figure class="content-center">
     <img src="/images/switch/allgemein/lakka1.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
+</p>
 </li>
-<li>Runterscrollen und <strong>Lakka</strong> auswählen.
+<li>
+<p>Runterscrollen und <strong>Lakka</strong> auswählen.
 <figure class="content-center">
     <img src="/images/switch/allgemein/lakka2.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
+</p>
 </li>
-<li>Auf <strong>Lakka</strong> klicken und den Download starten (<span class="docs-emoji">&#x2B07;&#xFE0F;</span> Download läuft, <span class="docs-emoji">&#x2B06;&#xFE0F;</span> Entpacken läuft).
+<li>
+<p>Auf <strong>Lakka</strong> klicken und den Download starten (<span class="docs-emoji">&#x2B07;&#xFE0F;</span> Download läuft, <span class="docs-emoji">&#x2B06;&#xFE0F;</span> Entpacken läuft).
 <figure class="content-center">
     <img src="/images/switch/allgemein/lakka3.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
+</p>
 </li>
-<li>Anschließend drückt ihr die <strong>B-Taste</strong> und geht auf <strong>INI&#x27;s</strong>.
+<li>
+<p>Anschließend drückt ihr die <strong>B-Taste</strong> und geht auf <strong>INI&#x27;s</strong>.
 <figure class="content-center">
     <img src="/images/switch/allgemein/lakka4.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
+</p>
 </li>
-<li>Wählt hier <strong>Lakka.ini</strong> aus und wartet bis der Download beendet ist.
+<li>
+<p>Wählt hier <strong>Lakka.ini</strong> aus und wartet bis der Download beendet ist.
 <figure class="content-center">
     <img src="/images/switch/allgemein/lakka5.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
+</p>
 </li>
-<li>Startet über <strong>RebootNX</strong> in <strong>Hekate</strong>.</li>
-<li>Geht auf <strong>More Configs</strong>, hier wird euch nun <strong>Lakka</strong> angezeigt und ihr könnt es starten.
+<li>
+<p>Startet über <strong>RebootNX</strong> in <strong>Hekate</strong>.</p>
+</li>
+<li>
+<p>Geht auf <strong>More Configs</strong>, hier wird euch nun <strong>Lakka</strong> angezeigt und ihr könnt es starten.
 <figure class="content-center">
     <img src="/images/switch/allgemein/lakka6.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
+</p>
 </li>
 </ol>
 <hr>
 <h2 id="installation-über-pc">Installation über PC</h2>
 <ol>
-<li><p>Lade dir hier die aktuelle Version von Lakka für die Switch herunter</p>
+<li>
+<p>Lade dir hier die aktuelle Version von Lakka für die Switch herunter</p>
 <p><span class="docs-emoji">&#x1F449;</span> <a href="https://www.lakka.tv/get/windows/switch/">Lakka für Switch Download</a></p>
 </li>
-<li><strong>Entpacke die <code translate="no" v-pre>Lakka.7z</code></strong> und ziehe sie auf den <strong>Root der microSD deiner Switch</strong></li>
-<li>Boote in <strong>Hekate</strong> und drücke oben rechts auf <strong>Close</strong></li>
+<li>
+<p><strong>Entpacke die <code translate="no" v-pre>Lakka.7z</code></strong> und ziehe sie auf den <strong>Root der microSD deiner Switch</strong></p>
+</li>
+<li>
+<p>Boote in <strong>Hekate</strong> und drücke oben rechts auf <strong>Close</strong></p>
+</li>
 </ol>
 <p><figure class="content-center">
     <img src="/images/switch/allgemein/hekate_launch_close.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
@@ -289,7 +314,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Vorheriger</span>
-                                <span class="block mt-1">Android & Linux (Ultrahand)</span>
+                                <span class="block mt-1">Android &amp; Linux (Ultrahand)</span>
                             </span>
                         </a>
                     </div>
@@ -342,6 +367,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Lakka", level: 4, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Lakka", level: 4, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/switch/gut-zu-wissen/erweiterte-systeme/lakka_install.md" }</script>
 </body>
 </html>

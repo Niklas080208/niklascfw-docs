@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828824844333">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829326871747">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.4.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>Nintendo Switch V1 – Softmod mit Hekate-Payload (macOS)</title>
     <meta name="title" content="Nintendo Switch V1 – Softmod mit Hekate-Payload (macOS)">
-    <meta name="description" content="Es gibt mehrere Möglichkeiten die Payload über macOS an eure Nintendo Switch zu schicken, hier erklären wir euch zwei davon. Einmal via CrystalRCM (ein">
+    <meta name="description" content="Es gibt mehrere Möglichkeiten die Payload über macOS an eure Nintendo Switch zu schicken, hier erklären wir euch zwei davon. Einmal via CrystalRCM (ein offline Tool) und einmal per WebRCM (erfordert eine Internetverbindung).">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/vorbereitung/rcm-methode/switch_v1_softmod_mac/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://docs.niklascfw.de/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.niklascfw.de/switch/vorbereitung/rcm-methode/switch_v1_softmod_mac/">
     <meta property="og:title" content="Nintendo Switch V1 – Softmod mit Hekate-Payload (macOS)">
-    <meta property="og:description" content="Es gibt mehrere Möglichkeiten die Payload über macOS an eure Nintendo Switch zu schicken, hier erklären wir euch zwei davon. Einmal via CrystalRCM (ein">
+    <meta property="og:description" content="Es gibt mehrere Möglichkeiten die Payload über macOS an eure Nintendo Switch zu schicken, hier erklären wir euch zwei davon. Einmal via CrystalRCM (ein offline Tool) und einmal per WebRCM (erfordert eine Internetverbindung).">
     <meta property="og:image" content="https://docs.niklascfw.de/images/switch/vorbereitung/rcm/crystalrcm1.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -33,18 +34,21 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/vorbereitung/rcm-methode/switch_v1_softmod_mac/">
     <meta name="twitter:title" content="Nintendo Switch V1 – Softmod mit Hekate-Payload (macOS)">
-    <meta name="twitter:description" content="Es gibt mehrere Möglichkeiten die Payload über macOS an eure Nintendo Switch zu schicken, hier erklären wir euch zwei davon. Einmal via CrystalRCM (ein">
+    <meta name="twitter:description" content="Es gibt mehrere Möglichkeiten die Payload über macOS an eure Nintendo Switch zu schicken, hier erklären wir euch zwei davon. Einmal via CrystalRCM (ein offline Tool) und einmal per WebRCM (erfordert eine Internetverbindung).">
     <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/vorbereitung/rcm/crystalrcm1.png">
     <meta name="twitter:image:alt" content="Nintendo Switch V1 – Softmod mit Hekate-Payload (macOS)">
 
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://docs.niklascfw.de/switch/vorbereitung/rcm-methode/switch_v1_softmod_mac.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.4.0.828824844333" rel="stylesheet">
+    <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
+    <link href="/resources/css/retype.css?v=4.5.3.829326871747" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.828824844333" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.828824844333" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.829326871747" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.829326871747" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
 
@@ -64,8 +68,8 @@
                 <div class="flex items-center px-2 md:px-6">
                     <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="135">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="135">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -180,40 +184,47 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
 <h1 id="nintendo-switch-v1--softmod-mit-hekate-payload-macos">Nintendo Switch V1 – Softmod mit Hekate-Payload (macOS)</h1>
 <p>Es gibt mehrere Möglichkeiten die Payload über macOS an eure Nintendo Switch zu schicken, hier erklären wir euch zwei davon. Einmal via CrystalRCM (ein offline Tool) und einmal per WebRCM (erfordert eine Internetverbindung). Welche Methode ihr davon auswählt liegt an euch.</p>
 <hr>
 <h2 id="crystalrcm-offline-tool"><span class="docs-emoji">&#x1F6E0;&#xFE0F;</span>CrystalRCM (offline Tool)</h2>
 <ol>
-<li><p>Lade dir die aktuelle Version von <strong>CrystalRCM</strong> über <strong>Github</strong> herunter und installiere diese auf deinem Mac.
+<li>
+<p>Lade dir die aktuelle Version von <strong>CrystalRCM</strong> über <strong>Github</strong> herunter und installiere diese auf deinem Mac.
 → <a href="https://github.com/prayerie/CrystalRCM">CrystalRCM</a></p>
 </li>
-<li><p>Starte <strong>CrystalRCM</strong>.
+<li>
+<p>Starte <strong>CrystalRCM</strong>.
 <figure class="content-center">
     <img src="/images/switch/vorbereitung/rcm/crystalrcm1.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 </li>
-<li><p>Versetze deine <strong>Switch</strong> in den <strong>RCM-Modus</strong> und verbinde diese mit deinem <strong>Mac</strong> via <strong>USB</strong>.
+<li>
+<p>Versetze deine <strong>Switch</strong> in den <strong>RCM-Modus</strong> und verbinde diese mit deinem <strong>Mac</strong> via <strong>USB</strong>.
 <figure class="content-center">
     <img src="/images/switch/vorbereitung/rcm/crystalrcm2.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 </li>
-<li><p>Klicke nun auf <strong>select Payload</strong> und wähle die <code translate="no" v-pre>payload.bin</code> aus dem <strong>NiklasCFW Pack</strong> aus und klick anschließend auf <strong>Push!</strong> um die Payload an deine Switch zu schicken.
+<li>
+<p>Klicke nun auf <strong>select Payload</strong> und wähle die <code translate="no" v-pre>payload.bin</code> aus dem <strong>NiklasCFW Pack</strong> aus und klick anschließend auf <strong>Push!</strong> um die Payload an deine Switch zu schicken.
 <figure class="content-center">
     <img src="/images/switch/vorbereitung/rcm/crystalrcm3.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 </li>
-<li><p>Wenn die Payload erfolgreich an deine Switch geschickt wurde, startet diese jetzt in Hekate.
+<li>
+<p>Wenn die Payload erfolgreich an deine Switch geschickt wurde, startet diese jetzt in Hekate.
 <figure class="content-center">
     <img src="/images/switch/vorbereitung/rcm/crystalrcm4.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
@@ -225,10 +236,12 @@
 <h2 id="-webrcm-erfordert-eine-internetverbindung"><span class="docs-emoji">&#x1F9F0;</span> WebRCM (erfordert eine Internetverbindung)</h2>
 <h2 id="voraussetzungen">Voraussetzungen</h2>
 <ul>
-<li><p><strong>Kompatibler Browser:</strong> Google Chrome, Microsoft Edge, Opera, Samsung Internet oder QQ Browser<br />
+<li>
+<p><strong>Kompatibler Browser:</strong> Google Chrome, Microsoft Edge, Opera, Samsung Internet oder QQ Browser<br />
 <em>(Safari, Firefox &amp; Co. funktionieren nicht – wegen fehlender WebUSB-Unterstützung)</em></p>
 </li>
-<li><p>Funktioniert <strong>nicht</strong> unter Windows (WebUSB-Beschränkung).<br />
+<li>
+<p>Funktioniert <strong>nicht</strong> unter Windows (WebUSB-Beschränkung).<br />
 → Auf Windows stattdessen <strong>TegraRcmGUI</strong> oder <strong>TegraRcmSmash</strong> verwenden.</p>
 </li>
 </ul>
@@ -331,6 +344,6 @@ Diese können Probleme mit der CFW verursachen.</p>
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "macOS", level: 4, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "macOS", level: 4, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/switch/vorbereitung/rcm-methode/switch_v1_softmod_mac.md" }</script>
 </body>
 </html>

@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828824844333">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829326871747">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.4.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>SD auf FAT32 formatieren</title>
     <meta name="title" content="SD auf FAT32 formatieren">
-    <meta name="description" content="In dieser Anleitung findest du drei verschiedene Methoden, um deine SD-Karte auf FAT32 zu formatieren. Bitte lies dir alle Punkte aufmerksam durch und">
+    <meta name="description" content="In dieser Anleitung findest du drei verschiedene Methoden, um deine SD-Karte auf FAT32 zu formatieren. Bitte lies dir alle Punkte aufmerksam durch und wähle die Methode, die für dich am besten passt.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/vorbereitung/sd_format/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://docs.niklascfw.de/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.niklascfw.de/switch/vorbereitung/sd_format/">
     <meta property="og:title" content="SD auf FAT32 formatieren">
-    <meta property="og:description" content="In dieser Anleitung findest du drei verschiedene Methoden, um deine SD-Karte auf FAT32 zu formatieren. Bitte lies dir alle Punkte aufmerksam durch und">
+    <meta property="og:description" content="In dieser Anleitung findest du drei verschiedene Methoden, um deine SD-Karte auf FAT32 zu formatieren. Bitte lies dir alle Punkte aufmerksam durch und wähle die Methode, die für dich am besten passt.">
     <meta property="og:image" content="https://docs.niklascfw.de/images/switch/vorbereitung/sd-karte/rufus.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -33,18 +34,21 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/vorbereitung/sd_format/">
     <meta name="twitter:title" content="SD auf FAT32 formatieren">
-    <meta name="twitter:description" content="In dieser Anleitung findest du drei verschiedene Methoden, um deine SD-Karte auf FAT32 zu formatieren. Bitte lies dir alle Punkte aufmerksam durch und">
+    <meta name="twitter:description" content="In dieser Anleitung findest du drei verschiedene Methoden, um deine SD-Karte auf FAT32 zu formatieren. Bitte lies dir alle Punkte aufmerksam durch und wähle die Methode, die für dich am besten passt.">
     <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/vorbereitung/sd-karte/rufus.png">
     <meta name="twitter:image:alt" content="SD auf FAT32 formatieren">
 
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://docs.niklascfw.de/switch/vorbereitung/sd_format.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link id="retype-favicon" rel="icon" href="/assets/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.4.0.828824844333" rel="stylesheet">
+    <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
+    <link href="/resources/css/retype.css?v=4.5.3.829326871747" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.4.0.828824844333" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.4.0.828824844333" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.829326871747" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.829326871747" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
 
@@ -64,8 +68,8 @@
                 <div class="flex items-center px-2 md:px-6">
                     <a id="retype-branding-logo" href="https://docs.niklascfw.de/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="160" height="40">
-                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="160" height="40">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="" width="135">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="" width="135">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                 </div>
@@ -180,9 +184,11 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
 <h1 id="sd-auf-fat32-formatieren">SD auf FAT32 formatieren</h1>
 <p>In dieser Anleitung findest du <strong>drei verschiedene Methoden</strong>, um deine SD-Karte auf <strong>FAT32</strong> zu formatieren.<br />
@@ -210,12 +216,15 @@ Bitte lies dir alle Punkte aufmerksam durch und wähle die Methode, die für dic
     <figcaption class="caption"></figcaption>
 </figure>
 <ol start="2">
-<li><p>Wähle deinen <strong>SD-Datenträger</strong> oben in der Liste aus.<br />
+<li>
+<p>Wähle deinen <strong>SD-Datenträger</strong> oben in der Liste aus.<br />
 <em>Achtung: Der Name kann bei jedem unterschiedlich sein!</em></p>
 </li>
-<li><p>Erweiterte Laufwerkseigenschaften einblenden</p>
+<li>
+<p>Erweiterte Laufwerkseigenschaften einblenden</p>
 </li>
-<li><p>Klicke auf <strong>Start</strong>, um die Formatierung zu beginnen.</p>
+<li>
+<p>Klicke auf <strong>Start</strong>, um die Formatierung zu beginnen.</p>
 </li>
 </ol>
 <div style="background-color: #e7f3ff; border-left: 4px solid #2196F3; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
@@ -368,6 +377,6 @@ Bitte lies dir alle Punkte aufmerksam durch und wähle die Methode, die für dic
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "SD auf FAT32 formatieren", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "SD auf FAT32 formatieren", level: 3, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/switch/vorbereitung/sd_format.md" }</script>
 </body>
 </html>
