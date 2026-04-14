@@ -42,7 +42,8 @@ Nachfolgend eine Übersicht der im Test genannten Karten und ihrer relevanten Le
 | Amazon Basic 512 GBB (Gold) | **0,430 ms**   | **2325 IOPS** | **2450 IOPS**  | Ausreichend |
 | Amazon Basic 1 TB (Black) | **0,430 ms**     | **2325 IOPS** | **2450 IOPS**  | Ausreichend |
 | Kingston Canvas Go! Plus 512 GB | **0,299 ms**      | **3345 IOPS** | **2066 IOPS**  | Sehr schnell |
-| Lexar 633x 512 GB        | **0,414 ms**      | **2418 IOPS** | **1640 IOPS**   | langsam |
+| Lexar 633x 512 GB        | **0,414 ms**      | **2418 IOPS** | **1640 IOPS**  | langsam |
+| Samsung EVO 64 GB (gelb) | **0,391 ms**      | **2566 IOPS** | **1941 IOPS**  | langsam |
 | Samsung EVO Plus 256 GB  | **0,367 ms**      | **2725 IOPS** | **2220 IOPS**  | Schnell |
 | Samsung EVO Plus 512 GB  | **0,268 ms**      | **3728 IOPS** | **2081 IOPS**  | Sehr schnell / Empfehlung |
 | Samsung EVO Select 1 TB  | **0,249 ms**      | **4025 IOPS** | **2580 IOPS**  | Sehr schnell / Empfehlung |
