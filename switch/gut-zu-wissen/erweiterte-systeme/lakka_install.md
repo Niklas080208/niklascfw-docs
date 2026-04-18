@@ -21,13 +21,8 @@
 2. Runterscrollen und **Lakka** auswählen.
 ![|700x420](/images/switch/allgemein/lakka2.jpg)
 3. Auf **Lakka** klicken und den Download starten (⬇️ Download läuft, ⬆️ Entpacken läuft).
-![|700x420](/images/switch/allgemein/lakka3.jpg)
-4. Anschließend drückt ihr die **B-Taste** und geht auf **INI's**.
-![|700x420](/images/switch/allgemein/lakka4.jpg)
-5. Wählt hier **Lakka.ini** aus und wartet bis der Download beendet ist.
-![|700x420](/images/switch/allgemein/lakka5.jpg)
-6. Startet über **RebootNX** in **Hekate**.
-7. Geht auf **More Configs**, hier wird euch nun **Lakka** angezeigt und ihr könnt es starten.
+4. Startet über **RebootNX** in **Hekate**.
+5. Geht auf **More Configs**, hier wird euch nun **Lakka** angezeigt und ihr könnt es starten.
 ![|700x420](/images/switch/allgemein/lakka6.jpg)
 
 ---
