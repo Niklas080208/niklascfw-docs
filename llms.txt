@@ -53,7 +53,7 @@
 - [Backups installieren (XCI / XCZ / NSP / NSZ)](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/backups-installieren.md): Diese Anleitung erklärt dir, wie du Switch-Backups über Sphaira (MPT Install) oder DBI (MTP Responder) installierst.
 - [Gamecard Dump Anleitung](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/gamecard_mit_spaira_dumpen.md): ⚠️ Hinweis: Diese Anleitung ist nur dafür gedacht, eigene Daten oder legal erworbene Inhalte zu sichern. Sie darf nicht zum Kopieren, Teilen oder Umgehen von Kopierschutz verwendet werden.
 - [Anleitung: OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/ofw_to_emummc_guide.md): ⚠️ Wichtig – nur wenn alle Bedingungen erfüllt sind, funktioniert das Dumpen:
-- [Sphaira: Games und Updates aus der OFW dumpen](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/sphaira_games_und_updates_aus_der_ofw_dumpen.md): Gilt nur bis OFW 21.2.0.
+- [Sphaira: Games und Updates aus der OFW dumpen](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/sphaira_games_und_updates_aus_der_ofw_dumpen.md): 💡 Hinweis: Du bist zu 100 % selbst für dein Handeln verantwortlich. NiklasCFW übernimmt keinerlei Haftung für den eventuellen Bann. ⚠️Wichtig: In Stock CFW nichts installieren.
 
 #### Apps & Tools
 
