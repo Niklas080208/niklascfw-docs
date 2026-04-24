@@ -99,7 +99,7 @@
 
 ### NiklasCFW Pack
 
-- [Ersteinrichtung 1.5.0 Final Release](https://docs.niklascfw.de/switch/niklascfw-pack/guide1.4.0.md): Anders gesagt solange ihr nicht an irgendeinem schritt Formatieren drück bleibt alles bestehen. Löscht die Ordner wie auf den Beispielbildern. Macht
+- [Ersteinrichtung](https://docs.niklascfw.de/switch/niklascfw-pack/guide1.4.0.md): Anders gesagt solange ihr nicht an irgendeinem schritt Formatieren drück bleibt alles bestehen. Löscht die Ordner wie auf den Beispielbildern. Macht
 - [Ersteinrichtung 1.5.0 beachten Siehe :](https://docs.niklascfw.de/switch/niklascfw-pack/guide1.md): Ersteinrichtung
 - [emuMMC erstellen](https://docs.niklascfw.de/switch/niklascfw-pack/guide2.md): Ein emuMMC (emulierte SD Card) ist eine virtuelle Version bzw. eine 1:1 Kopie des internen Speichers (eMMC) einer Nintendo Switch.
 - [NiklasCFW_Pack einrichten](https://docs.niklascfw.de/switch/niklascfw-pack/guide3.md): Forwarder sind Verknüpfungen, die es ermöglichen, Homebrew-Apps (wie Sphaira, DBI, Emulatoren oder andere Apps) direkt vom Startbildschirm mit vollem RAM-Zugriff zu starten, anstatt über das HB-Menu.
