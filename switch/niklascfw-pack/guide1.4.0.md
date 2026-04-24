@@ -1,10 +1,10 @@
 ---
 icon: sparkle-fill
-label: "Ersteinrichtung 1.5.0"
+label: "Ersteinrichtung"
 order: 400
 ---
 
-# Ersteinrichtung 1.5.0 Final Release
+# Ersteinrichtung
 
 ---
 
@@ -82,23 +82,6 @@ Es gibt **zwei Möglichkeiten**, das CFW Pack auf die SD-Karte zu kopieren:
 
 ---
 
-## 🔑 prod.keys dumpen
-
-<div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
-<h4 style="color: #856404; margin-top: 0;">⚠️ Navigation</h4>
-<p style="color: #212529; margin-bottom: 0;">Die Navigation funktioniert nur mit <strong>Lautstärke-Tasten</strong> und Bestätigung mit der <strong>Power-Taste</strong>.</p>
-</div>
-
-1. Starte **Hekate**
-2. Gehe zu **Launch** → **Lockpick_RCM**
-3. Wähle **Dump from Sysnand** aus
-4. Drücke die **Power-Taste** und wähle **Reboot to Hekate**
-
-![|700x420](/images/switch/niklascfw-pack/guide1/bild14.png)
-![|700x420](/images/switch/niklascfw-pack/guide1/bild13.jpeg)
-
----
-
 ## 🔄 Update Script ausführen
 
 1. Im **Launch Menü** angekommen, wähle **Tegra Explorer** aus
@@ -113,6 +96,24 @@ Es gibt **zwei Möglichkeiten**, das CFW Pack auf die SD-Karte zu kopieren:
 5. Nach der Installation:
    - Drücke **A und für Switch Lite Power**
    - **Landest dann direkt in Hekate zum Launch**
+
+
+---
+
+## 🔑 prod.keys dumpen
+
+<div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
+<h4 style="color: #856404; margin-top: 0;">⚠️ Navigation</h4>
+<p style="color: #212529; margin-bottom: 0;">Die Navigation funktioniert nur mit <strong>Lautstärke-Tasten</strong> und Bestätigung mit der <strong>Power-Taste</strong>.</p>
+</div>
+
+1. Starte **Hekate**
+2. Gehe zu **Launch** → **Lockpick_RCM**
+3. Wähle **Dump from Sysnand** aus
+4. Drücke die **Power-Taste** und wähle **Reboot to Hekate**
+
+![|700x420](/images/switch/niklascfw-pack/guide1/bild14.png)
+![|700x420](/images/switch/niklascfw-pack/guide1/bild13.jpeg)
 
 
 ---
