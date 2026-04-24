@@ -40,6 +40,7 @@ Du holst dir Spiele & Updates aus der echten Firmware (OFW) in eine neue emuMMC.
 :four: **In die neue emuMMC wechseln**  
 - Hekate → Close → `emuMMC` → `Change emuMMC`  
 - Deine neue SD-emuMMC auswählen
+(je nachdem wie deine emuMMC heißt – SD01, SD02 usw.)
 
 :five: **In die neue emuMMC booten**
 
@@ -56,13 +57,13 @@ Du holst dir Spiele & Updates aus der echten Firmware (OFW) in eine neue emuMMC.
 :pushpin: *Falls du DBI noch nie genutzt hast:*
 
 ➤ **So startest du DBI via Title Override:**  
-- Halte **R-Taste** gedrückt und starte z. B. das Album oder ein Spiel  
+- Halte **R-Taste** gedrückt und starte ein Spiel > Andererseits kannst auch über das Album ein Forwarder installieren da nach all dem gantrn löscst du den **Ersatz emuMMC**
 - Du landest im Homebrew-Menü → DBI starten
 
 > ⚠️ **Hinweis:**  
 >**Jetzt wichtig:**  
 >Für **Cartridge Game Updates** muss das Cartridge Game **vorher über DBI oder Sphaira installiert** werden,  
->sodass die Updates dann unter `SD Install` angezeigt werden.  
+>sodass die Updates dann unter `SD Install` angezeigt werden. 
 
 >➡️ Anleitung: [Spiele von Gamecards installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/spiele_installation_dbi_sphaira/#dbi)
 
@@ -70,13 +71,13 @@ Du holst dir Spiele & Updates aus der echten Firmware (OFW) in eine neue emuMMC.
 2. Verbinde deine Switch per USB mit dem PC  
 3. Am PC erscheint sie wie ein USB-Stick
 
-:floppy_disk: Öffne den Ordner `Installed Games` → dort kannst du die Spiele + Updates ganz einfach auf deinen PC kopieren!
+:floppy_disk: Öffne den Ordner `Installed Games` → dort Findest du Ordner zu den Spielen (Spiele + Updates). Diese kannst du die  ganz einfach auf deinen PC kopieren!
 
 ---
 
 :seven: **Zurück zur Ziel-emuMMC**  
-- Wieder `Change emuMMC` in Hekate → wähle die emuMMC, wo du die Spiele dauerhaft willst  
-- Boot in diese emuMMC  
+- Wieder `Change emuMMC` in Hekate → wähle den emuMMC, für den du das alles gemacht hast. 
+- Boot in diesen emuMMC  
 - Öffne DBI  
 - Starte den MTP Responder  
 - Diesmal → `SD Install` auswählen  
