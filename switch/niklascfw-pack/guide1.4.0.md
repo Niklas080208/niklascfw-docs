@@ -93,8 +93,8 @@ Es gibt **zwei Möglichkeiten**, das CFW Pack auf die SD-Karte zu kopieren:
 
 ## 🔄 Update Script ausführen
 
-1. Im **Launch Menü** angekommen, wähle **Tegra Explorer** aus
-> Falls eine Meldung erscheint, drücke diese weg
+1. Im **Launch Menü** angekommen, wähle **Tegra Explorer** aus.
+ Falls eine Meldung wegen keys erscheint, drücke diese weg, das kommt nach der Installation noch.
 
 ![|700x420](/images/switch/niklascfw-pack/guide1/TegraLaunch.bmp)
 
