@@ -36,13 +36,18 @@ order: 400
 
 1. Entpacke die heruntergeladene Datei.
 
+### ℹ️ Wichtiger Hinweis
 
+**Am besten mit WinRAR entpacken**, da es dabei seltener zu Fehlern kommt.
 
 ---
 
 ## 💾 CFW Pack auf SD-Karte kopieren
 
 Es gibt **zwei Möglichkeiten**, das CFW Pack auf die SD-Karte zu kopieren:
+
+> ℹ️ **Wichtiger Hinweis**  
+> Die Optionen schließen sich natürlich gegenseitig aus.
 
 ### Option 1: Über SD-Kartenleser (PC)
 
@@ -54,11 +59,15 @@ Es gibt **zwei Möglichkeiten**, das CFW Pack auf die SD-Karte zu kopieren:
 
 1. Starte **Hekate** (Bootloader)
 2. Falls du im **Launch Menu** landest, klicke oben rechts auf **Close**
-3. Gehe zu **Tools** → **USB Tools** → **SD Card**
-4. Verbinde die Switch per **USB** mit dem PC
 
 ![|700x420](/images/switch/niklascfw-pack/guide1/bild9.jpg)
+
+3. Gehe zu **Tools** → **USB Tools** → **SD Card**
+
 ![|700x420](/images/switch/niklascfw-pack/guide1/bild10.jpg)
+
+4. Verbinde die Switch per **USB** mit dem PC
+
 ![|700x420](/images/switch/niklascfw-pack/guide1/bild11.jpg)
 ![|700x420](/images/switch/niklascfw-pack/guide1/bild12.jpg)
 
@@ -85,22 +94,31 @@ Es gibt **zwei Möglichkeiten**, das CFW Pack auf die SD-Karte zu kopieren:
 ## 🔄 Update Script ausführen
 
 1. Im **Launch Menü** angekommen, wähle **Tegra Explorer** aus
-2. Falls eine Meldung erscheint, drücke diese weg
-3. Wähle **NiklasCFW - Install Skript.te** aus
-4. Folge den **Anweisungen** im nächsten Fenster
+> Falls eine Meldung erscheint, drücke diese weg
 
-![|700x420](/images/switch/niklascfw-pack/guide1/bild15.jpeg)
-![|700x420](/images/switch/niklascfw-pack/guide1/bild16.jpg)
-![|700x420](/images/switch/niklascfw-pack/guide1/bild17.jpg)
+![|700x420](/images/switch/niklascfw-pack/guide1/TegraLaunch.bmp)
 
-5. Nach der Installation:
+
+
+![|700x420](/images/switch/niklascfw-pack/guide1/vorminstall.bmp)
+
+2. Wähle **NiklasCFW - Install Skript.te** aus
+
+![|700x420](/images/switch/niklascfw-pack/guide1/Scriptwahl.bmp)
+
+3. Folge den **Anweisungen** im nächsten Fenster
+
+![|700x420](/images/switch/niklascfw-pack/guide1/Installbeendet.bmp)
+
+
+4. Nach der Installation:
    - Drücke **A und für Switch Lite Power**
    - **Landest dann direkt in Hekate zum Launch**
 
 
 ---
 
-## 🔑 prod.keys dumpen
+## 🔑 prod.keys dumpen 💡Wegen der Key Warnmeldung Anfangs. 
 
 <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
 <h4 style="color: #856404; margin-top: 0;">⚠️ Navigation</h4>
@@ -109,11 +127,13 @@ Es gibt **zwei Möglichkeiten**, das CFW Pack auf die SD-Karte zu kopieren:
 
 1. Starte **Hekate**
 2. Gehe zu **Launch** → **Lockpick_RCM**
+
+![|700x420](/images/switch/niklascfw-pack/guide1/Lockpickwählen.jpg)
+
 3. Wähle **Dump from Sysnand** aus
 4. Drücke die **Power-Taste** und wähle **Reboot to Hekate**
 
 ![|700x420](/images/switch/niklascfw-pack/guide1/bild14.png)
-![|700x420](/images/switch/niklascfw-pack/guide1/bild13.jpeg)
 
 
 ---
