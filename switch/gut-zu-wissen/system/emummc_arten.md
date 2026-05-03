@@ -32,4 +32,4 @@ Es gibt **zwei Möglichkeiten** – entweder direkt **am PC** oder über **Hekat
 
 > ✅ **Fazit:**  
 Wenn bei dir **RAW1** oder **SD RAW** steht, hast du einen **Partition-emuMMC**.  
-Wenn du **SD00** oder **SD01** siehst, nutzt du einen **Datei-emuMMC**.
+Wenn du **SD00** oder **SD01** siehst, nutzt du einen **SD File-emuMMC**.
