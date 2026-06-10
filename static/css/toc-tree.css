@@ -1,0 +1,214 @@
+/**
+ * Tree-style TOC for README (scoped .niklas-toc)
+ * Colors aligned with Retype (neutral surfaces, #5297F1 links); dark panel #161716
+ */
+
+.niklas-toc {
+  /* Light: same family as docs content */
+  --toc-bg: #f6f7f6;
+  --toc-card-bg: #ffffff;
+  --toc-border: #e2e4e2;
+  --toc-line: #d6d9d6;
+  --toc-head: #1a1c1a;
+  --toc-subhead: #6a6d6a;
+  --toc-link: #5297f1;
+  --toc-link-hover: #3d7fd4;
+  --toc-accent: #5297f1;
+  --toc-hover-bg: #eef2fb;
+  --toc-radius: 10px;
+  --toc-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.06);
+  --toc-card-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  font-family: inherit;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 1.5rem 0 2rem;
+}
+
+/* Retype: dark scheme uses .dark on the root element (same blues as sidebar/links) */
+.dark .niklas-toc,
+html.dark .niklas-toc {
+  --toc-bg: #161716;
+  --toc-card-bg: #1d1f1d;
+  --toc-border: #2a2c2a;
+  --toc-line: #3a3d3a;
+  --toc-head: #e8eae8;
+  --toc-subhead: #9a9e9a;
+  --toc-link: #5297f1;
+  --toc-link-hover: #7eb4f5;
+  --toc-accent: #5297f1;
+  --toc-hover-bg: #2a2e36;
+  --toc-shadow: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 8px 24px rgba(0, 0, 0, 0.35);
+  --toc-card-shadow: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.niklas-toc-panel {
+  background: var(--toc-bg);
+  border: 1px solid var(--toc-border);
+  border-radius: var(--toc-radius);
+  box-shadow: var(--toc-shadow);
+  padding: 1.35rem 1.25rem 1.5rem 1.1rem;
+  overflow-x: auto;
+}
+
+.niklas-toc-title {
+  margin: 0 0 1rem 0.35rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid var(--toc-border);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--toc-head);
+}
+
+.niklas-toc-branches {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* Masonry-style packing: cards flow into responsive columns and keep
+     a tidy layout despite very different branch heights. */
+  column-width: 270px;
+  column-gap: 1rem;
+}
+
+.niklas-toc-branches > li {
+  margin: 0 0 1rem;
+  padding: 0.35rem 0.95rem 0.85rem;
+  background: var(--toc-card-bg);
+  border: 1px solid var(--toc-border);
+  border-radius: var(--toc-radius);
+  box-shadow: var(--toc-card-shadow);
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+}
+
+.niklas-toc-branch-head {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 -0.95rem 0.5rem;
+  padding: 0.5rem 0.95rem 0.55rem;
+  border-bottom: 1px solid var(--toc-border);
+  font-weight: 700;
+  font-size: 0.92rem;
+  letter-spacing: -0.01em;
+  color: var(--toc-head);
+}
+
+.niklas-toc-branch-head::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 0.95rem;
+  border-radius: 2px;
+  background: var(--toc-accent);
+  flex-shrink: 0;
+}
+
+.niklas-toc-links {
+  list-style: none;
+  margin: 0 0 0 0.15rem;
+  padding: 0.1rem 0 0.1rem 0.85rem;
+  border-left: 1px solid var(--toc-line);
+}
+
+.niklas-toc-links li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.niklas-toc-links li + li {
+  margin-top: 0.2rem;
+}
+
+/* Horizontal branch: vertically centered on the row so it meets the spine flush */
+.niklas-toc-links li::before {
+  content: "";
+  position: absolute;
+  left: -0.85rem;
+  top: 50%;
+  width: 0.55rem;
+  height: 1px;
+  background: var(--toc-line);
+  transform: translateY(-50%);
+}
+
+.niklas-toc-links a {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.5rem;
+  padding: 0.28rem 0.45rem;
+  margin-left: 0.15rem;
+  border-radius: 6px;
+  text-decoration: none !important;
+  color: var(--toc-link) !important;
+  transition: background 0.15s ease, transform 0.12s ease, color 0.15s ease;
+}
+
+.niklas-toc-links a .niklas-toc-icon {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.niklas-toc-links a:hover {
+  background: var(--toc-hover-bg);
+  color: var(--toc-link-hover) !important;
+  transform: translateX(2px);
+}
+
+.niklas-toc-sub {
+  margin: 0.5rem 0 0.35rem 0;
+}
+
+.niklas-toc-sub:first-child {
+  margin-top: 0.25rem;
+}
+
+.niklas-toc-subhead {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--toc-subhead);
+  margin: 0.65rem 0 0.35rem 0;
+  padding-left: 0.15rem;
+  opacity: 0.95;
+}
+
+.niklas-toc-sub .niklas-toc-links {
+  margin-top: 0.15rem;
+  margin-bottom: 0.35rem;
+}
+
+.niklas-toc-nested {
+  margin-left: 0.25rem;
+  padding-left: 0;
+  border-left: none;
+}
+
+.niklas-toc-nested .niklas-toc-sub {
+  padding-left: 0.5rem;
+  border-left: 1px solid var(--toc-line);
+  margin-left: 0.15rem;
+}
+
+.niklas-toc-nested .niklas-toc-subhead {
+  padding-left: 0.35rem;
+}
+
+.niklas-toc-nested .niklas-toc-links {
+  border-left: none;
+  padding-left: 0.85rem;
+  margin-left: 0.35rem;
+}
+
+.niklas-toc-nested .niklas-toc-links li::before {
+  left: -0.85rem;
+  width: 0.55rem;
+  top: 50%;
+  transform: translateY(-50%);
+}

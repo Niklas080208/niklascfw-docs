@@ -1,0 +1,46 @@
+input: .
+output: .retype
+
+exclude:
+  - "RETYPE_AGENT_REFERENCE.md"
+
+url: docs.niklascfw.de # Use your website address here
+
+start:
+  # Uncomment the next line to try Retype Pro features
+  # pro: true
+
+branding:
+  logo: /assets/logo.png
+  logoDark: /assets/logo-dark.png
+  logoWidth: 135
+  favicon: ./favicon.png
+  label: "Docs"
+  # title: "Nintendo Switch CFW Dokumentation"
+
+favicon: /assets/favicon.png
+
+links:
+- text: Serial Checker
+  link: https://serialcheck.niklascfw.de
+  icon: /assets/switch.png
+- text: YouTube
+  link: https://youtube.com/@NiklasCFW
+  icon: /assets/youtube.png
+- text: Discord
+  link: "https://discord.gg/niklascfw"
+  icon: /assets/discord.png
+
+footer:
+  copyright: "&copy; {{ year }} [NiklasCFW](https://youtube.com/@NiklasCFW). Alle Rechte vorbehalten."
+
+editor:
+  enabled: true
+  
+generator:
+  paths: root
+
+edit:
+  repo: github.com/Niklas080208/niklascfw-dev-docs
+
+locale: de

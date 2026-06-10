@@ -1,0 +1,26 @@
+name: Publish new Release
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  publish:
+    name: Sync Retype and Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      - name: Update and Release
+        shell: bash
+        run: bash .github/workflows/refresh-release.sh --github-token="${{ secrets.GITHUB_TOKEN }}"
+      - uses: retypeapp/action-build@latest
+      - uses: retypeapp/action-github-pages@latest
+        with:
+          update-branch: true
