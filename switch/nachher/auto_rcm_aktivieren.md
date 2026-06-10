@@ -1,6 +1,6 @@
 # AutoRCM aktivieren
 
-Sofern du eine Switch ohne Modchip hast, kannst du durch die Funktion **Auto RCM** den JIG umgehen und direkt über Power und RCM Loader oder anderen RCM Tools siehe: https://docs.niklascfw.de/switch/vorbereitung/rcm-methode/switch_v1_softmod_windows/ in Hekate booten.  
+Sofern du eine Switch ohne Modchip hast, kannst du durch die Funktion **Auto RCM** den JIG umgehen und direkt über Power und RCM Loader oder andere RCM-Tools in Hekate booten. Anleitung: https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/rcm-methode/payload_laden/
 
 ## Anleitung
 

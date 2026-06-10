@@ -2,17 +2,32 @@
 
 ## Nintendo Switch
 
-### Vorbereitung
+### Vorbereitung & Installation
 
-- [Prüfe, ob deine Nintendo Switch ungepatcht ist](https://docs.niklascfw.de/switch/vorbereitung/switch_ungepatcht_check.md): Diese Anleitung hilft dir dabei zu prüfen, ob deine Nintendo Switch ungepatcht ist und ob du CFW ohne Modchip nutzen kannst.
-- [Die richtige Speicherkarte](https://docs.niklascfw.de/switch/vorbereitung/richtige_sd.md): Die microSD-Karte ist das Herzstück des Systems. Hier liegen Spiele, Homebrew-Apps und oft auch wichtige Systemdaten. Eine minderwertige oder zu langsame Speicherkarte kann dabei nicht nur zu langen Ladezeiten führen, sondern auch zu Datenfehlern, Abstürzen oder gar einem beschädigten Dateisystem.
-- [SD auf FAT32 formatieren](https://docs.niklascfw.de/switch/vorbereitung/sd_format.md): In dieser Anleitung findest du drei verschiedene Methoden, um deine SD-Karte auf FAT32 zu formatieren. Bitte lies dir alle Punkte aufmerksam durch und wähle die Methode, die für dich am besten passt.
+- [Start: Roter Faden (0 → fertig)](https://docs.niklascfw.de/switch/vorbereitung/roter_faden.md): Von Null bis lauffähiger CFW mit OmniNX als Hauptpfad.
 
-#### RCM Methode
+#### Voraussetzungen
 
-- [Nintendo Switch V1 – Softmod mit Hekate-Payload (Windows)](https://docs.niklascfw.de/switch/vorbereitung/rcm-methode/switch_v1_softmod_windows.md): Nintendo Switch v1 (unpatched, Seriennummer prüfen)
-- [Nintendo Switch V1 – Softmod mit Hekate-Payload (macOS)](https://docs.niklascfw.de/switch/vorbereitung/rcm-methode/switch_v1_softmod_mac.md): Es gibt mehrere Möglichkeiten die Payload über macOS an eure Nintendo Switch zu schicken, hier erklären wir euch zwei davon. Einmal via CrystalRCM (ein offline Tool) und einmal per WebRCM (erfordert eine Internetverbindung).
-- [Nintendo Switch V1 – Softmod mit Hekate-Payload (Linux, Android, ChromeOS)](https://docs.niklascfw.de/switch/vorbereitung/rcm-methode/switch_v1_softmod_linux.md): Mit WebRCM kann der Payload direkt im Browser gesendet werden – ohne zusätzliche Software.
+##### Switch Modell prüfen
+
+- [Prüfe, ob deine Nintendo Switch ungepatcht ist](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/serial_check.md): Diese Anleitung hilft dir dabei zu prüfen, ob deine Nintendo Switch ungepatcht ist und ob du CFW ohne Modchip nutzen kannst.
+
+###### RCM Methode
+
+- [RCM Methode](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/rcm-methode/rcm-methode.md): Bevor du den Payload sendest, ist es hilfreich zu verstehen, was bei RCM technisch passiert.
+- [Payload laden (Hekate)](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/rcm-methode/payload_laden.md): Wenn deine Switch bereits im RCM ist, kannst du jetzt den Payload (hekate.bin) senden.
+- [Modchip einbauen](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/modchip.md): Wenn deine Konsole als gepatcht erkannt wurde, ist CFW nur mit einem Modchip möglich.
+- [Die richtige Speicherkarte](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/richtige_sd.md): Die microSD-Karte ist das Herzstück des Systems. Hier liegen Spiele, Homebrew-Apps und oft auch wichtige Systemdaten. Eine minderwertige oder zu langsame Speicherkarte kann dabei nicht nur zu langen Ladezeiten führen, sondern auch zu Datenfehlern, Abstürzen oder gar einem beschädigten Dateisystem.
+- [SD auf FAT32 formatieren](https://docs.niklascfw.de/switch/vorbereitung/sd_wipe.md): In dieser Anleitung findest du drei Wege, um deine SD-Karte auf FAT32 zu formatieren.
+- [OmniNX Setup](https://docs.niklascfw.de/switch/vorbereitung/einfuehrung.md): OmniNX ist ein vollständiges Custom-Firmware-Setup für die Nintendo Switch. Es ist in drei Varianten verfügbar und legt Wert auf Flexibilität und Modularität.
+- [OmniNX Herunterladen](https://docs.niklascfw.de/switch/vorbereitung/download.md): Gehe zu den OmniNX Releases: git.niklascfw.de/OmniNX/OmniNX/releases
+
+#### Installation von OmniNX
+
+- [Installation von OmniNX](https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/index.md): Nach dem Download und dem Kopieren des Packs auf die SD-Karte startest du hier den OmniNX Installer und führst die Installation durch.
+- [Fehlerbehebung – Installation](https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/troubleshooting.md): Während der OmniNX-Installation können verschiedene Hinweise und Fehlermeldungen auftauchen. Hier sind die häufigsten dokumentiert.
+- [emuMMC erstellen](https://docs.niklascfw.de/switch/vorbereitung/emummc_erstellen.md): Ein emuMMC (emulated MMC) ist eine virtuelle Kopie des internen Speichers (eMMC) deiner Nintendo Switch.
+- [OmniNX einrichten](https://docs.niklascfw.de/switch/vorbereitung/pack_einrichten.md): Nach dem ersten Start der CFW (OmniNX) solltest du noch ein paar Dinge einrichten: Forwarder, Systemzeit und optional zusätzliche Apps.
 
 ### System & Backup
 
@@ -22,7 +37,7 @@
 
 ### Nachher
 
-- [AutoRCM aktivieren](https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren.md): Sofern du eine Switch ohne Modchip hast, kannst du durch die Funktion Auto RCM den JIG umgehen und direkt über Power und RCM Loader oder anderen RCM Tools siehe: https://docs.niklascfw.de/switch/vorbereitung/rcm-methode/switch_v1_softmod_windows/ in Hekate booten.
+- [AutoRCM aktivieren](https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren.md): Sofern du eine Switch ohne Modchip hast, kannst du durch die Funktion Auto RCM den JIG umgehen und direkt über Power und RCM Loader oder andere RCM-Tools in Hekate booten.
 - [Autoboot aktivieren](https://docs.niklascfw.de/switch/nachher/autoboot_aktivieren.md): Sobald du deine Switch gemoddet hast, kannst du durch die Funktion Autoboot automatisch in die CFW booten, ohne über Hekate die CFW auswählen zu müssen. Dies funktioniert mit jeder gemoddeten Switch.
 - [Forwarder installieren mit Sphaira](https://docs.niklascfw.de/switch/nachher/forwarder_installieren.md): Forwarder sind Verknüpfungen auf dem Homescreen der Switch, über den sich Homebrews oder Apps direkt starten lassen. Diese werden so immer im Highmemory-Mode ausgeführt.
 - [Uhrzeit mit DBI synchronisieren](https://docs.niklascfw.de/switch/nachher/dbi_time.md): Hinweis: Die Switch muss zwingend mit dem Internet verbunden sein.
@@ -97,26 +112,13 @@
 
 - [⚠️ Nur bis OFW 21.2.0 Aktuell](https://docs.niklascfw.de/switch/erweiterte-guides/ofw_to_emummc_guide.md): ⚠️ Wichtig – nur wenn alle Bedingungen erfüllt sind, funktioniert das Dumpen:
 
-### NiklasCFW Pack
+### Updates
 
-- [Ersteinrichtung](https://docs.niklascfw.de/switch/niklascfw-pack/guide1.4.0.md): Anders gesagt solange ihr nicht an irgendeinem schritt Formatieren drück bleibt alles bestehen. Löscht die Ordner wie auf den Beispielbildern. Macht
-- [Ersteinrichtung 1.5.0 beachten Siehe :](https://docs.niklascfw.de/switch/niklascfw-pack/guide1.md): Ersteinrichtung
-- [emuMMC erstellen](https://docs.niklascfw.de/switch/niklascfw-pack/guide2.md): Ein emuMMC (emulierte SD Card) ist eine virtuelle Version bzw. eine 1:1 Kopie des internen Speichers (eMMC) einer Nintendo Switch.
-- [NiklasCFW_Pack einrichten](https://docs.niklascfw.de/switch/niklascfw-pack/guide3.md): Forwarder sind Verknüpfungen, die es ermöglichen, Homebrew-Apps (wie Sphaira, DBI, Emulatoren oder andere Apps) direkt vom Startbildschirm mit vollem RAM-Zugriff zu starten, anstatt über das HB-Menu.
-- [NiklasCFW_Pack und Firmware updaten](https://docs.niklascfw.de/switch/niklascfw-pack/guide4.md): Anleitung Uhrzeit Synchronisieren
-- [Firmware der CFW (emuMMC) updaten](https://docs.niklascfw.de/switch/niklascfw-pack/guide5.md): Der Download der Firmware funktioniert genauso wie beim Update des CFW_Packs:
+- [OmniNX-Pack aktualisieren](https://docs.niklascfw.de/switch/updates/omninx-update.md): Hier geht es um das Aktualisieren des OmniNX-Packs (z. B. Standard/Light/OC) in der CFW/emuMMC – per UltraHand, OmniNX Downloader und OmniNX Installer.
+- [Firmware updaten](https://docs.niklascfw.de/switch/updates/firmware-update.md): Hier geht es um das Aktualisieren der Switch-Firmware (Horizon OS) in der CFW/emuMMC mit Daybreak.
 
-### OmniNX
+### Overclocking (OC)
 
-- [OmniNX Setup](https://docs.niklascfw.de/switch/omninx/einfuehrung.md): OmniNX ist ein vollständiges Custom-Firmware-Setup für die Nintendo Switch. Es ist in drei Varianten verfügbar und legt Wert auf Flexibilität und Modularität.
-- [Voraussetzungen](https://docs.niklascfw.de/switch/omninx/voraussetzungen.md): Bevor du mit dem OmniNX Setup startest, solltest du folgende Punkte erfüllen.
-- [OmniNX Herunterladen](https://docs.niklascfw.de/switch/omninx/download.md): Gehe zu den OmniNX Releases: git.niklascfw.de/OmniNX/OmniNX/releases
-- [Installation von OmniNX](https://docs.niklascfw.de/switch/omninx/installation_omninx.md): Nach dem Download und dem Kopieren des Packs auf die SD-Karte startest du hier den OmniNX Installer und führst die Installation durch.
-- [emuMMC erstellen](https://docs.niklascfw.de/switch/omninx/emummc_erstellen.md): Ein emuMMC (emulated MMC) ist eine virtuelle Kopie des internen Speichers (eMMC) deiner Nintendo Switch.
-- [OmniNX einrichten](https://docs.niklascfw.de/switch/omninx/pack_einrichten.md): Nach dem ersten Start der CFW (OmniNX) solltest du noch ein paar Dinge einrichten: Forwarder, Systemzeit und optional zusätzliche Apps.
-- [Overclocking / Undervolting (nur für Fortgeschrittene)](https://docs.niklascfw.de/switch/omninx/overclocking.md): Falsches bzw. zu starkes Übertakten kann zu irreparablen Schäden an der Hardware führen. Wir übernehmen hierfür keine Haftung. Außerdem wird davon abgeraten, im Handheldbetrieb die Konsole über 8,6 W (V2/OLED) bzw.
-
-#### Updates
-
-- [OmniNX-Pack aktualisieren](https://docs.niklascfw.de/switch/omninx/updates/omninx-update.md): Hier geht es um das Aktualisieren des OmniNX-Packs (z. B. Standard/Light/OC) in der CFW/emuMMC – per UltraHand, OmniNX Downloader und OmniNX Installer.
-- [Firmware updaten](https://docs.niklascfw.de/switch/omninx/updates/firmware-update.md): Hier geht es um das Aktualisieren der Switch-Firmware (Horizon OS) in der CFW/emuMMC mit Daybreak.
+- [Overclocking / Undervolting (V1)](https://docs.niklascfw.de/switch/overclocking/erista.md): Jedes Overclocking geht über die ursprüngliche Auslegung der Hardware hinaus. Das Risiko hängt davon ab, wie weit du taktest und ob du innerhalb der Chip-Grenzen bleibst.
+- [Overclocking / Undervolting (V2,Lite,OLED)](https://docs.niklascfw.de/switch/overclocking/mariko.md): Falsches bzw. zu starkes Übertakten kann zu irreparablen Schäden an der Hardware führen. Wir übernehmen hierfür keine Haftung. Außerdem wird davon abgeraten, im Handheldbetrieb die Konsole über 8,6 W (V2/OLED) bzw.
+- [Vom NiklasCFW Pack zu OmniNX](https://docs.niklascfw.de/switch/omni-migrate.md): Das NiklasCFW Pack ist eingestellt und erhält keinen Support mehr. OmniNX ist der Nachfolger. Diese Anleitung zeigt, wie du auf der Konsole per Ultrahand und NiklasCFW Downloader wechselst, ohne einen PC.
