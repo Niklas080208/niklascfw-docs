@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834520595473">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834530097125">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -23,7 +23,7 @@
     <meta property="og:url" content="https://docs.niklascfw.de/switch/overclocking/ram/">
     <meta property="og:title" content="Arbeitsspeicher (RAM)">
     <meta property="og:description" content="Nintendo verbaut unterschiedliche Speichermodule (Samsung, Toshiba, Hynix usw.). Vor dem RAM-OC musst du wissen, welches Modul in deiner Konsole steckt, da jedes Modul anders übertaktbar ist.">
-    <meta property="og:image" content="https://docs.niklascfw.de/images/switch/allgemein/placeholder.png">
+    <meta property="og:image" content="https://docs.niklascfw.de/images/switch/omninx/overclocking/hekate-ram.gif">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Arbeitsspeicher (RAM)">
@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/overclocking/ram/">
     <meta name="twitter:title" content="Arbeitsspeicher (RAM)">
     <meta name="twitter:description" content="Nintendo verbaut unterschiedliche Speichermodule (Samsung, Toshiba, Hynix usw.). Vor dem RAM-OC musst du wissen, welches Modul in deiner Konsole steckt, da jedes Modul anders übertaktbar ist.">
-    <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/allgemein/placeholder.png">
+    <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/omninx/overclocking/hekate-ram.gif">
     <meta name="twitter:image:alt" content="Arbeitsspeicher (RAM)">
 
     <!-- Alternate Markdown -->
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
-    <link href="/resources/css/retype.css?v=4.6.0.834520595473" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.834530097125" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.834520595473" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.834530097125" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.834520595473" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.834530097125" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
 
@@ -257,8 +257,8 @@
     </div>
 </div>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Platzhalter: Hekate Console Info" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
-    <figcaption class="caption">Platzhalter: Hekate Console Info</figcaption>
+    <img src="/images/switch/omninx/overclocking/hekate-ram.gif" alt="Hekate Console Info" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="800" height="450" />
+    <figcaption class="caption">Hekate Console Info</figcaption>
 </figure>
 <h3 id="richtwerte-vom-hoc-entwickler">Richtwerte vom HOC-Entwickler</h3>
 <retype-table copy-text="| Tier | RAM ID | Ram Clock | VDD2 | VDDQ | Common Timings (T1–T8) | Super Tight (ST) Timings (T1–T8) |
@@ -387,8 +387,8 @@
       <template #title>Erster Versuch: 2200 MHz</template>
 <p>Setze <strong>Ram Max Clock</strong> auf <strong>2200 MHz</strong>. Dieser Wert funktioniert erfahrungsgemäß auf den meisten Konsolen. <strong>Common Timings</strong> sowie <strong>VDD2</strong> und <strong>VDDQ</strong> aus der Tabelle übernehmen.
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Platzhalter: HOC RAM Clock" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
-    <figcaption class="caption">Platzhalter: HOC RAM Clock</figcaption>
+    <img src="/images/switch/omninx/overclocking/hoc-ram-2200.gif" alt="HOC RAM Clock" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="800" height="450" />
+    <figcaption class="caption">HOC RAM Clock</figcaption>
 </figure>
 </p>
    </doc-step>
@@ -396,8 +396,8 @@
       <template #title>Höherer Start mit DVB-Shift</template>
 <p>Startest du über 2200 MHz, beginne mit <strong>DVB-Shift 10</strong> und reduziere auf <strong>2–6</strong>, sobald die maximale RAM-Geschwindigkeit steht. Höherer DVB-Shift erhöht den Stromverbrauch kaum, aber leicht die Wärmeentwicklung.
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Platzhalter: HOC Temporary Overwrites" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
-    <figcaption class="caption">Platzhalter: HOC Temporary Overwrites</figcaption>
+    <img src="/images/switch/omninx/overclocking/dvb-shift.gif" alt="HOC Temporary Overwrites" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="800" height="450" />
+    <figcaption class="caption">HOC Temporary Overwrites</figcaption>
 </figure>
 </p>
    </doc-step>
