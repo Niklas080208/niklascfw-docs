@@ -30,7 +30,7 @@ Die ersten Einstellungsparameter der CPU sollten immer die festen Spannungswerte
 | CPU Max Clock | 2193 MHz |
 | CPU Boost Clock | 2397 MHz |
 
-![Platzhalter: HOC CPU Settings – Startwerte](/images/switch/allgemein/placeholder.png)
+![HOC CPU Settings](/images/switch/omninx/overclocking/hoc-cpu-settings.gif)
 
 **Overwrite Boost Mode** auf **On**, sonst greift der Boost-Wert nicht.
 
@@ -61,4 +61,4 @@ Relevant ist vor allem die **GPU Voltage Table**, da man hier die nicht standard
 | GPU DVFS Offset | -10 mV |
 | GPU Voltage Table | 76,8 MHz bis 1267,2 MHz → **AUTO** |
 
-![Platzhalter: HOC GPU Settings – Startwerte](/images/switch/allgemein/placeholder.png)
+![HOC GPU Settings](/images/switch/omninx/overclocking/hoc-gpu-settings.gif)
