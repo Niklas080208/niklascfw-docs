@@ -4,7 +4,6 @@ label: "OFW zu emuMMC Guide"
 order: 100
 ---
 
-# :warning: **Nur bis OFW 21.2.0 Aktuell** 
 # 📦 Anleitung: OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)
 
 :warning: **Wichtig – nur wenn alle Bedingungen erfüllt sind, funktioniert das Dumpen:**
