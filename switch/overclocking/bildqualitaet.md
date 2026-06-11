@@ -10,9 +10,9 @@ Wenn die nötige Leistung aus der Konsole geholt ist, kannst du mit dem **Revers
 
 :::content-center
 ||| Standard
-<a href="/images/switch/omninx/overclocking/041_maxquali-standard.jpg" target="_blank" rel="noopener">![Max. Bildqualität – Standard](/images/switch/omninx/overclocking/041_maxquali-standard.jpg)</a>
+<a href="/images/switch/omninx/overclocking/maxquali-standard.jpg" target="_blank" rel="noopener">![Max. Bildqualität – Standard](/images/switch/omninx/overclocking/maxquali-standard.jpg)</a>
 ||| Fake Docked
-<a href="/images/switch/omninx/overclocking/042_maxquali-fakedocked.jpg" target="_blank" rel="noopener">![Max. Bildqualität – Fake Docked](/images/switch/omninx/overclocking/042_maxquali-fakedocked.jpg)</a>
+<a href="/images/switch/omninx/overclocking/maxquali-fakedocked.jpg" target="_blank" rel="noopener">![Max. Bildqualität – Fake Docked](/images/switch/omninx/overclocking/maxquali-fakedocked.jpg)</a>
 |||
 :::
 

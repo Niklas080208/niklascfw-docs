@@ -58,6 +58,7 @@ Relevant ist vor allem die **GPU Voltage Table**, da man hier die nicht standard
 
 | Einstellung | Wert |
 |-------------|------|
+| GPU Undervolt Table | High UV Table |
 | GPU VMIN | 550 mV |
 | GPU Max Voltage | 800 mV |
 | GPU Voltage Offset | -10 |
