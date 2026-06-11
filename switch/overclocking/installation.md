@@ -6,16 +6,16 @@ In der Regel ist die CFW nach Installation des **OmniNX OC Pack** bereits overcl
 - In der **`hekate.ipl`** muss eine entsprechende Referenzierung vorhanden sein.
 
 >>> Safety Settings prüfen
-Öffne **Horizon OC Gaea** (nachfolgend: **HOC**) und stelle unter **Safety Settings** sicher, dass **Uncapped Clocks**, **Thermal Throttle** und **Handheld TDP** auf **ON** stehen.
-![Platzhalter: HOC Safety Settings](/images/switch/allgemein/placeholder.png)
+Öffne **Horizon OC** (nachfolgend: **HOC**) und stelle unter **Safety Settings** sicher, dass **Uncapped Clocks** und **Thermal Throttle** auf <span style="color:rgb(0, 255, 13);"><strong>ON</strong></span> stehen.
+![HOC Safety Settings](/images/switch/omninx/overclocking/hoc-safety.gif)
 
 >>> CPU High UV setzen
 Unter **CPU Settings** muss **CPU High UV** mindestens auf **1** stehen (Voraussetzung für uncapped OC).
-![Platzhalter: HOC CPU Settings](/images/switch/allgemein/placeholder.png)
+![HOC CPU Settings](/images/switch/omninx/overclocking/hoc-high-uv.gif)
 
 >>> Referenzwerte vergleichen
 Unter **Temporary Overrides** die maximalen Werte für CPU/GPU/RAM prüfen und mit den Tabellen unten vergleichen.
-![Platzhalter: HOC Temporary Overwrites](/images/switch/allgemein/placeholder.png)
+![HOC Temporary Overrides](/images/switch/omninx/overclocking/hoc-temp-overrides.gif)
 
 !!!warning Neustart nach HOC-Änderungen
 Wurden Einstellungen in **Horizon OC Gaea** geändert, ist ein **Neustart der Konsole** zwingend nötig. Ohne Neustart werden die Werte nicht übernommen.

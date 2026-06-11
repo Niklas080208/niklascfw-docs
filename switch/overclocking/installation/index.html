@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834484204540">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834520549832">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -23,7 +23,7 @@
     <meta property="og:url" content="https://docs.niklascfw.de/switch/overclocking/installation/">
     <meta property="og:title" content="Installation">
     <meta property="og:description" content="In der Regel ist die CFW nach Installation des OmniNX OC Pack bereits overclocking-ready. Wichtig:">
-    <meta property="og:image" content="https://docs.niklascfw.de/images/switch/allgemein/placeholder.png">
+    <meta property="og:image" content="https://docs.niklascfw.de/images/switch/omninx/overclocking/hoc-safety.gif">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Installation">
@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/overclocking/installation/">
     <meta name="twitter:title" content="Installation">
     <meta name="twitter:description" content="In der Regel ist die CFW nach Installation des OmniNX OC Pack bereits overclocking-ready. Wichtig:">
-    <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/allgemein/placeholder.png">
+    <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/omninx/overclocking/hoc-safety.gif">
     <meta name="twitter:image:alt" content="Installation">
 
     <!-- Alternate Markdown -->
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
-    <link href="/resources/css/retype.css?v=4.6.0.834484204540" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.834520549832" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.834484204540" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.834520549832" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.834484204540" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.834520549832" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
 
@@ -199,10 +199,10 @@
 <doc-steps>
    <doc-step id="safety-settings-prüfen" step-number="1">
       <template #title>Safety Settings prüfen</template>
-<p>Öffne <strong>Horizon OC Gaea</strong> (nachfolgend: <strong>HOC</strong>) und stelle unter <strong>Safety Settings</strong> sicher, dass <strong>Uncapped Clocks</strong>, <strong>Thermal Throttle</strong> und <strong>Handheld TDP</strong> auf <strong>ON</strong> stehen.
+<p>Öffne <strong>Horizon OC</strong> (nachfolgend: <strong>HOC</strong>) und stelle unter <strong>Safety Settings</strong> sicher, dass <strong>Uncapped Clocks</strong> und <strong>Thermal Throttle</strong> auf <span style="color:rgb(0, 255, 13);"><strong>ON</strong></span> stehen.
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Platzhalter: HOC Safety Settings" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
-    <figcaption class="caption">Platzhalter: HOC Safety Settings</figcaption>
+    <img src="/images/switch/omninx/overclocking/hoc-safety.gif" alt="HOC Safety Settings" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="800" height="450" />
+    <figcaption class="caption">HOC Safety Settings</figcaption>
 </figure>
 </p>
    </doc-step>
@@ -210,8 +210,8 @@
       <template #title>CPU High UV setzen</template>
 <p>Unter <strong>CPU Settings</strong> muss <strong>CPU High UV</strong> mindestens auf <strong>1</strong> stehen (Voraussetzung für uncapped OC).
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Platzhalter: HOC CPU Settings" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
-    <figcaption class="caption">Platzhalter: HOC CPU Settings</figcaption>
+    <img src="/images/switch/omninx/overclocking/hoc-high-uv.gif" alt="HOC CPU Settings" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="800" height="450" />
+    <figcaption class="caption">HOC CPU Settings</figcaption>
 </figure>
 </p>
    </doc-step>
@@ -219,8 +219,8 @@
       <template #title>Referenzwerte vergleichen</template>
 <p>Unter <strong>Temporary Overrides</strong> die maximalen Werte für CPU/GPU/RAM prüfen und mit den Tabellen unten vergleichen.
 <figure class="content-center">
-    <img src="/images/switch/allgemein/placeholder.png" alt="Platzhalter: HOC Temporary Overwrites" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
-    <figcaption class="caption">Platzhalter: HOC Temporary Overwrites</figcaption>
+    <img src="/images/switch/omninx/overclocking/hoc-temp-overrides.gif" alt="HOC Temporary Overrides" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="800" height="450" />
+    <figcaption class="caption">HOC Temporary Overrides</figcaption>
 </figure>
 </p>
 <div class="flex mb-6">
