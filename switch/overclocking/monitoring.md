@@ -16,3 +16,5 @@ Bei den Layouts **Mini** und **Micro** sind nicht alle Elemente voraktiviert. Ei
 !!!info Echte Temperaturen
 Aktiviere den Toggle **Real Temperatures**, damit CPU, GPU und RAM echte Werte zeigen. **TMP** ist nur ein berechneter Wert und meist niedriger, daher eher deaktivieren.
 !!!
+
+![HOC Status Monitor](/images/switch/omninx/overclocking/hoc-status-monitor.gif)
