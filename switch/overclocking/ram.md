@@ -55,7 +55,7 @@ Setze **Ram Max Clock** auf **2200 MHz**. Dieser Wert funktioniert erfahrungsgem
 ![HOC RAM Clock](/images/switch/omninx/overclocking/hoc-ram-2200.gif)
 
 >>> Höherer Start mit DVB-Shift
-Startest du über 2200 MHz, beginne mit **DVB-Shift 10** und reduziere auf **2–6**, sobald die maximale RAM-Geschwindigkeit steht. Höherer DVB-Shift erhöht den Stromverbrauch kaum, aber leicht die Wärmeentwicklung.
+Startest du über 2200 MHz, beginne mit **DVB-Shift 8** und reduziere auf **2–6**, sobald die maximale RAM-Geschwindigkeit steht. Höherer DVB-Shift erhöht den Stromverbrauch kaum, aber leicht die Wärmeentwicklung.
 ![HOC Temporary Overwrites](/images/switch/omninx/overclocking/dvb-shift.gif)
 
 >>> Neustart & Temporary Overrides
