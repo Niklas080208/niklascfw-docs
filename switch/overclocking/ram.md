@@ -25,7 +25,7 @@ In der OC-Szene werden RAM-Module per **Tier Level** eingestuft: Je höher der T
 Es wird immer die ID des **ab Werk verbauten** RAMs angezeigt. Nach einem **8-GB-Upgrade** oder RAM-Tausch bei einer Reparatur ist die Anzeige oft **falsch**. Dann die Person fragen, die den RAM verbaut hat.
 !!!
 
-![Platzhalter: Hekate Console Info](/images/switch/allgemein/placeholder.png)
+![Hekate Console Info](/images/switch/omninx/overclocking/hekate-ram.gif)
 
 ### Richtwerte vom HOC-Entwickler
 
@@ -52,11 +52,11 @@ Ermittle zuerst die **maximale RAM-Frequenz**, bevor du Timings anpasst. **t7** 
 
 >>> Erster Versuch: 2200 MHz
 Setze **Ram Max Clock** auf **2200 MHz**. Dieser Wert funktioniert erfahrungsgemäß auf den meisten Konsolen. **Common Timings** sowie **VDD2** und **VDDQ** aus der Tabelle übernehmen.
-![Platzhalter: HOC RAM Clock](/images/switch/allgemein/placeholder.png)
+![HOC RAM Clock](/images/switch/omninx/overclocking/hoc-ram-2200.gif)
 
 >>> Höherer Start mit DVB-Shift
 Startest du über 2200 MHz, beginne mit **DVB-Shift 10** und reduziere auf **2–6**, sobald die maximale RAM-Geschwindigkeit steht. Höherer DVB-Shift erhöht den Stromverbrauch kaum, aber leicht die Wärmeentwicklung.
-![Platzhalter: HOC Temporary Overwrites](/images/switch/allgemein/placeholder.png)
+![HOC Temporary Overwrites](/images/switch/omninx/overclocking/dvb-shift.gif)
 
 >>> Neustart & Temporary Overrides
 Nach dem Setzen der Werte: **Konsole neustarten**. Danach in **Temporary Overrides** den gewünschten RAM-Takt aktivieren.
