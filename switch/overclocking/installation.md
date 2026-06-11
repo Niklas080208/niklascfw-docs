@@ -46,3 +46,4 @@ Wurden Einstellungen in **Horizon OC Gaea** geändert, ist ein **Neustart der Ko
 | **CFW OC (uncapped)** | 2397 MHz | 1267 MHz | 1996 MHz |
 
 In der Regel sollten Werte wie **2397 / 1267 / 1996** MHz oder ähnlich sichtbar sein, mindestens höher als der Nintendo-Standard. Der RAM-Takt entspricht dem in den HOC-Settings unter **Ram Max Clock** gesetzten Wert.
+>>>

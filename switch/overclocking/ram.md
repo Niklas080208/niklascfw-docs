@@ -95,3 +95,4 @@ Passe Werte schrittweise an, bis **Startbildschirm und Spiele** stabil laufen. W
 1. Maximalen Takt und Timings bei **deaktiviertem** HP Mode finden.
 2. Anschließend **HP Mode aktivieren** und erneut testen.
 3. Stabil → aktiv lassen, sonst deaktiviert lassen.
+>>>
