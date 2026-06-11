@@ -110,7 +110,7 @@
 
 ### Erweiterte Guides
 
-- [⚠️ Nur bis OFW 21.2.0 Aktuell](https://docs.niklascfw.de/switch/erweiterte-guides/ofw_to_emummc_guide.md): ⚠️ Wichtig – nur wenn alle Bedingungen erfüllt sind, funktioniert das Dumpen:
+- [📦 Anleitung: OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)](https://docs.niklascfw.de/switch/erweiterte-guides/ofw_to_emummc_guide.md): ⚠️ Wichtig – nur wenn alle Bedingungen erfüllt sind, funktioniert das Dumpen:
 
 ### Updates
 
@@ -119,6 +119,13 @@
 
 ### Overclocking (OC)
 
-- [Overclocking / Undervolting (V1)](https://docs.niklascfw.de/switch/overclocking/erista.md): Jedes Overclocking geht über die ursprüngliche Auslegung der Hardware hinaus. Das Risiko hängt davon ab, wie weit du taktest und ob du innerhalb der Chip-Grenzen bleibst.
-- [Overclocking / Undervolting (V2,Lite,OLED)](https://docs.niklascfw.de/switch/overclocking/mariko.md): Falsches bzw. zu starkes Übertakten kann zu irreparablen Schäden an der Hardware führen. Wir übernehmen hierfür keine Haftung. Außerdem wird davon abgeraten, im Handheldbetrieb die Konsole über 8,6 W (V2/OLED) bzw.
+- [Overclocking / Undervolting (nur für Fortgeschrittene)](https://docs.niklascfw.de/switch/overclocking/uebersicht.md): Falsches bzw. zu starkes Übertakten kann zu irreparablen Schäden an der Hardware führen. Wir übernehmen hierfür keine Haftung. Außerdem wird davon abgeraten, im Handheldbetrieb die Konsole über 8,6 W (V2/OLED) bzw.
+- [Installation](https://docs.niklascfw.de/switch/overclocking/installation.md): In der Regel ist die CFW nach Installation des OmniNX OC Pack bereits overclocking-ready. Wichtig:
+- [Begrifflichkeiten](https://docs.niklascfw.de/switch/overclocking/begrifflichkeiten.md): Menüpunkt
+- [Arbeitsspeicher (RAM)](https://docs.niklascfw.de/switch/overclocking/ram.md): Nintendo verbaut unterschiedliche Speichermodule (Samsung, Toshiba, Hynix usw.). Vor dem RAM-OC musst du wissen, welches Modul in deiner Konsole steckt, da jedes Modul anders übertaktbar ist.
+- [CPU / GPU](https://docs.niklascfw.de/switch/overclocking/cpu-gpu.md): Um CPU und/oder GPU zu übertakten sind weniger Schritte nötig als beim RAM, aber dennoch einiges zu beachten.
+- [Monitoring](https://docs.niklascfw.de/switch/overclocking/monitoring.md): Horizon OC Monitor (erweiterte Version von Status Monitor) zeigt Frequenzen, Stromverbrauch, Auflösung, FPS und Temperaturen.
+- [Bildqualität / Auflösung](https://docs.niklascfw.de/switch/overclocking/bildqualitaet.md): Wenn die nötige Leistung aus der Konsole geholt ist, kannst du mit dem ReverseNX-RT-Overlay mehr Grafikqualität und Auflösung aus den Spielen holen (ohne Mods).
+- [Bildwiederholrate / FPS](https://docs.niklascfw.de/switch/overclocking/fps.md): Für viele wichtiger als reine Auflösung ist eine stabile, hohe Bildwiederholungsrate (FPS). Dafür sorgt der FPSLocker.
+- [Problembehebung](https://docs.niklascfw.de/switch/overclocking/problembehebung.md): Maximale Taktfrequenz zu niedrig
 - [Vom NiklasCFW Pack zu OmniNX](https://docs.niklascfw.de/switch/omni-migrate.md): Das NiklasCFW Pack ist eingestellt und erhält keinen Support mehr. OmniNX ist der Nachfolger. Diese Anleitung zeigt, wie du auf der Konsole per Ultrahand und NiklasCFW Downloader wechselst, ohne einen PC.

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://docs.niklascfw.de/switch/vorbereitung/roter_faden/</loc>
-    <lastmod>2026-06-11T01:01:34Z</lastmod>
+    <lastmod>2026-06-11T10:32:57Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/</loc>
@@ -13,19 +13,19 @@
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/</loc>
-    <lastmod>2026-06-11T01:01:34Z</lastmod>
-  </url>
-  <url>
     <loc>https://docs.niklascfw.de/switch/vorbereitung/einfuehrung/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/vorbereitung/sd_wipe/</loc>
+    <loc>https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/vorbereitung/emummc_erstellen/</loc>
+    <lastmod>2026-06-11T01:01:34Z</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.niklascfw.de/switch/vorbereitung/sd_wipe/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
@@ -37,11 +37,11 @@
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/richtige_sd/</loc>
+    <loc>https://docs.niklascfw.de/switch/system-backup/nand_backup/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/system-backup/nand_backup/</loc>
+    <loc>https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/richtige_sd/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
@@ -53,11 +53,11 @@
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/troubleshooting/</loc>
+    <loc>https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren/</loc>
+    <loc>https://docs.niklascfw.de/switch/nachher/autoboot_aktivieren/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
@@ -65,7 +65,7 @@
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/nachher/autoboot_aktivieren/</loc>
+    <loc>https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/troubleshooting/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
@@ -109,14 +109,6 @@
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/customization/theme_install/</loc>
-    <lastmod>2026-06-11T01:01:34Z</lastmod>
-  </url>
-  <url>
-    <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/customization/title_override/</loc>
-    <lastmod>2026-06-11T01:01:34Z</lastmod>
-  </url>
-  <url>
     <loc>https://docs.niklascfw.de/switch/updates/omninx-update/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
@@ -125,15 +117,19 @@
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
+    <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/customization/theme_install/</loc>
+    <lastmod>2026-06-11T01:01:34Z</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/customization/title_override/</loc>
+    <lastmod>2026-06-11T01:01:34Z</lastmod>
+  </url>
+  <url>
     <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/spiele_installation_dbi_sphaira/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/backups-installieren/</loc>
-    <lastmod>2026-06-11T01:01:34Z</lastmod>
-  </url>
-  <url>
-    <loc>https://docs.niklascfw.de/switch/omni-migrate/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
@@ -150,6 +146,10 @@
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/hekate_fix_archive_bits/</loc>
+    <lastmod>2026-06-11T01:01:34Z</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.niklascfw.de/switch/omni-migrate/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
@@ -181,6 +181,10 @@
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
+    <loc>https://docs.niklascfw.de/switch/overclocking/uebersicht/</loc>
+    <lastmod>2026-06-11T10:32:57Z</lastmod>
+  </url>
+  <url>
     <loc>https://docs.niklascfw.de/switch/fehlerbehebung/hardware/switch_macbook/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
@@ -190,7 +194,15 @@
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/erweiterte-guides/ofw_to_emummc_guide/</loc>
-    <lastmod>2026-06-11T01:01:34Z</lastmod>
+    <lastmod>2026-06-11T10:23:50Z</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.niklascfw.de/switch/overclocking/begrifflichkeiten/</loc>
+    <lastmod>2026-06-11T10:32:57Z</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.niklascfw.de/switch/overclocking/cpu-gpu/</loc>
+    <lastmod>2026-06-11T10:32:57Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/fehlerbehebung/apps-tools/ultrahand_oeffnen/</loc>
@@ -201,12 +213,8 @@
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/overclocking/erista/</loc>
-    <lastmod>2026-06-11T01:01:34Z</lastmod>
-  </url>
-  <url>
-    <loc>https://docs.niklascfw.de/switch/overclocking/mariko/</loc>
-    <lastmod>2026-06-11T01:01:34Z</lastmod>
+    <loc>https://docs.niklascfw.de/switch/overclocking/installation/</loc>
+    <lastmod>2026-06-11T10:32:57Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/fehlercode_2001-0123_ultrahand_anleitung/</loc>
@@ -225,11 +233,31 @@
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
+    <loc>https://docs.niklascfw.de/switch/overclocking/ram/</loc>
+    <lastmod>2026-06-11T10:32:57Z</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.niklascfw.de/switch/overclocking/monitoring/</loc>
+    <lastmod>2026-06-11T10:32:57Z</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.niklascfw.de/switch/overclocking/bildqualitaet/</loc>
+    <lastmod>2026-06-11T10:32:57Z</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.niklascfw.de/switch/overclocking/fps/</loc>
+    <lastmod>2026-06-11T10:32:57Z</lastmod>
+  </url>
+  <url>
     <loc>https://docs.niklascfw.de/switch/fehlerbehebung/theme-visual/leere_lade_icons_switch_dbifix/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/fehlerbehebung/theme-visual/0100000000000001000_beheben_(custom_theme)/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.niklascfw.de/switch/overclocking/problembehebung/</loc>
+    <lastmod>2026-06-11T10:32:57Z</lastmod>
   </url>
 </urlset>

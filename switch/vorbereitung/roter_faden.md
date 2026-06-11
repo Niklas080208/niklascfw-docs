@@ -73,7 +73,7 @@ Als kompakte Gegenprüfung sind diese Seiten sinnvoll:
 
 [!ref](../updates/omninx-update)
 [!ref](../updates/firmware-update)
-[!ref](../overclocking)
+[!ref](../overclocking/uebersicht)
 
 ---
 
