@@ -41,6 +41,6 @@ generator:
   paths: root
 
 edit:
-  repo: github.com/Niklas080208/niklascfw-dev-docs
+  repo: github.com/Niklas080208/niklascfw-docs
 
 locale: de
