@@ -1,5 +1,5 @@
 ---
-icon: /assets/joycon-neon.png
+icon: info
 label: "Übersicht"
 order: 100
 author:
