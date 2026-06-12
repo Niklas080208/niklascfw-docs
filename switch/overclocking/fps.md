@@ -13,15 +13,7 @@ Um **über 30 FPS** das richtige Spielgefühl zu bekommen, bietet der FPSLocker 
 - **Check/download config file**
 - **Convert config to patch file**
 
-:::content-center
-||| Check/Download Config
-<a href="/images/switch/omninx/overclocking/fpslocker-check-download.jpg" target="_blank" rel="noopener">![FPSLocker – Check/Download](/images/switch/omninx/overclocking/fpslocker-check-download.jpg)</a>
-||| Convert to Patch
-<a href="/images/switch/omninx/overclocking/fpslocker-convert.jpg" target="_blank" rel="noopener">![FPSLocker – Convert](/images/switch/omninx/overclocking/fpslocker-convert.jpg)</a>
-||| Convert (Schritt 2)
-<a href="/images/switch/omninx/overclocking/fpslocker-convert-2.jpg" target="_blank" rel="noopener">![FPSLocker – Convert](/images/switch/omninx/overclocking/fpslocker-convert-2.jpg)</a>
-|||
-:::
+![Ultrahand - FPSLocker](/images/switch/omninx/overclocking/fpslocker.gif)
 
 Konverter ausführen, Spiel **neustarten**, dann die Bildrate schrittweise bis z. B. **60 FPS** erhöhen.
 
