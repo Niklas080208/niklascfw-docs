@@ -5,10 +5,11 @@ Das **NiklasCFW Pack** ist **eingestellt** und erhält **keinen Support** mehr. 
 ---
 
 ## Voraussetzungen
-
 - **NiklasCFW Pack** ist installiert und die Switch startet in die CFW (emuMMC).
 - **WLAN** ist verbunden (Download dauert je nach Verbindung mehrere Minuten).
 - **Ausreichend freier Speicher** auf der SD-Karte für das OmniNX-ZIP und die entpackten Dateien.
+- Die **Systemzeit** muss synchronisiert sein, damit der Download erfolgreich abschließt:<br>
+[!ref](nachher/dbi_time)
 
 ---
 
