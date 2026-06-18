@@ -71,7 +71,7 @@ Passe Werte schrittweise an, bis **Startbildschirm und Spiele** stabil laufen. W
 !!!
 
 >>> Feintuning nach stabilem Takt
-1. **DVB-Shift** von 10 schrittweise auf **2–6** reduzieren (je niedriger, desto besser).
+1. **DVB-Shift** von 8 schrittweise auf **2–6** reduzieren (je niedriger, desto besser).
 2. Passende **Super Tight (ST)** Timings testen.
 3. Schlägt ST fehl: DVB-Shift wieder erhöhen und/oder Timings lockern in dieser Reihenfolge: **t8 → t1 → t2 → t3 → t6 → t7 → t4 → t5**
 
