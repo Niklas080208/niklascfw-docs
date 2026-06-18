@@ -127,5 +127,5 @@
 - [Monitoring](https://docs.niklascfw.de/switch/overclocking/monitoring.md): Horizon OC Monitor (erweiterte Version von Status Monitor) zeigt Frequenzen, Stromverbrauch, Auflösung, FPS und Temperaturen.
 - [Bildqualität / Auflösung](https://docs.niklascfw.de/switch/overclocking/bildqualitaet.md): Wenn die nötige Leistung aus der Konsole geholt ist, kannst du mit dem ReverseNX-RT-Overlay mehr Grafikqualität und Auflösung aus den Spielen holen (ohne Mods).
 - [Bildwiederholrate / FPS](https://docs.niklascfw.de/switch/overclocking/fps.md): Für viele wichtiger als reine Auflösung ist eine stabile, hohe Bildwiederholungsrate (FPS). Dafür sorgt der FPSLocker.
-- [Problembehebung](https://docs.niklascfw.de/switch/overclocking/problembehebung.md): Maximale Taktfrequenz zu niedrig
+- [Problembehebung](https://docs.niklascfw.de/switch/overclocking/problembehebung.md): Solltest du z. B. den GPU-Takt trotz Uncapped Clocks nicht über 998/1075 MHz betreiben können, sind zwei Ursachen wahrscheinlich:
 - [Vom NiklasCFW Pack zu OmniNX](https://docs.niklascfw.de/switch/omni-migrate.md): Das NiklasCFW Pack ist eingestellt und erhält keinen Support mehr. OmniNX ist der Nachfolger. Diese Anleitung zeigt, wie du auf der Konsole per Ultrahand und NiklasCFW Downloader wechselst, ohne einen PC.
