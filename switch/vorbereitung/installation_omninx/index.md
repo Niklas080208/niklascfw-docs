@@ -29,6 +29,8 @@ Daraus wählt er:
 - **Update-Modus:** Nur CFW-relevante Ordner/Dateien werden ersetzt, **Spielstände und installierte Spiele bleiben erhalten**.
 - **Saubere Installation:** Kompletter Wipe von atmosphere, bootloader, config, switch; **DBI** und **prod.keys** werden gesichert und danach wiederhergestellt.
 
+Die Gegenüberstellung der Clean- und Update-Deletion-Lists findest du unter **[Entfernte Inhalte](entfernte_inhalte)**.
+
 ---
 
 ## Installation durchführen
