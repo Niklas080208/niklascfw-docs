@@ -26,6 +26,7 @@
 
 - [Installation von OmniNX](https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/index.md): Nach dem Download und dem Kopieren des Packs auf die SD-Karte startest du hier den OmniNX Installer und führst die Installation durch.
 - [Fehlerbehebung – Installation](https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/troubleshooting.md): Während der OmniNX-Installation können verschiedene Hinweise und Fehlermeldungen auftauchen. Hier sind die häufigsten dokumentiert.
+- [Entfernte Inhalte – Clean vs. Update](https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/entfernte_inhalte.md): Gegenüberstellung der Deletion Lists im OmniNX Installer: deletion_lists_clean.h (Saubere Installation) und deletion_lists_update.h (Update).
 - [emuMMC erstellen](https://docs.niklascfw.de/switch/vorbereitung/emummc_erstellen.md): Ein emuMMC (emulated MMC) ist eine virtuelle Kopie des internen Speichers (eMMC) deiner Nintendo Switch.
 - [OmniNX einrichten](https://docs.niklascfw.de/switch/vorbereitung/pack_einrichten.md): Nach dem ersten Start der CFW (OmniNX) solltest du noch ein paar Dinge einrichten: Forwarder, Systemzeit und optional zusätzliche Apps.
 

@@ -6,7 +6,7 @@
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/</loc>
-    <lastmod>2026-06-11T01:01:34Z</lastmod>
+    <lastmod>2026-06-19T00:00:20Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/vorbereitung/pack_einrichten/</loc>
@@ -37,11 +37,11 @@
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/system-backup/nand_backup/</loc>
+    <loc>https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/richtige_sd/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/richtige_sd/</loc>
+    <loc>https://docs.niklascfw.de/switch/system-backup/nand_backup/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
@@ -57,11 +57,11 @@
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren/</loc>
+    <loc>https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/troubleshooting/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/nachher/autoboot_aktivieren/</loc>
+    <loc>https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
@@ -69,7 +69,11 @@
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/troubleshooting/</loc>
+    <loc>https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/entfernte_inhalte/</loc>
+    <lastmod>2026-06-19T00:00:20Z</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.niklascfw.de/switch/nachher/autoboot_aktivieren/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
@@ -245,16 +249,16 @@
     <lastmod>2026-06-12T16:37:11Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/overclocking/fps/</loc>
-    <lastmod>2026-06-12T16:37:11Z</lastmod>
-  </url>
-  <url>
     <loc>https://docs.niklascfw.de/switch/fehlerbehebung/theme-visual/leere_lade_icons_switch_dbifix/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/fehlerbehebung/theme-visual/0100000000000001000_beheben_(custom_theme)/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.niklascfw.de/switch/overclocking/fps/</loc>
+    <lastmod>2026-06-12T16:37:11Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/overclocking/problembehebung/</loc>
