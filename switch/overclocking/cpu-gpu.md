@@ -30,9 +30,9 @@ Die ersten Einstellungsparameter der CPU sollten immer die festen Spannungswerte
 
 | Einstellung | Wert |
 |-------------|------|
-| CPU Low VMIN | 590 mV |
+| CPU Low VMIN | 620 mV |
 | CPU High VMIN | 720 mV |
-| CPU Max Voltage | 1120 mV (Standard) |
+| CPU Max Voltage | 1120 mV |
 | CPU Max Clock | 2193 MHz |
 | CPU Boost Clock | 2397 MHz |
 
@@ -40,9 +40,11 @@ Die ersten Einstellungsparameter der CPU sollten immer die festen Spannungswerte
 
 **Overwrite Boost Mode** auf **On**, sonst greift der Boost-Wert nicht.
 
-Nach stabilem Neustart **CPU Low UV** und **CPU High UV** setzen: mit **4** beginnen und so hoch wie möglich steigern. Manche Konsolen starten schon bei **CPU Low UV = 1** nicht mehr; **CPU High VMIN** ist oft wichtiger.
+Nach stabilem Neustart **CPU Low UV** und **CPU High UV** setzen: mit **4** beginnen und so hoch wie möglich steigern. Manche Konsolen starten schon bei **CPU Low UV = 1** nicht mehr; **CPU High VMIN** ist in jedem Fall wichtiger, weil es den maximalen Verbrauch für die CPU unter Last herunterregelt. **CPU UV Tbreak** in der Regel auf Standard **1683 MHz Tbreak** lassen.
 
-**CPU UV Tbreak** meist auf Standard **1683 MHz Tbreak** lassen. Hilft **CPU High UV = 1** nicht, **1581 MHz Tbreak** testen.
+!!!TIPP:
+Es kann vorkommen, dass z. B. wenn man die Konsole über Nacht in den **Standby-Modus** versetzt, am nächsten Morgen nicht mehr aufwacht, im **Blackscreen** hängen bleibt. Ursache hier ist ein zu hoher "CPU Low UV"-Wert. Da hilft dann nur ein Hardreset und erneutes anpassen der Werte und Testen bis es passt. Die Entwickler empfehlen **lieber den CPU Low VMIN etwas höher (620 - 640 mV)** zu setzen und dann mit CPU Low UV diesen für den Betrieb runterregeln zu lassen, anstelle einer fixen zu niedrigen Spannung (Voltage).
+!!!
 
 ---
 
@@ -59,7 +61,7 @@ Relevant ist vor allem die **GPU Voltage Table**, da man hier die nicht standard
 | Einstellung | Wert |
 |-------------|------|
 | GPU Undervolt Table | High UV Table |
-| GPU VMIN | 550 mV |
+| GPU VMIN | 580 mV |
 | GPU Max Voltage | 800 mV |
 | GPU Voltage Offset | -10 |
 | GPU Scheduling Override | Do not override |
