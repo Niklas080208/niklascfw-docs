@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.835046028285">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.835082179085">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
-    <link href="/resources/css/retype.css?v=4.6.0.835046028285" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.835082179085" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.835046028285" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.835082179085" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.835046028285" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.835082179085" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
 
@@ -219,9 +219,9 @@
 <h3 id="empfohlene-startwerte">Empfohlene Startwerte</h3>
 <retype-table copy-text="| Einstellung | Wert |
 |-------------|------|
-| CPU Low VMIN | 590 mV |
+| CPU Low VMIN | 620 mV |
 | CPU High VMIN | 720 mV |
-| CPU Max Voltage | 1120 mV (Standard) |
+| CPU Max Voltage | 1120 mV |
 | CPU Max Clock | 2193 MHz |
 | CPU Boost Clock | 2397 MHz |">
 <div class="table-wrapper scrollbar overflow-hidden">
@@ -235,7 +235,7 @@
 <tbody>
 <tr>
 <td>CPU Low VMIN</td>
-<td>590 mV</td>
+<td>620 mV</td>
 </tr>
 <tr>
 <td>CPU High VMIN</td>
@@ -243,7 +243,7 @@
 </tr>
 <tr>
 <td>CPU Max Voltage</td>
-<td>1120 mV (Standard)</td>
+<td>1120 mV</td>
 </tr>
 <tr>
 <td>CPU Max Clock</td>
@@ -262,8 +262,25 @@
     <figcaption class="caption">HOC CPU Settings</figcaption>
 </figure>
 <p><strong>Overwrite Boost Mode</strong> auf <strong>On</strong>, sonst greift der Boost-Wert nicht.</p>
-<p>Nach stabilem Neustart <strong>CPU Low UV</strong> und <strong>CPU High UV</strong> setzen: mit <strong>4</strong> beginnen und so hoch wie möglich steigern. Manche Konsolen starten schon bei <strong>CPU Low UV = 1</strong> nicht mehr; <strong>CPU High VMIN</strong> ist oft wichtiger.</p>
-<p><strong>CPU UV Tbreak</strong> meist auf Standard <strong>1683 MHz Tbreak</strong> lassen. Hilft <strong>CPU High UV = 1</strong> nicht, <strong>1581 MHz Tbreak</strong> testen.</p>
+<p>Nach stabilem Neustart <strong>CPU Low UV</strong> und <strong>CPU High UV</strong> setzen: mit <strong>4</strong> beginnen und so hoch wie möglich steigern. Manche Konsolen starten schon bei <strong>CPU Low UV = 1</strong> nicht mehr; <strong>CPU High VMIN</strong> ist in jedem Fall wichtiger, weil es den maximalen Verbrauch für die CPU unter Last herunterregelt. <strong>CPU UV Tbreak</strong> in der Regel auf Standard <strong>1683 MHz Tbreak</strong> lassen.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>TIPP:</h5>
+<p>Es kann vorkommen, dass z. B. wenn man die Konsole über Nacht in den <strong>Standby-Modus</strong> versetzt, am nächsten Morgen nicht mehr aufwacht, im <strong>Blackscreen</strong> hängen bleibt. Ursache hier ist ein zu hoher &quot;CPU Low UV&quot;-Wert. Da hilft dann nur ein Hardreset und erneutes anpassen der Werte und Testen bis es passt. Die Entwickler empfehlen <strong>lieber den CPU Low VMIN etwas höher (620 - 640 mV)</strong> zu setzen und dann mit CPU Low UV diesen für den Betrieb runterregeln zu lassen, anstelle einer fixen zu niedrigen Spannung (Voltage).</p>
+        </div>
+    </div>
+</div>
 <hr>
 <h2 id="gpu">GPU</h2>
 <p>Stelle zuerst die CPU-Werte ein, bevor du die GPU taktest.</p>
@@ -273,7 +290,7 @@
 <retype-table copy-text="| Einstellung | Wert |
 |-------------|------|
 | GPU Undervolt Table | High UV Table |
-| GPU VMIN | 550 mV |
+| GPU VMIN | 580 mV |
 | GPU Max Voltage | 800 mV |
 | GPU Voltage Offset | -10 |
 | GPU Scheduling Override | Do not override |
@@ -295,7 +312,7 @@
 </tr>
 <tr>
 <td>GPU VMIN</td>
-<td>550 mV</td>
+<td>580 mV</td>
 </tr>
 <tr>
 <td>GPU Max Voltage</td>
