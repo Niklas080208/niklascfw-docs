@@ -29,6 +29,7 @@ Falsches bzw. zu starkes Übertakten kann zu **irreparablen Schäden** an der Ha
 
 !!!info Empfehlung
 Stelle Ultrahand auf **Englisch** um: Die Menüs sind übersichtlicher und die Fehlersuche leichter. Dokumentiere jeden Schritt mit **Notizen**, damit du Änderungen später nachvollziehen kannst.
+![Ultrahand – Sprache ändern](/images/switch/omninx/overclocking/ultrahand-language.gif)
 !!!
 
 ---
