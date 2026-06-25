@@ -18,14 +18,14 @@ Diese Dokumentation führt dich mit einem **roten Faden** von der **Vorbereitung
 <h3>🎮 Switch V1 (2017-2018)</h3>
 <p><strong>✅ Vollständig modbar</strong></p>
 <p>RCM + Softmod möglich</p>
-<a href="/switch/vorbereitung/voraussetzungen/serial_check/rcm-methode/payload_laden" style="background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none;">→ Guide starten</a>
+<a href="/switch/vorbereitung/voraussetzungen/serial_check/rcm-methode/" style="background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none;">→ Guide starten</a>
 </div>
 
 <div style="border: 2px solid #dc3545; border-radius: 8px; padding: 1rem; text-align: center;">
 <h3>🎮 Switch V2/OLED/Lite</h3>
 <p><strong>❌ Nicht modbar</strong></p>
 <p>Hardmod erforderlich</p>
-<a href="/switch/vorbereitung/switch_ungepatcht_check" style="background: #dc3545; color: white; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none;">→ Prüfen</a>
+<a href="/switch/vorbereitung/voraussetzungen/serial_check/modchip/" style="background: #dc3545; color: white; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none;">→ Prüfen</a>
 </div>
 
 </div>
