@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.835724030198">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.836003373929">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>RetroArch installieren</title>
     <meta name="title" content="RetroArch installieren">
-    <meta name="description" content="Anleitung Uhrzeit Synchronisieren">
+    <meta name="description" content="RetroArch installieren, Forwarder einrichten und ROMs hinzufügen.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/retroarch_install/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/retroarch_install/">
     <meta property="og:title" content="RetroArch installieren">
-    <meta property="og:description" content="Anleitung Uhrzeit Synchronisieren">
+    <meta property="og:description" content="RetroArch installieren, Forwarder einrichten und ROMs hinzufügen.">
     <meta property="og:image" content="https://docs.niklascfw.de/images/switch/allgemein/retroarch_logo.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/retroarch_install/">
     <meta name="twitter:title" content="RetroArch installieren">
-    <meta name="twitter:description" content="Anleitung Uhrzeit Synchronisieren">
+    <meta name="twitter:description" content="RetroArch installieren, Forwarder einrichten und ROMs hinzufügen.">
     <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/allgemein/retroarch_logo.png">
     <meta name="twitter:image:alt" content="RetroArch installieren">
 
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
-    <link href="/resources/css/retype.css?v=4.6.0.835724030198" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.836003373929" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.835724030198" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.836003373929" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.835724030198" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.836003373929" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
     <link rel="stylesheet" href="/static/css/ref-cards.css" />
@@ -192,84 +192,182 @@
 
                 <!-- Page content  -->
 <h1 id="retroarch-installieren">RetroArch installieren</h1>
-<h2 id="-voraussetzungen"><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Voraussetzungen</h2>
-<div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
-<h4 style="color: #856404; margin-top: 0;">⚠️ Wichtig</h4>
-<p style="color: #212529; margin-bottom: 0;"><strong>Bitte darauf achten, dass deine Uhrzeit synchronisiert ist.</strong></p>
-<p style="color: #212529; margin-bottom: 0;">Ansonsten funktioniert der Download über UltraHand nicht!</p>
-</div>
-<p><strong><a href="https://docs.niklascfw.de/switch/nachher/dbi_time/">Anleitung Uhrzeit Synchronisieren</a></strong></p>
+<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">RetroArch installieren, Forwarder einrichten und ROMs hinzufügen.</div>
 <figure class="content-center">
     <img src="/images/switch/allgemein/retroarch_logo.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-<p><strong>RetroArch</strong> ist eine sogenannte “Frontend”-Anwendung für <strong>Emulatoren</strong>, Spiel-Engines und Mediaplayer. Für die Nintendo Switch ist RetroArch eine Homebrew-App, die es ermöglicht, klassische Spielekonsolen auf der Switch zu emulieren.</p>
+<p><strong>RetroArch</strong> ist eine sogenannte Frontend-Anwendung für <strong>Emulatoren</strong>, Spiel-Engines und Mediaplayer. Auf der Nintendo Switch startest du damit klassische Konsolen als Homebrew.</p>
 <hr>
-<h2 id="retroarch-direkt-über-ultrahand-installieren">RetroArch direkt über UltraHand installieren</h2>
-<ol>
-<li>
-<p>Öffne <strong>UltraHand</strong> (L,R und Plus-Taste gleichzeitig drücken) und auf <strong>NiklasCFW Downloader</strong> klicken.
+<h2 id="voraussetzungen">Voraussetzungen</h2>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Uhrzeit synchronisieren</h5>
+<p><strong>Bitte darauf achten, dass deine Uhrzeit synchronisiert ist.</strong><br />
+Ansonsten funktioniert der Download über UltraHand nicht!</p>
+        </div>
+    </div>
+</div>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
+    <div class="flex items-center text-base-500">
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path d="M12.5 7.25a.75.75 0 0 0-1.5 0v5.5c0 .27.144.518.378.651l3.5 2a.75.75 0 0 0 .744-1.302L12.5 12.315V7.25Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">Uhrzeit mit DBI synchronisieren (NTP)</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>/switch/nachher/dbi_time/</span>
+    </div>
+    <a href="/switch/nachher/dbi_time/" class="absolute block inset-0"></a>
+</div>
+</p>
+<hr>
+<h2 id="installation">Installation</h2>
+<doc-steps>
+   <doc-step id="ultrahand-öffnen" step-number="1">
+      <template #title>UltraHand öffnen</template>
+<p><strong>UltraHand</strong> starten (L, R und Plus gleichzeitig) und <strong>NiklasCFW Downloader</strong> öffnen.</p>
 <figure class="content-center">
     <img src="/images/switch/allgemein/lakka1.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
-</li>
-<li>
-<p>Runterscrollen und <strong>RetroArch</strong> auswählen.
+   </doc-step>
+   <doc-step id="retroarch-auswählen" step-number="2">
+      <template #title>RetroArch auswählen</template>
+<p>Runterscrollen und <strong>RetroArch</strong> auswählen.</p>
 <figure class="content-center">
     <img src="/images/switch/allgemein/retroarch1.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
-</p>
-</li>
-<li>
-<p>Auf <strong>RetroArsch</strong> klicken und den Download starten (<span class="docs-emoji">&#x2B07;&#xFE0F;</span> Download läuft, <span class="docs-emoji">&#x2B06;&#xFE0F;</span> Entpacken läuft).
+   </doc-step>
+   <doc-step id="download-starten" step-number="3">
+      <template #title>Download starten</template>
+<p>Auf <strong>RetroArch</strong> tippen und den Download starten (<span class="docs-emoji">&#x2B07;&#xFE0F;</span> Download läuft, <span class="docs-emoji">&#x2B06;&#xFE0F;</span> Entpacken läuft).</p>
 <figure class="content-center">
     <img src="/images/switch/allgemein/retroarch2.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
     <figcaption class="caption"></figcaption>
 </figure>
+<p>RetroArch ist danach installiert. Als Nächstes den <strong>Forwarder</strong> einrichten (siehe unten).</p>
+   </doc-step>
+   <doc-step id="retroarch-herunterladen" step-number="4">
+      <template #title>RetroArch herunterladen</template>
+<p>Aktuelle Version für die Switch laden:</p>
+<p><a href="https://buildbot.libretro.com/stable/1.21.0/nintendo/switch/libnx/RetroArch.7z" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
+    <span class="inline-flex items-center justify-center leading-none mr-2"><svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="18" height="18" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75Z"/><path d="M5.22 9.97a.749.749 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.749.749 0 0 1-1.06 0l-6.25-6.25a.749.749 0 0 1 0-1.06Z"/></g></svg></span>
+    <span>RetroArch Switch Download</span>
+</a></p>
+   </doc-step>
+   <doc-step id="auf-die-sd-karte-kopieren" step-number="5">
+      <template #title>Auf die SD-Karte kopieren</template>
+<p><strong>RetroArch.7z</strong> entpacken und den Inhalt in das <strong>Root</strong> der microSD legen.</p>
+   </doc-step>
+   <doc-step id="in-die-cfw-booten" step-number="6">
+      <template #title>In die CFW booten</template>
+<p>In die <strong>CFW</strong> starten und den <strong>RetroArch Forwarder</strong> mit Sphaira anlegen (siehe nächster Abschnitt).
++++</p>
+   </doc-step>
+</doc-steps>
+<hr>
+<h2 id="forwarder">RetroArch Forwarder einrichten</h2>
+<p>RetroArch muss im <strong>Highmemory-Mode (Title Override)</strong> laufen. Am einfachsten erreichst du das mit einem <strong>Forwarder auf dem Homescreen</strong>.</p>
+<doc-steps>
+   <doc-step id="sphaira-öffnen" step-number="1">
+      <template #title>Sphaira öffnen</template>
+<p><strong>Sphaira</strong> starten und <strong>RetroArch</strong> in der App-Liste suchen.</p>
+   </doc-step>
+   <doc-step id="forwarder-erstellen" step-number="2">
+      <template #title>Forwarder erstellen</template>
+<p><strong>X-Taste</strong> auf RetroArch drücken und <strong>Forwarder installieren</strong> wählen.</p>
+<figure class="content-center">
+    <img src="/images/switch/gut-zu-wissen/erweiterte-systeme/retroarch-forwarder.gif" alt="RetroArch in Sphaira auswählen und X Optionen drücken" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">RetroArch in Sphaira auswählen und X Optionen drücken</figcaption>
+</figure>
+<p>Der Forwarder erscheint danach auf dem <strong>Homescreen</strong> und startet RetroArch immer mit vollem RAM.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-tip"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-tip" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M7.90625 2.15625C4.50944 2.15625 2.15625 4.58563 2.15625 7.54688C2.15625 8.96138 2.76575 9.88281 3.57075 10.8589L3.87837 11.2226C4.19894 11.6021 4.554 12.0218 4.84581 12.4416C5.25406 13.0324 5.61775 13.7296 5.7385 14.5834C5.76728 14.8608 5.68746 15.1386 5.51579 15.3583C5.34413 15.5781 5.09399 15.7228 4.8179 15.7621C4.5418 15.8013 4.26124 15.7321 4.03512 15.5689C3.809 15.4056 3.65493 15.1612 3.60525 14.8867C3.54775 14.4814 3.37094 14.1004 3.07338 13.6692C2.8306 13.3302 2.57055 13.0039 2.29425 12.6917C2.1735 12.5479 2.04556 12.397 1.909 12.2317C1.00769 11.1406 0 9.72613 0 7.54688C0 3.32062 3.39681 0 7.90625 0C12.4157 0 15.8125 3.32062 15.8125 7.54688C15.8125 9.72613 14.8048 11.1406 13.9035 12.2317C13.7669 12.397 13.639 12.5479 13.5183 12.6903C13.2207 13.0424 12.9677 13.3414 12.7406 13.6692C12.4416 14.1004 12.2662 14.4814 12.2087 14.8867C12.1557 15.1584 12.0003 15.3994 11.7747 15.5598C11.5492 15.7202 11.2706 15.7879 10.9965 15.7488C10.7225 15.7096 10.474 15.5667 10.3023 15.3496C10.1306 15.1325 10.0489 14.8577 10.074 14.582C10.1948 13.7296 10.5584 13.0324 10.9667 12.4416C11.2585 12.0218 11.6136 11.6021 11.9341 11.2226C12.0419 11.0961 12.1454 10.9739 12.2403 10.8589C13.0468 9.88281 13.6562 8.96138 13.6562 7.54688C13.6562 4.58563 11.3031 2.15625 7.90625 2.15625ZM4.67188 17.25H11.1406C11.4266 17.25 11.7008 17.3636 11.903 17.5658C12.1052 17.768 12.2188 18.0422 12.2188 18.3281C12.2188 18.6141 12.1052 18.8883 11.903 19.0905C11.7008 19.2927 11.4266 19.4062 11.1406 19.4062H4.67188C4.38594 19.4062 4.11171 19.2927 3.90953 19.0905C3.70734 18.8883 3.59375 18.6141 3.59375 18.3281C3.59375 18.0422 3.70734 17.768 3.90953 17.5658C4.11171 17.3636 4.38594 17.25 4.67188 17.25ZM5.03125 21.9219C5.03125 21.6359 5.14484 21.3617 5.34703 21.1595C5.54921 20.9573 5.82344 20.8438 6.10938 20.8438H9.70312C9.98906 20.8438 10.2633 20.9573 10.4655 21.1595C10.6677 21.3617 10.7812 21.6359 10.7812 21.9219C10.7812 22.2078 10.6677 22.482 10.4655 22.6842C10.2633 22.8864 9.98906 23 9.70312 23H6.10938C5.82344 23 5.54921 22.8864 5.34703 22.6842C5.14484 22.482 5.03125 22.2078 5.03125 21.9219Z" />
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Warum ein Forwarder?</h5>
+<p>Startest du Homebrew über das Album-Symbol, läuft Sphaira im <strong>Applet-Modus</strong> ohne genug Ressourcen. Ein Forwarder umgeht das, weil die Switch denkt, du startest ein Spiel.</p>
+        </div>
+    </div>
+</div>
+   </doc-step>
+</doc-steps>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
+    <div class="flex items-center text-base-500">
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">Forwarder installieren (Sphaira-Anleitung)</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>/switch/nachher/forwarder_installieren/</span>
+    </div>
+    <a href="/switch/nachher/forwarder_installieren/" class="absolute block inset-0"></a>
+</div>
 </p>
-</li>
-<li>
-<p>RetroArch wurde nun erfolgreich installiert.</p>
-</li>
-</ol>
 <hr>
-<h2 id="installation-über-pc">Installation über PC</h2>
-<ol>
-<li>
-<p>Lade dir die aktuelle Version von <strong>RetroArch</strong> herunter:<br />
-<span class="docs-emoji">&#x1F449;</span> <a href="https://buildbot.libretro.com/stable/1.21.0/nintendo/switch/libnx/RetroArch.7z">RetroArch Switch Download</a></p>
-</li>
-<li>
-<p><strong>Entpacke</strong> die <strong>RetroArch.7z</strong> im <strong>Root der Speicherkarte</strong> der Switch.</p>
-</li>
-<li>
-<p>Starte in die <strong>CFW</strong> und erstelle mit Hilfe von <strong>Sphaira</strong> einen <strong>RetroArch Forwarder</strong>, da dieses immer im <strong>Highmemory-Mode</strong> ausgeführt werden muss.</p>
-</li>
-</ol>
-<hr>
-<h2 id="hinzufügen-von-roms">Hinzufügen von ROMs</h2>
-<ol>
-<li><strong>Erstelle</strong> im <strong>Root</strong> deiner Speicherkarte einen Ordner namens <code translate="no" v-pre>roms</code>.</li>
-<li>
-<p>Für jedes System, das du nutzen möchtest, erstelle im <code translate="no" v-pre>roms</code>-Ordner einen passenden Unterordner.<br />
-Zum Beispiel:</p>
-<ul>
-<li>Für Nintendo 64 → Ordner: <code translate="no" v-pre>n64</code></li>
-<li>Für SNES → Ordner: <code translate="no" v-pre>snes</code></li>
-<li>Für Game Boy Advance → Ordner: <code translate="no" v-pre>gba</code></li>
+<h2 id="roms">ROMs hinzufügen</h2>
+<doc-steps>
+   <doc-step id="ordner-anlegen" step-number="1">
+      <template #title>Ordner anlegen</template>
+<p>Im <strong>Root</strong> der microSD einen Ordner <code translate="no" v-pre>roms</code> erstellen.</p>
+   </doc-step>
+   <doc-step id="system-unterordner" step-number="2">
+      <template #title>System-Unterordner</template>
+<p>Für jedes System einen passenden Unterordner anlegen, zum Beispiel:</p>
+<ul class="list-icon">
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M2 4.75C2 3.784 2.784 3 3.75 3h4.971c.58 0 1.12.286 1.447.765l1.404 2.063c.046.069.124.11.207.11h8.471c.966 0 1.75.783 1.75 1.75V19.25A1.75 1.75 0 0 1 20.25 21H3.75A1.75 1.75 0 0 1 2 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V7.687a.25.25 0 0 0-.25-.25h-8.471a1.75 1.75 0 0 1-1.447-.765L8.928 4.61a.252.252 0 0 0-.208-.11Z"/></g></g></svg> <strong>n64</strong> für Nintendo 64</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M2 4.75C2 3.784 2.784 3 3.75 3h4.971c.58 0 1.12.286 1.447.765l1.404 2.063c.046.069.124.11.207.11h8.471c.966 0 1.75.783 1.75 1.75V19.25A1.75 1.75 0 0 1 20.25 21H3.75A1.75 1.75 0 0 1 2 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V7.687a.25.25 0 0 0-.25-.25h-8.471a1.75 1.75 0 0 1-1.447-.765L8.928 4.61a.252.252 0 0 0-.208-.11Z"/></g></g></svg> <strong>snes</strong> für SNES</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M2 4.75C2 3.784 2.784 3 3.75 3h4.971c.58 0 1.12.286 1.447.765l1.404 2.063c.046.069.124.11.207.11h8.471c.966 0 1.75.783 1.75 1.75V19.25A1.75 1.75 0 0 1 20.25 21H3.75A1.75 1.75 0 0 1 2 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V7.687a.25.25 0 0 0-.25-.25h-8.471a1.75 1.75 0 0 1-1.447-.765L8.928 4.61a.252.252 0 0 0-.208-.11Z"/></g></g></svg> <strong>gba</strong> für Game Boy Advance</li>
 </ul>
-<p>Lege deine ROM-Dateien in die jeweiligen Unterordner.</p>
-</li>
-</ol>
+   </doc-step>
+   <doc-step id="roms-ablegen" step-number="3">
+      <template #title>ROMs ablegen</template>
+<p>Die ROM-Dateien in die jeweiligen Unterordner kopieren.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Nur legal nutzen</h5>
+<p>Nutze nur ROMs, für die du eine Lizenz oder das Originalspiel besitzt. Wir geben <strong>keine Hilfe bei Piracy</strong>!</p>
+        </div>
+    </div>
+</div>
+   </doc-step>
+</doc-steps>
 <hr>
-<h2 id="weitere-einstellungen">Weitere Einstellungen</h2>
-<p>Für das Feintuning der einzelnen Emulatoren in RetroArch müsst ihr die <a href="https://www.retroarch.com/">RetroArch Homepage</a> besuchen.</p>
-<blockquote>
-<p><span class="docs-emoji">&#x1F4A1;</span> <strong>Hinweis:</strong> Achte darauf, dass du nur ROMs nutzt, für die du eine entsprechende Lizenz oder das Originalspiel besitzt. Wir geben <strong>keine Hilfe bei Piracy</strong>!</p>
-</blockquote>
+<h2 id="einstellungen">Weitere Einstellungen</h2>
+<p>Feintuning der einzelnen Emulatoren findest du auf der <a href="https://www.retroarch.com/">RetroArch Homepage</a>.</p>
 
                 
                 <!-- Required only on API pages -->

@@ -49,7 +49,7 @@
 
 - [Anleitung: Android und Linux mit Ultrahand installieren (zwei verschiedene Methoden)](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/android-und-linux-installieren-ultrahand.md): Anleitung Uhrzeit Synchronisieren
 - [Lakka installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/lakka_install.md): Anleitung Uhrzeit Synchronisieren
-- [RetroArch installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/retroarch_install.md): Anleitung Uhrzeit Synchronisieren
+- [RetroArch installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/retroarch_install.md): RetroArch installieren, Forwarder einrichten und ROMs hinzufügen.
 
 #### System
 
