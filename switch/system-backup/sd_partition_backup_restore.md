@@ -16,9 +16,9 @@ order: 50
 4. **Unten links**: `SD emuMMC RAW GPP backup` starten → wenn fertig → **Close**  
 
 <video width="640" controls poster="/images/switch/system-backup/sd-partition/backup_sd_partition.png">
-  <source src="https://cdn.niklascfw.de/docs/images/switch/system-backup/sd-partition/backup_sd_partition.mp4" type="video/mp4">
+  <source src="https://cdn.niklascfw.de/docs/images/SD-Partition-Backup-und-Restore/Backup_SD_Partition.mp4" type="video/mp4">
   Dein Browser unterstützt kein HTML5-Video.
-  <a href="https://cdn.niklascfw.de/docs/images/switch/system-backup/sd-partition/backup_sd_partition.mp4" target="_blank">Video in neuem Tab öffnen</a>
+  <a href="https://cdn.niklascfw.de/docs/images/SD-Partition-Backup-und-Restore/Backup_SD_Partition.mp4" target="_blank">Video in neuem Tab öffnen</a>
 </video>
 
 5. Nach dem Backup entsteht ein gleichnamiger **Ordner** auf der SD.  
@@ -28,9 +28,9 @@ order: 50
 
 
 <video width="640" controls poster="/images/switch/system-backup/sd-partition/nach_dem_backup_ausschalten_und_an_den_pc.png">
-  <source src="https://cdn.niklascfw.de/docs/images/switch/system-backup/sd-partition/nach_dem_backup_ausschalten_und_an_den_pc.mp4" type="video/mp4">
+  <source src="https://cdn.niklascfw.de/docs/images/SD-Partition-Backup-und-Restore/Nach_dem_Backup_Ausschalten_und_an_den_PC.mp4" type="video/mp4">
   Dein Browser unterstützt kein HTML5-Video.
-  <a href="https://cdn.niklascfw.de/docs/images/switch/system-backup/sd-partition/nach_dem_backup_ausschalten_und_an_den_pc.mp4" target="_blank">Video in neuem Tab öffnen</a>
+  <a href="https://cdn.niklascfw.de/docs/images/SD-Partition-Backup-und-Restore/Nach_dem_Backup_Ausschalten_und_an_den_PC.mp4" target="_blank">Video in neuem Tab öffnen</a>
 </video>
 
 
@@ -62,9 +62,9 @@ Zum Partitionieren reicht:
 2. Die emuMMC (RAW) so weit verschieben, **bis Zahl + FULL** steht.
 
 <video width="640" controls poster="/images/switch/system-backup/sd-partition/sd_partitionieren_fur_sd_file_partition.png">
-  <source src="https://cdn.niklascfw.de/docs/images/switch/system-backup/sd-partition/sd_partitionieren_fur_sd_file_partition.mp4" type="video/mp4">
+  <source src="https://cdn.niklascfw.de/docs/images/SD-Partition-Backup-und-Restore/SD_Partitionieren_fur_SD_File_Partition.mp4" type="video/mp4">
   Dein Browser unterstützt kein HTML5-Video.
-  <a href="https://cdn.niklascfw.de/docs/images/switch/system-backup/sd-partition/sd_partitionieren_fur_sd_file_partition.mp4" target="_blank">Video in neuem Tab öffnen</a>
+  <a href="https://cdn.niklascfw.de/docs/images/SD-Partition-Backup-und-Restore/SD_Partitionieren_fur_SD_File_Partition.mp4" target="_blank">Video in neuem Tab öffnen</a>
 </video>
 
 
@@ -96,9 +96,9 @@ Fertig SD ab in die Switch und Restore machen.
 4. **Unten links**: `SD emuMMC RAW GPP` wiederherstellen → wenn fertig → **Close**
 
 <video width="640" controls poster="/images/switch/system-backup/sd-partition/restore-sd-partition.png">
-  <source src="https://cdn.niklascfw.de/docs/images/switch/system-backup/sd-partition/restore-sd-partition.mp4" type="video/mp4">
+  <source src="https://cdn.niklascfw.de/docs/images/SD-Partition-Backup-und-Restore/Restore-SD-Partition.mp4" type="video/mp4">
   Dein Browser unterstützt kein HTML5-Video.
-  <a href="https://cdn.niklascfw.de/docs/images/switch/system-backup/sd-partition/restore-sd-partition.mp4" target="_blank">Video in neuem Tab öffnen</a>
+  <a href="https://cdn.niklascfw.de/docs/images/SD-Partition-Backup-und-Restore/Restore-SD-Partition.mp4" target="_blank">Video in neuem Tab öffnen</a>
 </video>
 
 
@@ -110,9 +110,9 @@ Fertig SD ab in die Switch und Restore machen.
 
 
 <video width="640" controls poster="/images/switch/system-backup/sd-partition/restore-testen.png">
-    <source src="https://cdn.niklascfw.de/docs/images/switch/system-backup/sd-partition/boot_emummc.mp4" type="video/mp4">
+    <source src="https://cdn.niklascfw.de/docs/images/SD-Partition-Backup-und-Restore/Boot_emuMMC.mp4" type="video/mp4">
     Dein Browser unterstützt kein HTML5-Video.
-    <a href="https://cdn.niklascfw.de/docs/images/switch/system-backup/sd-partition/boot_emummc.mp4" target="_blank">Video in neuem Tab öffnen</a>
+    <a href="https://cdn.niklascfw.de/docs/images/SD-Partition-Backup-und-Restore/Boot_emuMMC.mp4" target="_blank">Video in neuem Tab öffnen</a>
 </video>
 
 
