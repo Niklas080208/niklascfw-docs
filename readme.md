@@ -56,5 +56,5 @@ Diese Dokumentation führt dich mit einem **roten Faden** von der **Vorbereitung
 <div style="text-align: center; margin: 3rem 0; padding: 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; color: white;">
   <h2 style="margin-bottom: 1rem;">🚀 Bereit loszulegen?</h2>
   <p style="font-size: 1.1em; margin-bottom: 1.5rem;">Starte jetzt mit der Modifikation deiner Nintendo Switch!</p>
-  <a href="/switch/" style="background: white; color: #667eea; padding: 1rem 2rem; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 1.1em;">📖 Zur Dokumentation →</a>
+  <a href="/switch/vorbereitung/roter_faden" style="background: white; color: #667eea; padding: 1rem 2rem; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 1.1em;">📖 Zur Dokumentation →</a>
 </div>
