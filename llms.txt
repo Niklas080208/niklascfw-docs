@@ -111,7 +111,7 @@
 
 ### Erweiterte Guides
 
-- [📦 Anleitung: OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)](https://docs.niklascfw.de/switch/erweiterte-guides/ofw_to_emummc_guide.md): ⚠️ Wichtig – nur wenn alle Bedingungen erfüllt sind, funktioniert das Dumpen:
+- [OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)](https://docs.niklascfw.de/switch/erweiterte-guides/ofw_to_emummc_guide.md): OFW-Spiele und Updates in die emuMMC übernehmen, ohne Spielstände zu verlieren.
 
 ### Updates
 
