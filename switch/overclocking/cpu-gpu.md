@@ -40,7 +40,9 @@ Die ersten Einstellungsparameter der CPU sollten immer die festen Spannungswerte
 
 **Overwrite Boost Mode** auf **On**, sonst greift der Boost-Wert nicht.
 
-Nach stabilem Neustart **CPU Low UV** und **CPU High UV** setzen: mit **4** beginnen und so hoch wie möglich steigern. Manche Konsolen starten schon bei **CPU Low UV = 1** nicht mehr; **CPU High VMIN** ist in jedem Fall wichtiger, weil es den maximalen Verbrauch für die CPU unter Last herunterregelt. **CPU UV Tbreak** in der Regel auf Standard **1683 MHz Tbreak** lassen.
+Nach stabilem Neustart **CPU Low UV** und **CPU High UV** setzen: mit **4** beginnen und so hoch wie möglich steigern. Manche Konsolen starten schon bei **CPU Low UV = 1** nicht mehr (dann einfach bei "0" belassen). **CPU High VMIN** ist in jedem Fall wichtiger, weil es den maximalen Verbrauch für die CPU unter Last herunterregelt. **CPU UV Tbreak** in der Regel auf Standard **1683 MHz Tbreak** lassen.
+
+Es empfiehlt sich keinen zu niedrigen "CPU Low VMIN"-Wert zu setzen. Wir konnten zwar schon einige Konsolen mit 550mV und höchstem "CPU Low UV (8)" stabil nutzen, die Stromersparnis war jedoch gleich null, da der eigentlich Verbrauch unter Last entsteht und dort ist besagter "CPU High VMIN" in Kombination mit "CPU High UV" unser Freund. Generell empfehlen die Entwickler lieber einen etwas höheren VMIN-Wert zu setzen und am Ende durch "UV"-Wert im laufenden Betrieb das ganzen von der CPU runterregeln zu lassen. Stabilität geht immer vor!
 
 !!!TIPP:
 Es kann vorkommen, dass z. B. wenn man die Konsole über Nacht in den **Standby-Modus** versetzt, am nächsten Morgen nicht mehr aufwacht, im **Blackscreen** hängen bleibt. Ursache hier ist ein zu hoher "CPU Low UV"-Wert. Da hilft dann nur ein Hardreset und erneutes anpassen der Werte und Testen bis es passt. Die Entwickler empfehlen **lieber den CPU Low VMIN etwas höher (620 - 640 mV)** zu setzen und dann mit CPU Low UV diesen für den Betrieb runterregeln zu lassen, anstelle einer fixen zu niedrigen Spannung (Voltage).
