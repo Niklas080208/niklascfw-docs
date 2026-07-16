@@ -125,7 +125,7 @@ Für eine reibungslose Nutzung der Nintendo Switch mit CFW empfehlen sich vor al
 
 **Starker Allrounder** für Alltag und Gaming mit bis zu 170 MB/s Lesen, A2/V30 und Kapazitäten bis 1 TB. Gut geeignet für Switch und handheld-nahe Nutzung.
 
-[!button variant="secondary" text="Samsung T7 bei MediaMarkt" icon="/assets/amazon.svg" target="blank" corners="pill"](https://www.mediamarkt.de/de/product/_samsung-t7-micro-sd-microsd-speicherkarte-256-gb-3044988.html)
+[!button variant="secondary" text="Samsung T7 bei MediaMarkt" icon="/assets/mediamarkt.png" target="blank" corners="pill"](https://www.mediamarkt.de/de/product/_samsung-t7-micro-sd-microsd-speicherkarte-256-gb-3044988.html)
 
 ![|234x140](/images/switch/vorbereitung/sd-karte/t7.png)
 
@@ -133,7 +133,7 @@ Für eine reibungslose Nutzung der Nintendo Switch mit CFW empfehlen sich vor al
 
 **Nachfolger im High-End-Segment** mit bis zu 200 MB/s Lesen und 130 MB/s Schreiben (A2/V30). Maximale Performance und Zuverlässigkeit für anspruchsvolle CFW-Setups.
 
-[!button variant="secondary" text="Samsung T9 bei Samsung" icon="/assets/amazon.svg" target="blank" corners="pill"](https://www.samsung.com/de/memory-storage/memory-card/t9-microsd-card-512gb-mb-mh512t-ww/)
+[!button variant="secondary" text="Samsung T9 bei Samsung" icon="link" target="blank" corners="pill"](https://www.samsung.com/de/memory-storage/memory-card/t9-microsd-card-512gb-mb-mh512t-ww/)
 
 ![|234x140](/images/switch/vorbereitung/sd-karte/t9.png)
 
