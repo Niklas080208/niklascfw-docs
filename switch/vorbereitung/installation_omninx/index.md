@@ -63,6 +63,27 @@ Wählst du ohne 8-GB-Umbau die Option **8 GB**, bekommst du **Boot-Probleme**. I
 !!!
 
 ![RAM-Konfiguration wählen](/images/switch/omninx/installation/payload-ram-auswahl.png)
+>>> Hekate / Atmosphere wählen
+Danach erscheint die Auswahl für **Hekate / Atmosphere**:
+
+- **Hekate / Atmosphere (Standard):** für die normale OmniNX-Nutzung.
+- **Hekate-Pro / Atmosphere-Pro:** nur, wenn du bewusst die Pro-Variante nutzen willst.
+
+Mit **D-Pad / Vol+/-** auswählen, mit **A** oder **Power** bestätigen.
+
+!!!info Was bringt Hekate-Pro / Atmosphere-Pro?
+Vor allem sinnvoll, wenn du **emuMMC auf der eMMC** statt auf der microSD betreiben willst. Weitere Vorteile:
+
+- **emuMMC auf eMMC** (Datei- oder Partition-basiert)
+- **emuSD** (SD-Zugriffe von HOS umleiten; physische SD muss trotzdem stecken)
+- **Boot ohne SD-Karte** möglich (über FAT32-Speicher auf eMMC/SD)
+!!!
+
+!!!danger Unsicher? Standard wählen
+Wähle **Hekate / Atmosphere (Standard)**, sofern du nicht weißt, was du tust. Die Pro-Variante ist lediglich für Konsolen mit einem eMMC Mod (256/512GB) vorgesehen.
+!!!
+
+![Hekate / Atmosphere wählen](/images/switch/omninx/installation/payload-hekate-ams-auswahl.png)
 >>> Abschluss
 Wenn „Erfolgreich“ angezeigt wird, erneut **A** oder **Power** drücken. Der Installer startet automatisch **Hekate** (über `sd:/bootloader/update.bin`).
 
