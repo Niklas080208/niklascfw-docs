@@ -2,35 +2,53 @@
 icon: zap
 label: "Auto RCM aktivieren"
 order: 95
+description: "JIG umgehen – Switch per Power und RCM-Loader direkt in Hekate booten (ohne Modchip)."
 ---
 
-# AutoRCM aktivieren
+# Auto RCM aktivieren
 
-Sofern du eine Switch ohne Modchip hast, kannst du durch die Funktion **Auto RCM** den JIG umgehen und direkt über Power und RCM Loader oder andere RCM-Tools in Hekate booten. Anleitung: https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/rcm-methode/payload_laden/
+Ohne Modchip kann **Auto RCM** den **JIG** ersetzen: Die Switch bootet per **Power + RCM-Loader** (oder anderem RCM-Tool) direkt in **Hekate**, sobald Auto RCM gesetzt ist.
 
-## Anleitung
+!!!warning Nur für ungepatchte Switches (RCM)
+Auto RCM ist für **RCM-Softmod**-Setups gedacht – **nicht** für Modchip-Konsolen.
+!!!
 
-1. Starte **Hekate**
-2. Klicke oben rechts auf **Close**
-
-![|700x420](/images/switch/allgemein/hekate_launch_close.jpg)
-3. Klicke auf **Tools**
-
-![|700x420](/images/switch/allgemein/hekate_tools.jpg)
-4. Klicke auf **Arch bit RCM Touch Pkg 1/2**
-
-![|700x420](/images/switch/allgemein/hekate_archbits1.jpg)
-5. Wähle **Auto RCM** aus
-
-![|700x420](/images/switch/allgemein/autorcmaktivieren.jpg)
-6.Auto RCM aktivierungsbestätigung erscheint > Klicke unten auf **OK**
-
-![|700x420](/images/switch/allgemein/autorcmbestaetigung.jpg)
-7. Auto RCM ist somit 
-
-![|700x420](/images/switch/allgemein/autorcmaktiv.jpg)
-
+[!ref text="Payload laden (Windows/macOS/Linux)"](../vorbereitung/voraussetzungen/serial_check/rcm-methode/payload_laden)
 
 ---
 
-Nun startet die Switch jedes Mal direkt in Hekate mit der RCM Methode.
+## Auto RCM in Hekate aktivieren
+
+>>> Hekate öffnen
+Starte **Hekate** und tippe oben rechts auf **Close**.
+
+![Hekate Launch – Close|700x420](/images/switch/allgemein/hekate_launch_close.jpg)
+
+>>> Tools öffnen
+Wähle **Tools**.
+
+![Hekate Tools|700x420](/images/switch/allgemein/hekate_tools.jpg)
+
+>>> Arch bit RCM Touch Pkg öffnen
+Tippe auf **Arch bit RCM Touch Pkg 1/2**.
+
+![Arch bit RCM Touch Pkg|700x420](/images/switch/allgemein/hekate_archbits1.jpg)
+
+>>> Auto RCM aktivieren
+Wähle **Auto RCM**.
+
+![Auto RCM auswählen|700x420](/images/switch/allgemein/autorcmaktivieren.jpg)
+
+Bestätige die Meldung mit **OK**.
+
+![Auto RCM Bestätigung|700x420](/images/switch/allgemein/autorcmbestaetigung.jpg)
+
+Auto RCM ist damit aktiv.
+
+![Auto RCM aktiv|700x420](/images/switch/allgemein/autorcmaktiv.jpg)
+
+>>>
+
+!!!success Fertig
+Die Switch startet mit der **RCM-Methode** (Power + RCM-Loader) direkt in Hekate – ohne JIG in den Joy-Con-Slot.
+!!!
