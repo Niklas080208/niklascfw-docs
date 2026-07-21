@@ -1,26 +1,42 @@
 # Uhrzeit mit DBI synchronisieren
 
-> **Hinweis:** Die Switch muss zwingend mit dem Internet verbunden sein.
+Eine korrekte **Systemzeit** ist wichtig für Online-Funktionen, Updates und viele Homebrew-Apps. Mit **DBI** synchronisierst du die Uhr per **NTP** schnell nach.
 
-## Anleitung
+!!!info Internet erforderlich
+Die Switch muss **mit dem Internet verbunden** sein – per WLAN oder Ethernet-Adapter.
+!!!
 
-1. Öffne auf deiner Switch die **Einstellungen** und navigiere zu **Konsole → Datum und Uhrzeit**.
+---
 
-![|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_time1.jpg)
+## Uhrzeit synchronisieren
 
-2. Stelle sicher, dass der Punkt '**Uhr mithilfe des Internets synchronisieren**' auf **Ein** steht.
+>>> Datum und Uhrzeit öffnen
+Öffne **Einstellungen → Konsole → Datum und Uhrzeit**.
 
-![|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_time2.jpg)
+![Datum und Uhrzeit in den Einstellungen|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_time1.jpg)
 
-3. Starte **DBI** und wähle den Menüpunkt **Tools** aus.
+>>> Internet-Synchronisierung aktivieren
+Stelle sicher, dass **Uhr mithilfe des Internets synchronisieren** auf **Ein** steht.
 
-![|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_time3.jpg)
+![Internet-Synchronisierung aktivieren|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_time2.jpg)
 
-4. Wähle **NTP-Zeitsynchronisierung** bzw. **NTP time sync** und bestätige die Auswahl.
+>>> DBI öffnen und Tools wählen
+Starte **DBI** und wähle **Tools**.
 
-![|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_time4.jpg)
+![DBI Tools-Menü|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_time3.jpg)
 
-5. Die Uhrzeit wird nun automatisch synchronisiert.  
-   Anschließend kannst du mit der **B-Taste** das Menü verlassen.
+>>> NTP-Zeitsynchronisierung starten
+Wähle **NTP-Zeitsynchronisierung** bzw. **NTP time sync** und bestätige.
 
-![|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_time5.jpg)
+![NTP time sync in DBI|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_time4.jpg)
+
+>>> Synchronisierung abschließen
+Die Uhrzeit wird automatisch angepasst. Mit **B** das Menü wieder verlassen.
+
+![Synchronisierung abgeschlossen|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_time5.jpg)
+
+>>>
+
+!!!success Fertig
+Die Systemzeit ist synchronisiert. Bei Download-Problemen später erneut prüfen oder [Fehlerbehebung](/switch/fehlerbehebung/apps-tools/niklascfwdownloadprobleme) lesen.
+!!!

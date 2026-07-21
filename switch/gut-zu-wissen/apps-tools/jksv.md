@@ -1,43 +1,53 @@
 # Spielstände sichern und wiederherstellen mit JKSV
 
-**JKSV** ist ein Homebrew-Tool für die Switch, mit dem man **Speicherstände** (Savegames) **sichern**, **wiederherstellen** und **verwalten** kann.
+**JKSV** sichert, stellt wieder her und verwaltet **Speicherstände** auf der Switch – pro Benutzer und Spiel.
+
+---
 
 ## Funktionen
 
-- 📂 **Backup von Speicherständen**  
-  Du kannst Spielstände von deiner Switch auf die SD-Karte sichern, um sie später wieder einzuspielen.
-- 🔄 **Wiederherstellen & Transfer**  
-  Gesicherte Spielstände können einfach wiederhergestellt oder auf eine andere Switch mit CFW übertragen werden.
-- 🧩 **Unterstützt mehrere Benutzer & Spiele**  
-  Das Tool erkennt alle Benutzerkonten auf der Konsole und zeigt die dazugehörigen Saves an.
+{.list-icon}
+- :icon-archive: Backups auf die SD-Karte (`/JKSV/…`)
+- :icon-sync: Restore und Transfer auf andere CFW-Switches
+- :icon-person: Alle Benutzerkonten und zugehörige Saves
+
+!!!tip Forwarder / Title Override
+Starte JKSV im **Highmemory-Mode** ( **R** + Spielstart oder Forwarder) – nicht nur über das Album.
+!!!
 
 ---
 
 ## Spielstände sichern
 
-1. Starte deine Switch in CFW.
-2. Öffne das Homebrew Menu (z. B. **R** gedrückt halten und ein beliebiges Spiel starten – am besten erstellst du dir einen Forwarder).
-3. Wähle **JKSV** aus der App-Liste.
-4. Im JKSV-Menü:
-   - Wähle dein Benutzerprofil.
-   - Wähle das Spiel aus, dessen Speicherstand du sichern willst.
-   - Drücke **Y** für *Backup*.
-5. Vergib einen Namen (z. B. mit Datum: `Zelda_2025-08-11`).
-6. Fertig – der Save liegt jetzt auf deiner SD-Karte unter:  
-   `/JKSV/[Spielname]/[Backupname]/`
+>>> JKSV starten
+Switch in **CFW** booten, **JKSV** öffnen.
+
+>>> Profil und Spiel wählen
+Benutzerprofil → Spiel → **Y** (*Backup*).
+
+>>> Backup benennen
+Namen vergeben (z. B. `Zelda_2025-08-11`). Save liegt unter `/JKSV/[Spielname]/[Backupname]/`.
+
+>>>
 
 ---
 
-## Speicherstände wiederherstellen
+## Spielstände wiederherstellen
 
-1. Starte deine Switch in CFW.
-2. Öffne das Homebrew Menu (z. B. **R** gedrückt halten und ein beliebiges Spiel starten – am besten erstellst du dir einen Forwarder).
-3. Wähle **JKSV** aus der App-Liste.
-4. Im JKSV-Menü:
-   - Wähle dein Benutzerprofil → Spiel → Backup-Ordner.
-5. Drücke **X** für *Restore*.
-6. Bestätigen → Save wird ins System kopiert.
+>>> JKSV starten
+Benutzerprofil → Spiel → gewünschtes Backup.
 
----
+>>> Restore
+**X** (*Restore*) → bestätigen. Der Save wird ins System kopiert.
 
-> 💡 **Hinweis:** **Regelmäßig sichern** – besonders vor Modding oder Experimenten.
+>>>
+
+!!!info Cloud-Backup
+Optional: Spielstände nach **Google Drive** oder **WebDAV** hochladen.
+!!!
+
+[!ref](jksv_cloud)
+
+!!!tip Regelmäßig sichern
+Vor Modding, Updates oder Experimenten immer ein frisches Backup anlegen.
+!!!

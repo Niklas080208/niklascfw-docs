@@ -32,82 +32,82 @@
 
 ### System & Backup
 
-- [NAND Backup erstellen](https://docs.niklascfw.de/switch/system-backup/nand_backup.md): Starte Hekate
-- [NAND Backup wiederherstellen](https://docs.niklascfw.de/switch/system-backup/nand_backup_restore.md): Es wird zwingend das NAND Backup benötigt, welches wir im Tutorial NAND Backup erstellen erzeugt haben.
-- [💾 SD Partition Backup und Restore (emuMMC)](https://docs.niklascfw.de/switch/system-backup/sd_partition_backup_restore.md): Tools → Backup eMMC
+- [NAND Backup erstellen](https://docs.niklascfw.de/switch/system-backup/nand_backup.md): SysNAND (BOOT0, BOOT1, RAW GPP) in Hekate sichern und auf dem PC archivieren.
+- [NAND Backup wiederherstellen](https://docs.niklascfw.de/switch/system-backup/nand_backup_restore.md): Ein zuvor erstelltes SysNAND-Backup über Hekate auf die eMMC zurückspielen.
+- [SD Partition Backup und Restore (emuMMC)](https://docs.niklascfw.de/switch/system-backup/sd_partition_backup_restore.md): Partition-basierten emuMMC auf der SD-Karte sichern, SD tauschen und wiederherstellen.
 
 ### Nachher
 
-- [AutoRCM aktivieren](https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren.md): Sofern du eine Switch ohne Modchip hast, kannst du durch die Funktion Auto RCM den JIG umgehen und direkt über Power und RCM Loader oder andere RCM-Tools in Hekate booten.
-- [Autoboot aktivieren](https://docs.niklascfw.de/switch/nachher/autoboot_aktivieren.md): Sobald du deine Switch gemoddet hast, kannst du durch die Funktion Autoboot automatisch in die CFW booten, ohne über Hekate die CFW auswählen zu müssen. Dies funktioniert mit jeder gemoddeten Switch.
-- [Forwarder installieren mit Sphaira](https://docs.niklascfw.de/switch/nachher/forwarder_installieren.md): Forwarder sind Verknüpfungen auf dem Homescreen der Switch, über den sich Homebrews oder Apps direkt starten lassen. Diese werden so immer im Highmemory-Mode ausgeführt.
-- [Uhrzeit mit DBI synchronisieren](https://docs.niklascfw.de/switch/nachher/dbi_time.md): Hinweis: Die Switch muss zwingend mit dem Internet verbunden sein.
+- [Auto RCM aktivieren](https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren.md): JIG umgehen – Switch per Power und RCM-Loader direkt in Hekate booten (ohne Modchip).
+- [Autoboot aktivieren](https://docs.niklascfw.de/switch/nachher/autoboot_aktivieren.md): Hekate so einstellen, dass die Switch automatisch in die CFW bootet.
+- [Forwarder installieren mit Sphaira](https://docs.niklascfw.de/switch/nachher/forwarder_installieren.md): Homescreen-Verknüpfungen für Homebrew-Apps mit Sphaira anlegen.
+- [Uhrzeit mit DBI synchronisieren](https://docs.niklascfw.de/switch/nachher/dbi_time.md): Systemzeit der Switch per DBI und NTP synchronisieren.
 
 ### Gut zu wissen
 
 #### Erweiterte Systeme
 
-- [Anleitung: Android und Linux mit Ultrahand installieren (zwei verschiedene Methoden)](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/android-und-linux-installieren-ultrahand.md): Anleitung Uhrzeit Synchronisieren
-- [Lakka installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/lakka_install.md): Anleitung Uhrzeit Synchronisieren
+- [Android und Linux installieren (UltraHand)](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/android-und-linux-installieren-ultrahand.md): Android und Linux per UltraHand herunterladen und auf SD Partition oder SD File emuMMC installieren.
+- [Lakka installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/lakka_install.md): Lakka (RetroArch/LibreELEC) über UltraHand oder PC installieren und booten.
 - [RetroArch installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/retroarch_install.md): RetroArch installieren, Forwarder einrichten und ROMs hinzufügen.
 
 #### System
 
-- [Welchen emuMMC hab ich?](https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_arten.md): In dieser Anleitung erfährst du, wie du herausfinden kannst, welchen emuMMC du verwendest. Es gibt zwei Möglichkeiten – entweder direkt am PC oder über Hekate auf deiner Switch.
-- [SD kopieren mit NX Migrator Pro](https://docs.niklascfw.de/switch/gut-zu-wissen/system/nxmigatorpro.md): Stheix hat ein Tool erstellt, mit dem man die komplette SD-Karte inklusive aller Partitionen auf eine neue SD-Karte übertragen kann.
-- [Nintendo Switch – Werkseinstellungen zurücksetzen oder Konsole zurücksetzen ohne Speicherdaten zu löschen (CFW/Hekate)](https://docs.niklascfw.de/switch/gut-zu-wissen/system/switch_ruecksetzmodus.md): Diese Anleitung beschreibt, wie du deine Nintendo Switch im Rücksetzmodus zurücksetzt. Du kannst dabei wählen, ob die Konsole komplett auf Werkseinstellungen gesetzt wird (alle Daten weg) oder ob du sie ohne Löschen der Speicherdaten zurücksetzt.
+- [Welchen emuMMC hab ich?](https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_arten.md): SD Partition vs. SD File emuMMC am PC oder in Hekate erkennen.
+- [SD kopieren mit NX Migrator Pro](https://docs.niklascfw.de/switch/gut-zu-wissen/system/nxmigatorpro.md): Komplette SD inkl. aller Partitionen auf eine neue Karte mit NX Migrator Pro klonen.
+- [Switch zurücksetzen (CFW / Hekate)](https://docs.niklascfw.de/switch/gut-zu-wissen/system/switch_ruecksetzmodus.md): Switch im Rücksetzmodus zurücksetzen – mit oder ohne Speicherdaten löschen.
 - [emuMMC (Partition) downgraden](https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_downgrade.md): emuMMC (Partition) downgraden
 
 #### Customization
 
-- [Theme installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/customization/theme_install.md): 💡Achtung: Nicht alle Themes sind mit der Version 20.x kompatibel – dies steht meistens bei den Themes dabei. Solltet ihr beim Reboot auf den Fehler 0100000000000001000 stoßen, so müsst ihr nach der Anleitung 0100000000000001000 beheben (Custom Theme entfernen) vorgehen.
-- [Title Override (Highmemory Mode)](https://docs.niklascfw.de/switch/gut-zu-wissen/customization/title_override.md): Einge Apps musst du per Titel Override (auch bekannt als Highmemory Mode) starten, um ihnen den vollen Arbeitsspeicher (RAM) zuzuweisen.
+- [Theme installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/customization/theme_install.md): NXThemes Installer einrichten und Themes von Themezer installieren.
+- [Title Override (Highmemory Mode)](https://docs.niklascfw.de/switch/gut-zu-wissen/customization/title_override.md): Sphaira und Homebrew im Highmemory-Mode starten (Title Override / R-Taste).
 
 #### Spiele
 
-- [Wie man Spiele (Gamecards) über DBI und Sphaira installiert](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/spiele_installation_dbi_sphaira.md): ⚠️ Hinweis: Diese Anleitung ist nur dafür gedacht, eigene Daten oder legal erworbene Inhalte zu sichern. Sie darf nicht zum Kopieren, Teilen oder Umgehen von Kopierschutz verwendet werden.
-- [Backups installieren (XCI / XCZ / NSP / NSZ)](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/backups-installieren.md): Diese Anleitung erklärt dir, wie du Switch-Backups über Sphaira (MPT Install) oder DBI (MTP Responder) installierst.
-- [Gamecard Dump Anleitung](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/gamecard_mit_spaira_dumpen.md): ⚠️ Hinweis: Diese Anleitung ist nur dafür gedacht, eigene Daten oder legal erworbene Inhalte zu sichern. Sie darf nicht zum Kopieren, Teilen oder Umgehen von Kopierschutz verwendet werden.
-- [Anleitung: OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/ofw_to_emummc_guide.md): ⚠️ Wichtig – nur wenn alle Bedingungen erfüllt sind, funktioniert das Dumpen:
-- [Sphaira: Games und Updates aus der OFW dumpen](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/sphaira_games_und_updates_aus_der_ofw_dumpen.md): 💡 Hinweis: Du bist zu 100 % selbst für dein Handeln verantwortlich. NiklasCFW übernimmt keinerlei Haftung für den eventuellen Bann. ⚠️Wichtig: In Stock CFW nichts installieren.
+- [Spiele (Gamecards) über DBI und Sphaira installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/spiele_installation_dbi_sphaira.md): Physische Gamecards über DBI oder Sphaira auf die SD installieren.
+- [Backups installieren (XCI / XCZ / NSP / NSZ)](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/backups-installieren.md): XCI, XCZ, NSP und NSZ über Sphaira (MTP) oder DBI (MTP Responder) installieren.
+- [Gamecard Dump Anleitung](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/gamecard_mit_spaira_dumpen.md): Eigene Gamecards mit Sphaira dumpen – Video-Anleitungen inklusive.
+- [OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/ofw_to_emummc_guide.md): OFW-Spiele und Updates in die emuMMC übernehmen, ohne Spielstände zu verlieren.
+- [Sphaira: Games und Updates aus der OFW dumpen](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/sphaira_games_und_updates_aus_der_ofw_dumpen.md): Spiele, Updates und DLCs aus der OFW mit Sphaira dumpen und in der CFW installieren.
 
 #### Apps & Tools
 
-- [Homebrew & CFW Tools](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/hb_cfw_tools.md): Custom Firmware (CFW) für die Switch
-- [Spielstände sichern und wiederherstellen mit JKSV](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv.md): JKSV ist ein Homebrew-Tool für die Switch, mit dem man Speicherstände (Savegames) sichern, wiederherstellen und verwalten kann.
-- [JKSV Cloud Backup einrichten](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv_cloud.md): JKSV bietet eine Funktion, mit der ihr Speicherdaten der JKSV-Homebrew-App direkt auf Google Drive oder einem WebDAV-Server sichern könnt. Die Einrichtung dieser Funktion wird im Folgenden detailliert beschrieben.
-- [prod.keys dumpen mit Lockpick RCM](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/prodkeys.md): Wenn ihr noch keine prod.keys habt könnt ihr diese über Lockpick_RCM dumpen.
-- [Sphaira (ersetzt hbmenu)](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/sphaira.md): Sphaira ist eine Homebrew-Anwendung für modifizierte Nintendo Switch-Konsolen, die das Standard-Homebrew-Menü (hbmenu) ersetzt.
-- [UltraHand (Tesla Menu Ersatz)](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand.md): UltraHand ist ein mächtiges Homebrew-Overlay für die Nintendo Switch (HOS 16.0.0+), entwickelt als moderner Ersatz für das klassische Tesla Menu. Es bietet ein eigenes, interpretatives Skript-System (ähnlich Shell/BASH), mit dem du mithilfe von C/C++-Befehlen dein System flexibel verwalten kannst.
-- [UltraHand Funktionen im NiklasCFW Pack](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand_cfwpack.md): Hier gibt es eine Übersicht der Funktionen und installierten Overlays vom NiklasCFW Pack in UltraHand.
+- [Homebrew & CFW Tools](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/hb_cfw_tools.md): Glossar häufiger Homebrew-, CFW- und Emulator-Begriffe in der Switch-Szene.
+- [Spielstände sichern und wiederherstellen mit JKSV](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv.md): Spielstände mit JKSV sichern, wiederherstellen und auf andere Switches übertragen.
+- [JKSV Cloud Backup einrichten](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv_cloud.md): JKSV-Spielstände nach Google Drive oder WebDAV sichern.
+- [prod.keys dumpen mit Lockpick RCM](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/prodkeys.md): prod.keys mit Lockpick RCM in Hekate auslesen und speichern.
+- [Sphaira (ersetzt hbmenu)](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/sphaira.md): Homebrew-Menü als hbmenu-Ersatz – Features und Hinweise im Überblick.
+- [UltraHand (Tesla Menu Ersatz)](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand.md): Overlay-Menü und Package-System – Funktionen, Steuerung und Pakete.
+- [UltraHand im OmniNX-Pack](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand_cfwpack.md): Vorinstallierte UltraHand-Packages und Overlays im OmniNX-Pack.
 
 ### Fehlerbehebung
 
 #### Hardware
 
-- [Switch mit MacBook verbinden](https://docs.niklascfw.de/switch/fehlerbehebung/hardware/switch_macbook.md): Dafür benötigst du auf dem MacBook die App Android File Transfer.
+- [Switch mit MacBook verbinden](https://docs.niklascfw.de/switch/fehlerbehebung/hardware/switch_macbook.md): Switch per DBI MTP mit einem MacBook verbinden.
 
 #### Apps & Tools
 
-- [NiklasCFW Downloader Fehlerbehebung](https://docs.niklascfw.de/switch/fehlerbehebung/apps-tools/niklascfwdownloadprobleme.md): Es kann vorkommen, dass Downloads im NIKLASCFW Downloader abbrechen. In diesem Fall gehe bitte die folgenden Schritte durch.
-- [Ultrahand lässt sich nicht öffnen](https://docs.niklascfw.de/switch/fehlerbehebung/apps-tools/ultrahand_oeffnen.md): Um Ultrahand zu öffnen, musst du die L, R und Plus Taste gleichzeitig drücken.
+- [UltraHand lässt sich nicht öffnen](https://docs.niklascfw.de/switch/fehlerbehebung/apps-tools/ultrahand_oeffnen.md): UltraHand im Dock- und Handheldmodus öffnen.
+- [NiklasCFW Downloader Fehlerbehebung](https://docs.niklascfw.de/switch/fehlerbehebung/apps-tools/niklascfwdownloadprobleme.md): Abgebrochene Downloads im NiklasCFW Downloader beheben.
 
 #### Spiele
 
-- [Defekten Legenden Z-A Spielstand reparieren](https://docs.niklascfw.de/switch/fehlerbehebung/spiele/plza_save.md): ⚠️ Voraussetzung: Man benötigt eine gemoddete Switch und auf dem PC muss Python 3.x installiert sein
+- [Defekten Legenden Z-A Spielstand reparieren](https://docs.niklascfw.de/switch/fehlerbehebung/spiele/plza_save.md): Defekten Savegame-Stand von Legenden Z-A mit plza-recovery reparieren.
 
 #### System & Boot
 
-- [Fehlercode 2001-0123 ultrahand anleitung](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/fehlercode_2001-0123_ultrahand_anleitung.md): Anleitung: Fehlercode 2001-0123 beheben Prigramm ID: 420000000007E51A (UltraHand-ID)
-- [Fehlercode 2123-0011 (Switch) – kein Game geht mehr auf](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/21230011_beheben.md): Wenn dieser Fehler auftritt, kann es helfen, die Ordnerstruktur auf der SD-Karte manuell anzupassen.
-- [Fehlercode 0100000000000bd00 beheben](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/0100000000000bd00_beheben.md): 🚨 Diese Methode 1 funktioniert nur ab dem NiklasCFW Pack 1.1.1, alle anderen gehen nach der Methode 2 vor! 🚨
-- [Fehlercode 420000000000010 beheben (ldn_mitm)](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/420000000000010_beheben_(ldn_mitm).md): 🚨 Diese Methode 1 funktioniert nur ab dem NiklasCFW Pack 1.1.1, alle anderen gehen nach der Methode 2 vor! 🚨
-- [Hekate - Fix Archive Bits](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/hekate_fix_archive_bits.md): Bei der Verwendung von macOS kann es zu Problemen kommen, wenn du Dateien auf deine microSD-Karte entpackst oder kopierst. Nutze Fix Archive Bits, wenn deine microSD-Karte nach der Verwendung an macOS nicht mehr richtig funktioniert.
+- [Fehlercode 420000000000010 beheben](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/420000000000010_beheben_(ldn_mitm).md): Fehler mit ldn_mitm per Tegra Explorer oder manuell entfernen.
+- [Fehlercode 2123-0011 beheben](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/21230011_beheben.md): Fehlercode 2123-0011 durch fehlenden TitleID-Ordner in atmosphere/contents beheben.
+- [Fehlercode 2001-0123 beheben](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/fehlercode_2001-0123_ultrahand_anleitung.md): UltraHand-Fehler 2001-0123 mit kompatibler Firmware 22.5.0 via OmniNX Downloader beheben.
+- [Fehlercode 0100000000000bd00 beheben](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/0100000000000bd00_beheben.md): Fehlercode 0100000000000bd00 per Tegra Explorer oder manuell entfernen.
+- [Hekate: Fix Archive Bits](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/hekate_fix_archive_bits.md): Archive-Bit-Probleme nach macOS-Nutzung direkt in Hekate beheben.
 
 #### Theme & Visual
 
-- [🛠️ Fix: Leere Lade-Icons auf dem Switch Home-Menü (DBI)](https://docs.niklascfw.de/switch/fehlerbehebung/theme-visual/leere_lade_icons_switch_dbifix.md): Wenn du Spiele mit DBI installierst (z. B. per USB, MTP oder Netzwerk), kann es in seltenen Fällen passieren, dass die Installation nicht korrekt abgeschlossen wurde.
-- [Fehlercode 0100000000000001000 beheben (Custom Theme entfernen)](https://docs.niklascfw.de/switch/fehlerbehebung/theme-visual/0100000000000001000_beheben_(custom_theme).md): 🚨 Diese Methode 1 funktioniert nur ab dem NiklasCFW Pack 1.1.1, alle anderen gehen nach der Methode 2 vor! 🚨
+- [Leere Lade-Icons im HOME-Menü beheben](https://docs.niklascfw.de/switch/fehlerbehebung/theme-visual/leere_lade_icons_switch_dbifix.md): Fehlerhafte Lade-Icons im HOME-Menü direkt über DBI entfernen.
+- [Fehlercode 0100000000000001000 beheben](https://docs.niklascfw.de/switch/fehlerbehebung/theme-visual/0100000000000001000_beheben_(custom_theme).md): Fehlercode 0100000000000001000 durch Entfernen eines Custom Themes beheben.
 
 ### Erweiterte Guides
 

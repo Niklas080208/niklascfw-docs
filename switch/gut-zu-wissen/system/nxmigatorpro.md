@@ -1,62 +1,40 @@
 # SD kopieren mit NX Migrator Pro
 
-**Stheix** hat ein Tool erstellt, mit dem man die komplette SD-Karte inklusive aller Partitionen auf eine neue SD-Karte übertragen kann.
+**NX Migrator Pro** (von **sthetix**) kopiert die **gesamte microSD inkl. aller Partitionen** (emuMMC RAW, Android, Linux usw.) auf eine neue Karte.
 
 ---
 
-## 🧩 Voraussetzungen
+## Voraussetzungen
 
-Bevor du startest, stelle sicher, dass du:
-- einen Windows-PC hast  
-- die Möglichkeit zwei microSD Karten an deinen PC anzuschließen
-
----
-
-## 🧰 Anleitung
-
-### 1. NX Migrator Pro herunterladen
-Lade dir die aktuelle Version von **NX Migrator Pro v1.0.0** herunter:  
-👉 [NX Migrator Pro – GitHub Release](https://github.com/sthetix/NX-Migrator-Pro/releases)
+{.list-icon}
+- :icon-device-desktop: **Windows-PC**
+- :icon-database: Zwei microSD-Karten gleichzeitig am PC (Quelle + Ziel)
 
 ---
 
-### 2. Dateien entpacken
-Entpacke die **NXMigratorPro.zip** auf deinem Computer.
+## Migration durchführen
 
----
+>>> Tool laden und entpacken
+**NX Migrator Pro v1.0.0** von [GitHub Releases](https://github.com/sthetix/NX-Migrator-Pro/releases) laden und **NXMigratorPro.zip** entpacken.
 
-### 3. Programm starten
-Starte die **NXMigratorPro.exe**.
+>>> Programm starten
+**NXMigratorPro.exe** starten. Bei Fehlermeldung ggf. **.NET** / Python-Laufzeiten installieren.
 
-Falls du eine Fehlermeldung erhältst, installiere ggf. die benötigten Laufzeiten (.NET / Python).
+>>> SD-Karten anschließen
+**Alte SD (Source)** und **neue SD (Target)** einstecken → **Simultan Migration** bestätigen.
 
----
+>>> Vorschau und Partitionen
+**Step 2:** Vorschau prüfen → **OK**. **Step 3:** wählen, ob **alle Partitionen** (Android, Linux, …) mitkopiert werden.
 
-### 4. SD-Karten anschließen
-Stecke nun:
-- Deine **alte SD-Karte** (Source SD Card)
-- Deine **neue SD-Karte** (Target SD Card)  
-in deinen Computer und bestätige mit **Simultan Migration**.
+>>> Migration starten
+**Start Migration** – je nach Füllstand kann das **mehrere Stunden** dauern.
 
----
+>>>
 
-### 5. Migration prüfen
-Unter **Step 2** siehst du eine Vorschau, wie beide SD-Karten nach der Migration aussehen werden.  
-Bestätige mit **OK**.
+!!!warning PC wach halten
+PC **nicht in Ruhezustand** versetzen, bis die Migration abgeschlossen ist.
+!!!
 
----
-
-### 6. Partitionen auswählen
-Unter **Step 3** kannst du auswählen, ob **alle Partitionen** (z. B. Android, Linux) der Source SD Card mit auf die Target SD Card übertragen werden sollen.
-
----
-
-### 7. Migration starten
-Klicke auf **Start Migration**, um den Kopiervorgang zu beginnen.
-
----
-
-## ⚠️ Hinweis
-
-Je nach wie voll deine Source SD Card kann der Vorgang **mehrere Stunden** dauern.  
-Achte darauf, dass dein PC **nicht in den Ruhemodus** oder Standby wechselt.
+!!!success Fertig
+Die Ziel-SD ist ein Klon der Quelle – inkl. Partitionen und emuMMC.
+!!!

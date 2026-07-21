@@ -1,63 +1,47 @@
-# Nintendo Switch – Werkseinstellungen zurücksetzen oder Konsole zurücksetzen ohne Speicherdaten zu löschen (CFW/Hekate)
+# Switch zurücksetzen (CFW / Hekate)
 
-Diese Anleitung beschreibt, wie du deine Nintendo Switch im **Rücksetzmodus** zurücksetzt.  
-Du kannst dabei wählen, ob die Konsole **komplett auf Werkseinstellungen** gesetzt wird (alle Daten weg) oder ob du sie **ohne Löschen der Speicherdaten** zurücksetzt.
+Im **Rücksetzmodus** kannst du die Konsole **komplett auf Werkseinstellungen** setzen oder **ohne Löschen der Speicherdaten** zurücksetzen.
 
----
+!!!danger Zwei Optionen – genau lesen
+**Werkseinstellungen:** Alle Speicherdaten, Screenshots, Videos, Nutzer und Konten werden gelöscht. Nur bei Verkauf/Abgabe.
 
-## Wichtige Hinweise
+**Ohne Speicherdaten löschen:** Spielstände, Screenshots, Videos und Nutzer bleiben. Software auf der microSD (außer Screenshots/Videos) ist danach oft **nicht mehr nutzbar** und muss neu installiert werden.
+!!!
 
-- **Option 1 – Werkseinstellungen:**  
-  Alle **Speicherdaten, Screenshots, Videos, Nutzerinformationen und Konten** werden gelöscht.  
-  → Nur nutzen, wenn du die Konsole verkaufen, verschenken oder abgeben möchtest.  
-
-- **Option 2 – Ohne Speicherdaten löschen:**  
-  Deine **Speicherdaten, Screenshots, Videos und Nutzerinformationen** bleiben erhalten.  
-  → Nutze dies, wenn du die Konsole weiter benutzen willst.  
-
-In beiden Fällen gilt: Software auf der microSD-Karte (außer Screenshots und Videos) kann nachher **nicht mehr genutzt** werden.
+!!!info Voraussetzung
+Du bist in **Hekate** → **Launch** → einmal **CFW** (oder OFW) anwählen, dann in die CFW booten.
+!!!
 
 ---
 
-## Umsetzung
+## Rücksetzmodus öffnen
 
-- Du bist im **Hekate-Menü**.  
-- Gehe auf **Launch** und drücke **einmal auf CFW**.  
+>>> CFW starten und Timing
+Konsole mit **CFW** starten. Warte, bis das **CFW-Bootlogo** (mit Versionsnummer) wieder **verschwindet**.
 
->✨ Tipp: das geht auch mit der OFW. 
+>>> Lautstärke-Tasten halten
+**Vol+ und Vol− gleichzeitig** gedrückt halten, bis das **Rücksetzmodus-Menü** erscheint.
 
----
+![Rücksetzmodus per Vol+/Vol−|700x420](/images/switch/gut-zu-wissen/system/ruecksetzmodus/volume_ruecksetzmodus.jpg)
 
-## Schritt-für-Schritt-Anleitung
+>>> Option wählen
+**Konsole auf Werkseinstellungen zurücksetzen** oder **Konsole zurücksetzen ohne Speicherdaten zu löschen**.
 
-1. Starte die Konsole mit **CFW**.  
-2. Warte, bis das **Niklas CFW-Bootlogo mit Versionsnummer** wieder **verschwindet**.  
-3. Halte jetzt **beide Lautstärketasten** (`+` und `-`) gedrückt.  
-4. Lass die Tasten erst los, wenn das Menü des **Rücksetzmodus** erscheint.  
+Geheimzahl eingeben (falls gesetzt) → Infos lesen → **Weiter** → gewünschte Option bestätigen.
 
-   ![|700x420](/images/switch/gut-zu-wissen/system/ruecksetzmodus/volume_ruecksetzmodus.jpg)
-
-5. Wähle im Menü:  
-   **„Konsole auf Werkseinstellungen zurücksetzen“**  
-   *oder*  
-   **„Konsole zurücksetzen ohne Speicherdaten zu löschen“**  
-
-6. Falls eine Geheimzahl eingerichtet ist → eingeben.  
-7. Lies die Infos sorgfältig durch → bestätige mit:  
-   - **Weiter**  
-   - deine gewählte Option (**Werkseinstellungen** oder **ohne Speicherdaten löschen**)  
+>>>
 
 ---
 
 ## Ergebnis
 
-- **Wenn du „Werkseinstellungen“ gewählt hast:**  
-  Die Switch ist komplett zurückgesetzt, alle Daten sind gelöscht.  
+!!!success Nach dem Reset
+- **Werkseinstellungen:** Konsole ist leer, alle Nutzerdaten weg.
+- **Ohne Speicherdaten löschen:** Spielstände und Medien bleiben; SD-Software ggf. neu installieren.
 
-- **Wenn du „ohne Speicherdaten löschen“ gewählt hast:**  
-  Die Switch ist zurückgesetzt, deine Spielstände, Screenshots und Videos bleiben erhalten.  
+Die **microSD wird nicht formatiert**. CFW bleibt erhalten.
+!!!
 
-In beiden Fällen muss Software auf der **microSD-Karte** ggf. neu installiert werden. 
-**ES WIRD AUF KEINEN FALL DIE microSD-Karte FORMATIERT**
-
->📌 Nach einem Werksreset erkennt die OFW die SD-Karte nicht, solange der alte Nintendo-Ordner noch drauf ist. Du musst in der OFW einfach nur auf „Löschen“ drücken, dann wird ausschließlich der Nintendo-Ordner neu erstellt und nichts anderes angefasst. Danach erkennt die OFW die SD-Karte wieder ganz normal. Die CFW bleibt komplett erhalten, da wird nichts formatiert oder gelöscht.
+!!!tip OFW und Nintendo-Ordner
+Nach Werksreset erkennt die OFW die SD manchmal nicht, solange der alte **Nintendo**-Ordner noch existiert. In der OFW auf **Löschen** tippen – nur der Nintendo-Ordner wird neu angelegt, CFW-Daten bleiben unberührt.
+!!!

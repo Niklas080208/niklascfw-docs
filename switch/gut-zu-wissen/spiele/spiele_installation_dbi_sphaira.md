@@ -1,33 +1,38 @@
-# Wie man Spiele (Gamecards) über DBI und Sphaira installiert
+# Spiele (Gamecards) über DBI und Sphaira installieren
 
-> ⚠️ **Hinweis:**  
-> Diese Anleitung ist nur dafür gedacht, **eigene Daten oder legal erworbene Inhalte zu sichern**.  
-> Sie darf **nicht zum Kopieren, Teilen oder Umgehen von Kopierschutz** verwendet werden.
-
-## DBI 
-
-1. Stecke die Gamecard in die Switch.  
-2. Starte DBI (unbedingt die aktuelle Version verwenden!).  
-3. Wähle "Install from Gamecard" aus.
-
---![|700x420](/images/switch/gut-zu-wissen/spiele/spiele-install/dbi1.jpg)--
-4. Wähle bei "Install Target" **"SD"** aus.  
-
-![|700x420](/images/switch/gut-zu-wissen/spiele/spiele-install/dbi2.jpg)
-5. Starte die Installation.  
-6. Warte, bis die Installation fertig ist.  
+!!!warning Nur eigene / legal erworbene Inhalte
+Diese Anleitung dient dem **Sichern legal erworbener Gamecards** auf der SD. Nicht zum Kopieren, Teilen oder Umgehen von Kopierschutz verwenden.
+!!!
 
 ---
 
-## Sphaira
++++ DBI
+>>> Gamecard einlegen und DBI starten
+Gamecard einstecken, **DBI** starten (aktuelle Version).
 
-1. Stecke die Gamecard in die Switch.  
-2. Starte Sphaira.  
-3. Drücke **(-)** Taste auf dem Joycon.  
-4. Scrolle und wähle **"Gamecard"** aus.  
+>>> Install from Gamecard
+**Install from Gamecard** wählen.
 
-![|700x420](/images/switch/gut-zu-wissen/spiele/spiele-install/sphaira1.jpg)
-5. Starte die Installation.  
+![DBI Install from Gamecard|700x420](/images/switch/gut-zu-wissen/spiele/spiele-install/dbi1.jpg)
 
-![|700x420](/images/switch/gut-zu-wissen/spiele/spiele-install/sphaira2.jpg)
-6. Warte, bis die Installation fertig ist.
+>>> Ziel SD und Installation
+Bei **Install Target** **SD** wählen und Installation starten – bis zum Abschluss warten.
+
+![DBI Install Target SD|700x420](/images/switch/gut-zu-wissen/spiele/spiele-install/dbi2.jpg)
+>>>
+
++++ Sphaira
+>>> Gamecard und Sphaira
+Gamecard einstecken, **Sphaira** starten, **Minus (−)** für das Menü.
+
+>>> Gamecard-Menü
+**Gamecard** auswählen und Installation starten.
+
+![Sphaira Gamecard|700x420](/images/switch/gut-zu-wissen/spiele/spiele-install/sphaira1.jpg)
+
+![Sphaira Installation|700x420](/images/switch/gut-zu-wissen/spiele/spiele-install/sphaira2.jpg)
++++
+
+!!!success Fertig
+Das Spiel liegt auf der SD und kann aus der CFW gestartet werden.
+!!!

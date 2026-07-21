@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837732428845">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837943373982">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>Lakka installieren</title>
     <meta name="title" content="Lakka installieren">
-    <meta name="description" content="Anleitung Uhrzeit Synchronisieren">
+    <meta name="description" content="Lakka (RetroArch/LibreELEC) über UltraHand oder PC installieren und booten.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/lakka_install/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/lakka_install/">
     <meta property="og:title" content="Lakka installieren">
-    <meta property="og:description" content="Anleitung Uhrzeit Synchronisieren">
+    <meta property="og:description" content="Lakka (RetroArch/LibreELEC) über UltraHand oder PC installieren und booten.">
     <meta property="og:image" content="https://docs.niklascfw.de/images/switch/allgemein/lakka1.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/lakka_install/">
     <meta name="twitter:title" content="Lakka installieren">
-    <meta name="twitter:description" content="Anleitung Uhrzeit Synchronisieren">
+    <meta name="twitter:description" content="Lakka (RetroArch/LibreELEC) über UltraHand oder PC installieren und booten.">
     <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/allgemein/lakka1.jpg">
     <meta name="twitter:image:alt" content="Lakka installieren">
 
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
-    <link href="/resources/css/retype.css?v=4.6.0.837732428845" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.837943373982" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
     <link rel="stylesheet" href="/static/css/ref-cards.css" />
@@ -192,89 +192,101 @@
 
                 <!-- Page content  -->
 <h1 id="lakka-installieren">Lakka installieren</h1>
-<h2 id="-voraussetzungen"><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Voraussetzungen</h2>
-<div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
-<h4 style="color: #856404; margin-top: 0;">⚠️ Wichtig</h4>
-<p style="color: #212529; margin-bottom: 0;"><strong>Bitte darauf achten, dass deine Uhrzeit synchronisiert ist.</strong></p>
-<p style="color: #212529; margin-bottom: 0;">Ansonsten funktioniert der Download über UltraHand nicht!</p>
+<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">Lakka (RetroArch/LibreELEC) über UltraHand oder PC installieren und booten.</div>
+<p><strong>Lakka</strong> basiert auf <strong>LibreELEC</strong> und nutzt <strong>RetroArch</strong> als UI. Es unterstützt viele klassische Plattformen (NES, SNES, GBA, Genesis, PS1, Dreamcast, N64 usw.).</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Uhrzeit synchronisieren</h5>
+<p><strong>Bitte darauf achten, dass deine Uhrzeit synchronisiert ist.</strong><br />
+Ohne korrekte Zeit funktioniert der Download über UltraHand nicht.</p>
+        </div>
+    </div>
 </div>
-<p><strong><a href="https://docs.niklascfw.de/switch/nachher/dbi_time/">Anleitung Uhrzeit Synchronisieren</a></strong></p>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
+    <div class="flex items-center text-base-500">
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path d="M12.5 7.25a.75.75 0 0 0-1.5 0v5.5c0 .27.144.518.378.651l3.5 2a.75.75 0 0 0 .744-1.302L12.5 12.315V7.25Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">Uhrzeit mit DBI (NTP)</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>/switch/nachher/dbi_time/</span>
+    </div>
+    <a href="/switch/nachher/dbi_time/" class="absolute block inset-0"></a>
+</div>
+</p>
 <hr>
-<blockquote>
-<p><strong>Lakka</strong> basiert auf <strong>LibreELEC</strong> und nutzt die <strong>RetroArch-Oberfläche</strong> als zentrales <strong>Benutzerinterface</strong>. Unterstützt werden zahlreiche klassische Plattformen wie NES, SNES, Game Boy, Genesis, PlayStation, Dreamcast, N64 usw.</p>
-</blockquote>
-<hr>
-<h2 id="lakka-direkt-über-ultrahand-installieren">Lakka direkt über UltraHand installieren</h2>
-<ol>
-<li>
-<p>Öffne <strong>UltraHand</strong> (L,R und Plus-Taste gleichzeitig drücken) und auf <strong>NiklasCFW Downloader</strong> klicken.
+<h2 id="über-ultrahand-installieren">Über UltraHand installieren</h2>
+<doc-steps>
+   <doc-step id="ultrahand-und-downloader-öffnen" step-number="1">
+      <template #title>UltraHand und Downloader öffnen</template>
+<p><strong>UltraHand</strong> starten (<strong>L + R + Plus</strong>) und <strong>OmniNX Downloader</strong> öffnen.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/lakka1.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
+    <img src="/images/switch/allgemein/lakka1.jpg" alt="UltraHand / Downloader" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">UltraHand / Downloader</figcaption>
 </figure>
-</p>
-</li>
-<li>
-<p>Runterscrollen und <strong>Lakka</strong> auswählen.
+   </doc-step>
+   <doc-step id="lakka-herunterladen" step-number="2">
+      <template #title>Lakka herunterladen</template>
+<p>Runterscrollen, <strong>Lakka</strong> wählen, Download starten (<span class="docs-emoji">&#x2B07;&#xFE0F;</span> Download, <span class="docs-emoji">&#x2B06;&#xFE0F;</span> Entpacken).</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/lakka2.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
+    <img src="/images/switch/allgemein/lakka2.jpg" alt="Lakka im Downloader" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">Lakka im Downloader</figcaption>
 </figure>
-</p>
-</li>
-<li>
-<p>Auf <strong>Lakka</strong> klicken und den Download starten (<span class="docs-emoji">&#x2B07;&#xFE0F;</span> Download läuft, <span class="docs-emoji">&#x2B06;&#xFE0F;</span> Entpacken läuft).</p>
-</li>
-<li>
-<p>Startet über <strong>RebootNX</strong> in <strong>Hekate</strong>.</p>
-</li>
-<li>
-<p>Geht auf <strong>More Configs</strong>, hier wird euch nun <strong>Lakka</strong> angezeigt und ihr könnt es starten.
+   </doc-step>
+   <doc-step id="über-rebootnx-in-hekate" step-number="3">
+      <template #title>Über RebootNX in Hekate</template>
+<p><strong>RebootNX</strong> → <strong>Hekate</strong> booten → <strong>More Configs</strong> → <strong>Lakka</strong> starten.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/lakka6.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
+    <img src="/images/switch/allgemein/lakka6.jpg" alt="Lakka in More Configs" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">Lakka in More Configs</figcaption>
 </figure>
-</p>
-</li>
-</ol>
+   </doc-step>
+</doc-steps>
 <hr>
 <h2 id="installation-über-pc">Installation über PC</h2>
-<ol>
-<li>
-<p>Lade dir hier die aktuelle Version von Lakka für die Switch herunter</p>
-<p><span class="docs-emoji">&#x1F449;</span> <a href="https://www.lakka.tv/get/windows/switch/">Lakka für Switch Download</a></p>
-</li>
-<li>
-<p><strong>Entpacke die <code translate="no" v-pre>Lakka.7z</code></strong> und ziehe sie auf den <strong>Root der microSD deiner Switch</strong></p>
-</li>
-<li>
-<p>Boote in <strong>Hekate</strong> und drücke oben rechts auf <strong>Close</strong></p>
-</li>
-</ol>
-<p><figure class="content-center">
-    <img src="/images/switch/allgemein/hekate_launch_close.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
-</figure>
-4. Klick unten links auf <strong>Nyx Settings</strong></p>
+<doc-steps>
+   <doc-step id="lakka-herunterladen-1" step-number="1">
+      <template #title>Lakka herunterladen</template>
+<p><a href="https://www.lakka.tv/get/windows/switch/">Lakka für Switch</a> laden, <strong>Lakka.7z</strong> entpacken und Inhalt auf die <strong>SD-Root</strong> kopieren.</p>
+   </doc-step>
+   <doc-step id="hekate-und-nyx-settings" step-number="2">
+      <template #title>Hekate und Nyx Settings</template>
+<p>In <strong>Hekate</strong> oben rechts <strong>Close</strong> tippen.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/hekate_nyx_settings.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
+    <img src="/images/switch/allgemein/hekate_launch_close.jpg" alt="Hekate Close" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">Hekate Close</figcaption>
 </figure>
-<ol start="5">
-<li>Wähle nun <strong>Dump Joy-Con BT</strong> aus und bestätige die Meldung anschließend durch Klicken auf <strong>Ok</strong></li>
-<li>Klick im Hekate Homescreen auf <strong>More Configs</strong></li>
-</ol>
+<p>Unten links <strong>Nyx Settings</strong> → <strong>Dump Joy-Con BT</strong> → <strong>OK</strong>.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/hekate_more_configs.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
+    <img src="/images/switch/allgemein/hekate_nyx_settings.jpg" alt="Nyx Settings" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">Nyx Settings</figcaption>
 </figure>
-<ol start="7">
-<li>Wähle hier <strong>Lakka</strong> aus</li>
-</ol>
+   </doc-step>
+   <doc-step id="lakka-booten" step-number="3">
+      <template #title>Lakka booten</template>
+<p><strong>More Configs</strong> → <strong>Lakka</strong> wählen.</p>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/hekate_more_configs1.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
+    <img src="/images/switch/allgemein/hekate_more_configs.jpg" alt="More Configs" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">More Configs</figcaption>
 </figure>
+<figure class="content-center">
+    <img src="/images/switch/allgemein/hekate_more_configs1.jpg" alt="Lakka auswählen" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">Lakka auswählen</figcaption>
+</figure>
+   </doc-step>
+</doc-steps>
 
                 
                 <!-- Required only on API pages -->

@@ -1,136 +1,150 @@
 # Homebrew & CFW Tools
 
-## A
-#### Atmosphere  
-Custom Firmware (CFW) für die Switch
+Kurzes **Glossar** – Begriffe, die in Anleitungen und in der Community oft vorkommen.
 
-## B
-#### BluePack  
-CFW Pack für die Switch, welches schon länger nicht mehr geupdatet wurde
+==- A
+**Atmosphere**  
+Custom Firmware (CFW) für die Switch.
+===
 
-## C
-#### Cartridge  
-Modul auf dem das Spiel ist
+==- B
+**BluePack**  
+Älteres CFW-Pack, wird nicht mehr aktiv gepflegt.
+===
 
-#### Chiaki  
-Remote Play Client, um PS4- und PS5-Spiele auf der Switch zu streamen
+==- C
+**Cartridge**  
+Physisches Spielmodul (Gamecard).
 
-## D
-#### Daybreak  
-Programm zum Updaten oder Downgraden der Firmware
+**Chiaki**  
+Remote-Play-Client für PS4/PS5-Streams auf der Switch.
+===
 
-#### DBI  
-Mächtiger File Installer mit einigen Extras (z. B. Zeit online synchronisieren)
+==- D
+**Daybreak**  
+Firmware updaten oder downgraden (in emuMMC/CFW).
 
-#### DeepSea  
-CFW Pack für die Switch, welches schon länger nicht mehr geupdatet wurde
+**DBI**  
+Mächtiger Installer (MTP, NSP/XCI, NTP-Zeit, …).
 
-#### DuckStation  
-PSX Emulator
+**DeepSea**  
+Älteres CFW-Pack, nicht mehr aktiv gepflegt.
 
-## E
-#### EdiZon  
-Cheat Manager, kann auch verwendet werden, um Speicherdaten zu editieren
+**DuckStation**  
+PlayStation (PSX) Emulator.
+===
 
-#### EdiZon Overlay  
-Erweiterung für das Tesla Menu bzw. Ultra-Hand
+==- E
+**EdiZon**  
+Cheat-Manager; kann auch Saves editieren.
 
-#### emuiibo  
-Können Amiibo-Figuren mit emuliert werden
+**EdiZon Overlay**  
+Overlay-Erweiterung (Tesla/UltraHand).
 
-## F
-#### Fizeau  
-Tool zum Kalibrieren und Einstellen des Switch-Displays
+**emuiibo**  
+Amiibo-Figuren emulieren.
+===
 
-#### Flycast Switch  
-Dreamcast Emulator
+==- F
+**Fizeau**  
+Display kalibrieren und einstellen.
 
-#### FTPD  
-FTP Client für die Switch
+**Flycast**  
+Dreamcast Emulator.
 
-## H
-#### Hekate  
-Custom Bootloader für die Switch
+**FTPD**  
+FTP-Server für die Switch.
+===
 
-#### HBMenu  
-Homebrew Menu für die Switch, bessere Alternative ist Sphaira
+==- H
+**Hekate**  
+Custom Bootloader (Nyx, emuMMC, Backups, …).
 
-## J
-#### JKSV  
-Ein Speicherdatenmanager für die Switch
+**HBMenu**  
+Standard-Homebrew-Menü – im OmniNX-Pack durch **Sphaira** ersetzt.
+===
 
-## L
-#### ldn_mitm  
-Online spielen über LAN-Play weltweit mit anderen Switch-Konsolen
+==- J
+**JKSV**  
+Speicherstände sichern und wiederherstellen.
+===
 
-#### LineageOS  
-Android für die Switch
+==- L
+**ldn_mitm**  
+LAN-Play weltweit (sysmodule).
 
-#### LockPick RCM  
-Tool zum Auslesen der eigenen Switch-Keys
+**LineageOS**  
+Android für die Switch.
 
-## M
-#### MelonDS  
-DS(i) Emulator
+**Lockpick RCM**  
+Eigene Switch-Keys und prod.keys auslesen.
+===
 
-#### mGBA  
-GBA Emulator
+==- M
+**MelonDS**  
+Nintendo DS(i) Emulator.
 
-#### MicroSD  
-Speicherkarte für die Nintendo Switch
+**mGBA**  
+Game Boy Advance Emulator.
 
-#### MissionControl  
-Ein Sysmodul, mit dem sich Bluetooth-Controller von Drittanbietern an der Switch nutzen lassen
+**microSD**  
+Speicherkarte der Switch.
 
-## N
-#### Neumann  
-Ein Speicherdatenmanager für die Switch
+**MissionControl**  
+Bluetooth-Controller von Drittanbietern (sysmodule).
+===
 
-#### Niklas CFW Pack  
-Ein CFW Pack für die Switch
+==- N
+**Neumann**  
+Speicherdaten-Manager (Alternative zu JKSV).
 
-#### NX Activity Log  
-Zeigt Informationen über die Spielzeit usw. in einzelnen Spielen an
+**OmniNX**  
+CFW-Pack dieser Dokumentation (Nachfolger NiklasCFW Pack).
 
-#### NXMP  
-Nintendo Switch Media Player
+**NX Activity Log**  
+Spielzeit und Aktivitäts-Infos pro Titel.
 
-#### NXThemeInstaller  
-Custom Themes installieren
+**NXMP**  
+Media Player für die Switch.
 
-## O
-#### OFW  
-Abkürzung für offizielle Firmware
+**NXThemeInstaller**  
+Custom Themes installieren.
+===
 
-## P
-#### pNES  
-NES Emulator
+==- O
+**OFW**  
+Offizielle Firmware (Stock).
+===
 
-#### pSNES  
-SNES Emulator
+==- P
+**pNES** / **pSNES**  
+NES- bzw. SNES-Emulatoren.
 
-#### PPSSPP  
-PSP Emulator
+**PPSSPP**  
+PSP Emulator.
+===
 
-## S
-#### SaltyNX  
-Tool zum Ausführen von Codemodifikationen
+==- S
+**SaltyNX / SaltySD**  
+Codemods und Plugins (v. a. OC-Pack).
 
-#### Sphaira  
-Eine HBMenu-Alternative für die Switch (Standard im NiklasCFW Pack)
+**Sphaira**  
+HBMenu-Ersatz – Standard in OmniNX.
 
-#### Stock-CFW  
-*(Keine Beschreibung angegeben)*
+**Stock-CFW**  
+CFW-Setup ohne Modifikationen am SysNAND-Inhalt (OFW-nahe emuMMC).
 
-#### SwitchFin  
-Jellyfin Client für die Switch
+**SwitchFin**  
+Jellyfin-Client.
 
-#### SwitchIdent  
-Tool zum Anzeigen der Informationen über eure Switch
+**SwitchIdent**  
+Hardware-/System-Infos anzeigen.
 
-#### SwitchTime  
-Tool, um die Uhrzeit der Switch online zu synchronisieren
+**SwitchTime**  
+Uhrzeit online synchronisieren (Alternative zu DBI NTP).
+===
 
-## T
-#### TinWoo  
-Ein File Installer
+==- T
+**TinWoo**  
+File Installer (NSP/XCI, Mehrfachauswahl).
+===

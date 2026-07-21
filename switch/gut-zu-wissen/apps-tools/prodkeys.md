@@ -1,10 +1,30 @@
 # prod.keys dumpen mit Lockpick RCM
 
-- Wenn ihr noch keine **prod.keys** habt könnt ihr diese über **Lockpick_RCM** dumpen. 
-- Dazu müsst ihr unter **Launch** -> **Lockpick_RCM** auswählen.
+Falls du noch keine **prod.keys** hast, kannst du sie über **Lockpick RCM** in Hekate dumpen.
 
-![|700x420](/images/switch/niklascfw-pack/guide1/bild13.jpg)
-- **Achtung! Navigation funktioniert nur mit Laustärke Tasten und bestätigen mit Power Taste.**
-- Nun wählt ihr **Dump from Sysnand** aus. Im Anschluss **Power Taste** drücken und **Reboot to Hekate** auswählen.
+!!!info Navigation in Lockpick RCM
+In Lockpick funktioniert die Navigation nur mit **Vol+ / Vol−**; bestätigen mit der **Power-Taste**.
+!!!
 
-![|700x420](/images/switch/niklascfw-pack/guide1/bild14.png)
+---
+
+## Keys dumpen
+
+>>> Lockpick RCM starten
+In **Hekate** unter **Launch** → **Lockpick RCM** auswählen.
+
+![Lockpick RCM in Hekate|700x420](/images/switch/niklascfw-pack/guide1/bild13.jpg)
+
+>>> Dump from SysNAND
+**Dump from SysNAND** wählen, **Power** drücken und warten, bis der Dump fertig ist.
+
+>>> Zurück nach Hekate
+Mit **Vol+ / Vol−** zu **Reboot to Hekate** navigieren und mit **Power** bestätigen.
+
+![Lockpick Dump abgeschlossen|700x420](/images/switch/niklascfw-pack/guide1/bild14.png)
+
+>>>
+
+!!!success Fertig
+Die Keys liegen auf der SD (typisch unter `switch/`). Viele Installer und Tools erwarten `prod.keys` an der vorgesehenen Stelle.
+!!!

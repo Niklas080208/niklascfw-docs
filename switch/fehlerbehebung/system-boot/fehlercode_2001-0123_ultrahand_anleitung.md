@@ -1,43 +1,51 @@
-Anleitung: Fehlercode 2001-0123 beheben
-Prigramm ID: 420000000007E51A (UltraHand-ID)
+# Fehlercode 2001-0123 beheben
 
-Ursache:
-Der Fehlercode 2001-0123 steht in diesem Zusammenhang für UltraHand.
-Die installierte System-Firmware ist zu niedrig für die verwendete UltraHand-Version
+**Programm-ID:** `420000000007E51A` (UltraHand-ID)
 
-Lösung:
+Der Fehlercode **2001-0123** bedeutet meist, dass deine **System-Firmware zu alt** für die verwendete **UltraHand-Version** ist.
 
-1. CFW-Pack aktualisieren
-- Lade die neuste Niklas CFW herunter. [Neustes CFW Pack](https://github.com/Woody-NX/NiklasCFW_Pack/releases/latest)
-- Falls nötig, das Pack manuell aktualisieren.
-Anleitung zur [Ersteinrichtung](https://docs.niklascfw.de/switch/niklascfw-pack/guide1.4.0/)
+!!!info OmniNX-Kompatibilität
+OmniNX ist mit **Firmware Version 22.5.0** in der CFW kompatibel.
+!!!
 
-2. Overlay temporär deaktivieren
-- SD-Karte in den PC einlegen
-- Zum folgenden Pfad navigieren:
-  /switch/.overlays/
-- Datei umbenennen:
-  ovlmenu.ovl -> ovlmenu.ovl.bak
+!!!warning UltraHand-Downloads können kurz einfrieren
+Beim Updaten oder Herunterladen über **UltraHand → OmniNX Downloader** kann es vorkommen, dass die Konsole während des Entpackens einfriert. Wenn das Entpacken fertig ist (ca. **2–5 Min.**), läuft alles wieder ganz normal weiter.
 
-3. Firmware herunterladen
-- [Aktuelle Firmware](https://github.com/THZoria/NX_Firmware/releases) herunterladen.
-  
-4. Firmware installieren
-- Firmware entpacken
-- Den entpackten Ordner vollständig auf die SD-Karte kopieren
-- SD-Karte wieder in die Switch einsetzen
-- Switch starten
-- Album öffnen -> Daybreak
-- Firmware-Update durchführen (empfohlen: Preserve Settings)
+Bitte darauf achten, dass die **Uhrzeit synchronisiert** ist, sonst funktionieren Downloads ggf. nicht.
+!!!
 
-5. Overlay wieder aktivieren
-- Switch ausschalten
-- SD-Karte wieder in den PC stecken
-- Zum Pfad /switch/.overlays/ gehen
-- Datei wieder umbenennen:
-  ovlmenu.ovl.bak -> ovlmenu.ovl
+!!!tip Noch auf dem NiklasCFW Pack?
+Das NiklasCFW Pack ist eingestellt und erhält keinen Support mehr. Wechsel auf **OmniNX**: [Vom NiklasCFW Pack zu OmniNX](/switch/omni-migrate).
+!!!
 
-Abschluss:
-- SD-Karte wieder einsetzen
-- Switch starten
-- UltraHand und Overlay sollten nun wieder funktionieren -> Ultrahand started erscheint oben links. 
+---
+
+## Lösung
+
+>>> UltraHand öffnen
+Öffne **UltraHand** auf der Switch.
+
+>>> OmniNX Downloader öffnen
+Starte **OmniNX Downloader**.
+
+>>> OmniNX / Pack herunterladen
+Wähle im **OmniNX Updater** den Punkt **OmniNX** (Pack) und warte, bis der Download abgeschlossen ist.
+
+>>> Paket anwenden (RebootNX)
+Danach zurück zu **RebootNX** und den **Hekate**-Bootloader starten.
+
+Starte in Hekate anschließend den Eintrag **OmniNX Installer** und bestätige den Update-/Installer-Modus, falls gefragt.
+
+>>> Firmware herunterladen
+Wenn das Pack aktualisiert wurde, lade in **OmniNX Updater** die passende **Firmware** herunter.
+
+>>> Firmware installieren (Daybreak)
+Öffne danach **Daybreak** und installiere die Firmware.
+Wähle bei der Installation **Preserve Settings** (wie empfohlen).
+
+>>> Funktion prüfen
+Nach dem Neustart sollte **UltraHand** wieder funktionieren.
+
+Bei Bedarf: Für die Details zu Pack und Firmware siehe
+[OmniNX-Pack aktualisieren](/switch/updates/omninx-update) und [Firmware updaten](/switch/updates/firmware-update).
+>>>

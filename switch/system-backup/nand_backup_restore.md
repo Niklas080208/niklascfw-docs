@@ -1,22 +1,52 @@
 # NAND Backup wiederherstellen
 
-> Es wird **zwingend das NAND Backup** benötigt, welches wir im Tutorial **[NAND Backup erstellen](https://docs.niklascfw.de/switch/system-backup/nand_backup/)** erzeugt haben.
+Mit dieser Anleitung spielst du ein **SysNAND-Backup** zurück auf die interne eMMC. Voraussetzung ist das Backup aus **[NAND Backup erstellen](nand_backup)**.
 
-1. Sofern du den `backup` Ordner nicht mehr auf deiner MicroSD gespeichert hast, so kopiere diesen wieder in den **Root** deiner Speicherkarte.
-2. Öffne den Ordner `backup/xxxxxx` und verschiebe die Dateien **BOOT0**, **BOOT1** und **rawnand.bin.XX** (genaue bezeichnung siehe Screenshot) in den Ordner `backup/xxxxxx/restore`.
+!!!danger Nur dein eigenes Backup verwenden
+Stelle **ausschließlich** das Backup wieder her, das du selbst von **dieser** Konsole erstellt hast. Ein falsches Backup kann die Switch unbrauchbar machen.
+!!!
 
-![|700x420](/images/switch/system-backup/nand-backup/restore_pc.jpg)
-3. Starte nun in **Hekate**.
-4. Klicke auf **Tools**
+---
 
-![| Tools|700x420](/images/switch/system-backup/nand-backup/hekate_tools.jpg)
-5. Geh auf **Restore eMMC**
+## Restore vorbereiten
 
-![| Restore|700x420](/images/switch/system-backup/nand-backup/restore_emmc2.jpg)
-6. Wähle **eMMC BOOT0 & BOOT1** aus und warte bis der Vorgang abgeschlosen ist, drücke anschließend oben rechts Close.
+>>> Backup-Ordner auf die SD legen
+Liegt `backup/` nicht mehr auf der microSD, kopiere den Ordner zurück in den **Root** der SD-Karte.
 
-![| eMMC BOOT0 & BOOT1|700x420](/images/switch/system-backup/nand-backup/restore_emmc1.jpg)
-7. Wähle **eMMC RAW GPP** aus und warte bis der Vorgang abgeschlosen ist, drücke anschließend oben rechts Close.
+>>> Restore-Ordner anlegen
+Öffne `backup/xxxxxx/` und verschiebe **BOOT0**, **BOOT1** und **rawnand.bin.XX** (exakte Bezeichnung siehe Screenshot) in den Unterordner `backup/xxxxxx/restore/`.
 
-![| eMMC RAW GPP|700x420](/images/switch/system-backup/nand-backup/restore_emmc3.jpg)
-8. Jetzt kannst du deine **Switch neustarten** und ggf. den `backup` Ordner wieder von der Speicherkarte löschen.
+![Backup-Dateien für Restore vorbereiten|700x420](/images/switch/system-backup/nand-backup/restore_pc.jpg)
+
+---
+
+## Restore in Hekate
+
+>>> Hekate öffnen und Tools starten
+Starte **Hekate** und tippe auf **Tools**.
+
+![Hekate Tools|700x420](/images/switch/system-backup/nand-backup/hekate_tools.jpg)
+
+>>> Restore eMMC öffnen
+Wähle **Restore eMMC**.
+
+![Restore eMMC|700x420](/images/switch/system-backup/nand-backup/restore_emmc2.jpg)
+
+>>> BOOT0 und BOOT1 wiederherstellen
+Wähle **eMMC BOOT0 & BOOT1** und warte, bis der Vorgang abgeschlossen ist. Anschließend oben rechts **Close** tippen.
+
+![Restore BOOT0 & BOOT1|700x420](/images/switch/system-backup/nand-backup/restore_emmc1.jpg)
+
+>>> RAW GPP wiederherstellen
+Wähle **eMMC RAW GPP** und warte, bis der Vorgang abgeschlossen ist. Anschließend erneut **Close** tippen.
+
+![Restore RAW GPP|700x420](/images/switch/system-backup/nand-backup/restore_emmc3.jpg)
+
+>>> Switch neustarten
+Starte die **Switch neu**. Optional kannst du den `backup/`-Ordner danach wieder von der SD löschen.
+
+>>>
+
+!!!success Fertig
+Die SysNAND wurde wiederhergestellt. Bei Problemen: [Fehlerbehebung](/switch/fehlerbehebung/system-boot/hekate_fix_archive_bits).
+!!!

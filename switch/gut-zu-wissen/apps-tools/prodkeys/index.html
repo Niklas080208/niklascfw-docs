@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837732428845">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837943373982">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>prod.keys dumpen mit Lockpick RCM</title>
     <meta name="title" content="prod.keys dumpen mit Lockpick RCM">
-    <meta name="description" content="Wenn ihr noch keine prod.keys habt könnt ihr diese über Lockpick_RCM dumpen.">
+    <meta name="description" content="prod.keys mit Lockpick RCM in Hekate auslesen und speichern.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/prodkeys/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/prodkeys/">
     <meta property="og:title" content="prod.keys dumpen mit Lockpick RCM">
-    <meta property="og:description" content="Wenn ihr noch keine prod.keys habt könnt ihr diese über Lockpick_RCM dumpen.">
+    <meta property="og:description" content="prod.keys mit Lockpick RCM in Hekate auslesen und speichern.">
     <meta property="og:image" content="https://docs.niklascfw.de/images/switch/niklascfw-pack/guide1/bild13.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/prodkeys/">
     <meta name="twitter:title" content="prod.keys dumpen mit Lockpick RCM">
-    <meta name="twitter:description" content="Wenn ihr noch keine prod.keys habt könnt ihr diese über Lockpick_RCM dumpen.">
+    <meta name="twitter:description" content="prod.keys mit Lockpick RCM in Hekate auslesen und speichern.">
     <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/niklascfw-pack/guide1/bild13.jpg">
     <meta name="twitter:image:alt" content="prod.keys dumpen mit Lockpick RCM">
 
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
-    <link href="/resources/css/retype.css?v=4.6.0.837732428845" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.837943373982" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
     <link rel="stylesheet" href="/static/css/ref-cards.css" />
@@ -192,22 +192,67 @@
 
                 <!-- Page content  -->
 <h1 id="prodkeys-dumpen-mit-lockpick-rcm">prod.keys dumpen mit Lockpick RCM</h1>
-<ul>
-<li>Wenn ihr noch keine <strong>prod.keys</strong> habt könnt ihr diese über <strong>Lockpick_RCM</strong> dumpen.</li>
-<li>Dazu müsst ihr unter <strong>Launch</strong> -&gt; <strong>Lockpick_RCM</strong> auswählen.</li>
-</ul>
+<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">prod.keys mit Lockpick RCM in Hekate auslesen und speichern.</div>
+<p>Falls du noch keine <strong>prod.keys</strong> hast, kannst du sie über <strong>Lockpick RCM</strong> in Hekate dumpen.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Navigation in Lockpick RCM</h5>
+<p>In Lockpick funktioniert die Navigation nur mit <strong>Vol+ / Vol−</strong>; bestätigen mit der <strong>Power-Taste</strong>.</p>
+        </div>
+    </div>
+</div>
+<hr>
+<h2 id="keys-dumpen">Keys dumpen</h2>
+<doc-steps>
+   <doc-step id="lockpick-rcm-starten" step-number="1">
+      <template #title>Lockpick RCM starten</template>
+<p>In <strong>Hekate</strong> unter <strong>Launch</strong> → <strong>Lockpick RCM</strong> auswählen.</p>
 <figure class="content-center">
-    <img src="/images/switch/niklascfw-pack/guide1/bild13.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
+    <img src="/images/switch/niklascfw-pack/guide1/bild13.jpg" alt="Lockpick RCM in Hekate" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">Lockpick RCM in Hekate</figcaption>
 </figure>
-<ul>
-<li><strong>Achtung! Navigation funktioniert nur mit Laustärke Tasten und bestätigen mit Power Taste.</strong></li>
-<li>Nun wählt ihr <strong>Dump from Sysnand</strong> aus. Im Anschluss <strong>Power Taste</strong> drücken und <strong>Reboot to Hekate</strong> auswählen.</li>
-</ul>
+   </doc-step>
+   <doc-step id="dump-from-sysnand" step-number="2">
+      <template #title>Dump from SysNAND</template>
+<p><strong>Dump from SysNAND</strong> wählen, <strong>Power</strong> drücken und warten, bis der Dump fertig ist.</p>
+   </doc-step>
+   <doc-step id="zurück-nach-hekate" step-number="3">
+      <template #title>Zurück nach Hekate</template>
+<p>Mit <strong>Vol+ / Vol−</strong> zu <strong>Reboot to Hekate</strong> navigieren und mit <strong>Power</strong> bestätigen.</p>
 <figure class="content-center">
-    <img src="/images/switch/niklascfw-pack/guide1/bild14.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
+    <img src="/images/switch/niklascfw-pack/guide1/bild14.png" alt="Lockpick Dump abgeschlossen" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">Lockpick Dump abgeschlossen</figcaption>
 </figure>
+   </doc-step>
+</doc-steps>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-success"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-success" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M21 9.09c-.55 0-1 .45-1 1v.92c0 4.96-4.04 8.99-9 8.99-4.97 0-9-4.04-9-9s4.04-9 9-9c1.27 0 2.5.26 3.66.78.51.22 1.1 0 1.32-.51.23-.5 0-1.1-.51-1.32C14.06.32 12.56 0 11.01 0H11C4.94 0 0 4.93 0 10.99 0 17.06 4.93 22 10.99 22H11c6.06 0 11-4.93 11-10.99v-.92c0-.56-.45-1-1-1z"></path>
+                    <path d="M8.71 9.31a.996.996 0 10-1.41 1.41l3 3c.19.19.44.29.71.29.27 0 .52-.11.71-.29l10-10.01a.996.996 0 10-1.41-1.41L11 11.6 8.71 9.31z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Fertig</h5>
+<p>Die Keys liegen auf der SD (typisch unter <code translate="no" v-pre>switch/</code>). Viele Installer und Tools erwarten <code translate="no" v-pre>prod.keys</code> an der vorgesehenen Stelle.</p>
+        </div>
+    </div>
+</div>
 
                 
                 <!-- Required only on API pages -->

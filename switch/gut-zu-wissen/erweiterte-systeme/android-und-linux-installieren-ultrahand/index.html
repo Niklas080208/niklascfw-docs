@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837732428845">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837943373982">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
-    <title>Anleitung: Android und Linux mit Ultrahand installieren (zwei verschiedene Methoden)</title>
-    <meta name="title" content="Anleitung: Android und Linux mit Ultrahand installieren (zwei verschiedene Methoden)">
-    <meta name="description" content="Anleitung Uhrzeit Synchronisieren">
+    <title>Android und Linux installieren (UltraHand)</title>
+    <meta name="title" content="Android und Linux installieren (UltraHand)">
+    <meta name="description" content="Android und Linux per UltraHand herunterladen und auf SD Partition oder SD File emuMMC installieren.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/android-und-linux-installieren-ultrahand/">
@@ -21,22 +21,22 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/android-und-linux-installieren-ultrahand/">
-    <meta property="og:title" content="Anleitung: Android und Linux mit Ultrahand installieren (zwei verschiedene Methoden)">
-    <meta property="og:description" content="Anleitung Uhrzeit Synchronisieren">
+    <meta property="og:title" content="Android und Linux installieren (UltraHand)">
+    <meta property="og:description" content="Android und Linux per UltraHand herunterladen und auf SD Partition oder SD File emuMMC installieren.">
     <meta property="og:image" content="https://docs.niklascfw.de/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/niklascfwdl.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Anleitung: Android und Linux mit Ultrahand installieren (zwei verschiedene Methoden)">
+    <meta property="og:image:alt" content="Android und Linux installieren (UltraHand)">
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/android-und-linux-installieren-ultrahand/">
-    <meta name="twitter:title" content="Anleitung: Android und Linux mit Ultrahand installieren (zwei verschiedene Methoden)">
-    <meta name="twitter:description" content="Anleitung Uhrzeit Synchronisieren">
+    <meta name="twitter:title" content="Android und Linux installieren (UltraHand)">
+    <meta name="twitter:description" content="Android und Linux per UltraHand herunterladen und auf SD Partition oder SD File emuMMC installieren.">
     <meta name="twitter:image" content="https://docs.niklascfw.de/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/niklascfwdl.jpg">
-    <meta name="twitter:image:alt" content="Anleitung: Android und Linux mit Ultrahand installieren (zwei verschiedene Methoden)">
+    <meta name="twitter:image:alt" content="Android und Linux installieren (UltraHand)">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/android-und-linux-installieren-ultrahand.md">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
-    <link href="/resources/css/retype.css?v=4.6.0.837732428845" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.837943373982" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
     <link rel="stylesheet" href="/static/css/ref-cards.css" />
@@ -191,176 +191,300 @@
                 <doc-page-actions></doc-page-actions>
 
                 <!-- Page content  -->
-<h1 id="anleitung-android-und-linux-mit-ultrahand-installieren-zwei-verschiedene-methoden">Anleitung: Android und Linux mit Ultrahand installieren (zwei verschiedene Methoden)</h1>
+<h1 id="android-und-linux-installieren-ultrahand">Android und Linux installieren (UltraHand)</h1>
+<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">Android und Linux per UltraHand herunterladen und auf SD Partition oder SD File emuMMC installieren.</div>
+<p>Zwei Wege: <strong>SD Partition emuMMC (RAW)</strong> oder <strong>SD File emuMMC (SD00)</strong>. Wähle die Methode, die zu deinem emuMMC-Typ passt.</p>
 <hr>
-<h2 id="-voraussetzungen"><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Voraussetzungen</h2>
-<div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
-<h4 style="color: #856404; margin-top: 0;">⚠️ Wichtig</h4>
-<p style="color: #212529; margin-bottom: 0;"><strong>Bitte darauf achten, dass deine Uhrzeit synchronisiert ist.</strong></p>
-<p style="color: #212529; margin-bottom: 0;">Ansonsten funktioniert der Download über UltraHand nicht!</p>
+<h2 id="voraussetzungen">Voraussetzungen</h2>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Uhrzeit synchronisieren</h5>
+<p><strong>Bitte darauf achten, dass deine Uhrzeit synchronisiert ist.</strong><br />
+Ansonsten funktioniert der Download über UltraHand nicht!</p>
+        </div>
+    </div>
 </div>
-<p><strong><a href="https://docs.niklascfw.de/switch/nachher/dbi_time/">Anleitung Uhrzeit Synchronisieren</a></strong></p>
-<hr>
-<p>Achtung es gibt 2 Verschiedene Arten von emuMMC</p>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
+    <div class="flex items-center text-base-500">
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path d="M12.5 7.25a.75.75 0 0 0-1.5 0v5.5c0 .27.144.518.378.651l3.5 2a.75.75 0 0 0 .744-1.302L12.5 12.315V7.25Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">Uhrzeit mit DBI synchronisieren (NTP)</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>/switch/nachher/dbi_time/</span>
+    </div>
+    <a href="/switch/nachher/dbi_time/" class="absolute block inset-0"></a>
+</div>
+</p>
+<p>Es gibt <strong>zwei verschiedene Arten</strong> von emuMMC:</p>
 <ol>
-<li>
-<p>SD Partition weit Verbreitet&gt;RAW1</p>
-</li>
-<li>
-<p>SD File&gt;SD00</p>
-</li>
+<li><strong>SD Partition</strong> – weit verbreitet, z. B. <strong>RAW1</strong></li>
+<li><strong>SD File</strong> – z. B. <strong>SD00</strong></li>
 </ol>
-<p>Welchen du hast? Findest du unter <strong><a href="https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_arten/">Welchen emuMMC hab ich?</a></strong></p>
-<p>MACHT BITTE BEVOR IHR IRGENDWAS MACHT EIN BACKUP</p>
-<blockquote>
-<p>Tipp<span class="docs-emoji">&#x1F4A1;</span><br />
-Solltet ihr die Switch erst zurück bekommen haben und Ihr habt Android-Partition und die Linux-Partition schon bestellt dann macht direkt die 4 und 5 unabhängig des Emummc.</p>
-</blockquote>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
+    <div class="flex items-center text-base-500">
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path d="M7.024 3.75c0-.966.784-1.75 1.75-1.75H20.25c.966 0 1.75.784 1.75 1.75v11.498a1.75 1.75 0 0 1-1.75 1.75H8.774a1.75 1.75 0 0 1-1.75-1.75Zm1.75-.25a.25.25 0 0 0-.25.25v11.498c0 .139.112.25.25.25H20.25a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25Z"/><path d="M1.995 10.749a1.75 1.75 0 0 1 1.75-1.751H5.25a.75.75 0 1 1 0 1.5H3.745a.25.25 0 0 0-.25.25L3.5 20.25c0 .138.111.25.25.25h9.5a.25.25 0 0 0 .25-.25v-1.51a.75.75 0 1 1 1.5 0v1.51A1.75 1.75 0 0 1 13.25 22h-9.5A1.75 1.75 0 0 1 2 20.25l-.005-9.501Z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">Welchen emuMMC hab ich?</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>/switch/gut-zu-wissen/system/emummc_arten/</span>
+    </div>
+    <a href="/switch/gut-zu-wissen/system/emummc_arten/" class="absolute block inset-0"></a>
+</div>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Backup vor jeder Änderung</h5>
+<p><strong>Macht bitte, bevor ihr irgendetwas macht, ein Backup.</strong></p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-tip"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-tip" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M7.90625 2.15625C4.50944 2.15625 2.15625 4.58563 2.15625 7.54688C2.15625 8.96138 2.76575 9.88281 3.57075 10.8589L3.87837 11.2226C4.19894 11.6021 4.554 12.0218 4.84581 12.4416C5.25406 13.0324 5.61775 13.7296 5.7385 14.5834C5.76728 14.8608 5.68746 15.1386 5.51579 15.3583C5.34413 15.5781 5.09399 15.7228 4.8179 15.7621C4.5418 15.8013 4.26124 15.7321 4.03512 15.5689C3.809 15.4056 3.65493 15.1612 3.60525 14.8867C3.54775 14.4814 3.37094 14.1004 3.07338 13.6692C2.8306 13.3302 2.57055 13.0039 2.29425 12.6917C2.1735 12.5479 2.04556 12.397 1.909 12.2317C1.00769 11.1406 0 9.72613 0 7.54688C0 3.32062 3.39681 0 7.90625 0C12.4157 0 15.8125 3.32062 15.8125 7.54688C15.8125 9.72613 14.8048 11.1406 13.9035 12.2317C13.7669 12.397 13.639 12.5479 13.5183 12.6903C13.2207 13.0424 12.9677 13.3414 12.7406 13.6692C12.4416 14.1004 12.2662 14.4814 12.2087 14.8867C12.1557 15.1584 12.0003 15.3994 11.7747 15.5598C11.5492 15.7202 11.2706 15.7879 10.9965 15.7488C10.7225 15.7096 10.474 15.5667 10.3023 15.3496C10.1306 15.1325 10.0489 14.8577 10.074 14.582C10.1948 13.7296 10.5584 13.0324 10.9667 12.4416C11.2585 12.0218 11.6136 11.6021 11.9341 11.2226C12.0419 11.0961 12.1454 10.9739 12.2403 10.8589C13.0468 9.88281 13.6562 8.96138 13.6562 7.54688C13.6562 4.58563 11.3031 2.15625 7.90625 2.15625ZM4.67188 17.25H11.1406C11.4266 17.25 11.7008 17.3636 11.903 17.5658C12.1052 17.768 12.2188 18.0422 12.2188 18.3281C12.2188 18.6141 12.1052 18.8883 11.903 19.0905C11.7008 19.2927 11.4266 19.4062 11.1406 19.4062H4.67188C4.38594 19.4062 4.11171 19.2927 3.90953 19.0905C3.70734 18.8883 3.59375 18.6141 3.59375 18.3281C3.59375 18.0422 3.70734 17.768 3.90953 17.5658C4.11171 17.3636 4.38594 17.25 4.67188 17.25ZM5.03125 21.9219C5.03125 21.6359 5.14484 21.3617 5.34703 21.1595C5.54921 20.9573 5.82344 20.8438 6.10938 20.8438H9.70312C9.98906 20.8438 10.2633 20.9573 10.4655 21.1595C10.6677 21.3617 10.7812 21.6359 10.7812 21.9219C10.7812 22.2078 10.6677 22.482 10.4655 22.6842C10.2633 22.8864 9.98906 23 9.70312 23H6.10938C5.82344 23 5.54921 22.8864 5.34703 22.6842C5.14484 22.482 5.03125 22.2078 5.03125 21.9219Z" />
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Android- und Linux-Partition schon bestellt?</h5>
+<p>Solltet ihr die Switch erst zurückbekommen haben und Android- sowie Linux-Partition schon bestellt haben, macht direkt <strong>Schritt 4 und 5</strong> – unabhängig vom emuMMC-Typ.</p>
+        </div>
+    </div>
+</div>
 <hr>
-<h2 id="methode-1-sd-partition-emummc-raw1">Methode 1: SD Partition emuMMC (RAW1)</h2>
+<doc-tabs>
+<doc-tab v-cloak id="methode-1-sd-partition-emummc-raw">
+<template #title>Methode 1: SD Partition emuMMC (RAW)</template>
 <p>Diese Methode ist für dich, wenn deine SD-Karte als <strong>RAW-Partition</strong> eingerichtet ist.</p>
-<h3 id="1-backup-erstellen">1) Backup erstellen</h3>
+<doc-steps>
+   <doc-step id="backup-erstellen" step-number="1">
+      <template #title>Backup erstellen</template>
+<p>Wie in der Anleitung <strong>SD Partition Backup und Restore</strong> – <strong>aber:</strong> SD <strong>nicht</strong> wechseln und nach dem Backup <strong>kein Restore</strong> durchführen.</p>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
+    <div class="flex items-center text-base-500">
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path d="M2.75 2h18.5c.966 0 1.75.784 1.75 1.75v3.5A1.75 1.75 0 0 1 21.25 9H2.75A1.75 1.75 0 0 1 1 7.25v-3.5C1 2.784 1.784 2 2.75 2Zm18.5 1.5H2.75a.25.25 0 0 0-.25.25v3.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25v-3.5a.25.25 0 0 0-.25-.25ZM2.75 10a.75.75 0 0 1 .75.75v9.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25v-9.5a.75.75 0 0 1 1.5 0v9.5A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25v-9.5a.75.75 0 0 1 .75-.75Z"/><path d="M9.75 11.5a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5Z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">SD Partition Backup und Restore (emuMMC)</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>/switch/system-backup/sd_partition_backup_restore/</span>
+    </div>
+    <a href="/switch/system-backup/sd_partition_backup_restore/" class="absolute block inset-0"></a>
+</div>
+</p>
 <ul>
-<li>Wie in <strong><a href="https://docs.niklascfw.de/switch/system-backup/sd_partition_backup_restore/">SD Partition Backup und Restore (emuMMC)</a></strong></li>
-</ul>
-<blockquote>
-<p><span class="docs-emoji">&#x26A0;&#xFE0F;</span> nur nicht die SD Wechseln und nach dem Backup kein Restore<span class="docs-emoji">&#x26D4;</span>️</p>
-</blockquote>
-<ul>
-<li>Starte Hekate und geh zu <strong>Tools &gt; Backup eMMC</strong>.</li>
+<li>Starte <strong>Hekate</strong> und geh zu <strong>Tools → Backup eMMC</strong>.</li>
 <li>Aktiviere <strong>SD emuMMC Raw Partition</strong>.</li>
 <li>Führe nacheinander die Backups für <strong>Boot0 &amp; Boot1</strong> und <strong>SD emuMMC RAW GPP backup</strong> durch.</li>
-<li>Nimm die SD-Karte aus der Switch und verschiebe das Das Backup das du in \backup\f2dc5397(der kann bei dir anders heißen)\emummc findest. Nach \backup\f2dc5397(der kann bei dir anders heißen)\restore\emummc (Sonnst schlägt nachher der Restore fehl)</li>
-<li>Sichere anschließend den <strong>kompletten SD Inhalt</strong> auf deinem PC.</li>
+<li>Nimm die SD-Karte aus der Switch und verschiebe das Backup aus <code translate="no" v-pre>\backup\f2dc5397\emummc</code> (der Ordnername kann bei dir anders heißen) nach <code translate="no" v-pre>\backup\f2dc5397\restore\emummc</code> – sonst schlägt der Restore später fehl.</li>
+<li>Sichere anschließend den <strong>kompletten SD-Inhalt</strong> auf deinem PC.</li>
 </ul>
-<h3 id="2-sd-karte-für-android-vorbereiten-partitionierung">2) SD-Karte für Android vorbereiten (Partitionierung)</h3>
+   </doc-step>
+   <doc-step id="sd-karte-für-android-vorbereiten-partitionierung" step-number="2">
+      <template #title>SD-Karte für Android vorbereiten (Partitionierung)</template>
+<p><strong>Wichtig:</strong> Nach dem Backup alle Dateien von der SD-Karte löschen – <strong>außer</strong> dem Ordner <code translate="no" v-pre>bootloader</code> und der Datei <code translate="no" v-pre>payload.bin</code>.</p>
 <ul>
-<li><strong>Wichtig:</strong> nach dem Backup Lösche alle Dateien von der SD-Karte, <strong>außer</strong> dem Ordner <code translate="no" v-pre>bootloader</code> und der Datei <code translate="no" v-pre>payload.bin</code>.</li>
 <li>Stecke die SD-Karte wieder in deine Switch.</li>
-<li>Geh in Hekate zu <strong>Tools &gt; Partition SD Card</strong>.</li>
+<li>Geh in Hekate zu <strong>Tools → Partition SD Card</strong>.</li>
 <li>Verschiebe die Partitionen für <strong>emuMMC (RAW)</strong> und <strong>Android</strong> an die gewünschte Stelle. Denk daran: Android braucht <strong>mindestens 32 GB</strong>. Da du Apps nicht auf der SD-Karte installieren kannst, überleg dir die Größe gut.</li>
 </ul>
-<h3 id="3-daten-wiederherstellen-restore">3) Daten wiederherstellen (Restore)</h3>
-<blockquote>
-<p><span class="docs-emoji">&#x1F6A8;</span>Hier den Restore machen! Wie in <strong><a href="https://docs.niklascfw.de/switch/system-backup/sd_partition_backup_restore/">SD Partition Backup und Restore (emuMMC)</a></strong></p>
-</blockquote>
+   </doc-step>
+   <doc-step id="daten-wiederherstellen-restore" step-number="3">
+      <template #title>Daten wiederherstellen (Restore)</template>
+<p><strong>Hier den Restore machen</strong> – wie in der Anleitung <strong>SD Partition Backup und Restore</strong>.</p>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
+    <div class="flex items-center text-base-500">
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path d="M2.75 2h18.5c.966 0 1.75.784 1.75 1.75v3.5A1.75 1.75 0 0 1 21.25 9H2.75A1.75 1.75 0 0 1 1 7.25v-3.5C1 2.784 1.784 2 2.75 2Zm18.5 1.5H2.75a.25.25 0 0 0-.25.25v3.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25v-3.5a.25.25 0 0 0-.25-.25ZM2.75 10a.75.75 0 0 1 .75.75v9.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25v-9.5a.75.75 0 0 1 1.5 0v9.5A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25v-9.5a.75.75 0 0 1 .75-.75Z"/><path d="M9.75 11.5a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5Z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">SD Partition Backup und Restore (emuMMC)</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>/switch/system-backup/sd_partition_backup_restore/</span>
+    </div>
+    <a href="/switch/system-backup/sd_partition_backup_restore/" class="absolute block inset-0"></a>
+</div>
+</p>
 <ul>
 <li>Kopiere alle deine gesicherten Daten zurück auf die SD-Karte.</li>
-<li>Geh in Hekate zu <strong>Tools &gt; Restore &gt; eMMC</strong>.</li>
+<li>Geh in Hekate zu <strong>Tools → Restore → eMMC</strong>.</li>
 <li>Aktiviere <strong>SD emuMMC Raw Partition</strong>.</li>
 <li>Führe die Restores für <strong>Boot0 &amp; Boot1</strong> und <strong>SD emuMMC RAW GPP</strong> durch.</li>
 </ul>
-<h3 id="4-android-undoder-linux-herunterladen">4) Android und/oder Linux herunterladen:</h3>
+   </doc-step>
+   <doc-step id="android-undoder-linux-herunterladen" step-number="4">
+      <template #title>Android und/oder Linux herunterladen</template>
 <ul>
-<li>Boote in deine CFW und lade die Android-Installationsdateien oder Linux-Installationsdateien über <strong>Ultrahand (L und R und +)&gt; Niklas CFW downloader &gt;Android und/oder Linux</strong> herunter.</li>
-<li><strong>Achtung:</strong> Die Switch darf nicht in den Standby gehen während des Downloads.</li>
+<li>Boote in deine CFW und lade die Android- und/oder Linux-Installationsdateien über <strong>UltraHand (L + R + Plus) → OmniNX Downloader → Android und/oder Linux</strong> herunter.</li>
+<li><strong>Achtung:</strong> Die Switch darf während des Downloads <strong>nicht</strong> in den Standby gehen.</li>
 </ul>
-<ol>
-<li>
-<p>NiklasCFW Downloader
 <figure class="content-center">
-    <img src="/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/niklascfwdl.jpg" alt="" class="max-w-full h-auto w-full rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
+    <img src="/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/niklascfwdl.jpg" alt="OmniNX Downloader" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">OmniNX Downloader</figcaption>
 </figure>
-</p>
+<figure class="content-center">
+    <img src="/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/downloaderandroid.jpg" alt="Android laden" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">Android laden</figcaption>
+</figure>
+<figure class="content-center">
+    <img src="/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/downloaderlinux.jpg" alt="Linux laden" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">Linux laden</figcaption>
+</figure>
+   </doc-step>
+   <doc-step id="android-installieren" step-number="5">
+      <template #title>Android installieren</template>
+<ul>
+<li>Boote die Switch neu (<strong>Reboot NX → Hekate</strong>). Die Switch startet direkt in Hekate.</li>
+<li>Geh zu <strong>Tools → Partition SD Card</strong> und wähle <strong>Flash Android</strong>.</li>
+<li>Bestätige mit <strong>Continue</strong>, wenn „Do you want to reboot into Recovery to finish Android installation?“ erscheint.</li>
+<li>Im Recovery-Menü machst du einen <strong>Factory Reset</strong> (<strong>Format data/factory reset</strong>).</li>
+<li>Geh zurück und wähle <strong>Apply Update → Choose from Switch SD</strong>. Scrolle bis <strong>Switchroot</strong> – dort liegen die Installationsdateien.</li>
+<li>Installiere zuerst die <strong>LineageOS-Datei</strong> und anschließend die <strong>Gapps-Datei</strong>.</li>
+</ul>
+<figure class="content-center">
+    <img src="/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/rebootnxhekate.jpg" alt="Reboot NX → Hekate" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="500" height="320" />
+    <figcaption class="caption">Reboot NX → Hekate</figcaption>
+</figure>
+   </doc-step>
+   <doc-step id="linux-installieren" step-number="6">
+      <template #title>Linux installieren</template>
+<ul>
+<li>
+<p>Boote die Switch neu (<strong>Reboot NX → Hekate</strong>). Die Switch startet direkt in Hekate.</p>
 </li>
 <li>
-<p>Android Laden
-<figure class="content-center">
-    <img src="/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/downloaderandroid.jpg" alt="" class="max-w-full h-auto w-full rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
+<p>Geh zu <strong>Tools → Partition SD Card</strong> und wähle <strong>Flash Linux</strong>.</p>
 </li>
 <li>
-<p>Linux Laden
-<figure class="content-center">
-    <img src="/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/downloaderlinux.jpg" alt="" class="max-w-full h-auto w-full rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
+<p>Der Linux-Flasher öffnet sich und fragt, ob du <strong>Continue</strong> (Weiter) oder <strong>Cancel</strong> (Abbrechen) wählen willst.</p>
 </li>
-</ol>
-<h3 id="5-android-installieren">5) Android installieren</h3>
-<ul>
-<li>Boote die Switch neu (Reboot NX &gt; Hekate). Die Switch startet direkt in Hekate.</li>
-<li>Geh zu Tools &gt; Partition SD Card und wähle Flash Android.,</li>
-<li>Bestätige mit Continue, wenn &quot;Do you want to reboot into Recovery to finish Android installation?&quot; erscheint.</li>
-<li>Im Recovery-Menü machst du einen Factory Reset (Format data/factory reset).</li>
-<li>Geh zurück und wähle Apply Update &gt; Choose from Switch SD. <strong>Scroll bis Switchroot</strong> da drin sind dann die installationsdateien.
-Installiere zuerst die LineageOS-Datei und anschließend die Gapps-Datei.</li>
+<li>
+<p>Klicke unten links auf <strong>Nyx Settings</strong>.</p>
+</li>
 </ul>
 <figure class="content-center">
-    <img src="/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/rebootnxhekate.jpg" alt="" class="max-w-full h-auto w-full rounded-image-rounded border-image-border border-image-border-width" width="500" height="320" />
-    <figcaption class="caption"></figcaption>
-</figure>
-<h3 id="5-linux-installieren">5) Linux Installieren</h3>
-<ul>
-<li>Boote die Switch neu (Reboot NX &gt; Hekate). Die Switch startet direkt in Hekate.</li>
-<li>Geh zu Tools &gt; Partition SD Card und wähle Flash Linux.
-Der Linux Flasher öffnet sich und fragt ob du Continue (Weiter) machen oder Cancel (Abbrechen) willst.</li>
-</ul>
-<h3 id="6-joy-con-dumpen">6) Joy-Con Dumpen</h3>
-<ul>
-<li>Klick unten links auf <strong>Nyx Settings</strong></li>
-</ul>
-<figure class="content-center">
-    <img src="/images/switch/allgemein/hekate_nyx_settings.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
+    <img src="/images/switch/allgemein/hekate_nyx_settings.jpg" alt="Nyx Settings" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">Nyx Settings</figcaption>
 </figure>
 <ul>
-<li>Wähle nun <strong>Dump Joy-Con BT</strong> aus und bestätige die Meldung anschließend durch Klicken auf <strong>Ok</strong></li>
+<li>Wähle <strong>Dump Joy-Con BT</strong> aus und bestätige die Meldung mit <strong>Ok</strong>.</li>
 </ul>
-<hr>
-<h2 id="methode-2-android-partition-mit-bestehendem-sd-file-emummc">Methode 2: Android-Partition mit bestehendem SD File emuMMC</h2>
+   </doc-step>
+</doc-steps>
+</doc-tab>
+<doc-tab v-cloak id="methode-2-sd-file-emummc">
+<template #title>Methode 2: SD File emuMMC</template>
 <p>Diese Methode ist die einfachste, wenn dein emuMMC bereits im <strong>SD File-Format</strong> vorliegt.</p>
-<h3 id="1-backup-erstellen-1">1) Backup erstellen</h3>
+<doc-steps>
+   <doc-step id="backup-erstellen-1" step-number="1">
+      <template #title>Backup erstellen</template>
 <ul>
 <li>Nimm die SD-Karte aus der Switch und sichere <strong>alle Dateien</strong> auf deinem PC.</li>
 </ul>
-<h3 id="2-sd-karte-für-android-vorbereiten-partitionierung-1">2) SD-Karte für Android vorbereiten (Partitionierung)</h3>
+   </doc-step>
+   <doc-step id="sd-karte-für-android-vorbereiten-partitionierung-1" step-number="2">
+      <template #title>SD-Karte für Android vorbereiten (Partitionierung)</template>
+<p><strong>Wichtig:</strong> Nach dem Backup alle Dateien von der SD-Karte löschen – <strong>außer</strong> dem Ordner <code translate="no" v-pre>bootloader</code> und der Datei <code translate="no" v-pre>payload.bin</code>.</p>
 <ul>
-<li><strong>Wichtig:</strong> Lösche nach dem Backup alle Dateien von der SD-Karte, <strong>außer</strong> dem Ordner <code translate="no" v-pre>bootloader</code> und der Datei <code translate="no" v-pre>payload.bin</code>.</li>
 <li>Stecke die SD-Karte wieder in die Switch.</li>
-<li>Geh zu <strong>Tools &gt; Partition SD Card</strong> und erstelle die Partition für Android. Du kannst die Größe frei wählen, aber beachte die Mindestanforderung von <strong>32 GB</strong>.<br />
-Da keine Apps auf der SD-Karte installiert werden können, wähle die Größe sorgfältig.</li>
+<li>Geh zu <strong>Tools → Partition SD Card</strong> und erstelle die Partition für Android. Du kannst die Größe frei wählen, aber beachte die Mindestanforderung von <strong>32 GB</strong>. Da keine Apps auf der SD-Karte installiert werden können, wähle die Größe sorgfältig.</li>
 </ul>
-<h2 id="3-daten-wiederherstellen">3) Daten wiederherstellen</h2>
+   </doc-step>
+   <doc-step id="daten-wiederherstellen" step-number="3">
+      <template #title>Daten wiederherstellen</template>
 <ul>
-<li>Kopiere alle zuvor gesicherten Datennwieder auf die SD-Karte.</li>
+<li>Kopiere alle zuvor gesicherten Daten wieder auf die SD-Karte.</li>
 </ul>
-<h3 id="4-methode-2-android-partition-mit-bestehendem-sd-file-emummc">4) Methode 2: Android-Partition mit bestehendem SD File emuMMC</h3>
+   </doc-step>
+   <doc-step id="android-undoder-linux-herunterladen-1" step-number="4">
+      <template #title>Android und/oder Linux herunterladen</template>
 <ul>
-<li>Boote in deine CFW und lade die Android-Installationsdateien über <strong>Ultrahand (L und R und +)&gt; Niklas CFW downloader &gt;Android und/oder Linux</strong> herunter.</li>
-<li><strong>Achtung:</strong> herunter.</li>
-<li><strong>Achtung:</strong> Die Switch darf nicht in den Standby gehen während des Downloads.</li>
-</ul>
-<h3 id="5-android-installieren-1">5) Android installieren</h3>
-<ul>
-<li>Boote die Switch neu (Reboot NX &gt; Hekate). Die Switch startet direkt in Hekate.</li>
-<li>Geh zu Tools &gt; Partition SD Card und wähle Flash Android.,</li>
-<li>Bestätige mit Continue, wenn &quot;Do you want to reboot into Recovery to finish Android installation?&quot;erscheint.</li>
-<li>Im Recovery-Menü machst du einen Factory Reset (Format data/factory reset).</li>
-<li>Geh zurück und wähle Apply Update &gt; Choose from Switch SD. <strong>Scroll bis Switchroot</strong> da drin sind dann die installationsdateien.</li>
-<li>Installiere zuerst die LineageOS-Datei und anschließend die Gapps-Datei.</li>
-</ul>
-<h3 id="5-linux-installieren-1">5) Linux Installieren</h3>
-<ul>
-<li>Boote die Switch neu (Reboot NX &gt; Hekate). Die Switch startet direkt in Hekate.</li>
-<li>Geh zu Tools &gt; Partition SD Card und wähle Flash Linux.</li>
-<li>Der Linux Flasher öffnet sich und fragt ob du Continue (Weiter) machen oder Cancel (Abbrechen) willst.</li>
-</ul>
-<h3 id="6-joy-con-dumpen-1">6) Joy-Con Dumpen</h3>
-<ul>
-<li>Klick unten links auf <strong>Nyx Settings</strong></li>
+<li>Boote in deine CFW und lade die Android- und/oder Linux-Installationsdateien über <strong>UltraHand (L + R + Plus) → OmniNX Downloader → Android und/oder Linux</strong> herunter.</li>
+<li><strong>Achtung:</strong> Die Switch darf während des Downloads <strong>nicht</strong> in den Standby gehen.</li>
 </ul>
 <figure class="content-center">
-    <img src="/images/switch/allgemein/hekate_nyx_settings.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
-    <figcaption class="caption"></figcaption>
+    <img src="/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/niklascfwdl.jpg" alt="OmniNX Downloader" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">OmniNX Downloader</figcaption>
+</figure>
+<figure class="content-center">
+    <img src="/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/downloaderandroid.jpg" alt="Android laden" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">Android laden</figcaption>
+</figure>
+<figure class="content-center">
+    <img src="/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/downloaderlinux.jpg" alt="Linux laden" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">Linux laden</figcaption>
+</figure>
+   </doc-step>
+   <doc-step id="android-installieren-1" step-number="5">
+      <template #title>Android installieren</template>
+<ul>
+<li>Boote die Switch neu (<strong>Reboot NX → Hekate</strong>). Die Switch startet direkt in Hekate.</li>
+<li>Geh zu <strong>Tools → Partition SD Card</strong> und wähle <strong>Flash Android</strong>.</li>
+<li>Bestätige mit <strong>Continue</strong>, wenn „Do you want to reboot into Recovery to finish Android installation?“ erscheint.</li>
+<li>Im Recovery-Menü machst du einen <strong>Factory Reset</strong> (<strong>Format data/factory reset</strong>).</li>
+<li>Geh zurück und wähle <strong>Apply Update → Choose from Switch SD</strong>. Scrolle bis <strong>Switchroot</strong> – dort liegen die Installationsdateien.</li>
+<li>Installiere zuerst die <strong>LineageOS-Datei</strong> und anschließend die <strong>Gapps-Datei</strong>.</li>
+</ul>
+<figure class="content-center">
+    <img src="/images/switch/gut-zu-wissen/erweiterte-systeme/android-linux/rebootnxhekate.jpg" alt="Reboot NX → Hekate" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="500" height="320" />
+    <figcaption class="caption">Reboot NX → Hekate</figcaption>
+</figure>
+   </doc-step>
+   <doc-step id="linux-installieren-1" step-number="6">
+      <template #title>Linux installieren</template>
+<ul>
+<li>Boote die Switch neu (<strong>Reboot NX → Hekate</strong>). Die Switch startet direkt in Hekate.</li>
+<li>Geh zu <strong>Tools → Partition SD Card</strong> und wähle <strong>Flash Linux</strong>.</li>
+<li>Der Linux-Flasher öffnet sich und fragt, ob du <strong>Continue</strong> (Weiter) oder <strong>Cancel</strong> (Abbrechen) wählen willst.</li>
+</ul>
+   </doc-step>
+   <doc-step id="joy-con-dumpen" step-number="7">
+      <template #title>Joy-Con dumpen</template>
+<ul>
+<li>Klicke unten links auf <strong>Nyx Settings</strong>.</li>
+</ul>
+<figure class="content-center">
+    <img src="/images/switch/allgemein/hekate_nyx_settings.jpg" alt="Nyx Settings" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="420" />
+    <figcaption class="caption">Nyx Settings</figcaption>
 </figure>
 <ul>
-<li>Wähle nun <strong>Dump Joy-Con BT</strong> aus und bestätige die Meldung anschließend durch Klicken auf <strong>Ok</strong></li>
+<li>Wähle <strong>Dump Joy-Con BT</strong> aus und bestätige die Meldung mit <strong>Ok</strong>.</li>
 </ul>
+   </doc-step>
+</doc-tab>
+</doc-tabs>
 
                 
                 <!-- Required only on API pages -->

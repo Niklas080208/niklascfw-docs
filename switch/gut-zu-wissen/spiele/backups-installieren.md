@@ -1,101 +1,59 @@
 # Backups installieren (XCI / XCZ / NSP / NSZ)
 
-Diese Anleitung erklärt dir, wie du Switch-Backups über **Sphaira (MPT Install)** oder **DBI (MTP Responder)** installierst.
+Installiere Switch-Backups über **Sphaira (MTP Install)** oder **DBI (MTP Responder)** per USB vom PC.
 
 ---
 
-## 🧩 Dateiformate – Was ist was?
+## Dateiformate
 
-### XCI
-- 1:1 Cartridge-Dump einer Spielkarte  
-- Enthält das Base Game  
-- Kann Updates/DLC enthalten
+{.compact .striped}
 
-### XCZ
-- Komprimierte XCI  
-- Gleiche Inhalte, kleinere Datei  
-- Platzsparend
+| Format | Bedeutung |
+| --- | --- |
+| **XCI** | 1:1 Cartridge-Dump (Base Game, ggf. Updates/DLC) |
+| **XCZ** | Komprimierte XCI, kleinere Datei |
+| **NSP** | eShop-Format (Spiele, Updates, DLC) |
+| **NSZ** | Komprimierte NSP, Dekompression beim Install |
 
-### NSP
-- Offizielles eShop-Format  
-- Digitale Spiele, Updates & DLCs
-
-### NSZ
-- Komprimierte NSP  
-- Automatische Dekomprimierung beim Installieren  
-- Kleinere Dateigröße
-
-> 💡 Vorbereitung: Stelle sicher, dass du ein geeignetes USB-3-Kabel verwendest und dass dein PC-Port ebenfalls USB-3 unterstützt.
->Geeignete Kabel findest du unter:
->
-> https://www.mediamarkt.de/de/product/_isy-iuc-1029-usb-kabel-schwarz-2994540.html    
-> https://www.mediamarkt.de/de/product/_hama-usb-c-stecker-auf-usb-buchse-2708227.html Für USB C zu C 
-> https://www.amazon.de/dp/B087X5F3NB?
+!!!tip USB 3.0
+Nutze ein **USB-3-Kabel** und einen **USB-3-Port** am PC für stabile MTP-Übertragung.
+!!!
 
 ---
 
-# Sphaira – MPT Install
++++ Sphaira – MTP Install
+>>> Sphaira und MTP Install
+**Sphaira** starten → **Minus (−)** → **MPT Install** (MTP Install).
 
-> 
->
-> **1. Sphaira starten**  
-> App auf der Switch öffnen.
->
-> **2. Minus-Taste (−)** drücken  
-> Menü öffnen.
->
-> **3. „MPT Install“ auswählen**
->
-> **4. Switch per USB verbinden**  
-> Windows zeigt dann typischerweise folgende Geräte:
->
-> - Album (Image SD)  
-> - Games  
-> - **Install (NSP, XCI, NSZ, XCZ)** ← **HIER MUSST DU REIN**  
-> - microSD card
->
-> **5. Backups in den Ordner „Install (NSP, XCI, NSZ, XCZ)“ ziehen**
->
-> Unterstützte Formate:
-> - XCI  
-> - XCZ  
-> - NSP  
-> - NSZ  
->
-> **6. Installation**  
-> Sphaira installiert sobald die Dateien den Ordner "berühren" Automatisch los. 
+>>> Switch per USB verbinden
+Am PC erscheinen u. a.:
 
----
+- Album (Image SD)
+- Games
+- **Install (NSP, XCI, NSZ, XCZ)** ← **hierhin kopieren**
+- microSD card
 
-# DBI – MTP Responder & SD Card Install
+>>> Dateien kopieren
+Backups (**XCI, XCZ, NSP, NSZ**) in **Install (NSP, XCI, NSZ, XCZ)** ziehen. Sphaira startet die Installation automatisch, sobald Dateien den Ordner erreichen.
+>>>
 
-> **1. DBI öffnen**
->
-> **2. „MTP Responder“ auswählen**  
-> Die Switch wird am PC als mehrere Partitionen angezeigt.
->
-> **3. Windows zeigt z. B. folgende Einträge:**
->
-> - 1: SD Card  
-> - 2: Nand USER  
-> - 3: Nand SYSTEM  
-> - 4: Installed games  
-> - **5: SD Card install** ← **DIES IST DER INSTALL-ORDNER**  
-> - 6: NAND install  
-> - 7: Saves  
-> - 8: Album  
-> - 9: Gamecard  
-> - DBIlogs
->
-> **4. Backups in „5: SD Card install“ kopieren**
->
-> Unterstützte Formate:
-> - XCI  
-> - XCZ  
-> - NSP  
-> - NSZ  
->
-> **5. Installation**  
-> DBI installiert sobald die Dateien den Ordner "berühren" Automatisch los. 
++++ DBI – MTP Responder
+>>> DBI MTP Responder
+**DBI** → **MTP Responder**. Die Switch erscheint am PC mit mehreren „Laufwerken“.
 
----
+>>> Richtigen Install-Ordner wählen
+Unter anderem:
+
+- 1: SD Card
+- …
+- **5: SD Card install** ← **Install-Ordner**
+- 6: NAND install
+- …
+
+>>> Dateien kopieren
+Backups nach **5: SD Card install** kopieren. DBI installiert automatisch beim Einchecken der Dateien.
++++
+
+!!!success Fertig
+Installierte Titel erscheinen nach Abschluss in der CFW wie gewohnt.
+!!!

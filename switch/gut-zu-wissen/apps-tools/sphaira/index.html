@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837732428845">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837943373982">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>Sphaira (ersetzt hbmenu)</title>
     <meta name="title" content="Sphaira (ersetzt hbmenu)">
-    <meta name="description" content="Sphaira ist eine Homebrew-Anwendung für modifizierte Nintendo Switch-Konsolen, die das Standard-Homebrew-Menü (hbmenu) ersetzt.">
+    <meta name="description" content="Homebrew-Menü als hbmenu-Ersatz – Features und Hinweise im Überblick.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/sphaira/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/sphaira/">
     <meta property="og:title" content="Sphaira (ersetzt hbmenu)">
-    <meta property="og:description" content="Sphaira ist eine Homebrew-Anwendung für modifizierte Nintendo Switch-Konsolen, die das Standard-Homebrew-Menü (hbmenu) ersetzt.">
+    <meta property="og:description" content="Homebrew-Menü als hbmenu-Ersatz – Features und Hinweise im Überblick.">
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
@@ -30,7 +30,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/sphaira/">
     <meta name="twitter:title" content="Sphaira (ersetzt hbmenu)">
-    <meta name="twitter:description" content="Sphaira ist eine Homebrew-Anwendung für modifizierte Nintendo Switch-Konsolen, die das Standard-Homebrew-Menü (hbmenu) ersetzt.">
+    <meta name="twitter:description" content="Homebrew-Menü als hbmenu-Ersatz – Features und Hinweise im Überblick.">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/sphaira.md">
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
-    <link href="/resources/css/retype.css?v=4.6.0.837732428845" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.837943373982" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
     <link rel="stylesheet" href="/static/css/ref-cards.css" />
@@ -186,37 +186,85 @@
 
                 <!-- Page content  -->
 <h1 id="sphaira-ersetzt-hbmenu">Sphaira (ersetzt hbmenu)</h1>
-<h2 id="-was-ist-sphaira"><span class="docs-emoji">&#x1F50D;</span> Was ist Sphaira?</h2>
-<p>Sphaira ist eine <strong>Homebrew-Anwendung</strong> für modifizierte Nintendo Switch-Konsolen, die das Standard-Homebrew-Menü (<em>hbmenu</em>) ersetzt.</p>
+<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">Homebrew-Menü als hbmenu-Ersatz – Features und Hinweise im Überblick.</div>
+<p><strong>Sphaira</strong> ist eine Homebrew-Anwendung für modifizierte Nintendo Switch-Konsolen und ersetzt das Standard-Homebrew-Menü (<em>hbmenu</em>). Im OmniNX-Pack ist Sphaira voreingestellt (Album-Icon / Theme).</p>
 <hr>
-<h2 id="-funktionen"><span class="docs-emoji">&#x2728;</span> Funktionen</h2>
-<ul>
-<li>Automatische Anzeige aller <code translate="no" v-pre>.nro</code>-Dateien im Ordner <code translate="no" v-pre>/switch/</code></li>
-<li>Starten, Sortieren, Löschen von Homebrew-Apps</li>
-<li>Erstellen von Forwardern</li>
-<li>Erweiterter Datei-Browser:
-<ul>
-<li>Kopieren, Ausschneiden, Löschen, Umbenennen</li>
-<li>Mehrfachauswahl (z. B. über ZR)</li>
-</ul>
-</li>
-<li><strong>FTP</strong>- und <strong>MTP</strong>-Unterstützung (Dateiübertragung über Netzwerk oder USB)</li>
-<li>Installation von Apps sowohl von SD-Karte als auch über andere Quellen</li>
-<li>Themes und optische Anpassungen (z. B. verschiedene Icons, Designs)</li>
-<li>hb-Appstore-Kompatibilität</li>
-<li>Dateizuordnungen (Dateitypen mit Apps verknüpfen)</li>
+<h2 id="funktionen">Funktionen</h2>
+<ul class="list-icon">
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M2 4.75C2 3.784 2.784 3 3.75 3h4.971c.58 0 1.12.286 1.447.765l1.404 2.063c.046.069.124.11.207.11h8.471c.966 0 1.75.783 1.75 1.75V19.25A1.75 1.75 0 0 1 20.25 21H3.75A1.75 1.75 0 0 1 2 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V7.687a.25.25 0 0 0-.25-.25h-8.471a1.75 1.75 0 0 1-1.447-.765L8.928 4.61a.252.252 0 0 0-.208-.11Z"/></g></g></svg> Zeigt automatisch alle <code translate="no" v-pre>.nro</code>-Dateien in <code translate="no" v-pre>/switch/</code> an</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M9.5 15.584V8.416a.5.5 0 0 1 .77-.42l5.576 3.583a.5.5 0 0 1 0 .842l-5.576 3.584a.5.5 0 0 1-.77-.42Z"/><path d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12Zm11-9.5A9.5 9.5 0 0 0 2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5Z"/></g></g></svg> Apps starten, sortieren, löschen; <strong>Forwarder</strong> erstellen</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M3 3a2 2 0 0 1 2-2h9.982a2 2 0 0 1 1.414.586l4.018 4.018A2 2 0 0 1 21 7.018V21a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm2-.5a.5.5 0 0 0-.5.5v18a.5.5 0 0 0 .5.5h14a.5.5 0 0 0 .5-.5V8.5h-4a2 2 0 0 1-2-2v-4Zm10 0v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 0-.146-.336l-4.018-4.018A.5.5 0 0 0 15 2.5Z"/></g></g></svg> Datei-Browser: kopieren, ausschneiden, löschen, umbenennen, Mehrfachauswahl (z. B. <strong>ZR</strong>)</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.954 17H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h18.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.565-1.243c.964-1.105 1.598-2.382 1.769-3.757ZM21.5 3.75a.25.25 0 0 0-.25-.25H2.75a.25.25 0 0 0-.25.25v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25ZM13.537 17h-3.074c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.659-1.055-1.098-2.234-1.223-3.5Z"/></g></g></svg> <strong>FTP</strong>- und <strong>MTP</strong>-Unterstützung (Netzwerk oder USB)</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M12.876.64V.639l8.25 4.763c.541.313.875.89.875 1.515v9.525a1.75 1.75 0 0 1-.875 1.516l-8.25 4.762a1.748 1.748 0 0 1-1.75 0l-8.25-4.763a1.75 1.75 0 0 1-.875-1.515V6.917c0-.625.334-1.202.875-1.515L11.126.64a1.748 1.748 0 0 1 1.75 0Zm-1 1.298L4.251 6.34l7.75 4.474 7.75-4.474-7.625-4.402a.248.248 0 0 0-.25 0Zm.875 19.123 7.625-4.402a.25.25 0 0 0 .125-.216V7.639l-7.75 4.474ZM3.501 7.64v8.803c0 .09.048.172.125.216l7.625 4.402v-8.947Z"/></g></g></svg> Installation von Apps von SD und anderen Quellen</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M19.642 6.653c-1.31 1.812-3.251 3.86-4.945 5.575l-.091.092-2.69-2.69.098-.098c1.69-1.71 3.732-3.656 5.544-4.962.911-.657 1.715-1.115 2.353-1.318.652-.207.915-.091 1.039.033.113.113.231.367.019 1.02-.207.635-.668 1.436-1.327 2.348ZM10.9 10.736l2.605 2.605c-.88.754-1.684 1.294-2.378 1.655a4.832 4.832 0 0 0-1.892-1.89c.36-.69.903-1.482 1.665-2.37Zm-3.086 1.856a4.825 4.825 0 0 0-4.33 1.328c-.525.525-.88 1.302-1.13 2.079-.256.795-.43 1.682-.541 2.507a19.055 19.055 0 0 0-.173 2.216c-.004.3.003.567.022.778.009.104.022.212.044.31.01.05.027.113.053.18.02.051.074.178.19.295.117.117.245.17.297.19.066.026.13.043.178.054.099.021.207.035.31.044.211.019.479.025.779.021.603-.008 1.39-.06 2.216-.172.825-.112 1.711-.285 2.507-.54.776-.25 1.553-.606 2.079-1.132a4.825 4.825 0 0 0 1.327-4.333c1.209-.6 2.622-1.618 4.121-3.135 1.694-1.714 3.709-3.835 5.093-5.75.688-.952 1.258-1.904 1.538-2.764.274-.842.334-1.826-.384-2.544-.72-.719-1.703-.672-2.555-.401-.865.275-1.822.843-2.776 1.53-1.92 1.384-4.036 3.407-5.733 5.125-1.5 1.518-2.53 2.896-3.132 4.114Zm1.44 2.388a3.33 3.33 0 0 1 0 4.71c-.271.27-.774.537-1.478.763-.684.22-1.477.378-2.248.482-.769.104-1.495.152-2.035.16a9.247 9.247 0 0 1-.351-.002 9.182 9.182 0 0 1-.002-.35c.007-.542.055-1.267.16-2.036.104-.771.261-1.564.481-2.249.227-.703.493-1.206.764-1.478a3.33 3.33 0 0 1 4.71 0Z"/></g></g></svg> Themes und optische Anpassungen</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M14.78 3.653a3.936 3.936 0 1 1 5.567 5.567l-3.627 3.627a3.936 3.936 0 0 1-5.88-.353.75.75 0 0 0-1.18.928 5.436 5.436 0 0 0 8.12.486l3.628-3.628a5.436 5.436 0 1 0-7.688-7.688l-3 3a.75.75 0 0 0 1.06 1.061l3-3Z"/><path d="M7.28 11.153a3.936 3.936 0 0 1 5.88.353.75.75 0 0 0 1.18-.928 5.436 5.436 0 0 0-8.12-.486L2.592 13.72a5.436 5.436 0 1 0 7.688 7.688l3-3a.75.75 0 1 0-1.06-1.06l-3 3a3.936 3.936 0 0 1-5.567-5.568l3.627-3.627Z"/></g></g></svg> hb-Appstore-Kompatibilität; Dateizuordnungen für Dateitypen</li>
 </ul>
 <hr>
-<h2 id="-hinweise-und-risiken"><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Hinweise und Risiken</h2>
-<ul>
-<li>Funktioniert <strong>nur auf modifizierten Switch-Konsolen</strong> (z. B. mit Atmosphère oder anderer Custom Firmware)</li>
-<li>Auf unmodifizierten Konsolen nicht nutzbar</li>
-<li>Nutzung kann gegen die <strong>Nintendo-Nutzungsbedingungen</strong> verstoßen</li>
-<li>Risiko: Online-Sperren, Garantieverlust, mögliche Instabilität bei experimentellen Versionen</li>
-</ul>
+<h2 id="hinweise">Hinweise</h2>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Nur mit CFW</h5>
+<p>Sphaira funktioniert <strong>nur auf modifizierten Switch-Konsolen</strong> (z. B. mit Atmosphere). Auf unmodifizierten Konsolen nicht nutzbar.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Highmemory / Title Override</h5>
+<p>Für volle RAM-Nutzung Sphaira per <strong>Title Override</strong> (<strong>R</strong> beim Spielstart) oder einen <strong>Forwarder</strong> starten – nicht nur über das Album im Applet-Modus.</p>
+        </div>
+    </div>
+</div>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
+    <div class="flex items-center text-base-500">
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path d="M20.322.75h1.176a1.75 1.75 0 0 1 1.75 1.749v1.177a10.75 10.75 0 0 1-2.925 7.374l-1.228 1.304a23.699 23.699 0 0 1-1.596 1.542v5.038c0 .615-.323 1.184-.85 1.5l-4.514 2.709a.75.75 0 0 1-1.12-.488l-.963-4.572a1.305 1.305 0 0 1-.14-.129L8.04 15.96l-1.994-1.873a1.305 1.305 0 0 1-.129-.14l-4.571-.963a.75.75 0 0 1-.49-1.12l2.71-4.514c.316-.527.885-.85 1.5-.85h5.037a23.668 23.668 0 0 1 1.542-1.594l1.304-1.23A10.753 10.753 0 0 1 20.321.75Zm-6.344 4.018v-.001l-1.304 1.23a22.275 22.275 0 0 0-3.255 3.851l-2.193 3.29 1.859 1.744a.545.545 0 0 1 .034.034l1.743 1.858 3.288-2.192a22.263 22.263 0 0 0 3.854-3.257l1.228-1.303a9.251 9.251 0 0 0 2.517-6.346V2.5a.25.25 0 0 0-.25-.25h-1.177a9.252 9.252 0 0 0-6.344 2.518ZM6.5 21c-1.209 1.209-3.901 1.445-4.743 1.49a.236.236 0 0 1-.18-.067.236.236 0 0 1-.067-.18c.045-.842.281-3.534 1.49-4.743.9-.9 2.6-.9 3.5 0 .9.9.9 2.6 0 3.5Zm-.592-8.588L8.17 9.017c.23-.346.47-.685.717-1.017H5.066a.25.25 0 0 0-.214.121l-2.167 3.612ZM16 15.112c-.333.248-.672.487-1.018.718l-3.393 2.262.678 3.223 3.612-2.167a.25.25 0 0 0 .121-.214ZM17.5 8a1.5 1.5 0 1 1-3.001-.001A1.5 1.5 0 0 1 17.5 8Z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">Title Override</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>/switch/gut-zu-wissen/customization/title_override/</span>
+    </div>
+    <a href="/switch/gut-zu-wissen/customization/title_override/" class="absolute block inset-0"></a>
+</div>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
+    <div class="flex items-center text-base-500">
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">Forwarder installieren</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>/switch/nachher/forwarder_installieren/</span>
+    </div>
+    <a href="/switch/nachher/forwarder_installieren/" class="absolute block inset-0"></a>
+</div>
+</p>
 <hr>
-<h2 id="ℹ-kurz-zusammengefasst"><span class="docs-emoji">&#x2139;&#xFE0F;</span> Kurz zusammengefasst</h2>
-<p>Sphaira ist ein <strong>erweitertes Homebrew-Menü</strong> für die Nintendo Switch, das viele zusätzliche Funktionen wie Dateiverwaltung, Netzwerk-Features und Theme-Support bietet – jedoch nur auf modifizierten Konsolen.</p>
+<h2 id="kurz-zusammengefasst">Kurz zusammengefasst</h2>
+<p>Sphaira ist ein erweitertes Homebrew-Menü mit Dateiverwaltung, Netzwerk-Features und Theme-Support – Standard-Einstieg ins Homebrew im OmniNX-Pack.</p>
 
                 
                 <!-- Required only on API pages -->

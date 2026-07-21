@@ -1,27 +1,37 @@
 # Autoboot aktivieren
 
-Sobald du deine Switch gemoddet hast, kannst du durch die Funktion **Autoboot** automatisch in die CFW booten, ohne über Hekate die CFW auswählen zu müssen. Dies funktioniert mit **jeder gemoddeten Switch**.
+Mit **Autoboot** startet die Switch nach dem Einschalten **direkt in die CFW**, ohne jedes Mal **CFW - emuMMC** in Hekate auswählen zu müssen. Funktioniert mit **jeder gemoddeten Switch** (RCM oder Modchip).
+
+!!!info Hekate trotzdem erreichbar
+Willst du **Hekate** statt CFW, drücke beim Erscheinen des Hekate-Bootscreens **Vol Down**.
+!!!
 
 ---
 
-## Anleitung
+## Autoboot in Hekate einrichten
 
-1. Starte **Hekate**
-2. Klicke oben rechts auf **Close**
+>>> Hekate öffnen
+Starte **Hekate** und tippe oben rechts auf **Close**.
 
-![|700x420](/images/switch/allgemein/hekate_launch_close.jpg)
-3. Klicke auf **Options**
+![Hekate Launch – Close|700x420](/images/switch/allgemein/hekate_launch_close.jpg)
 
-![|700x420](/images/switch/allgemein/hekate_options.jpg)
-4. Klicke auf **Auto Boot**
+>>> Options öffnen
+Wähle **Options**.
 
-![|700x420](/images/switch/allgemein/hekate_autoboot.jpg)
-5. Wähle **CFW - emuMMC** aus
-6. Klicke unten auf **Save Options**
+![Hekate Options|700x420](/images/switch/allgemein/hekate_options.jpg)
 
-![|700x420](/images/switch/allgemein/hekate_options_save.jpg)
+>>> Auto Boot konfigurieren
+Tippe auf **Auto Boot** und wähle **CFW - emuMMC**.
 
----
+![Auto Boot auswählen|700x420](/images/switch/allgemein/hekate_autoboot.jpg)
 
-Nun startet die Switch jedes Mal direkt in die CFW.  
-Möchtest du in Hekate rein, musst du, sobald der Hekate-Bootscreen erscheint, die **Vol Down**-Taste drücken.
+>>> Einstellungen speichern
+Unten auf **Save Options** tippen.
+
+![Save Options|700x420](/images/switch/allgemein/hekate_options_save.jpg)
+
+>>>
+
+!!!success Fertig
+Die Switch bootet ab jetzt automatisch in die CFW. Für Hekate: **Vol Down** beim Bootscreen.
+!!!

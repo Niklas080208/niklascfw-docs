@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837732428845">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837943373982">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>NiklasCFW Downloader Fehlerbehebung</title>
     <meta name="title" content="NiklasCFW Downloader Fehlerbehebung">
-    <meta name="description" content="Es kann vorkommen, dass Downloads im NIKLASCFW Downloader abbrechen. In diesem Fall gehe bitte die folgenden Schritte durch.">
+    <meta name="description" content="Abgebrochene Downloads im NiklasCFW Downloader beheben.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/fehlerbehebung/apps-tools/niklascfwdownloadprobleme/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.niklascfw.de/switch/fehlerbehebung/apps-tools/niklascfwdownloadprobleme/">
     <meta property="og:title" content="NiklasCFW Downloader Fehlerbehebung">
-    <meta property="og:description" content="Es kann vorkommen, dass Downloads im NIKLASCFW Downloader abbrechen. In diesem Fall gehe bitte die folgenden Schritte durch.">
+    <meta property="og:description" content="Abgebrochene Downloads im NiklasCFW Downloader beheben.">
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
@@ -30,7 +30,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/fehlerbehebung/apps-tools/niklascfwdownloadprobleme/">
     <meta name="twitter:title" content="NiklasCFW Downloader Fehlerbehebung">
-    <meta name="twitter:description" content="Es kann vorkommen, dass Downloads im NIKLASCFW Downloader abbrechen. In diesem Fall gehe bitte die folgenden Schritte durch.">
+    <meta name="twitter:description" content="Abgebrochene Downloads im NiklasCFW Downloader beheben.">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://docs.niklascfw.de/switch/fehlerbehebung/apps-tools/niklascfwdownloadprobleme.md">
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
-    <link href="/resources/css/retype.css?v=4.6.0.837732428845" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.837943373982" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
     <link rel="stylesheet" href="/static/css/ref-cards.css" />
@@ -186,25 +186,70 @@
 
                 <!-- Page content  -->
 <h1 id="niklascfw-downloader-fehlerbehebung">NiklasCFW Downloader Fehlerbehebung</h1>
-<p>Es kann vorkommen, dass Downloads im <strong>NIKLASCFW Downloader</strong> abbrechen.<br />
-In diesem Fall gehe bitte die folgenden Schritte durch.</p>
-<h2 id="downloads-brechen-ab-was-tun">Downloads brechen ab was tun?</h2>
-<p>Wenn deine Downloads abbrechen, liegt das häufig an einer falsch gesetzten Systemzeit.</p>
-<div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
-<h4 style="color: #856404; margin-top: 0;">⚠️ Wichtig</h4>
-<p style="color: #212529; margin-bottom: 0;"><strong>Bitte darauf achten, dass deine Uhrzeit synchronisiert ist.</strong></p>
-<p style="color: #212529; margin-bottom: 0;">Ansonsten funktioniert der Download über UltraHand nicht!</p>
+<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">Abgebrochene Downloads im NiklasCFW Downloader beheben.</div>
+<p>Wenn Downloads im <strong>NiklasCFW Downloader</strong> abbrechen, liegt das oft an einer falsch gesetzten <strong>Systemzeit</strong> oder daran, dass der <strong>Update Checker</strong> noch nicht ausgeführt wurde.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Uhrzeit muss stimmen</h5>
+<p><strong>Datum und Uhrzeit müssen korrekt synchronisiert sein</strong>, sonst funktionieren Downloads über <strong>UltraHand</strong> oft nicht.</p>
+        </div>
+    </div>
 </div>
-<h3 id="uhrzeit-synchronisieren">Uhrzeit synchronisieren</h3>
-<p>Stelle sicher, dass Datum und Uhrzeit auf deiner Nintendo Switch korrekt sind.</p>
-<p>Eine detaillierte Anleitung findest du hier:<br />
-<strong><a href="https://docs.niklascfw.de/switch/nachher/dbi_time/">Anleitung: Uhrzeit synchronisieren</a></strong></p>
-<h2 id="update-checker-ausführen">Update Checker ausführen</h2>
-<p>Sobald die Uhrzeit korrekt synchronisiert ist, <strong>muss der Update Checker ausgeführt werden</strong>.</p>
-<p>Der Update Checker überprüft, ob alle benötigten Dateien aktuell sind.<br />
-Erst danach sollten Downloads erneut gestartet werden.</p>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
+    <div class="flex items-center text-base-500">
+        <span class="inline-flex items-center justify-center leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path d="M12.5 7.25a.75.75 0 0 0-1.5 0v5.5c0 .27.144.518.378.651l3.5 2a.75.75 0 0 0 .744-1.302L12.5 12.315V7.25Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">Uhrzeit synchronisieren</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>/switch/nachher/dbi_time/</span>
+    </div>
+    <a href="/switch/nachher/dbi_time/" class="absolute block inset-0"></a>
+</div>
+</p>
 <hr>
-<p>Wenn die Probleme weiterhin bestehen, empfiehlt sich ein Neustart der Konsole und ein erneuter Durchlauf aller Schritte.</p>
+<h2 id="downloads-brechen-ab">Downloads brechen ab</h2>
+<doc-steps>
+   <doc-step id="uhrzeit-prüfen" step-number="1">
+      <template #title>Uhrzeit prüfen</template>
+<p>Stelle sicher, dass <strong>Datum</strong> und <strong>Uhrzeit</strong> auf deiner Switch korrekt gesetzt sind.</p>
+   </doc-step>
+   <doc-step id="update-checker-ausführen" step-number="2">
+      <template #title>Update Checker ausführen</template>
+<p>Führe danach den <strong>Update Checker</strong> aus. Er prüft, ob alle benötigten Dateien aktuell sind.</p>
+   </doc-step>
+   <doc-step id="download-erneut-starten" step-number="3">
+      <template #title>Download erneut starten</template>
+<p>Versuche erst danach den Download erneut.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-tip"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-tip" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M7.90625 2.15625C4.50944 2.15625 2.15625 4.58563 2.15625 7.54688C2.15625 8.96138 2.76575 9.88281 3.57075 10.8589L3.87837 11.2226C4.19894 11.6021 4.554 12.0218 4.84581 12.4416C5.25406 13.0324 5.61775 13.7296 5.7385 14.5834C5.76728 14.8608 5.68746 15.1386 5.51579 15.3583C5.34413 15.5781 5.09399 15.7228 4.8179 15.7621C4.5418 15.8013 4.26124 15.7321 4.03512 15.5689C3.809 15.4056 3.65493 15.1612 3.60525 14.8867C3.54775 14.4814 3.37094 14.1004 3.07338 13.6692C2.8306 13.3302 2.57055 13.0039 2.29425 12.6917C2.1735 12.5479 2.04556 12.397 1.909 12.2317C1.00769 11.1406 0 9.72613 0 7.54688C0 3.32062 3.39681 0 7.90625 0C12.4157 0 15.8125 3.32062 15.8125 7.54688C15.8125 9.72613 14.8048 11.1406 13.9035 12.2317C13.7669 12.397 13.639 12.5479 13.5183 12.6903C13.2207 13.0424 12.9677 13.3414 12.7406 13.6692C12.4416 14.1004 12.2662 14.4814 12.2087 14.8867C12.1557 15.1584 12.0003 15.3994 11.7747 15.5598C11.5492 15.7202 11.2706 15.7879 10.9965 15.7488C10.7225 15.7096 10.474 15.5667 10.3023 15.3496C10.1306 15.1325 10.0489 14.8577 10.074 14.582C10.1948 13.7296 10.5584 13.0324 10.9667 12.4416C11.2585 12.0218 11.6136 11.6021 11.9341 11.2226C12.0419 11.0961 12.1454 10.9739 12.2403 10.8589C13.0468 9.88281 13.6562 8.96138 13.6562 7.54688C13.6562 4.58563 11.3031 2.15625 7.90625 2.15625ZM4.67188 17.25H11.1406C11.4266 17.25 11.7008 17.3636 11.903 17.5658C12.1052 17.768 12.2188 18.0422 12.2188 18.3281C12.2188 18.6141 12.1052 18.8883 11.903 19.0905C11.7008 19.2927 11.4266 19.4062 11.1406 19.4062H4.67188C4.38594 19.4062 4.11171 19.2927 3.90953 19.0905C3.70734 18.8883 3.59375 18.6141 3.59375 18.3281C3.59375 18.0422 3.70734 17.768 3.90953 17.5658C4.11171 17.3636 4.38594 17.25 4.67188 17.25ZM5.03125 21.9219C5.03125 21.6359 5.14484 21.3617 5.34703 21.1595C5.54921 20.9573 5.82344 20.8438 6.10938 20.8438H9.70312C9.98906 20.8438 10.2633 20.9573 10.4655 21.1595C10.6677 21.3617 10.7812 21.6359 10.7812 21.9219C10.7812 22.2078 10.6677 22.482 10.4655 22.6842C10.2633 22.8864 9.98906 23 9.70312 23H6.10938C5.82344 23 5.54921 22.8864 5.34703 22.6842C5.14484 22.482 5.03125 22.2078 5.03125 21.9219Z" />
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Wenn es weiter fehlschlägt</h5>
+<p>Starte die Konsole neu und gehe die Schritte noch einmal vollständig durch.</p>
+        </div>
+    </div>
+</div>
+   </doc-step>
 
                 
                 <!-- Required only on API pages -->
@@ -220,20 +265,20 @@ Erst danach sollten Downloads erneut gestartet werden.</p>
             
                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                     <div class="w-1/2">
-                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/switch/fehlerbehebung/hardware/switch_macbook/">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/switch/fehlerbehebung/apps-tools/ultrahand_oeffnen/">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Vorheriger</span>
-                                <span class="block mt-1">Switch mit Mac​Book verbinden</span>
+                                <span class="block mt-1">Ultra​Hand &#246;ffnen</span>
                             </span>
                         </a>
                     </div>
             
                     <div class="w-1/2">
-                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/switch/fehlerbehebung/apps-tools/ultrahand_oeffnen/">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/switch/fehlerbehebung/spiele/plza_save/">
                             <span>
                                 <span class="block text-xs font-normal text-right text-base-text-muted">Nächster</span>
-                                <span class="block mt-1">Ultrahand l&#228;sst sich nicht &#246;ffnen</span>
+                                <span class="block mt-1">Legenden Z-​A Spielstand reparieren</span>
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                         </a>
@@ -277,6 +322,6 @@ Erst danach sollten Downloads erneut gestartet werden.</p>
 
     <div id="retype-overlay-target"></div>
 
-        <script data-cfasync="false">window.__DOCS__ = { "title": "NiklasCFW Downloader Fehlerbehebung", level: 4, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/switch/fehlerbehebung/apps-tools/niklascfwdownloadprobleme.md" }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Downloader-Probleme", level: 4, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/switch/fehlerbehebung/apps-tools/niklascfwdownloadprobleme.md" }</script>
 </body>
 </html>

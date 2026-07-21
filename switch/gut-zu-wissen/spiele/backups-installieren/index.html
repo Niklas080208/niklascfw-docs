@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837732428845">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837943373982">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>Backups installieren (XCI / XCZ / NSP / NSZ)</title>
     <meta name="title" content="Backups installieren (XCI / XCZ / NSP / NSZ)">
-    <meta name="description" content="Diese Anleitung erklärt dir, wie du Switch-Backups über Sphaira (MPT Install) oder DBI (MTP Responder) installierst.">
+    <meta name="description" content="XCI, XCZ, NSP und NSZ über Sphaira (MTP) oder DBI (MTP Responder) installieren.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/backups-installieren/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/backups-installieren/">
     <meta property="og:title" content="Backups installieren (XCI / XCZ / NSP / NSZ)">
-    <meta property="og:description" content="Diese Anleitung erklärt dir, wie du Switch-Backups über Sphaira (MPT Install) oder DBI (MTP Responder) installierst.">
+    <meta property="og:description" content="XCI, XCZ, NSP und NSZ über Sphaira (MTP) oder DBI (MTP Responder) installieren.">
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
@@ -30,7 +30,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/backups-installieren/">
     <meta name="twitter:title" content="Backups installieren (XCI / XCZ / NSP / NSZ)">
-    <meta name="twitter:description" content="Diese Anleitung erklärt dir, wie du Switch-Backups über Sphaira (MPT Install) oder DBI (MTP Responder) installierst.">
+    <meta name="twitter:description" content="XCI, XCZ, NSP und NSZ über Sphaira (MTP) oder DBI (MTP Responder) installieren.">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/backups-installieren.md">
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
-    <link href="/resources/css/retype.css?v=4.6.0.837732428845" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.837943373982" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
     <link rel="stylesheet" href="/static/css/ref-cards.css" />
@@ -186,97 +186,127 @@
 
                 <!-- Page content  -->
 <h1 id="backups-installieren-xci--xcz--nsp--nsz">Backups installieren (XCI / XCZ / NSP / NSZ)</h1>
-<p>Diese Anleitung erklärt dir, wie du Switch-Backups über <strong>Sphaira (MPT Install)</strong> oder <strong>DBI (MTP Responder)</strong> installierst.</p>
+<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">XCI, XCZ, NSP und NSZ über Sphaira (MTP) oder DBI (MTP Responder) installieren.</div>
+<p>Installiere Switch-Backups über <strong>Sphaira (MTP Install)</strong> oder <strong>DBI (MTP Responder)</strong> per USB vom PC.</p>
 <hr>
-<h2 id="-dateiformate--was-ist-was"><span class="docs-emoji">&#x1F9E9;</span> Dateiformate – Was ist was?</h2>
-<h3 id="xci">XCI</h3>
-<ul>
-<li>1:1 Cartridge-Dump einer Spielkarte</li>
-<li>Enthält das Base Game</li>
-<li>Kann Updates/DLC enthalten</li>
-</ul>
-<h3 id="xcz">XCZ</h3>
-<ul>
-<li>Komprimierte XCI</li>
-<li>Gleiche Inhalte, kleinere Datei</li>
-<li>Platzsparend</li>
-</ul>
-<h3 id="nsp">NSP</h3>
-<ul>
-<li>Offizielles eShop-Format</li>
-<li>Digitale Spiele, Updates &amp; DLCs</li>
-</ul>
-<h3 id="nsz">NSZ</h3>
-<ul>
-<li>Komprimierte NSP</li>
-<li>Automatische Dekomprimierung beim Installieren</li>
-<li>Kleinere Dateigröße</li>
-</ul>
-<blockquote>
-<p><span class="docs-emoji">&#x1F4A1;</span> Vorbereitung: Stelle sicher, dass du ein geeignetes USB-3-Kabel verwendest und dass dein PC-Port ebenfalls USB-3 unterstützt.
-Geeignete Kabel findest du unter:</p>
-<p><a href="https://www.mediamarkt.de/de/product/_isy-iuc-1029-usb-kabel-schwarz-2994540.html">https://www.mediamarkt.de/de/product/_isy-iuc-1029-usb-kabel-schwarz-2994540.html</a><br />
-<a href="https://www.mediamarkt.de/de/product/_hama-usb-c-stecker-auf-usb-buchse-2708227.html">https://www.mediamarkt.de/de/product/_hama-usb-c-stecker-auf-usb-buchse-2708227.html</a> Für USB C zu C
-<a href="https://www.amazon.de/dp/B087X5F3NB">https://www.amazon.de/dp/B087X5F3NB</a>?</p>
-</blockquote>
+<h2 id="dateiformate">Dateiformate</h2>
+<retype-table copy-text="| Format | Bedeutung |
+| --- | --- |
+| **XCI** | 1:1 Cartridge-Dump (Base Game, ggf. Updates/DLC) |
+| **XCZ** | Komprimierte XCI, kleinere Datei |
+| **NSP** | eShop-Format (Spiele, Updates, DLC) |
+| **NSZ** | Komprimierte NSP, Dekompression beim Install |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact striped">
+<thead>
+<tr>
+<th>Format</th>
+<th>Bedeutung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>XCI</strong></td>
+<td>1:1 Cartridge-Dump (Base Game, ggf. Updates/DLC)</td>
+</tr>
+<tr>
+<td><strong>XCZ</strong></td>
+<td>Komprimierte XCI, kleinere Datei</td>
+</tr>
+<tr>
+<td><strong>NSP</strong></td>
+<td>eShop-Format (Spiele, Updates, DLC)</td>
+</tr>
+<tr>
+<td><strong>NSZ</strong></td>
+<td>Komprimierte NSP, Dekompression beim Install</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-tip"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-tip" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M7.90625 2.15625C4.50944 2.15625 2.15625 4.58563 2.15625 7.54688C2.15625 8.96138 2.76575 9.88281 3.57075 10.8589L3.87837 11.2226C4.19894 11.6021 4.554 12.0218 4.84581 12.4416C5.25406 13.0324 5.61775 13.7296 5.7385 14.5834C5.76728 14.8608 5.68746 15.1386 5.51579 15.3583C5.34413 15.5781 5.09399 15.7228 4.8179 15.7621C4.5418 15.8013 4.26124 15.7321 4.03512 15.5689C3.809 15.4056 3.65493 15.1612 3.60525 14.8867C3.54775 14.4814 3.37094 14.1004 3.07338 13.6692C2.8306 13.3302 2.57055 13.0039 2.29425 12.6917C2.1735 12.5479 2.04556 12.397 1.909 12.2317C1.00769 11.1406 0 9.72613 0 7.54688C0 3.32062 3.39681 0 7.90625 0C12.4157 0 15.8125 3.32062 15.8125 7.54688C15.8125 9.72613 14.8048 11.1406 13.9035 12.2317C13.7669 12.397 13.639 12.5479 13.5183 12.6903C13.2207 13.0424 12.9677 13.3414 12.7406 13.6692C12.4416 14.1004 12.2662 14.4814 12.2087 14.8867C12.1557 15.1584 12.0003 15.3994 11.7747 15.5598C11.5492 15.7202 11.2706 15.7879 10.9965 15.7488C10.7225 15.7096 10.474 15.5667 10.3023 15.3496C10.1306 15.1325 10.0489 14.8577 10.074 14.582C10.1948 13.7296 10.5584 13.0324 10.9667 12.4416C11.2585 12.0218 11.6136 11.6021 11.9341 11.2226C12.0419 11.0961 12.1454 10.9739 12.2403 10.8589C13.0468 9.88281 13.6562 8.96138 13.6562 7.54688C13.6562 4.58563 11.3031 2.15625 7.90625 2.15625ZM4.67188 17.25H11.1406C11.4266 17.25 11.7008 17.3636 11.903 17.5658C12.1052 17.768 12.2188 18.0422 12.2188 18.3281C12.2188 18.6141 12.1052 18.8883 11.903 19.0905C11.7008 19.2927 11.4266 19.4062 11.1406 19.4062H4.67188C4.38594 19.4062 4.11171 19.2927 3.90953 19.0905C3.70734 18.8883 3.59375 18.6141 3.59375 18.3281C3.59375 18.0422 3.70734 17.768 3.90953 17.5658C4.11171 17.3636 4.38594 17.25 4.67188 17.25ZM5.03125 21.9219C5.03125 21.6359 5.14484 21.3617 5.34703 21.1595C5.54921 20.9573 5.82344 20.8438 6.10938 20.8438H9.70312C9.98906 20.8438 10.2633 20.9573 10.4655 21.1595C10.6677 21.3617 10.7812 21.6359 10.7812 21.9219C10.7812 22.2078 10.6677 22.482 10.4655 22.6842C10.2633 22.8864 9.98906 23 9.70312 23H6.10938C5.82344 23 5.54921 22.8864 5.34703 22.6842C5.14484 22.482 5.03125 22.2078 5.03125 21.9219Z" />
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>USB 3.0</h5>
+<p>Nutze ein <strong>USB-3-Kabel</strong> und einen <strong>USB-3-Port</strong> am PC für stabile MTP-Übertragung.</p>
+        </div>
+    </div>
+</div>
 <hr>
-<h1 id="sphaira--mpt-install">Sphaira – MPT Install</h1>
-<blockquote>
-<p><strong>1. Sphaira starten</strong><br />
-App auf der Switch öffnen.</p>
-<p><strong>2. Minus-Taste (−)</strong> drücken<br />
-Menü öffnen.</p>
-<p><strong>3. „MPT Install“ auswählen</strong></p>
-<p><strong>4. Switch per USB verbinden</strong><br />
-Windows zeigt dann typischerweise folgende Geräte:</p>
+<doc-tabs>
+<doc-tab v-cloak id="sphaira--mtp-install">
+<template #title>Sphaira – MTP Install</template>
+<doc-steps>
+   <doc-step id="sphaira-und-mtp-install" step-number="1">
+      <template #title>Sphaira und MTP Install</template>
+<p><strong>Sphaira</strong> starten → <strong>Minus (−)</strong> → <strong>MPT Install</strong> (MTP Install).</p>
+   </doc-step>
+   <doc-step id="switch-per-usb-verbinden" step-number="2">
+      <template #title>Switch per USB verbinden</template>
+<p>Am PC erscheinen u. a.:</p>
 <ul>
 <li>Album (Image SD)</li>
 <li>Games</li>
-<li><strong>Install (NSP, XCI, NSZ, XCZ)</strong> ← <strong>HIER MUSST DU REIN</strong></li>
+<li><strong>Install (NSP, XCI, NSZ, XCZ)</strong> ← <strong>hierhin kopieren</strong></li>
 <li>microSD card</li>
 </ul>
-<p><strong>5. Backups in den Ordner „Install (NSP, XCI, NSZ, XCZ)“ ziehen</strong></p>
-<p>Unterstützte Formate:</p>
-<ul>
-<li>XCI</li>
-<li>XCZ</li>
-<li>NSP</li>
-<li>NSZ</li>
-</ul>
-<p><strong>6. Installation</strong><br />
-Sphaira installiert sobald die Dateien den Ordner &quot;berühren&quot; Automatisch los.</p>
-</blockquote>
-<hr>
-<h1 id="dbi--mtp-responder--sd-card-install">DBI – MTP Responder &amp; SD Card Install</h1>
-<blockquote>
-<p><strong>1. DBI öffnen</strong></p>
-<p><strong>2. „MTP Responder“ auswählen</strong><br />
-Die Switch wird am PC als mehrere Partitionen angezeigt.</p>
-<p><strong>3. Windows zeigt z. B. folgende Einträge:</strong></p>
+   </doc-step>
+   <doc-step id="dateien-kopieren" step-number="3">
+      <template #title>Dateien kopieren</template>
+<p>Backups (<strong>XCI, XCZ, NSP, NSZ</strong>) in <strong>Install (NSP, XCI, NSZ, XCZ)</strong> ziehen. Sphaira startet die Installation automatisch, sobald Dateien den Ordner erreichen.</p>
+   </doc-step>
+</doc-steps>
+</doc-tab>
+<doc-tab v-cloak id="dbi--mtp-responder">
+<template #title>DBI – MTP Responder</template>
+<doc-steps>
+   <doc-step id="dbi-mtp-responder" step-number="1">
+      <template #title>DBI MTP Responder</template>
+<p><strong>DBI</strong> → <strong>MTP Responder</strong>. Die Switch erscheint am PC mit mehreren „Laufwerken“.</p>
+   </doc-step>
+   <doc-step id="richtigen-install-ordner-wählen" step-number="2">
+      <template #title>Richtigen Install-Ordner wählen</template>
+<p>Unter anderem:</p>
 <ul>
 <li>1: SD Card</li>
-<li>2: Nand USER</li>
-<li>3: Nand SYSTEM</li>
-<li>4: Installed games</li>
-<li><strong>5: SD Card install</strong> ← <strong>DIES IST DER INSTALL-ORDNER</strong></li>
+<li>…</li>
+<li><strong>5: SD Card install</strong> ← <strong>Install-Ordner</strong></li>
 <li>6: NAND install</li>
-<li>7: Saves</li>
-<li>8: Album</li>
-<li>9: Gamecard</li>
-<li>DBIlogs</li>
+<li>…</li>
 </ul>
-<p><strong>4. Backups in „5: SD Card install“ kopieren</strong></p>
-<p>Unterstützte Formate:</p>
-<ul>
-<li>XCI</li>
-<li>XCZ</li>
-<li>NSP</li>
-<li>NSZ</li>
-</ul>
-<p><strong>5. Installation</strong><br />
-DBI installiert sobald die Dateien den Ordner &quot;berühren&quot; Automatisch los.</p>
-</blockquote>
-<hr>
+   </doc-step>
+   <doc-step id="dateien-kopieren-1" step-number="3">
+      <template #title>Dateien kopieren</template>
+<p>Backups nach <strong>5: SD Card install</strong> kopieren. DBI installiert automatisch beim Einchecken der Dateien.</p>
+   </doc-step>
+</doc-tab>
+</doc-tabs>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-success"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-success" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M21 9.09c-.55 0-1 .45-1 1v.92c0 4.96-4.04 8.99-9 8.99-4.97 0-9-4.04-9-9s4.04-9 9-9c1.27 0 2.5.26 3.66.78.51.22 1.1 0 1.32-.51.23-.5 0-1.1-.51-1.32C14.06.32 12.56 0 11.01 0H11C4.94 0 0 4.93 0 10.99 0 17.06 4.93 22 10.99 22H11c6.06 0 11-4.93 11-10.99v-.92c0-.56-.45-1-1-1z"></path>
+                    <path d="M8.71 9.31a.996.996 0 10-1.41 1.41l3 3c.19.19.44.29.71.29.27 0 .52-.11.71-.29l10-10.01a.996.996 0 10-1.41-1.41L11 11.6 8.71 9.31z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Fertig</h5>
+<p>Installierte Titel erscheinen nach Abschluss in der CFW wie gewohnt.</p>
+        </div>
+    </div>
+</div>
 
                 
                 <!-- Required only on API pages -->

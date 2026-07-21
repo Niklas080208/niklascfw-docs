@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837732428845">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837943373982">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>SD kopieren mit NX Migrator Pro</title>
     <meta name="title" content="SD kopieren mit NX Migrator Pro">
-    <meta name="description" content="Stheix hat ein Tool erstellt, mit dem man die komplette SD-Karte inklusive aller Partitionen auf eine neue SD-Karte übertragen kann.">
+    <meta name="description" content="Komplette SD inkl. aller Partitionen auf eine neue Karte mit NX Migrator Pro klonen.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.niklascfw.de/switch/gut-zu-wissen/system/nxmigatorpro/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/system/nxmigatorpro/">
     <meta property="og:title" content="SD kopieren mit NX Migrator Pro">
-    <meta property="og:description" content="Stheix hat ein Tool erstellt, mit dem man die komplette SD-Karte inklusive aller Partitionen auf eine neue SD-Karte übertragen kann.">
+    <meta property="og:description" content="Komplette SD inkl. aller Partitionen auf eine neue Karte mit NX Migrator Pro klonen.">
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="de_DE">
 
@@ -30,7 +30,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.niklascfw.de/switch/gut-zu-wissen/system/nxmigatorpro/">
     <meta name="twitter:title" content="SD kopieren mit NX Migrator Pro">
-    <meta name="twitter:description" content="Stheix hat ein Tool erstellt, mit dem man die komplette SD-Karte inklusive aller Partitionen auf eine neue SD-Karte übertragen kann.">
+    <meta name="twitter:description" content="Komplette SD inkl. aller Partitionen auf eine neue Karte mit NX Migrator Pro klonen.">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://docs.niklascfw.de/switch/gut-zu-wissen/system/nxmigatorpro.md">
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/assets/favicon.png" />
-    <link href="/resources/css/retype.css?v=4.6.0.837732428845" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.837943373982" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837732428845" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.837943373982" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/static/css/toc-tree.css" />
     <link rel="stylesheet" href="/static/css/ref-cards.css" />
@@ -186,48 +186,72 @@
 
                 <!-- Page content  -->
 <h1 id="sd-kopieren-mit-nx-migrator-pro">SD kopieren mit NX Migrator Pro</h1>
-<p><strong>Stheix</strong> hat ein Tool erstellt, mit dem man die komplette SD-Karte inklusive aller Partitionen auf eine neue SD-Karte übertragen kann.</p>
+<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">Komplette SD inkl. aller Partitionen auf eine neue Karte mit NX Migrator Pro klonen.</div>
+<p><strong>NX Migrator Pro</strong> (von <strong>sthetix</strong>) kopiert die <strong>gesamte microSD inkl. aller Partitionen</strong> (emuMMC RAW, Android, Linux usw.) auf eine neue Karte.</p>
 <hr>
-<h2 id="-voraussetzungen"><span class="docs-emoji">&#x1F9E9;</span> Voraussetzungen</h2>
-<p>Bevor du startest, stelle sicher, dass du:</p>
-<ul>
-<li>einen Windows-PC hast</li>
-<li>die Möglichkeit zwei microSD Karten an deinen PC anzuschließen</li>
+<h2 id="voraussetzungen">Voraussetzungen</h2>
+<ul class="list-icon">
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.954 17H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h18.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.565-1.243c.964-1.105 1.598-2.382 1.769-3.757ZM21.5 3.75a.25.25 0 0 0-.25-.25H2.75a.25.25 0 0 0-.25.25v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25ZM13.537 17h-3.074c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.659-1.055-1.098-2.234-1.223-3.5Z"/></g></g></svg> <strong>Windows-PC</strong></li>
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/></g></g></svg> Zwei microSD-Karten gleichzeitig am PC (Quelle + Ziel)</li>
 </ul>
 <hr>
-<h2 id="-anleitung"><span class="docs-emoji">&#x1F9F0;</span> Anleitung</h2>
-<h3 id="1-nx-migrator-pro-herunterladen">1. NX Migrator Pro herunterladen</h3>
-<p>Lade dir die aktuelle Version von <strong>NX Migrator Pro v1.0.0</strong> herunter:<br />
-<span class="docs-emoji">&#x1F449;</span> <a href="https://github.com/sthetix/NX-Migrator-Pro/releases">NX Migrator Pro – GitHub Release</a></p>
-<hr>
-<h3 id="2-dateien-entpacken">2. Dateien entpacken</h3>
-<p>Entpacke die <strong>NXMigratorPro.zip</strong> auf deinem Computer.</p>
-<hr>
-<h3 id="3-programm-starten">3. Programm starten</h3>
-<p>Starte die <strong>NXMigratorPro.exe</strong>.</p>
-<p>Falls du eine Fehlermeldung erhältst, installiere ggf. die benötigten Laufzeiten (.NET / Python).</p>
-<hr>
-<h3 id="4-sd-karten-anschließen">4. SD-Karten anschließen</h3>
-<p>Stecke nun:</p>
-<ul>
-<li>Deine <strong>alte SD-Karte</strong> (Source SD Card)</li>
-<li>Deine <strong>neue SD-Karte</strong> (Target SD Card)<br />
-in deinen Computer und bestätige mit <strong>Simultan Migration</strong>.</li>
-</ul>
-<hr>
-<h3 id="5-migration-prüfen">5. Migration prüfen</h3>
-<p>Unter <strong>Step 2</strong> siehst du eine Vorschau, wie beide SD-Karten nach der Migration aussehen werden.<br />
-Bestätige mit <strong>OK</strong>.</p>
-<hr>
-<h3 id="6-partitionen-auswählen">6. Partitionen auswählen</h3>
-<p>Unter <strong>Step 3</strong> kannst du auswählen, ob <strong>alle Partitionen</strong> (z. B. Android, Linux) der Source SD Card mit auf die Target SD Card übertragen werden sollen.</p>
-<hr>
-<h3 id="7-migration-starten">7. Migration starten</h3>
-<p>Klicke auf <strong>Start Migration</strong>, um den Kopiervorgang zu beginnen.</p>
-<hr>
-<h2 id="-hinweis"><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Hinweis</h2>
-<p>Je nach wie voll deine Source SD Card kann der Vorgang <strong>mehrere Stunden</strong> dauern.<br />
-Achte darauf, dass dein PC <strong>nicht in den Ruhemodus</strong> oder Standby wechselt.</p>
+<h2 id="migration-durchführen">Migration durchführen</h2>
+<doc-steps>
+   <doc-step id="tool-laden-und-entpacken" step-number="1">
+      <template #title>Tool laden und entpacken</template>
+<p><strong>NX Migrator Pro v1.0.0</strong> von <a href="https://github.com/sthetix/NX-Migrator-Pro/releases">GitHub Releases</a> laden und <strong>NXMigratorPro.zip</strong> entpacken.</p>
+   </doc-step>
+   <doc-step id="programm-starten" step-number="2">
+      <template #title>Programm starten</template>
+<p><strong>NXMigratorPro.exe</strong> starten. Bei Fehlermeldung ggf. <strong>.NET</strong> / Python-Laufzeiten installieren.</p>
+   </doc-step>
+   <doc-step id="sd-karten-anschließen" step-number="3">
+      <template #title>SD-Karten anschließen</template>
+<p><strong>Alte SD (Source)</strong> und <strong>neue SD (Target)</strong> einstecken → <strong>Simultan Migration</strong> bestätigen.</p>
+   </doc-step>
+   <doc-step id="vorschau-und-partitionen" step-number="4">
+      <template #title>Vorschau und Partitionen</template>
+<p><strong>Step 2:</strong> Vorschau prüfen → <strong>OK</strong>. <strong>Step 3:</strong> wählen, ob <strong>alle Partitionen</strong> (Android, Linux, …) mitkopiert werden.</p>
+   </doc-step>
+   <doc-step id="migration-starten" step-number="5">
+      <template #title>Migration starten</template>
+<p><strong>Start Migration</strong> – je nach Füllstand kann das <strong>mehrere Stunden</strong> dauern.</p>
+   </doc-step>
+</doc-steps>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>PC wach halten</h5>
+<p>PC <strong>nicht in Ruhezustand</strong> versetzen, bis die Migration abgeschlossen ist.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-success"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-success" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M21 9.09c-.55 0-1 .45-1 1v.92c0 4.96-4.04 8.99-9 8.99-4.97 0-9-4.04-9-9s4.04-9 9-9c1.27 0 2.5.26 3.66.78.51.22 1.1 0 1.32-.51.23-.5 0-1.1-.51-1.32C14.06.32 12.56 0 11.01 0H11C4.94 0 0 4.93 0 10.99 0 17.06 4.93 22 10.99 22H11c6.06 0 11-4.93 11-10.99v-.92c0-.56-.45-1-1-1z"></path>
+                    <path d="M8.71 9.31a.996.996 0 10-1.41 1.41l3 3c.19.19.44.29.71.29.27 0 .52-.11.71-.29l10-10.01a.996.996 0 10-1.41-1.41L11 11.6 8.71 9.31z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Fertig</h5>
+<p>Die Ziel-SD ist ein Klon der Quelle – inkl. Partitionen und emuMMC.</p>
+        </div>
+    </div>
+</div>
 
                 
                 <!-- Required only on API pages -->
