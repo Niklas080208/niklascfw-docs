@@ -2,41 +2,42 @@
 icon: package
 label: "UltraHand im Pack"
 order: 100
+description: "Vorinstallierte UltraHand-Packages und Overlays im OmniNX-Pack."
 ---
 
-# UltraHand Funktionen im NiklasCFW Pack
+# UltraHand im OmniNX-Pack
 
-Hier gibt es eine Übersicht der Funktionen und installierten Overlays vom NiklasCFW Pack in **UltraHand**.
+Übersicht der **Packages** und **Overlays**, die in OmniNX über **UltraHand** (L + R + Plus) erreichbar sind.
+
+![UltraHand Pakete|700x420](/images/switch/allgemein/ultrahand_pakete.jpg)
 
 ---
 
-##  Pakete
+## Pakete
 
-![|700x420](/images/switch/allgemein/ultrahand_pakete.jpg)
-
-- **NiklasCFW Downloader** - Downloader für das NiklasCFW Pack über den man auch die Firmware, Android, verschiedene Apps, .ini's, Lakka, Linux, Overlays, RetroArch und Sys Module herunterladen und installieren kann.
-
-- **RebootNX** - Tool um die Switch neuzustarten, egal ob in Hekate, die CFW oder die OFW.
-
-- **Broomstick** - Tool um einzelne Pakete und Overlays zu aktiveren bzw. zu deaktivieren.
-
-- **Mod Alchemist** - Mod Manager
-
-- **Cool Curves** - Kühlerkurven einstellen
-
-- **Memory Config** - Spielerei für diverse Einstellungen
+- **OmniNX Downloader** – Firmware, Apps, Android, Linux, Lakka, RetroArch, Overlays, Sys-Module und mehr
+- **RebootNX** – Neustart in Hekate, CFW oder OFW
+- **Package Manager** – Pakete und Overlays aktivieren/deaktivieren (`.offload`)
+- **Mod Alchemist** – Mod-Manager
+- **Cool Curves** – Kühlerkurven einstellen
+- **Memory Kit / Memory Config / Memory Switcher** *(offload)* – RAM-/Speicher-Einstellungen
+- **Installer Configurator** *(offload)* – Installer-Konfiguration
+- **HOC Toolkit** *(offload, nur OC)* – Horizon-OC-Tools
 
 ---
 
 ## Overlays
 
-![|700x420](/images/switch/allgemein/ultrahand_overlays.jpg)
+![UltraHand Overlays|700x420](/images/switch/allgemein/ultrahand_overlays.jpg)
 
-- **EdiZon** Cheat Management
+- **EdiZon** – Cheat-Management *(Standard/OC)*
+- **sys-patch** – Patch-Management *(offload)*
+- **Sysmodules** – Modul-Management
+- **Horizon-OC-Monitor** – System-Monitor
+- **Horizon OC Overlay**, **FPSLocker**, **ReverseNX-RT** *(OC)*
 
-- **sys-patch** Patch Management
+!!!tip Offload-Pakete aktivieren
+Liegen standardmäßig deaktiviert unter `.offload/` – einschalten über **Package Manager**.
+!!!
 
-- **Sysmodules** Module Management
-
-- **BatteryChargeInfoNX** Batterie Status
-
+[!ref text="OmniNX Varianten & Inhalte"](../../vorbereitung/einfuehrung)

@@ -2,56 +2,62 @@
 icon: cpu
 label: "Lakka"
 order: 102
+description: "Lakka (RetroArch/LibreELEC) über UltraHand oder PC installieren und booten."
 ---
 
 # Lakka installieren
 
-## ⚠️ Voraussetzungen
+**Lakka** basiert auf **LibreELEC** und nutzt **RetroArch** als UI. Es unterstützt viele klassische Plattformen (NES, SNES, GBA, Genesis, PS1, Dreamcast, N64 usw.).
 
-<div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
-<h4 style="color: #856404; margin-top: 0;">⚠️ Wichtig</h4>
-<p style="color: #212529; margin-bottom: 0;"><strong>Bitte darauf achten, dass deine Uhrzeit synchronisiert ist.</strong></p>
-<p style="color: #212529; margin-bottom: 0;">Ansonsten funktioniert der Download über UltraHand nicht!</p>
-</div>
+!!!warning Uhrzeit synchronisieren
+**Bitte darauf achten, dass deine Uhrzeit synchronisiert ist.**  
+Ohne korrekte Zeit funktioniert der Download über UltraHand nicht.
+!!!
 
-**[Anleitung Uhrzeit Synchronisieren](https://docs.niklascfw.de/switch/nachher/dbi_time/)**
+[!ref text="Uhrzeit mit DBI (NTP)"](../../nachher/dbi_time)
 
 ---
->**Lakka** basiert auf **LibreELEC** und nutzt die **RetroArch-Oberfläche** als zentrales **Benutzerinterface**. Unterstützt werden zahlreiche klassische Plattformen wie NES, SNES, Game Boy, Genesis, PlayStation, Dreamcast, N64 usw.
----
 
-## Lakka direkt über UltraHand installieren
+## Über UltraHand installieren
 
-1. Öffne **UltraHand** (L,R und Plus-Taste gleichzeitig drücken) und auf **NiklasCFW Downloader** klicken.
-![|700x420](/images/switch/allgemein/lakka1.jpg)
-2. Runterscrollen und **Lakka** auswählen.
-![|700x420](/images/switch/allgemein/lakka2.jpg)
-3. Auf **Lakka** klicken und den Download starten (⬇️ Download läuft, ⬆️ Entpacken läuft).
-4. Startet über **RebootNX** in **Hekate**.
-5. Geht auf **More Configs**, hier wird euch nun **Lakka** angezeigt und ihr könnt es starten.
-![|700x420](/images/switch/allgemein/lakka6.jpg)
+>>> UltraHand und Downloader öffnen
+**UltraHand** starten (**L + R + Plus**) und **OmniNX Downloader** öffnen.
+
+![UltraHand / Downloader|700x420](/images/switch/allgemein/lakka1.jpg)
+
+>>> Lakka herunterladen
+Runterscrollen, **Lakka** wählen, Download starten (⬇️ Download, ⬆️ Entpacken).
+
+![Lakka im Downloader|700x420](/images/switch/allgemein/lakka2.jpg)
+
+>>> Über RebootNX in Hekate
+**RebootNX** → **Hekate** booten → **More Configs** → **Lakka** starten.
+
+![Lakka in More Configs|700x420](/images/switch/allgemein/lakka6.jpg)
+
+>>>
 
 ---
 
 ## Installation über PC
 
-1. Lade dir hier die aktuelle Version von Lakka für die Switch herunter
+>>> Lakka herunterladen
+[Lakka für Switch](https://www.lakka.tv/get/windows/switch/) laden, **Lakka.7z** entpacken und Inhalt auf die **SD-Root** kopieren.
 
-   👉 [Lakka für Switch Download](https://www.lakka.tv/get/windows/switch/)
+>>> Hekate und Nyx Settings
+In **Hekate** oben rechts **Close** tippen.
 
-2. **Entpacke die `Lakka.7z`** und ziehe sie auf den **Root der microSD deiner Switch**
-3. Boote in **Hekate** und drücke oben rechts auf **Close**
+![Hekate Close|700x420](/images/switch/allgemein/hekate_launch_close.jpg)
 
-![|700x420](/images/switch/allgemein/hekate_launch_close.jpg)
-4. Klick unten links auf **Nyx Settings**
+Unten links **Nyx Settings** → **Dump Joy-Con BT** → **OK**.
 
-![|700x420](/images/switch/allgemein/hekate_nyx_settings.jpg)
+![Nyx Settings|700x420](/images/switch/allgemein/hekate_nyx_settings.jpg)
 
-5. Wähle nun **Dump Joy-Con BT** aus und bestätige die Meldung anschließend durch Klicken auf **Ok**
-6. Klick im Hekate Homescreen auf **More Configs**
+>>> Lakka booten
+**More Configs** → **Lakka** wählen.
 
-![|700x420](/images/switch/allgemein/hekate_more_configs.jpg)
+![More Configs|700x420](/images/switch/allgemein/hekate_more_configs.jpg)
 
-7. Wähle hier **Lakka** aus
+![Lakka auswählen|700x420](/images/switch/allgemein/hekate_more_configs1.jpg)
 
-![|700x420](/images/switch/allgemein/hekate_more_configs1.jpg)
+>>>

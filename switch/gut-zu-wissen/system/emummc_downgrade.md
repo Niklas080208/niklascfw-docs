@@ -31,7 +31,7 @@ Nach Wechseln in der Atmosphère-Entwicklung können **neue Firmware-Releases** 
 Wenn **Atmosphère** die **Firmware deines emuMMC (Partition)** (z. B. nach SysNAND-Update und Neuaufbau des emuMMC) **noch nicht unterstützt**, lässt sich der emuMMC **nicht normal in CFW starten**.  
 Mit **NANDFixPro** und einer **passenden Ziel-Firmware** wird die **RAW-GPP** des **SD-RAW-emuMMC (Partition)** auf diese Version gebracht.
 
-!!-info Voraussetzungen
+!!!info Voraussetzungen
 - **Nur emuMMC (Partition) (SD RAW)** – **kein SD-File-emuMMC**: Hekate kann einen **Datei-basierten** emuMMC für dieses Einbinden in **USB-Tools** / die beschriebenen Schritte **nicht** wie die RAW-Partition nutzen (siehe [emuMMC-Typen](emummc_arten)).
 - **USB-Datenkabel** **USB-A zu USB-C**; möglichst **USB-2.0**-tauglich. Am PC **keinen USB-3.0-Port** für die Switch verwenden – der **andere USB-Handshake** führt hier oft zu **instabilem Verhalten** oder **Übertragungsfehlern**.
 - **Windows-PC**, **Hekate**, **Lockpick RCM** zum Key-Dump.

@@ -2,88 +2,84 @@
 icon: sync
 label: "OFW zu emuMMC Guide"
 order: 105
+description: "OFW-Spiele und Updates in die emuMMC übernehmen, ohne Spielstände zu verlieren."
 ---
 
-# Anleitung: OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)
+# OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)
 
-:warning: **Wichtig – nur wenn alle Bedingungen erfüllt sind, funktioniert das Dumpen:**
+Du holst Spiele und Updates aus der echten Firmware (OFW) in eine neue emuMMC über und kannst sie dabei auch auf dem PC dumpen und archivieren. **Spielstände (Saves) bleiben erhalten.**
 
-:small_orange_diamond: Deine Konsole muss zur **Ticketverwendung registriert** sein  
-Und Einstellungen > Nutzer > Online-Lizenz-Einstellung > Nutzername > Online-Lizenz-Einstellung **Aus**
+!!!warning Voraussetzungen für das Dumpen
+Das funktioniert nur, wenn **alle** Bedingungen erfüllt sind:
 
----
-
-
-Du holst dir Spiele & Updates aus der echten Firmware (OFW) in eine neue emuMMC.  
-:heavy_check_mark: Spielstände (Saves) bleiben erhalten  
-:heavy_check_mark: Und du kannst deine Spiele durch die Methode auch gleich auf dem PC dumpen und somit Archivieren. 
-
----
-
-:ladder: **Schritte im Detail:**
-
-:one: **In OFW Spiele & Updates installieren**  
-- In die normale Firmware (SysNAND) booten  
-- Wunschspiele + Updates ganz normal installieren
-
-:two: **Neue emuMMC erstellen**  
-- Hekate → Close → `emuMMC` → `Create emuMMC`  
-- **SD File** wählen (**KEINE Partition!**)  
-- Beispiel: es wird `/emuMMC/SD00/` erstellt
-
-:three: **Nintendo-Ordner kopieren**  
-- SD-Karte in den PC stecken  
-- Den ganzen `Nintendo`-Ordner vom SD-Hauptverzeichnis kopieren nach:  
-  ➤ `emuMMC/SD00/Nintendo`  
-  (je nachdem wie deine emuMMC heißt – `SD01`, `SD02` usw.)
-
-:four: **In die neue emuMMC wechseln**  
-- Hekate → Close → `emuMMC` → `Change emuMMC`  
-- Deine neue SD-emuMMC auswählen
-
-:five: **In die neue emuMMC booten**
+- Deine Konsole muss zur **Ticketverwendung registriert** sein.
+- Unter **Einstellungen → Nutzer → Nutzername → Online-Lizenz-Einstellung** muss diese **Aus** sein.
+!!!
 
 ---
 
-:small_orange_diamond: **Bei Linkalho:**  
-:octagonal_sign: **Den Original-Account NICHT durch einen Fake-Account ersetzen!**  
-→ Wenn du mit einem echten Account heruntergeladen hast, **darfst du ihn nicht löschen oder durch Linkalho ersetzen**,  
-→ sonst fehlen die Lizenzen – und **DBI kann die Spiele NICHT dumpen!**
+## Schritte im Detail
+
+>>> In OFW Spiele und Updates installieren
+In die normale Firmware (**SysNAND**) booten und Wunschspiele + Updates installieren.
+
+>>> Neue emuMMC erstellen
+**Hekate** → **Close** → `emuMMC` → `Create emuMMC` → **SD File** (**keine Partition!**). Beispiel: `emuMMC/SD00/`.
+
+>>> Nintendo-Ordner kopieren
+SD am PC: `Nintendo/` vom SD-Root nach `emuMMC/SD00/Nintendo/` (bzw. dein SD-Slot).
+
+>>> In die neue emuMMC wechseln
+**Hekate** → **Close** → `emuMMC` → `Change emuMMC` → neue SD-File-emuMMC → booten.
+
+!!!warning Bei Linkalho
+**Den Original-Account nicht durch einen Fake-Account ersetzen!** Mit echtem Account gekaufte Spiele brauchen den Account – sonst fehlen Lizenzen und **DBI kann nicht dumpen**.
+!!!
+
+>>> DBI starten und MTP verwenden
+**R** gedrückt halten → Album/Spiel starten → **DBI** im HB-Menü.
+
+1. **MTP Responder** starten.
+2. Switch per **USB** mit dem PC verbinden.
+3. Ordner **`Installed Games`** → Spiele/Updates auf den PC kopieren.
+
+!!!tip Cartridge Game Updates
+Cartridge-Updates erscheinen unter `SD Install` nur, wenn das Base-Game vorher per DBI/Sphaira installiert wurde.
+!!!
+
+[!ref Spiele von Gamecards installieren](spiele_installation_dbi_sphaira)
+
+>>> Zurück zur Ziel-emuMMC
+**Change emuMMC** → Ziel-emuMMC → booten → **DBI** → **MTP Responder** → **`SD Install`** → Spiele/Updates installieren.
+
+>>>
+
+!!!success Fertig
+Spiele und Updates liegen in der Ziel-emuMMC; Saves bleiben erhalten.
+!!!
 
 ---
 
-:six: **DBI starten & MTP verwenden**  
-:pushpin: *Falls du DBI noch nie genutzt hast:*
+## Temporären SD-File-emuMMC löschen {#aufraumen}
 
-➤ **So startest du DBI via Title Override:**  
-- Halte **R-Taste** gedrückt und starte z. B. das Album oder ein Spiel  
-- Du landest im Homebrew-Menü → DBI starten
+Der SD-File-emuMMC aus Schritt 2 war nur ein **Zwischenschritt**. Nach erfolgreicher Installation in der **Ziel-emuMMC** kannst du ihn löschen.
 
-> ⚠️ **Hinweis:**  
->**Jetzt wichtig:**  
->Für **Cartridge Game Updates** muss das Cartridge Game **vorher über DBI oder Sphaira installiert** werden,  
->sodass die Updates dann unter `SD Install` angezeigt werden.  
+!!!warning Erst aufräumen, wenn alles übertragen ist
+Nur löschen, wenn Spiele in der **Ziel-emuMMC** installiert und getestet sind.
+!!!
 
->➡️ Anleitung: [Spiele von Gamecards installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/spiele_installation_dbi_sphaira/#dbi)
+>>> Ziel-emuMMC aktivieren
+**Hekate** → **Close** → `emuMMC` → `Change emuMMC` → **Ziel-emuMMC** wählen.
 
-1. Starte anschließend "MTP Responder".  
-2. Verbinde deine Switch per USB mit dem PC  
-3. Am PC erscheint sie wie ein USB-Stick
+>>> SD-File-emuMMC entfernen
+**Option A (Hekate):** `emuMMC` → unter **SD FILE** temporären Eintrag (z. B. `SD00`) löschen.
 
-:floppy_disk: Öffne den Ordner `Installed Games` → dort kannst du die Spiele + Updates ganz einfach auf deinen PC kopieren!
+**Option B (PC):** SD am PC → Ordner `emuMMC/SD00/` (bzw. Slot) des **temporären** emuMMC löschen.
 
----
+>>>
 
-:seven: **Zurück zur Ziel-emuMMC**  
-- Wieder `Change emuMMC` in Hekate → wähle die emuMMC, wo du die Spiele dauerhaft willst  
-- Boot in diese emuMMC  
-- Öffne DBI  
-- Starte den MTP Responder  
-- Diesmal → `SD Install` auswählen  
-  → Spiele & Updates auf deiner SD installieren
+!!!tip Speicherplatz
+Ein SD-File-emuMMC belegt mehrere GB – nach dem Löschen steht der Platz wieder für Spiele zur Verfügung.
+!!!
 
----
-
-:white_check_mark: **Fertig!**  
-Deine Spiele + Updates sind in der emuMMC drin  
-Saves bleiben erhalten, alles sauber übertragen
+[!ref text="Ausführlicher Guide (erweitert)"](../../erweiterte-guides/ofw_to_emummc_guide)

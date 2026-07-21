@@ -2,63 +2,57 @@
 icon: workflow
 label: "UltraHand"
 order: 101
+description: "Overlay-Menü und Package-System – Funktionen, Steuerung und Pakete."
 ---
 
 # UltraHand (Tesla Menu Ersatz)
 
-**UltraHand** ist ein mächtiges Homebrew-Overlay für die Nintendo Switch (HOS 16.0.0+), entwickelt als moderner Ersatz für das klassische *Tesla Menu*. Es bietet ein eigenes, interpretatives Skript-System (ähnlich Shell/BASH), mit dem du mithilfe von C/C++-Befehlen dein System flexibel verwalten kannst.
+**UltraHand** ist ein Homebrew-Overlay für die Nintendo Switch (HOS 16.0.0+), entwickelt als moderner Ersatz für das klassische *Tesla Menu*. Es bietet ein Skript-System (ähnlich Shell/BASH), mit dem du Dateien, Downloads und Systembefehle steuerst.
 
-![|700x420](/images/switch/allgemein/ultrahand_pakete.jpg)
-
----
-
-##  Hauptfunktionen
-
-- **Datei- und Verzeichnisverwaltung**  
-  Erstelle, kopiere, verschiebe oder lösche Dateien und Ordner auf deiner SD-Karte einfach per Befehl.  
-
-- **Dateien herunterladen**  
-  Lade Dateien direkt von Repositories oder URLs auf deine SD-Karte.
-
-- **ZIP-Archive entpacken**  
-  Extrahiere ZIP-Dateien inklusive ihrer Ordnerstruktur.
-
-- **INI-Dateien bearbeiten**  
-  Modifiziere Konfigurationsdateien — füge neue Abschnitte hinzu, ändere Schlüssel-Werte oder erstelle komplett neue Einträge.  
-
-- **Hex-Bearbeitung**  
-  Bearbeite Dateien direkt auf Byte-Ebene durch hexadezimales Editieren.
-
-- **Mod-Konvertierung**  
-  Wandle `pchtxt`-Moddateien in gängige Formate wie `IPS` oder Cheat-Codes um.
-
-- **Systemkommandos**  
-  Führe Systembefehle wie Shutdown, Neustart, Booten in Hekate, Bildschirmhelligkeitssteuerung oder Bluetooth-Controller deaktivieren aus.  
-
-- **Start-Skripte**  
-  Lege automatisierte Befehle in einer `boot_package.ini` ab, die beim Start ausgeführt werden.
+![UltraHand Pakete|700x420](/images/switch/allgemein/ultrahand_pakete.jpg)
 
 ---
 
-##  Installation & Einstieg
+## Hauptfunktionen
 
-**Ultrahand ist bereits installiert vorinstalliert** und kann mit wischen vom linken Bildschirmrand nach rechts geöffnet werden.
-Alternativ lässt sich Ultrahand mit L + R und der Plus taste öffnen.
-
-### Tastenkürzel & Navigation
-
-- **A** führt einen Befehl aus; **MINUS** zeigt einzelne Befehlsschritte an.  
-- **PLUS** öffnet das Einstellungsmenü.  
-- **X** markiert Overlays/Pakete; **Y** öffnet ergänzende Einstellungen.
-
----
-
-##  Paket-Plugins (z. B. Mod Alchemist)
-
-Ein Beispielpaket: **Mod Alchemist** (voraussetzt UltraHand v1.8.7+) erlaubt das Verwalten von Mods – etwa das Ein/Ausschalten oder Löschen von Patches und Mod-Konvertierung.
+{.list-icon}
+- :icon-file: **Datei- und Verzeichnisverwaltung** – erstellen, kopieren, verschieben, löschen
+- :icon-download: **Downloads** – Dateien von URLs/Repos auf die SD laden
+- :icon-file-zip: **ZIP entpacken** inklusive Ordnerstruktur
+- :icon-gear: **INI bearbeiten** – Abschnitte und Key-Value-Einträge anpassen
+- :icon-code: **Hex-Bearbeitung** auf Byte-Ebene
+- :icon-sync: **Mod-Konvertierung** – z. B. `pchtxt` → IPS / Cheats
+- :icon-terminal: **Systemkommandos** – Reboot, Hekate, Helligkeit, Bluetooth
+- :icon-play: **Start-Skripte** über `boot_package.ini`
 
 ---
 
-##  Fazit
+## Öffnen und Steuerung
 
-UltraHand Overlay ist ein flexibles, leistungsfähiges Homebrew-Overlay für die Nintendo Switch. Es bietet umfassende Datei- und Systemverwaltung, Automatisierung und Skriptfähigkeit für Power-User. Ideal für Nutzer, die mehr Kontrolle über ihre Homebrew-Umgebung und SD-Karten-Inhalte wünschen – mit breitem Funktionsumfang und aktiver Community-Unterstützung.
+!!!info Bereits im OmniNX-Pack
+UltraHand ist **voreingestellt**. Öffnen: **von links nach rechts wischen** oder **L + R + Plus**.
+!!!
+
+{.compact}
+
+| Taste | Aktion |
+| --- | --- |
+| **A** | Befehl ausführen |
+| **MINUS** | Einzelne Befehlsschritte anzeigen |
+| **PLUS** | Einstellungsmenü |
+| **X** | Overlays/Pakete markieren |
+| **Y** | Zusätzliche Einstellungen |
+
+---
+
+## Paket-Plugins
+
+Beispiel: **Mod Alchemist** (UltraHand v1.8.7+) – Mods verwalten, Patches ein/aus, Konvertierung.
+
+Mehr Pakete im Pack: [!ref](ultrahand_cfwpack)
+
+---
+
+## Fazit
+
+UltraHand ist das zentrale Overlay für Downloads, Automation und SD-Verwaltung im OmniNX-Pack – ideal für Power-User.

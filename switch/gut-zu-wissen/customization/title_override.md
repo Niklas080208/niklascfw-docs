@@ -2,42 +2,51 @@
 icon: rocket
 label: "Title Override"
 order: 99
+description: "Sphaira und Homebrew im Highmemory-Mode starten (Title Override / R-Taste)."
 ---
 
 # Title Override (Highmemory Mode)
 
-## 🧭 Anleitungsinformationen
+Manche Apps musst du per **Title Override** (auch **Highmemory Mode**) starten, damit sie **vollen RAM** und die nötigen Rechte bekommen.
 
-Einge Apps musst du per **Titel Override (auch bekannt als Highmemory Mode)** starten, um ihnen den **vollen Arbeitsspeicher (RAM)** zuzuweisen.
+!!!warning Applet-Modus vermeiden
+Öffnest du **Sphaira nur über das Album-Symbol**, läuft das HB-Menü im **Applet-Modus**. Viele Homebrew-Apps bekommen dann zu wenig Ressourcen und können **abstürzen**.
+!!!
 
-Wenn du **Sphaira im Applet-Modus** öffnest, erhalten deine Homebrew-Anwendungen **nicht die notwendigen Ressourcen oder Berechtigungen**, um richtig zu funktionieren. Dadurch kann die App bzw. dein System **abstürzen**.
+!!!tip Alternative: Forwarder
+Du kannst pro App einen **Forwarder** in Sphaira anlegen – dann startet die App immer im Title-Override-Modus.
+!!!
 
-Durch die Verwendung von **Titel Override** wird dieses Problem umgangen, da die Switch denkt, du würdest ein Spiel starten.
-
-> 💡 Alternativ kannst du auch von der jeweiligen App einen [Forwarder mit Sphaira installieren](https://docs.niklascfw.de/switch/nachher/forwarder_installieren/), so wird diese App immer per **Titel Override** gestartet.
+[!ref text="Forwarder installieren"](../../nachher/forwarder_installieren)
 
 ---
 
-## 🎮 Highmemory Mode verwenden
+## Varianten im Vergleich
 
-Du kannst **Sphaira** auf zwei Arten öffnen:
++++ Album-Symbol (nicht empfohlen)
+Öffne das **Album** auf dem Startbildschirm. Sphaira läuft im **Applet-Modus** – bei manchen Apps instabil.
 
-### Variante 1: Über das Album-Symbol (nicht empfohlen)
+![Sphaira Applet-Modus|700x420](/images/switch/allgemein/sphaira_applet.jpg)
++++ Title Override (empfohlen)
+Sphaira startet **ohne Applet-Modus** mit vollem RAM.
 
-![||700x420](/images/switch/allgemein/sphaira_applet.jpg)
+![Sphaira Highmemory Mode|700x420](/images/switch/allgemein/sphaira_noapplet.jpg)
++++
 
-- Öffne das **Album-Symbol** auf dem Startbildschirm deiner Switch.  
-- Dadurch läuft das hbmenu im **Applet-Modus**, was bei manchen Anwendungen zu Abstürzen führen kann.
+---
 
-### Variante 2: Über Highmemory Mode (empfohlen)
-- Damit wird Sphaira **ohne Applet-Modus** gestartet.
+## Title Override nutzen
 
-![||700x420](/images/switch/allgemein/sphaira_noapplet.jpg)
+>>> Spiel markieren
+Ein **Spiel** auf dem Startbildschirm markieren (Cursor darauf).
 
-#### Vorgehensweise:
-1. **Markiere** ein Spiel auf deinem Startbildschirm.  
-2. **Halte die R-Taste gedrückt**, während du das Spiel mit der **A-Taste** startest.  
-3. **Halte die R-Taste weiterhin gedrückt** und **wähle einen Benutzer** mit der **A-Taste** (falls Benutzerwahl aktiviert ist).  
-4. **Lass die R-Taste los**, sobald du das **Sphaira** erreichst.
+>>> Mit R-Taste starten
+**R-Taste gedrückt halten** und das Spiel mit **A** starten.
 
-> 💡 Das Sphaira wird nun **nicht mehr im Applet-Modus** angezeigt.
+>>> Benutzer wählen (falls nötig)
+**R weiter gedrückt halten**, ggf. **Benutzer mit A** wählen.
+
+>>> Sphaira erreichen
+**R loslassen**, sobald **Sphaira** erscheint – jetzt läuft es **nicht mehr im Applet-Modus**.
+
+>>>
