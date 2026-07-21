@@ -1,22 +1,48 @@
-# Hekate - Fix Archive Bits
+---
+icon: tools
+label: "Hekate: Fix Archive Bits"
+order: 100
+description: "Archive-Bit-Probleme nach macOS-Nutzung direkt in Hekate beheben."
+---
 
-Bei der Verwendung von macOS kann es zu Problemen kommen, wenn du Dateien auf deine microSD-Karte entpackst oder kopierst. Nutze **Fix Archive Bits**, wenn deine microSD-Karte nach der Verwendung an macOS nicht mehr richtig funktioniert.
+# Hekate: Fix Archive Bits
 
-## Anleitung
+Bei **macOS** kann es nach dem Entpacken oder Kopieren von Dateien auf die microSD zu Problemen kommen. Mit **Fix Archive Bits** setzt Hekate die betroffenen Attribute zurück.
 
-1. Starte **Hekate**
-2. Klicke oben rechts auf **Close**
+!!!info Wann ist das sinnvoll?
+Wenn Inhalte auf der SD nach der Nutzung an macOS nicht mehr korrekt erkannt werden oder sich CFW-Dateien plötzlich merkwürdig verhalten.
+!!!
 
-![|700x420](/images/switch/allgemein/hekate_launch_close.jpg)
-3. Klicke auf **Tools**
+---
 
-![|700x420](/images/switch/allgemein/hekate_tools.jpg)
-4. Klicke unten rechts auf **"Arch bit - RCM - Touch - Pkg1/2"**
+## In Hekate ausführen
 
-![|700x420](/images/switch/allgemein/hekate_archbits1.jpg)
-5. Klicke auf **Fix Archive Bits** und lass es durchlaufen (der Vorgang kann etwas dauern)
+>>> Hekate öffnen
+Starte **Hekate** und tippe oben rechts auf **Close**.
 
-![|700x420](/images/switch/allgemein/hekate_archbits2.jpg)
-6. Klicke auf **Close** und starte wieder in die **CFW** – jetzt sollte alles wieder laufen
+![Hekate Launch - Close|700x420](/images/switch/allgemein/hekate_launch_close.jpg)
 
-![|700x420](/images/switch/fehlerbehebung/hekate_fix_archive_bit_finish.jpg)
+>>> Tools öffnen
+Wähle **Tools**.
+
+![Hekate Tools|700x420](/images/switch/allgemein/hekate_tools.jpg)
+
+>>> Arch bit / RCM / Touch / Pkg1-2 öffnen
+Tippe unten rechts auf **Arch bit - RCM - Touch - Pkg1/2**.
+
+![Arch bit - RCM - Touch - Pkg1/2|700x420](/images/switch/allgemein/hekate_archbits1.jpg)
+
+>>> Fix Archive Bits ausführen
+Wähle **Fix Archive Bits** und lass den Vorgang vollständig durchlaufen.
+
+![Fix Archive Bits|700x420](/images/switch/allgemein/hekate_archbits2.jpg)
+
+>>> Zurück in die CFW
+Tippe auf **Close** und starte wieder in die **CFW**.
+
+![Fix Archive Bits abgeschlossen|700x420](/images/switch/fehlerbehebung/hekate_fix_archive_bit_finish.jpg)
+
+!!!success Fertig
+Die betroffenen Archive-Bits wurden repariert. Danach sollte die SD wieder normal funktionieren.
+!!!
+>>>

@@ -1,43 +1,62 @@
-# 🛠️ Fix: Leere Lade-Icons auf dem Switch Home-Menü (DBI)
+---
+icon: image
+label: "Leere Lade-Icons beheben"
+order: 190
+description: "Fehlerhafte Lade-Icons im HOME-Menü direkt über DBI entfernen."
+---
 
-Wenn du Spiele mit **DBI** installierst (z. B. per USB, MTP oder Netzwerk), kann es in seltenen Fällen passieren, dass die Installation **nicht korrekt abgeschlossen** wurde.
+# Leere Lade-Icons im HOME-Menü beheben
 
-![|700x420](/images/switch/fehlerbehebung/leereicons1.jpg)
+Wenn Spiele über **DBI** installiert werden, kann es in seltenen Fällen passieren, dass die Installation **nicht sauber abgeschlossen** wurde.
 
-Das führt dazu, dass die Spiele zwar im Menü erscheinen, aber:
+![Leeres Lade-Icon|700x420](/images/switch/fehlerbehebung/leereicons1.jpg)
 
-- Nur ein **Ladesymbol** statt eines Icons angezeigt wird  
-- Der Titel sich **nicht starten** lässt  
-- Kein Fehler bei der Installation gemeldet wurde
+Typische Symptome:
+
+- Es wird nur ein **Ladesymbol** statt eines Icons angezeigt.
+- Der Titel lässt sich **nicht starten**.
+- Bei der Installation wurde **kein Fehler** gemeldet.
 
 ---
 
-## ✅ Löschen direkt via DBI
-1. Starte **DBI**
-2. Wähle im Menü:  
-   `Browse installed applications` oder `Installierte Spiele` (je nachdem ob ihr die englische oder deutsche Version von DBI verwendet).
-3. Jetzt siehst du fehlerhafte Titel – z.B. mit kryptischen Zeichen oder komplett leer
+## Fehlerhafte Titel direkt in DBI löschen
 
-![|700x420](/images/switch/fehlerbehebung/leereicons2.jpg)
+>>> DBI starten
+Öffne **DBI** auf der Switch.
 
-4. Drücke **`+`** (Plus)-Taste → dann **`Delete`** bzw. **`Löschen`**.
+>>> Installierte Anwendungen anzeigen
+Wähle im Menü **Browse installed applications** oder **Installierte Spiele**.
 
-![|700x420](/images/switch/fehlerbehebung/leereicons3.jpeg)
+>>> Fehlerhaften Titel auswählen
+Dort siehst du fehlerhafte Einträge, zum Beispiel mit kryptischen Zeichen oder ohne korrektes Icon.
 
-> Bei **mehreren kaputten Titeln**:  
-  ➤ Drücke **`X`**-Taste zum Markieren  
-  ➤ Drücke **`+`** (Plus)-Taste → dann **`Delete`** bzw. **`Löschen`**.
-  
-5. Wähle `Delete Saves` bzw. `Speicherstände löschen` aus
+![Fehlerhafte Titel in DBI|700x420](/images/switch/fehlerbehebung/leereicons2.jpg)
 
-![|700x420](/images/switch/fehlerbehebung/leereicons4.jpeg)
+>>> Löschen öffnen
+Drücke **Plus (+)** und wähle **Delete** bzw. **Löschen**.
 
-6. Bestätige erneut durch klicken auf `Yes, I am sure` bzw. `Ja, ich bin mir sicher.`
+![DBI Delete|700x420](/images/switch/fehlerbehebung/leereicons3.jpeg)
 
-![|700x420](/images/switch/fehlerbehebung/leere_icons5.jpeg)
+!!!tip Mehrere kaputte Titel
+Bei mehreren betroffenen Titeln kannst du sie zuerst mit **X** markieren und danach gesammelt über **Plus (+)** → **Delete / Löschen** entfernen.
+!!!
 
-7. Beende den Vorgang durch drücken der **`B`**-Taste.
- 
-![|700x420](/images/switch/fehlerbehebung/leere_icons6.jpeg)
+>>> Speicherstände mit löschen
+Wähle **Delete Saves** bzw. **Speicherstände löschen**.
 
-8. Damit wurde das fehlerhafte Icon gelöscht.
+![Delete Saves|700x420](/images/switch/fehlerbehebung/leereicons4.jpeg)
+
+>>> Löschung bestätigen
+Bestätige mit **Yes, I am sure** bzw. **Ja, ich bin mir sicher**.
+
+![Löschung bestätigen|700x420](/images/switch/fehlerbehebung/leere_icons5.jpeg)
+
+>>> DBI verlassen
+Beende den Vorgang mit **B**.
+
+![Vorgang abgeschlossen|700x420](/images/switch/fehlerbehebung/leere_icons6.jpeg)
+>>>
+
+!!!success Fertig
+Das fehlerhafte Icon beziehungsweise der defekte Titel wurde entfernt.
+!!!

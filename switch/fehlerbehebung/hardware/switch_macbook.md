@@ -1,23 +1,41 @@
+---
+icon: device-desktop
+label: "Switch mit MacBook verbinden"
+order: 110
+description: "Switch per DBI MTP mit einem MacBook verbinden."
+---
+
 # Switch mit MacBook verbinden
 
-Dafür benötigst du auf dem MacBook die App **Android File Transfer**.
+Für die MTP-Verbindung mit dem MacBook brauchst du **Android File Transfer**.
 
-## Anleitung
+[!button variant="secondary" text="Android File Transfer herunterladen" icon="download" target="blank" corners="pill"](https://android.p2hp.com/filetransfer/index.html)
 
-1. Lad dir die App **Android File Transfer** auf dein MacBook herunter
-
-👉 [Android File Transfer Download](https://android.p2hp.com/filetransfer/index.html)
-
-2. Installiere **Android File Transfer** auf deinem MacBook
-3. Starte **DBI** per [**Titel Override**](https://docs.niklascfw.de/switch/gut-zu-wissen/customization/title_override/) (der Hintergrund von DBI ist dabei **schwarz** und **nicht blau**) auf der **Switch**
-4. Geh auf **Run MTP Responder** und bestätige die Auswahl durch Bestätigung mit der A-Taste
-
-![|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_start.jpg)
-5. **Stecke** nun das **USB-Kabel zuerst** ins **MacBook** und dann in deine **Switch**
-6. Nun sollte die Verbindung zwischen Switch und MacBook erfolgreich hergestellt worden sein
-
-![|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_mtp.jpg)
+[!ref text="Title Override (Highmemory Mode)"](../../gut-zu-wissen/customization/title_override)
 
 ---
 
-> 💡 **Hinweis:** Sollte die Switch immer noch nicht erkannt werden, so ist ein anderes **USB-Kabel** zu verwenden. Am besten ein **USB-A auf USB-C Kabel** – ein Adapter von USB-A auf USB-C ist dabei **kein Problem**.
+## Verbindung über DBI herstellen
+
+>>> Android File Transfer installieren
+Lade **Android File Transfer** herunter und installiere die App auf dem MacBook.
+
+>>> DBI per Title Override starten
+Starte **DBI** per **Title Override** auf der Switch. Der Hintergrund von DBI ist dabei **schwarz**, nicht **blau**.
+
+>>> MTP Responder starten
+Wähle in **DBI** den Punkt **Run MTP Responder** und bestätige mit **A**.
+
+![DBI Start|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_start.jpg)
+
+>>> USB-Kabel verbinden
+Stecke das **USB-Kabel zuerst** ins **MacBook** und danach in die **Switch**.
+
+>>> Verbindung prüfen
+Die Switch sollte jetzt am MacBook erkannt werden.
+
+![DBI MTP|700x420](/images/switch/gut-zu-wissen/apps-tools/dbi/dbi_mtp.jpg)
+
+!!!tip Switch wird nicht erkannt?
+Teste ein anderes **USB-Kabel**. Am zuverlässigsten ist meist **USB-A auf USB-C**. Ein Adapter von **USB-A auf USB-C** ist dabei unproblematisch.
+!!!
