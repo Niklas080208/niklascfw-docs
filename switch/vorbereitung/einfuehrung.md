@@ -22,20 +22,32 @@ author:
 
 ![Hekate Preview](/images/switch/omninx/einfuehrung/hekate-home.png)
 
+### Features von OmniNX
+
+- **Drei Varianten** – Light (minimal), Standard (voll) und OC (alles aus Light/Standard plus Overclocking-Tools)
+- **Vollständiges CFW-Setup** – Sofort einsatzbereit mit Atmosphere, Hekate und wichtigen Tools
+- **Ultrahand** – Overlay-Menü und Package-System (OmniNX Downloader, Alchemist, Package Manager und weitere)
+- **Vorinstallierte Payloads** – u. a. APL (Recovery), Lockpick RCM und Pro, TegraExplorer, [modchip_toolbox](https://github.com/DefenderOfHyrule/modchip-toolbox), OmniNX Installer
+- **Sicherheit und Patches** – sys-patch, DNS-MitM
+- **sys-ticon (Standard und OC)** – Home-Menü: eigene Icons, Titel, Herausgeber und Versionsanzeige ([sys-ticon](https://github.com/masagrator/sys-ticon))
+
 ### Varianten im Überblick
 
 | Variante | Beschreibung |
 |----------|---------------|
 | **Light** | Minimal: Kern-Apps, Overlays und Packages für den Alltag. |
 | **Standard** | Wie Light, plus weitere Homebrew-Apps, Themes, Mod-Tools und Cheat-Overlay. |
-| **OC** | Wie Standard, plus Overclocking: OC Toolkit, sys-clk EOS, SaltySD. |
+| **OC** | Wie Standard, plus Overclocking: [Horizon OC](https://github.com/Horizon-OC/Horizon-OC), SaltyNX/SaltySD, FPSLocker. |
 
-==- App-Tabelle: Was ist in welcher Variante?
+==- Inhalt: Was ist in welcher Variante?
 Klicke zum Aufklappen.
 
-| App / Tool / Overlay / Package | Light | Standard | OC |
-|--------------------------------|-------|----------|-----|
-| **Homebrew-Apps** | | | |
+**Legende:** ✓ = enthalten · — = nicht enthalten
+
+#### Homebrew-Apps
+
+| App | Light | Standard | OC |
+| --- | ----- | -------- | -- |
 | Sphaira (HB-Menü) | ✓ | ✓ | ✓ |
 | DBI | ✓ | ✓ | ✓ |
 | Daybreak | ✓ | ✓ | ✓ |
@@ -51,25 +63,67 @@ Klicke zum Aufklappen.
 | Breeze (Cheat-Manager) | — | ✓ | ✓ |
 | CyberFoil | — | ✓ | ✓ |
 | Cheats-Updater | — | ✓ | ✓ |
-| Sys-Clk Manager | — | — | ✓ |
-| **Ultrahand-Packages** | | | |
+| Furmark-NX | — | — | ✓ |
+| Benchmark-Toolbox | — | — | ✓ |
+| swr-ini-tool | — | — | ✓ |
+
+#### Ultrahand-Packages
+
+*(offload)* = liegt in `switch/.packages/.offload/`, standardmäßig deaktiviert; Aktivierung nur über das UltraHand-**Package Manager**-Package.
+
+| Package | Light | Standard | OC |
+| ------- | ----- | -------- | -- |
 | OmniNX Downloader | ✓ | ✓ | ✓ |
 | RebootNX | ✓ | ✓ | ✓ |
 | Alchemist | ✓ | ✓ | ✓ |
 | Cool Curves | ✓ | ✓ | ✓ |
 | Package Manager | ✓ | ✓ | ✓ |
-| OC Toolkit | — | — | ✓ |
-| **Overlays** | | | |
-| Status Monitor | ✓ | ✓ | ✓ |
+| Memory Kit / Memory Config / Memory Switcher *(offload)* | ✓ | ✓ | ✓ |
+| Installer Configurator *(offload)* | ✓ | ✓ | ✓ |
+| HOC Toolkit *(offload)* | — | — | ✓ |
+
+#### Overlays
+
+*(offload)* = liegt in `switch/.overlays/.offload/`, ebenfalls per **Package Manager** ein- und ausschaltbar.
+
+| Overlay | Light | Standard | OC |
+| ------- | ----- | -------- | -- |
+| Horizon-OC-Monitor | ✓ | ✓ | ✓ |
 | QuickNTP | ✓ | ✓ | ✓ |
 | Sysmodules (ovlSysmodules) | ✓ | ✓ | ✓ |
 | Ultrahand-Menü (ovlmenu) | ✓ | ✓ | ✓ |
+| sys-patch Overlay *(offload)* | ✓ | ✓ | ✓ |
+| DNS-MitM Manager *(offload)* | ✓ | ✓ | ✓ |
+| MasterVolume *(offload)* | ✓ | ✓ | ✓ |
 | EdiZon (Cheats) | — | ✓ | ✓ |
-| **OC / System (nur OC-Variante)** | | | |
-| sys-clk EOS | — | — | ✓ |
+| sys-ticon | — | ✓ | ✓ |
+| Horizon OC Overlay | — | — | ✓ |
+| FPSLocker | — | — | ✓ |
+| ReverseNX-RT | — | — | ✓ |
+
+#### OC / System (nur OC-Variante)
+
+| Komponente | Light | Standard | OC |
+| -------- | ----- | -------- | -- |
+| [Horizon OC](https://github.com/Horizon-OC/Horizon-OC) (KIP, hoc-clk) | — | — | ✓ |
+| SaltyNX | — | — | ✓ |
 | SaltySD | — | — | ✓ |
+| Gepatchtes `exosphere.bin` | — | — | ✓ |
+| FPSLocker-Patch-Entpackung (`boot_package.ini`) | — | — | ✓ |
+
+!!!info sys-clk / Sys-Clk Manager
+**sys-clk** und **Sys-Clk Manager** sind nicht fest im Pack enthalten. Optional über **OmniNX Downloader** nachinstallierbar.
+!!!
 
 ===
+
+### Basis in allen Varianten
+
+In jeder Variante enthalten, aber nicht in der Tabelle oben aufgeführt:
+
+- **[Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)**, **[Hekate](https://github.com/CTCaer/hekate)** / Nyx, **[sys-patch](https://github.com/borntohonk/sys-patch)**, **[Ultrahand](https://github.com/ppkantorski/Ultrahand-Overlay)**
+- Payloads: **[APL](https://git.niklascfw.de/OmniNX/AllgemeinerProblemLoeser)**, Lockpick RCM, **[Lockpick RCM Pro](https://github.com/sthetix/Lockpick_RCM_Pro)**, TegraExplorer, **[modchip_toolbox](https://github.com/DefenderOfHyrule/modchip-toolbox)**, **[OmniNX Installer](https://git.niklascfw.de/OmniNX/OmniNX-Installer-Payload)**
+- DNS-MitM (Hosts), USB 3.0 Force, OmniNX Sphaira-Theme, Boot-Logos, HorizonOS-Logo-Patch, **[MasterVolume](https://github.com/averne/MasterVolume)**-IPS-Patch, `exosphere.ini` (optional)
 
 ---
 
