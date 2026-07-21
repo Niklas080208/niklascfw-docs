@@ -52,8 +52,10 @@ Verbinde die Switch per USB mit dem PC. Im **Root** der microSD findest du einen
 >>>
 
 !!!success Fertig
-Das SysNAND-Backup liegt sicher auf dem PC. Zur Wiederherstellung: [!ref](nand_backup_restore)
+Das SysNAND-Backup liegt sicher auf dem PC.
 !!!
+
+[!ref](nand_backup_restore)
 
 !!!danger Nicht nur auf der SD lassen
 Ein Backup **nur** auf der microSD schützt nicht vor SD-Ausfall oder versehentlichem Löschen. Archiviere `backup/` immer **zusätzlich am PC** (oder extern).
