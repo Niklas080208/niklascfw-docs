@@ -2,31 +2,59 @@
 icon: database
 label: "NAND Backup erstellen"
 order: 200
+description: "SysNAND (BOOT0, BOOT1, RAW GPP) in Hekate sichern und auf dem PC archivieren."
 ---
 
 # NAND Backup erstellen
 
-## Anleitung
+Ein **SysNAND-Backup** sichert den internen Speicher deiner Switch (eMMC). Lege es an, **bevor** du CFW installierst oder Systemdaten veränderst.
 
-1. Starte **Hekate**  
-2. Klicke auf **Tools**
+!!!info Was wird gesichert?
+- **eMMC BOOT0 & BOOT1** – kleine Partitionen, Backup dauert nur Sekunden
+- **eMMC RAW GPP** – Hauptsystempartition; kann je nach SD-Karte und Switch-Modell **bis zu 45 Minuten** dauern
+!!!
 
-![|700x420](/images/switch/system-backup/nand-backup/hekate_tools.jpg)
-3. Geh auf **Backup eMMC**  
+---
 
-![|700x420](/images/switch/system-backup/nand-backup/backup_emmc.jpg)
-4. Wähle **eMMC BOOT0 & BOOT1** aus, der Vorgang dauert jetzt einige Sekunden.
+## Backup in Hekate erstellen
 
-![|700x420](/images/switch/system-backup/nand-backup/backup_emmca.jpg)  
-   Ist dieser beendet, drücke oben rechts auf **Close**
-   
-![|700x420](/images/switch/system-backup/nand-backup/backup_emmcb.jpg) 
-5. Geh auf **eMMC RAW GPP**, der Vorgang kann je nach Speicherkarte und Switch Version bis zu 45 Minuten dauern!
+>>> Hekate öffnen und Tools starten
+Starte **Hekate** und tippe auf **Tools**.
 
-![|700x420](/images/switch/system-backup/nand-backup/backup_emmcc.jpg)   
-   Ist das Backup erstellt, drücke oben rechts auf **Close**  
-   
-![|700x420](/images/switch/system-backup/nand-backup/backup_emmcd.jpg)  
-6. Verbinde nun deine Switch mit dem PC. 
-7. Im **Root** der Speicherkarte findest du einen Ordner namens `backup` – kopiere diesen auf deinen PC.  
-   Anschließend kannst du ihn von der microSD löschen.
+![Hekate Tools|700x420](/images/switch/system-backup/nand-backup/hekate_tools.jpg)
+
+>>> Backup eMMC öffnen
+Wähle **Backup eMMC**.
+
+![Backup eMMC|700x420](/images/switch/system-backup/nand-backup/backup_emmc.jpg)
+
+>>> BOOT0 und BOOT1 sichern
+Wähle **eMMC BOOT0 & BOOT1**. Der Vorgang dauert nur wenige Sekunden.
+
+![eMMC BOOT0 & BOOT1|700x420](/images/switch/system-backup/nand-backup/backup_emmca.jpg)
+
+Ist das Backup fertig, tippe oben rechts auf **Close**.
+
+![Backup BOOT abgeschlossen|700x420](/images/switch/system-backup/nand-backup/backup_emmcb.jpg)
+
+>>> RAW GPP sichern
+Wähle **eMMC RAW GPP**. Je nach SD-Karte und Switch-Version kann das **bis zu 45 Minuten** dauern.
+
+![eMMC RAW GPP|700x420](/images/switch/system-backup/nand-backup/backup_emmcc.jpg)
+
+Ist das Backup fertig, erneut oben rechts auf **Close** tippen.
+
+![Backup GPP abgeschlossen|700x420](/images/switch/system-backup/nand-backup/backup_emmcd.jpg)
+
+>>> Backup auf den PC kopieren
+Verbinde die Switch per USB mit dem PC. Im **Root** der microSD findest du einen Ordner `backup/` – kopiere ihn **vollständig auf deinen PC** und lösche ihn anschließend von der SD, wenn du Speicherplatz brauchst.
+
+>>>
+
+!!!success Fertig
+Das SysNAND-Backup liegt sicher auf dem PC. Zur Wiederherstellung: [!ref](nand_backup_restore)
+!!!
+
+!!!danger Nicht nur auf der SD lassen
+Ein Backup **nur** auf der microSD schützt nicht vor SD-Ausfall oder versehentlichem Löschen. Archiviere `backup/` immer **zusätzlich am PC** (oder extern).
+!!!
