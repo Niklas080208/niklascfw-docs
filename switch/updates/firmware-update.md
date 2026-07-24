@@ -2,6 +2,12 @@
 
 Hier geht es um das **Aktualisieren** der **Switch-Firmware** (Horizon OS) in der CFW/emuMMC mit **Daybreak**.
 
+!!!danger Themes vorher deinstallieren
+Installierte **Custom Themes müssen vor dem Firmware-Update zwingend deinstalliert** werden. Sonst stößt du nach dem Update oft auf einen Fehler (typisch: **0100000000000001000**).
+!!!
+
+[!ref text="Custom Theme Fehler beheben"](/switch/fehlerbehebung/theme-visual/0100000000000001000_beheben_(custom_theme))
+
 ---
 
 ## Voraussetzungen
