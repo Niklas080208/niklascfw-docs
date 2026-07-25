@@ -29,19 +29,14 @@ Das **NiklasCFW Pack** ist **eingestellt** und erhält **keinen Support** mehr. 
 Wähle nun den **NiklasCFW Downloader**.
 
 ![Ultrahand – Pakete](/images/switch/omninx/migrate/ultrahand-pakete.jpeg)
->>> Updater aktuallisieren
-Öffne nun den **Update_Checker** und klicke dich bis zum Update Eintrag.
+>>> Updater aktualisieren
+Öffne nun den **Update_Checker** und klicke dich bis zum Update-Eintrag. Der Rest (Reload usw.) läuft **automatisch**.
 
 ![NiklasCFW Downloader – Update_Checker](/images/switch/omninx/migrate/downloader-update-checker.jpeg)
-![NiklasCFW Downloader – Updater aktuallisieren](/images/switch/omninx/migrate/update-checker-version.jpeg)
-
->>> Ultrahand-Pakete neu laden
-Zurück zum **Ultrahand-Hauptmenü** (**B**) und das Paket **Ultrahand Reload** ausführen. Die Paketliste sieht danach **genauso aus** wie zuvor (siehe Schritt 1) – wichtig ist nur der Reload.
-
-![Ultrahand – Pakete](/images/switch/omninx/migrate/ultrahand-pakete.jpeg)
+![NiklasCFW Downloader – Updater aktualisieren](/images/switch/omninx/migrate/update-checker-version.jpeg)
 
 >>> NiklasCFW Downloader erneut öffnen
-**NiklasCFW Downloader** noch einmal starten. Jetzt erscheint der Bereich **„Auf OmniNX wechseln“** statt eines neuen NiklasCFW-Pack-Updates.
+Danach den **NiklasCFW Downloader** noch einmal starten. Jetzt erscheint der Bereich **„Auf OmniNX wechseln“** statt eines neuen NiklasCFW-Pack-Updates.
 
 ![Auf OmniNX wechseln](/images/switch/omninx/migrate/omninx-wechseln.jpeg)
 
