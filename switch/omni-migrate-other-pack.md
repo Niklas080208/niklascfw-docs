@@ -1,5 +1,5 @@
 ---
-icon: package
+icon: /assets/package.png
 label: "Anderes Pack?"
 order: 7
 description: "Von einem beliebigen anderen CFW-Pack zu OmniNX wechseln (Download + SD überschreiben)."
