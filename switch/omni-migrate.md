@@ -2,6 +2,12 @@
 
 Das **NiklasCFW Pack** ist **eingestellt** und erhält **keinen Support** mehr. **OmniNX** ist der Nachfolger. Diese Anleitung zeigt, wie du **auf der Konsole** per **Ultrahand** und **NiklasCFW Downloader** wechselst, **ohne einen PC**. Das Pack wird auf die SD-Karte geladen; danach installierst du es wie bei einer normalen OmniNX-Installation.
 
+!!!tip Anderes CFW-Pack?
+Kommst du von einem **beliebigen anderen Pack** (nicht NiklasCFW), nutze die Anleitung **Von einem anderen Pack zu OmniNX**.
+!!!
+
+[!ref text="Von einem anderen Pack zu OmniNX"](omni-migrate-other-pack)
+
 ---
 
 ## Voraussetzungen
