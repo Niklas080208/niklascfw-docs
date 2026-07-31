@@ -131,3 +131,17 @@
 - [Problembehebung](https://docs.niklascfw.de/switch/overclocking/problembehebung.md): Solltest du z. B. den GPU-Takt trotz Uncapped Clocks nicht über 998/1075 MHz betreiben können, sind zwei Ursachen wahrscheinlich:
 - [Vom NiklasCFW Pack zu OmniNX](https://docs.niklascfw.de/switch/omni-migrate.md): Das NiklasCFW Pack ist eingestellt und erhält keinen Support mehr. OmniNX ist der Nachfolger. Diese Anleitung zeigt, wie du auf der Konsole per Ultrahand und NiklasCFW Downloader wechselst, ohne einen PC.
 - [Von einem anderen Pack zu OmniNX](https://docs.niklascfw.de/switch/omni-migrate-other-pack.md): Von einem beliebigen anderen CFW-Pack zu OmniNX wechseln (Download + SD überschreiben).
+
+## PlayStation 4
+
+### Vue Exploit
+
+- [PS4 Jailbreak mit PS Vue 2.0](https://docs.niklascfw.de/ps4/vue-exploit/uebersicht.md): PS Vue 2.0 Jailbreak per Extended Storage – von Null, ohne Backup-Restore.
+- [Voraussetzungen](https://docs.niklascfw.de/ps4/vue-exploit/voraussetzungen.md): Firmware, Extended Storage und aktivierter Account.
+- [Image flashen (PC)](https://docs.niklascfw.de/ps4/vue-exploit/image-flashen.md): VueExtStorage herunterladen und mit balenaEtcher flashen.
+- [Netzwerk vorbereiten](https://docs.niklascfw.de/ps4/vue-exploit/netzwerk.md): DNS und Auto-Downloads setzen, bevor das Extended-Storage-Laufwerk an die PS4 kommt.
+- [Vue auf die Konsole holen](https://docs.niklascfw.de/ps4/vue-exploit/vue-installieren.md): Extended Storage anschließen, Vue 1.24 auf Systemspeicher verschieben, einmal starten.
+- [Save resignen & Payload](https://docs.niklascfw.de/ps4/vue-exploit/save-und-payload.md): USB vorbereiten, Account-ID holen, Online-Save resignen, GoldHEN als payload.bin.
+- [Jailbreak starten](https://docs.niklascfw.de/ps4/vue-exploit/jailbreak-starten.md): Save importieren, DNS für Internet, Installer Full/Lite, Jailbreak ausführen.
+- [Danach (optional)](https://docs.niklascfw.de/ps4/vue-exploit/danach.md): Fake-Sign-In, Auto-Loader, Payloads und Config nach dem ersten Jailbreak.
+- [FAQ & Fehlerbehebung](https://docs.niklascfw.de/ps4/vue-exploit/haeufige-fragen.md): Häufige Probleme beim Extended-Storage-Setup.
