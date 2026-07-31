@@ -1,6 +1,6 @@
 ---
 icon: /assets/grosseN.png
-label: "NiklasCFW Pack?"
+label: "NiklasCFW -> OmniNX"
 order: 8
 author:
   name: NiklasCFW
