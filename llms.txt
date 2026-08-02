@@ -131,3 +131,36 @@
 - [Problembehebung](https://docs.niklascfw.de/switch/overclocking/problembehebung.md): Solltest du z. B. den GPU-Takt trotz Uncapped Clocks nicht über 998/1075 MHz betreiben können, sind zwei Ursachen wahrscheinlich:
 - [Vom NiklasCFW Pack zu OmniNX](https://docs.niklascfw.de/switch/omni-migrate.md): Das NiklasCFW Pack ist eingestellt und erhält keinen Support mehr. OmniNX ist der Nachfolger. Diese Anleitung zeigt, wie du auf der Konsole per Ultrahand und NiklasCFW Downloader wechselst, ohne einen PC.
 - [Von einem anderen Pack zu OmniNX](https://docs.niklascfw.de/switch/omni-migrate-other-pack.md): Von einem beliebigen anderen CFW-Pack zu OmniNX wechseln (Download + SD überschreiben).
+
+## PlayStation 4
+
+### Vue Exploit
+
+- [Vue After Free](https://docs.niklascfw.de/ps4/vue-exploit/index.md): Vue After Free: Jailbreak bis 13.00 – Methodenwahl und Überblick.
+
+#### Extended Storage
+
+- [Extended Storage – Voraussetzungen](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/voraussetzungen.md): Was du für Extended Storage brauchst.
+- [Netzwerk vorbereiten](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/netzwerk.md): DNS und Auto-Downloads vor dem Extended-Storage-Setup.
+- [Image flashen (PC)](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/image-flashen.md): VueExtStorage herunterladen und mit balenaEtcher flashen.
+- [Vue auf die Konsole holen](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/vue-installieren.md): Extended Storage anschließen, Vue 1.24 auf Systemspeicher verschieben, einmal starten.
+- [Save resignen & Payload](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/save-und-payload.md): Account-ID, Online-Save per Garlic Saves resignen, GoldHEN als payload.bin.
+- [Jailbreak starten](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/jailbreak-starten.md): Save importieren, DNS für Internet, Installer Full/Lite, Jailbreak.
+- [Danach (optional)](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/danach.md): Fake-Sign-In, Auto-Loader und Payloads nach dem Jailbreak.
+- [FAQ & Fehlerbehebung](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/haeufige-fragen.md): Probleme beim Extended-Storage-Setup.
+
+#### Bereits jailbroken
+
+- [Bereits jailbroken – Voraussetzungen](https://docs.niklascfw.de/ps4/vue-exploit/bereits-jailbroken/voraussetzungen.md): Was du brauchst, wenn die PS4 schon jailbroken ist.
+- [Netzwerk einrichten](https://docs.niklascfw.de/ps4/vue-exploit/bereits-jailbroken/netzwerk.md): DNS und Auto-Downloads für das Manual-Setup.
+- [Bereits jailbroken – Setup](https://docs.niklascfw.de/ps4/vue-exploit/bereits-jailbroken/setup.md): Vue After Free per FTP und Apollo auf einer jailbroken PS4 einrichten.
+- [Danach (optional)](https://docs.niklascfw.de/ps4/vue-exploit/bereits-jailbroken/danach.md): Fake-Sign-In, Auto-Loader und Payloads.
+- [FAQ & Fehlerbehebung](https://docs.niklascfw.de/ps4/vue-exploit/bereits-jailbroken/haeufige-fragen.md): Probleme beim Manual-Setup.
+
+#### System Backup
+
+- [System Backup – Voraussetzungen](https://docs.niklascfw.de/ps4/vue-exploit/system-backup/voraussetzungen.md): Was du für das System-Backup-Setup brauchst.
+- [Netzwerk einrichten](https://docs.niklascfw.de/ps4/vue-exploit/system-backup/netzwerk.md): DNS und Auto-Downloads nach dem System-Backup-Restore.
+- [System Backup – Setup](https://docs.niklascfw.de/ps4/vue-exploit/system-backup/setup.md): Vue After Free per System-Restore – löscht alle Konsolendaten.
+- [Danach (optional)](https://docs.niklascfw.de/ps4/vue-exploit/system-backup/danach.md): Fake-Sign-In, Auto-Loader und Payloads.
+- [FAQ & Fehlerbehebung](https://docs.niklascfw.de/ps4/vue-exploit/system-backup/haeufige-fragen.md): Probleme beim System-Backup-Setup.
