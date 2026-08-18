@@ -37,7 +37,7 @@ SD am PC: `Nintendo/` vom SD-Root nach `emuMMC/SD00/Nintendo/` (bzw. dein SD-Slo
 3. Ordner **`Installed Games`** → Spiele/Updates auf den PC kopieren.
 
 !!!tip Cartridge Game Updates
-Cartridge-Updates erscheinen unter `SD Install` nur, wenn das Base-Game vorher per DBI/Sphaira installiert wurde.
+Cartridge-Updates erscheinen unter **`Installed Games`** nur, wenn das Base-Game vorher per DBI/Sphaira installiert wurde.
 !!!
 
 [!ref Spiele von Gamecards installieren](spiele_installation_dbi_sphaira)
