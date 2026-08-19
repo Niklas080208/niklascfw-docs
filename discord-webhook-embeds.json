@@ -13,7 +13,7 @@
     },
     {
       "title": "__Nachher__",
-      "description": "**System optimieren und anpassen nach der Installation.**\n\n>>> [Autoboot aktivieren](https://docs.niklascfw.de/switch/nachher/autoboot_aktivieren) - Automatisch in CFW booten\n[Auto RCM aktivieren](https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren) - Kein Jig mehr nötig\n[Forwarder installieren](https://docs.niklascfw.de/switch/nachher/forwarder_installieren) - Homebrew-Apps auf Homescreen\n[Uhrzeit mit DBI (NTP)](https://docs.niklascfw.de/switch/nachher/dbi_time) - Systemzeit synchronisieren",
+      "description": "**System optimieren und anpassen nach der Installation.**\n\n>>> [Autoboot aktivieren](https://docs.niklascfw.de/switch/nachher/autoboot_aktivieren) - Automatisch in CFW booten\n[Auto RCM aktivieren](https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren) - Kein Jig mehr nötig\n[Forwarder installieren](https://docs.niklascfw.de/switch/nachher/forwarder_installieren) - Homebrew-Apps auf Homescreen\n[Uhrzeit synchronisieren](https://docs.niklascfw.de/switch/nachher/time_sync) - Systemzeit synchronisieren",
       "color": 1439225
     },
     {
@@ -23,7 +23,7 @@
     },
     {
       "title": "__Apps & Tools__",
-      "description": "**Homebrew-Apps, Tools und Utilities für deine Switch.**\n\n>>> [UltraHand](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand) - All-in-one Tool Manager\n[Homebrew & CFW Tools](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/hb_cfw_tools) - Systemtools Übersicht\n[prod.keys (Lockpick)](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/prodkeys) - Keys extrahieren\n[Sphaira](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/sphaira) - App-Manager\n[JKSV (Spielstände)](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv) - Spielstände verwalten\n[JKSV Cloud](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv_cloud) - Cloud Backup\n[UltraHand im Pack](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand_cfwpack) - Pack-Integration",
+      "description": "**Homebrew-Apps, Tools und Utilities für deine Switch.**\n\n>>> [UltraHand](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand) - All-in-one Tool Manager\n[Homebrew & CFW Tools](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/hb_cfw_tools) - Systemtools Übersicht\n[prod.keys (Lockpick)](https://docs.niklascfw.de/switch/system-backup/prodkeys) - Keys extrahieren\n[Sphaira](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/sphaira) - App-Manager\n[JKSV (Spielstände)](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv) - Spielstände verwalten\n[JKSV Cloud](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv_cloud) - Cloud Backup\n[UltraHand im Pack](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand_cfwpack) - Pack-Integration",
       "color": 1439225
     }
   ],
