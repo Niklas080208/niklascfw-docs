@@ -2,12 +2,12 @@
 icon: zap
 label: "Auto RCM aktivieren"
 order: 95
-description: "JIG umgehen – Switch per Power und RCM-Loader direkt in Hekate booten (ohne Modchip)."
+description: "JIG umgehen – Switch startet per Power direkt in RCM; Payload muss weiterhin geladen werden (ohne Modchip)."
 ---
 
 # Auto RCM aktivieren
 
-Ohne Modchip kann **Auto RCM** den **JIG** ersetzen: Die Switch bootet per **Power + RCM-Loader** (oder anderem RCM-Tool) direkt in **Hekate**, sobald Auto RCM gesetzt ist.
+Ohne Modchip kann **Auto RCM** den **JIG** ersetzen: Nach **Power** geht die Switch automatisch in den **RCM-Modus** – ohne JIG im Joy-Con-Slot. Den **Payload** (z. B. Hekate) musst du trotzdem per **RCM-Loader** oder anderem RCM-Tool laden.
 
 !!!warning Nur für ungepatchte Switches (RCM)
 Auto RCM ist für **RCM-Softmod**-Setups gedacht – **nicht** für Modchip-Konsolen.
@@ -50,5 +50,5 @@ Auto RCM ist damit aktiv.
 >>>
 
 !!!success Fertig
-Die Switch startet mit der **RCM-Methode** (Power + RCM-Loader) direkt in Hekate – ohne JIG in den Joy-Con-Slot.
+Die Switch geht nach **Power** automatisch in den RCM-Modus – ohne JIG. Payload wie gewohnt per **RCM-Loader** laden, danach bootest du in **Hekate**.
 !!!
