@@ -20,7 +20,7 @@ description: "RetroArch installieren, Forwarder einrichten und ROMs hinzufügen.
 Ansonsten funktioniert der Download über UltraHand nicht!
 !!!
 
-[!ref text="Uhrzeit mit DBI synchronisieren (NTP)"](../../nachher/dbi_time)
+[!ref text="Uhrzeit mit DBI synchronisieren (NTP)"](../../nachher/time_sync)
 
 ---
 

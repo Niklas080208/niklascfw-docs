@@ -13,7 +13,7 @@ Wenn Downloads im **NiklasCFW Downloader** abbrechen, liegt das oft an einer fal
 **Datum und Uhrzeit müssen korrekt synchronisiert sein**, sonst funktionieren Downloads über **UltraHand** oft nicht.
 !!!
 
-[!ref text="Uhrzeit synchronisieren"](../../nachher/dbi_time)
+[!ref text="Uhrzeit synchronisieren"](../../nachher/time_sync)
 
 ---
 
