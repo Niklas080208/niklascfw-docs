@@ -1,0 +1,31 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "__Vorbereitung & Installation__",
+      "description": "**OmniNX Installationspfad von der Vorbereitung bis zum fertigen Setup.**\n\n>>> [Start: Roter Faden](https://docs.niklascfw.de/switch/vorbereitung/roter_faden) - Kompletter Ablauf 0 → fertig\n[OmniNX Einführung](https://docs.niklascfw.de/switch/vorbereitung/einfuehrung) - Überblick und Varianten\n[Switch Modell prüfen](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/serial_check) - Ist deine Switch modbar?\n[Richtige SD-Karte](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/richtige_sd) - Welche SD-Karte wählen?\n[SD auf FAT32 formatieren](https://docs.niklascfw.de/switch/vorbereitung/sd_wipe) - FAT32 ist Pflicht!\n[RCM-Methode](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/rcm-methode/rcm-methode) - RCM Softmod verstehen\n[Payload laden](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/rcm-methode/payload_laden) - Windows, macOS und Linux\n[Download von OmniNX](https://docs.niklascfw.de/switch/vorbereitung/download) - Pack herunterladen\n[Installation von OmniNX](https://docs.niklascfw.de/switch/vorbereitung/installation_omninx) - CFW installieren\n[emuMMC erstellen](https://docs.niklascfw.de/switch/vorbereitung/emummc_erstellen) - emuMMC anlegen\n[OmniNX einrichten](https://docs.niklascfw.de/switch/vorbereitung/pack_einrichten) - Forwarder, Zeit, Basics\n[Modchip einbauen](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/modchip) - Für V2/OLED/Lite",
+      "color": 1439225
+    },
+    {
+      "title": "__System & Backup__",
+      "description": "**Systemsicherung und Backup-Verwaltung für deine Switch.**\n\n>>> [NAND Backup erstellen](https://docs.niklascfw.de/switch/system-backup/nand_backup) - Konsole vollständig sichern\n[NAND Backup wiederherstellen](https://docs.niklascfw.de/switch/system-backup/nand_backup_restore) - Aus Backup wiederherstellen\n[SD Partition Backup](https://docs.niklascfw.de/switch/system-backup/sd_partition_backup_restore) - emuMMC SD-Partition sichern",
+      "color": 1439225
+    },
+    {
+      "title": "__Nachher__",
+      "description": "**System optimieren und anpassen nach der Installation.**\n\n>>> [Autoboot aktivieren](https://docs.niklascfw.de/switch/nachher/autoboot_aktivieren) - Automatisch in CFW booten\n[Auto RCM aktivieren](https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren) - Kein Jig mehr nötig\n[Forwarder installieren](https://docs.niklascfw.de/switch/nachher/forwarder_installieren) - Homebrew-Apps auf Homescreen\n[Uhrzeit mit DBI (NTP)](https://docs.niklascfw.de/switch/nachher/dbi_time) - Systemzeit synchronisieren",
+      "color": 1439225
+    },
+    {
+      "title": "__Updates__",
+      "description": "**OmniNX Pack und Switch-Firmware aktuell halten.**\n\n>>> [OmniNX Pack](https://docs.niklascfw.de/switch/updates/omninx-update) - Pack aktualisieren\n[Switch Firmware](https://docs.niklascfw.de/switch/updates/firmware-update) - OFW/emuMMC updaten\n[NiklasCFW Pack?](https://docs.niklascfw.de/switch/omni-migrate) - Migration zu OmniNX",
+      "color": 1439225
+    },
+    {
+      "title": "__Apps & Tools__",
+      "description": "**Homebrew-Apps, Tools und Utilities für deine Switch.**\n\n>>> [UltraHand](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand) - All-in-one Tool Manager\n[Homebrew & CFW Tools](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/hb_cfw_tools) - Systemtools Übersicht\n[prod.keys (Lockpick)](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/prodkeys) - Keys extrahieren\n[Sphaira](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/sphaira) - App-Manager\n[JKSV (Spielstände)](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv) - Spielstände verwalten\n[JKSV Cloud](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv_cloud) - Cloud Backup\n[UltraHand im Pack](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand_cfwpack) - Pack-Integration",
+      "color": 1439225
+    }
+  ],
+  "attachments": []
+}
