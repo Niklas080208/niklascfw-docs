@@ -35,13 +35,14 @@
 - [NAND Backup erstellen](https://docs.niklascfw.de/switch/system-backup/nand_backup.md): SysNAND (BOOT0, BOOT1, RAW GPP) in Hekate sichern und auf dem PC archivieren.
 - [NAND Backup wiederherstellen](https://docs.niklascfw.de/switch/system-backup/nand_backup_restore.md): Ein zuvor erstelltes SysNAND-Backup über Hekate auf die eMMC zurückspielen.
 - [SD Partition Backup und Restore (emuMMC)](https://docs.niklascfw.de/switch/system-backup/sd_partition_backup_restore.md): Partition-basierten emuMMC auf der SD-Karte sichern, SD tauschen und wiederherstellen.
+- [prod.keys dumpen mit Lockpick RCM](https://docs.niklascfw.de/switch/system-backup/prodkeys.md): prod.keys mit Lockpick RCM in Hekate auslesen und speichern.
 
 ### Nachher
 
-- [Auto RCM aktivieren](https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren.md): JIG umgehen – Switch per Power und RCM-Loader direkt in Hekate booten (ohne Modchip).
+- [Auto RCM aktivieren](https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren.md): JIG umgehen – Switch startet per Power direkt in RCM; Payload muss weiterhin geladen werden (ohne Modchip).
 - [Autoboot aktivieren](https://docs.niklascfw.de/switch/nachher/autoboot_aktivieren.md): Hekate so einstellen, dass die Switch automatisch in die CFW bootet.
 - [Forwarder installieren mit Sphaira](https://docs.niklascfw.de/switch/nachher/forwarder_installieren.md): Homescreen-Verknüpfungen für Homebrew-Apps mit Sphaira anlegen.
-- [Uhrzeit mit DBI synchronisieren](https://docs.niklascfw.de/switch/nachher/dbi_time.md): Systemzeit der Switch per DBI und NTP synchronisieren.
+- [Uhrzeit synchronisieren](https://docs.niklascfw.de/switch/nachher/time_sync.md): Systemzeit der Switch per QuickNTP (UltraHand) oder DBI per NTP synchronisieren.
 
 ### Gut zu wissen
 
@@ -76,7 +77,6 @@
 - [Homebrew & CFW Tools](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/hb_cfw_tools.md): Glossar häufiger Homebrew-, CFW- und Emulator-Begriffe in der Switch-Szene.
 - [Spielstände sichern und wiederherstellen mit JKSV](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv.md): Spielstände mit JKSV sichern, wiederherstellen und auf andere Switches übertragen.
 - [JKSV Cloud Backup einrichten](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv_cloud.md): JKSV-Spielstände nach Google Drive oder WebDAV sichern.
-- [prod.keys dumpen mit Lockpick RCM](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/prodkeys.md): prod.keys mit Lockpick RCM in Hekate auslesen und speichern.
 - [Sphaira (ersetzt hbmenu)](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/sphaira.md): Homebrew-Menü als hbmenu-Ersatz – Features und Hinweise im Überblick.
 - [UltraHand (Tesla Menu Ersatz)](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand.md): Overlay-Menü und Package-System – Funktionen, Steuerung und Pakete.
 - [UltraHand im OmniNX-Pack](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand_cfwpack.md): Vorinstallierte UltraHand-Packages und Overlays im OmniNX-Pack.

@@ -1,0 +1,31 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "__Spiele Installation & Verwaltung__",
+      "description": "**Spiele installieren, verwalten und Gamecards dumpen.**\n\n>>> [Spiele installieren (DBI/Sphaira)](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/spiele_installation_dbi_sphaira) - DBI & Sphaira\n[OFW zu emuMMC Guide](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/ofw_to_emummc_guide) - Spiele von OFW übernehmen\n[Sphaira: OFW-Dumps](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/sphaira_games_und_updates_aus_der_ofw_dumpen) - Platz sparen\n[Gamecard dumpen (Sphaira)](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/gamecard_mit_spaira_dumpen) - Gamecards sichern\n[Backups installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/backups-installieren) - XCI/XCZ/NSP/NSZ",
+      "color": 1439225
+    },
+    {
+      "title": "__Customization & System__",
+      "description": "**Themes, System-Konfiguration und emuMMC.**\n\n>>> [Themes installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/customization/theme_install) - Themes installieren\n[Title Override](https://docs.niklascfw.de/switch/gut-zu-wissen/customization/title_override) - Highmemory Mode\n[emuMMC-Typen](https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_arten) - Verschiedene emuMMC Typen\n[emuMMC downgraden](https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_downgrade) - Partition downgraden\n[Zurücksetzen / Werkseinstellungen](https://docs.niklascfw.de/switch/gut-zu-wissen/system/switch_ruecksetzmodus) - Konsole zurücksetzen\n[NX Migrator Pro](https://docs.niklascfw.de/switch/gut-zu-wissen/system/nxmigatorpro) - Daten migrieren",
+      "color": 1439225
+    },
+    {
+      "title": "__Overclocking (OC)__",
+      "description": "**Leistung und Bildqualität mit Overclocking optimieren.**\n\n>>> [Übersicht](https://docs.niklascfw.de/switch/overclocking/uebersicht) - OC Grundlagen\n[Installation](https://docs.niklascfw.de/switch/overclocking/installation) - OC einrichten\n[CPU / GPU](https://docs.niklascfw.de/switch/overclocking/cpu-gpu) - Prozessor & Grafik\n[Arbeitsspeicher / RAM](https://docs.niklascfw.de/switch/overclocking/ram) - RAM-Tuning\n[Bildwiederholrate / FPS](https://docs.niklascfw.de/switch/overclocking/fps) - FPS optimieren\n[Bildqualität / Auflösung](https://docs.niklascfw.de/switch/overclocking/bildqualitaet) - Auflösung anpassen\n[Problembehebung](https://docs.niklascfw.de/switch/overclocking/problembehebung) - OC-Fehler beheben",
+      "color": 1439225
+    },
+    {
+      "title": "__Erweiterte Systeme & Guides__",
+      "description": "**Alternative Betriebssysteme und fortgeschrittene Anleitungen.**\n\n>>> [RetroArch](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/retroarch_install) - Retro Gaming Setup\n[Lakka](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/lakka_install) - Retro Gaming OS\n[Android & Linux (Ultrahand)](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/android-und-linux-installieren-ultrahand) - Alternative OS\n[OFW zu emuMMC Guide](https://docs.niklascfw.de/switch/erweiterte-guides/ofw_to_emummc_guide) - Erweiterte OFW-Migration",
+      "color": 1439225
+    },
+    {
+      "title": "__Fehlerbehebung__",
+      "description": "**Lösungen für häufige Probleme und Fehler.**\n\n>>> [Archive Bits reparieren](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/hekate_fix_archive_bits) - macOS-Probleme beheben\n[Custom Theme Fehler](https://docs.niklascfw.de/switch/fehlerbehebung/theme-visual/0100000000000001000_beheben_(custom_theme)) - Theme-Probleme lösen\n[Leere Icons reparieren](https://docs.niklascfw.de/switch/fehlerbehebung/theme-visual/leere_lade_icons_switch_dbifix) - Leere Icons beheben\n[Fehler 2123-0011](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/21230011_beheben) - Netzwerk-Fehler\n[Fehler 0100000000000bd00](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/0100000000000bd00_beheben) - Boot-Fehler\n[Fehler 2001-0123 (UltraHand)](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/fehlercode_2001-0123_ultrahand_anleitung) - UltraHand-Fehler\n[Ultrahand öffnen](https://docs.niklascfw.de/switch/fehlerbehebung/apps-tools/ultrahand_oeffnen) - Ultrahand Probleme\n[Switch mit MacBook](https://docs.niklascfw.de/switch/fehlerbehebung/hardware/switch_macbook) - USB-Verbindung am Mac",
+      "color": 1439225
+    }
+  ],
+  "attachments": []
+}

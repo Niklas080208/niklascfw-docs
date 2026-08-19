@@ -22,15 +22,15 @@
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/system-backup/sd_partition_backup_restore/</loc>
-    <lastmod>2026-07-21T10:39:30Z</lastmod>
+    <lastmod>2026-08-19T20:21:32Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/nachher/forwarder_installieren/</loc>
-    <lastmod>2026-07-21T10:46:06Z</lastmod>
+    <lastmod>2026-08-19T21:02:46Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/nachher/dbi_time/</loc>
-    <lastmod>2026-07-21T10:46:06Z</lastmod>
+    <loc>https://docs.niklascfw.de/switch/nachher/time_sync/</loc>
+    <lastmod>2026-08-19T21:15:52Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/vorbereitung/emummc_erstellen/</loc>
@@ -61,8 +61,12 @@
     <lastmod>2026-07-16T16:45:01Z</lastmod>
   </url>
   <url>
+    <loc>https://docs.niklascfw.de/switch/system-backup/prodkeys/</loc>
+    <lastmod>2026-08-19T19:56:19Z</lastmod>
+  </url>
+  <url>
     <loc>https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren/</loc>
-    <lastmod>2026-07-21T10:46:06Z</lastmod>
+    <lastmod>2026-08-19T20:53:53Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/troubleshooting/</loc>
@@ -86,15 +90,11 @@
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/sphaira_games_und_updates_aus_der_ofw_dumpen/</loc>
-    <lastmod>2026-07-21T11:35:14Z</lastmod>
+    <lastmod>2026-08-19T19:56:19Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/rcm-methode/payload_laden/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
-  </url>
-  <url>
-    <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/android-und-linux-installieren-ultrahand/</loc>
-    <lastmod>2026-07-21T11:35:14Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/updates/firmware-update/</loc>
@@ -102,15 +102,19 @@
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/omni-migrate/</loc>
-    <lastmod>2026-08-01T00:20:44Z</lastmod>
+    <lastmod>2026-08-19T21:42:41Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/modchip/</loc>
     <lastmod>2026-06-11T01:01:34Z</lastmod>
   </url>
   <url>
+    <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/android-und-linux-installieren-ultrahand/</loc>
+    <lastmod>2026-08-19T21:42:41Z</lastmod>
+  </url>
+  <url>
     <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/retroarch_install/</loc>
-    <lastmod>2026-06-29T01:09:07Z</lastmod>
+    <lastmod>2026-08-19T21:42:41Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_arten/</loc>
@@ -130,7 +134,7 @@
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/lakka_install/</loc>
-    <lastmod>2026-07-21T11:35:14Z</lastmod>
+    <lastmod>2026-08-19T21:42:41Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_downgrade/</loc>
@@ -181,10 +185,6 @@
     <lastmod>2026-07-21T11:35:14Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/prodkeys/</loc>
-    <lastmod>2026-07-21T11:35:14Z</lastmod>
-  </url>
-  <url>
     <loc>https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/hb_cfw_tools/</loc>
     <lastmod>2026-07-21T11:35:14Z</lastmod>
   </url>
@@ -202,7 +202,7 @@
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/fehlerbehebung/apps-tools/niklascfwdownloadprobleme/</loc>
-    <lastmod>2026-07-21T12:01:16Z</lastmod>
+    <lastmod>2026-08-19T21:42:41Z</lastmod>
   </url>
   <url>
     <loc>https://docs.niklascfw.de/switch/overclocking/uebersicht/</loc>

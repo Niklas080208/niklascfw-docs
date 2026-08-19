@@ -15,7 +15,7 @@ Kommst du von einem **beliebigen anderen Pack** (nicht NiklasCFW), nutze die Anl
 - **WLAN** ist verbunden (Download dauert je nach Verbindung mehrere Minuten).
 - **Ausreichend freier Speicher** auf der SD-Karte für das OmniNX-ZIP und die entpackten Dateien.
 - Die **Systemzeit** muss synchronisiert sein, damit der Download erfolgreich abschließt:<br>
-[!ref](nachher/dbi_time)
+[!ref](nachher/time_sync)
 
 ---
 

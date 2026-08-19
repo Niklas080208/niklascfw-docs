@@ -7,7 +7,7 @@
 Ohne korrekte Zeit funktioniert der Download über UltraHand nicht.
 !!!
 
-[!ref text="Uhrzeit mit DBI (NTP)"](../../nachher/dbi_time)
+[!ref text="Uhrzeit mit DBI (NTP)"](../../nachher/time_sync)
 
 ---
 
