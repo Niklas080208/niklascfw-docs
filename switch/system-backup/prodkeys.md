@@ -1,7 +1,7 @@
 ---
 icon: lock
 label: "prod.keys (Lockpick)"
-order: 103
+order: 40
 description: "prod.keys mit Lockpick RCM in Hekate auslesen und speichern."
 ---
 

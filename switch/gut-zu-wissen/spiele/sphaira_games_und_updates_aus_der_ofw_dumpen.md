@@ -44,7 +44,7 @@ In Hekate: **More Config** → **Stock CFW** starten.
 Diese Meldung bedeutet: Schritt **prod.keys dumpen** (Lockpick RCM) wurde übersprungen. Zurück zu Hekate und **Dump from SysMMC** ausführen.
 !!!
 
-[!ref text="prod.keys mit Lockpick RCM"](../apps-tools/prodkeys)
+[!ref text="prod.keys mit Lockpick RCM"](../../system-backup/prodkeys)
 [!ref text="UltraHand im Pack"](../apps-tools/ultrahand_cfwpack)
 
 ---
