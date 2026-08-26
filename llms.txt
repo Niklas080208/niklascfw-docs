@@ -54,6 +54,7 @@
 
 #### System
 
+- [Sind Nintendo-Server blockiert?](https://docs.niklascfw.de/switch/gut-zu-wissen/system/nintendo-server.md): OmniNX blockiert Kommunikation zu Nintendo-Servern standardmäßig über DNS-MitM.
 - [Welchen emuMMC hab ich?](https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_arten.md): SD Partition vs. SD File emuMMC am PC oder in Hekate erkennen.
 - [SD kopieren mit NX Migrator Pro](https://docs.niklascfw.de/switch/gut-zu-wissen/system/nxmigatorpro.md): Komplette SD inkl. aller Partitionen auf eine neue Karte mit NX Migrator Pro klonen.
 - [Switch zurücksetzen (CFW / Hekate)](https://docs.niklascfw.de/switch/gut-zu-wissen/system/switch_ruecksetzmodus.md): Switch im Rücksetzmodus zurücksetzen – mit oder ohne Speicherdaten löschen.

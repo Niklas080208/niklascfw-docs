@@ -19,7 +19,7 @@
 - **Vollständiges CFW-Setup** – Sofort einsatzbereit mit Atmosphere, Hekate und wichtigen Tools
 - **Ultrahand** – Overlay-Menü und Package-System (OmniNX Downloader, Alchemist, Package Manager und weitere)
 - **Vorinstallierte Payloads** – u. a. APL (Recovery), Lockpick RCM und Pro, TegraExplorer, [modchip_toolbox](https://github.com/DefenderOfHyrule/modchip-toolbox), OmniNX Installer
-- **Sicherheit und Patches** – sys-patch, DNS-MitM
+- **Sicherheit und Patches** – sys-patch, DNS-MitM (Nintendo-Server standardmäßig blockiert)
 - **sys-ticon (Standard und OC)** – Home-Menü: eigene Icons, Titel, Herausgeber und Versionsanzeige ([sys-ticon](https://github.com/masagrator/sys-ticon))
 
 ### Varianten im Überblick
@@ -119,6 +119,12 @@ In jeder Variante enthalten, aber nicht in der Tabelle oben aufgeführt:
 ---
 
 ## Wichtige Hinweise
+
+!!!info Nintendo-Server sind standardmäßig blockiert
+OmniNX unterdrückt **Kommunikation zu Nintendo-Servern** automatisch über **DNS-MitM**. Du musst dafür nichts extra einrichten.
+
+Mehr: [Nintendo-Server blockieren](/switch/gut-zu-wissen/system/nintendo-server)
+!!!
 
 !!!warning Bevor du startest
 - Lies alle Anleitungen vollständig durch.

@@ -27,6 +27,12 @@ Firmware updaten oder downgraden (in emuMMC/CFW).
 **DBI**  
 Mächtiger Installer (MTP, NSP/XCI, NTP-Zeit, …).
 
+**DNS-MitM**  
+Atmosphere-Funktion, die Nintendo-Server in der CFW blockiert. In OmniNX **standardmäßig aktiv**. Siehe [Nintendo-Server](/switch/gut-zu-wissen/system/nintendo-server).
+
+**DNS_mitm Tester**  
+Homebrew zum Prüfen, ob Nintendo-Adressen blockiert sind.
+
 **DeepSea**  
 Älteres CFW-Pack, nicht mehr aktiv gepflegt.
 

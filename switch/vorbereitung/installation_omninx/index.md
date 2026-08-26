@@ -89,6 +89,7 @@ Nach dem Neustart in **Hekate** die **Uhrzeit** setzen.
 - **Bereits emuMMC:** **Launch** → **CFW-EmuMMC** → CFW starten.
 - **Noch kein emuMMC:** Weiter mit **[emuMMC erstellen](../emummc_erstellen)**.
 - **Nur einrichten:** Weiter mit **[Pack einrichten](../pack_einrichten)**.
+- **Nintendo-Server** sind in der CFW bereits blockiert. Siehe [Nintendo-Server](/switch/gut-zu-wissen/system/nintendo-server).
 !!!
 
 ==- Fehler? (Troubleshooting)
