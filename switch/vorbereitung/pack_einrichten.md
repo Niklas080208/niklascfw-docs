@@ -55,7 +55,7 @@ Bei **Tinfoil** ist oft kein eigener Forwarder nötig – Tinfoil installiert be
 ## Systemzeit synchronisieren
 
 !!!warning Systemzeit
-Ohne Verbindung zu den Nintendo-Servern muss man die **Systemzeit** manuell synchronisieren. <br>Sonst funktionieren **internetabhängige Aufgaben** nicht zuverlässig.
+OmniNX blockiert Nintendo-Server **standardmäßig** ([Details](/switch/gut-zu-wissen/system/nintendo-server)). Deshalb musst du die **Systemzeit** manuell synchronisieren. Sonst funktionieren **internetabhängige Aufgaben** nicht zuverlässig.
 !!!
 
 1. **UltraHand** öffnen (**L** + **R** + **Plus**).

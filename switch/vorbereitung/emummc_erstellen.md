@@ -21,6 +21,7 @@ Ein **emuMMC** (emulated MMC) ist eine **virtuelle Kopie** des internen Speicher
 - **Sicherheit:** Das Original-System bleibt unberührt.
 - **Trennung:** CFW und OFW getrennt nutzbar.
   - In der **OFW** kannst du weiterhin **online** mit allen deinen **legitimen Spielen** spielen.
+  - In der **CFW** sind **Nintendo-Server standardmäßig blockiert**. Siehe [Nintendo-Server](/switch/gut-zu-wissen/system/nintendo-server).
 
 ---
 

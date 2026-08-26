@@ -14,6 +14,8 @@ Diese Seite ist der **rote Faden** durch die Dokumentation: Du kannst Schritt f√
 Die folgenden Phasen zeigen den aktuellen, empfohlenen Ablauf von Vorbereitung bis fertigem Setup.
 !!!
 
+{{ include "snippets/nintendo-server-block" }}
+
 ---
 
 ## Phase 1: Konsole & SD kl√§ren

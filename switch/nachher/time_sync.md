@@ -14,7 +14,7 @@ Die Switch muss **mit dem Internet verbunden** sein – per WLAN oder Ethernet-A
 !!!
 
 !!!warning Systemzeit
-Ohne Verbindung zu den Nintendo-Servern muss man die **Systemzeit** manuell synchronisieren. Sonst funktionieren **internetabhängige Aufgaben** nicht zuverlässig.
+OmniNX blockiert Nintendo-Server **standardmäßig** ([Details](/switch/gut-zu-wissen/system/nintendo-server)). Deshalb musst du die **Systemzeit** manuell synchronisieren. Sonst funktionieren **internetabhängige Aufgaben** nicht zuverlässig.
 !!!
 
 ---
