@@ -80,6 +80,39 @@ Die **neueste Firmware** ist nicht immer nötig. Spätestens wenn ein **Spiel** 
 
 ---
 
+## Experimentell: Firmware-Prüfung deaktivieren
+
+!!!warning Nur wenn Daybreak blockiert
+Wenn du beim Installieren die Meldung **„Nicht unterstützte Firmware-Version“** siehst, ist die gewählte Firmware **neuer als dein aktuelles Atmosphere** offiziell unterstützt. **Normalerweise:** erst **OmniNX / Atmosphere aktualisieren**, dann die Firmware installieren.
+
+In **neueren OmniNX-Versionen** kann man die Daybreak Prüfung **experimentell** abschalten – nur wenn du die Firmware **trotzdem** installieren willst und weißt, dass du danach ggf. **Atmosphere nachziehen** musst.
+!!!
+
+>>> Wann tritt das auf?
+Beim Schritt **Installieren** bricht Daybreak ab und zeigt z. B. **Maximal unterstützte Firmware ist 23.0.0** – obwohl die Firmware-Dateien schon auf der SD liegen.
+
+![Daybreak – Firmware blockiert|700x420](/images/switch/omninx/updates/firmware/daybreak-experimental/daybreak-firmware-blockiert.jpg)
+
+>>> Einstellungen in Daybreak
+Zurück ins **Daybreak-Hauptmenü**. Wähle **Einstellungen** (neben Installieren und Beenden).
+
+![Daybreak – Einstellungen|700x420](/images/switch/omninx/updates/firmware/daybreak-experimental/daybreak-firmware-pruefung-aus.jpg)
+
+>>> Firmware-Prüfung ausschalten
+Tippe auf **Firmware-Prüfung**, bis der Schalter **aus** ist. Unten steht dann z. B. **Auch Firmware > 23.0.0**. Mit **Zurück** ins Hauptmenü.
+
+![Daybreak – Firmware-Prüfung aus|700x420](/images/switch/omninx/updates/firmware/daybreak-experimental/daybreak-einstellungen-menu.jpg)
+
+>>> Erneut installieren
+Wieder **Installieren** wählen und die Anleitung oben ab **Firmware-Verzeichnis wählen** fortsetzen.
+>>>
+
+!!!danger Auf eigenes Risiko
+Ohne Prüfung kann die Installation **klappen oder Probleme machen**, wenn Atmosphere die Firmware noch nicht sauber unterstützt. Nach dem Update [OmniNX aktualisieren](/switch/updates/omninx-update). Die Prüfung danach wieder **ein** lassen, wenn du sie nicht dauerhaft brauchst.
+!!!
+
+---
+
 !!!success Fertig
 Firmware-Update ist abgeschlossen. Bei Problemen: [Fehlerbehebung](/switch/fehlerbehebung/system-boot/hekate_fix_archive_bits).
 !!!
