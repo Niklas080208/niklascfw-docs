@@ -55,6 +55,13 @@ Diese Dokumentation führt dich mit einem **roten Faden** von der **Vorbereitung
 </ul>
 </div>
 
+## 📱 **Info zur All World und NiklasCFW App**
+
+<div style="text-align: center; margin: 3rem 0; padding: 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; color: white;">
+  <h4> All World und NiklasCFW app wird eine Kombinierte App.</h4>
+  <h4> Die App ist noch im Bau (Die App ist noch nicht fertig) </h4>
+
+  <a  href="https://github.com/Sami20178/All-World-App" style="background: white; color: #667eea; padding: 1rem 2rem; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 1.1em;">📱 Zu All World und NiklasCfW App</a>
 ---
 
 <div style="text-align: center; margin: 3rem 0; padding: 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; color: white;">
