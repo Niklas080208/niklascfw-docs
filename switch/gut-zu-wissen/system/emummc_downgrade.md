@@ -63,7 +63,7 @@ Im **Launch**-Menü **Lockpick RCM** starten.
 ![Hekate – Launch-Menü mit Lockpick RCM (Platzhalter)|700x420](/images/switch/gut-zu-wissen/system/emummc-downgrade/hekate-launch.jpg)
 
 >>> Keys vom SysNAND (höchste FW)
-Im Lockpick-RCM-Menü mit **Vol +/-** steuern, mit **Power** bestätigen. Wähle **Dump from SysMMC** (bzw. den Eintrag zum Auslesen vom **SysNAND** mit der **höchsten Firmware**).
+Im Lockpick-RCM-Menü mit **Joy-Con oder Vol +/-** steuern, mit **A oder Power** bestätigen. Wähle **Dump from SysMMC** (bzw. den Eintrag zum Auslesen vom **SysNAND** mit der **höchsten Firmware**).
 
 ![Lockpick RCM – Dump from SysMMC / NAND wählen (Platzhalter)|700x420](/images/switch/gut-zu-wissen/system/emummc-downgrade/lockpick-dump.gif)
 

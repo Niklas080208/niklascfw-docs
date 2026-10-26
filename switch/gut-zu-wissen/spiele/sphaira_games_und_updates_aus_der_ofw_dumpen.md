@@ -22,7 +22,7 @@ In der **OFW** alle gewünschten **Spiele**, **Updates** und **DLCs** aus dem eS
 Die Switch **neu starten**, bis du im **Hekate-Bootloader** landest.
 
 >>> prod.keys mit Lockpick RCM dumpen
-In Hekate: **Lockpick RCM** → nur **Dump from SysMMC** → **Power** drücken und durchlaufen lassen. Anschließend mit den **Lautstärketasten** auf **Reboot to Hekate** navigieren und wieder **Power** drücken.
+In Hekate: **Lockpick_RCM** → nur **Dump from SysMMC** → mit **A** oder **Power** starten und durchlaufen lassen. Anschließend **Reboot to hekate** auswählen und wieder mit **A** oder **Power** bestätigen.
 
 >>> Stock CFW starten
 In Hekate: **More Config** → **Stock CFW** starten.

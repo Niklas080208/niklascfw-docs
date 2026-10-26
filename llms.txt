@@ -1,167 +1,74 @@
-﻿
+# Retype
 
-## Nintendo Switch
+> Retype is a static site generator and CLI tool that transforms Markdown files into fast, searchable, production-ready documentation websites. Projects are configured through a `retype.yml` file, with per-page settings controlled via YAML frontmatter. Retype supports GitHub Actions for automated CI/CD workflows, a rich library of built-in authoring components, and a Scriban-powered templating engine for dynamic content. Install with npm, Yarn, or dotnet. Free for projects up to 100 pages; Pro and Enterprise licenses unlock additional features, higher page limits, and commercial use.
 
-### Vorbereitung & Installation
+Use the links below as primary entry points for understanding the product, setup flow, CLI, configuration model, components, templating, hosting options, and pricing. Prefer the markdown URLs when consuming content programmatically.
 
-- [Start: Roter Faden (0 → fertig)](https://docs.niklascfw.de/switch/vorbereitung/roter_faden.md): Von Null bis lauffähiger CFW mit OmniNX als Hauptpfad.
+## Product Overview
 
-#### Voraussetzungen
+- [Homepage](https://retype.com/readme.md): Product overview, value proposition, and primary getting-started links.
+- [Features](https://retype.com/features.md): Full summary of Retype capabilities and feature list.
+- [About](https://retype.com/about.md): Background on the product, technology stack, and supporting libraries.
 
-##### Switch Modell prüfen
+## Getting Started
 
-- [Prüfe, ob deine Nintendo Switch ungepatcht ist](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/serial_check.md): Diese Anleitung hilft dir dabei zu prüfen, ob deine Nintendo Switch ungepatcht ist und ob du CFW ohne Modchip nutzen kannst.
+- [Installation](https://retype.com/guides/installation.md): Install Retype using npm, Yarn, or dotnet.
+- [Getting Started](https://retype.com/guides/getting-started.md): Minimal path to create and run a Retype site.
+- [CLI Reference](https://retype.com/guides/cli.md): Full command reference including `retype start`, `retype build`, `retype watch`, and `retype wallet`.
+- [Key Setup](https://retype.com/guides/key-setup.md): How to add a Retype Pro key using `retype wallet`, `retype.yml`, or an environment variable.
 
-###### RCM Methode
+## Configuration
 
-- [RCM Methode](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/rcm-methode/rcm-methode.md): Bevor du den Payload sendest, ist es hilfreich zu verstehen, was bei RCM technisch passiert.
-- [Payload laden (Hekate)](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/rcm-methode/payload_laden.md): Wenn deine Switch bereits im RCM ist, kannst du jetzt den Payload (hekate.bin) senden.
-- [Modchip einbauen](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/serial_check/modchip.md): Wenn deine Konsole als gepatcht erkannt wurde, ist CFW nur mit einem Modchip möglich.
-- [Die richtige Speicherkarte](https://docs.niklascfw.de/switch/vorbereitung/voraussetzungen/richtige_sd.md): Die microSD-Karte ist das Herzstück des Systems. Hier liegen Spiele, Homebrew-Apps und oft auch wichtige Systemdaten. Eine minderwertige oder zu langsame Speicherkarte kann dabei nicht nur zu langen Ladezeiten führen, sondern auch zu Datenfehlern, Abstürzen oder gar einem beschädigten Dateisystem.
-- [SD auf FAT32 formatieren](https://docs.niklascfw.de/switch/vorbereitung/sd_wipe.md): In dieser Anleitung findest du drei Wege, um deine SD-Karte auf FAT32 zu formatieren.
-- [OmniNX Setup](https://docs.niklascfw.de/switch/vorbereitung/einfuehrung.md): OmniNX ist ein vollständiges Custom-Firmware-Setup für die Nintendo Switch. Es ist in drei Varianten verfügbar und legt Wert auf Flexibilität und Modularität.
-- [OmniNX Herunterladen](https://docs.niklascfw.de/switch/vorbereitung/download.md): Gehe zu den OmniNX Releases: git.niklascfw.de/OmniNX/OmniNX/releases
+- [Project Configuration](https://retype.com/configuration/project.md): Site-wide settings in `retype.yml` — title, URL, branding, navigation, plugins, and more.
+- [Page Configuration](https://retype.com/configuration/page.md): Per-page YAML frontmatter to control labels, icons, visibility, order, tags, redirects, and layout.
+- [Folder Configuration](https://retype.com/configuration/folder.md): Folder-level settings via an `index.yml` file; supports the same properties as page configuration.
+- [Environment Variables](https://retype.com/configuration/envvars.md): Configure Retype using environment variables, useful for CI/CD pipelines and secrets management.
+- [Theme Variables](https://retype.com/configuration/theme-variables.md): Customize colors, fonts, and visual appearance using CSS theme variables.
 
-#### Installation von OmniNX
+## Authoring
 
-- [Installation von OmniNX](https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/index.md): Nach dem Download und dem Kopieren des Packs auf die SD-Karte startest du hier den OmniNX Installer und führst die Installation durch.
-- [Fehlerbehebung – Installation](https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/troubleshooting.md): Während der OmniNX-Installation können verschiedene Hinweise und Fehlermeldungen auftauchen. Hier sind die häufigsten dokumentiert.
-- [Entfernte Inhalte – Clean vs. Update](https://docs.niklascfw.de/switch/vorbereitung/installation_omninx/entfernte_inhalte.md): Gegenüberstellung der Deletion Lists im OmniNX Installer: deletion_lists_clean.h (Saubere Installation) und deletion_lists_update.h (Update).
-- [emuMMC erstellen](https://docs.niklascfw.de/switch/vorbereitung/emummc_erstellen.md): Ein emuMMC (emulated MMC) ist eine virtuelle Kopie des internen Speichers (eMMC) deiner Nintendo Switch.
-- [OmniNX einrichten](https://docs.niklascfw.de/switch/vorbereitung/pack_einrichten.md): Nach dem ersten Start der CFW (OmniNX) solltest du noch ein paar Dinge einrichten: Forwarder, Systemzeit und optional zusätzliche Apps.
+- [Markdown Guide](https://retype.com/guides/markdown.md): Markdown syntax and Retype Flavored Markdown (RFM) extensions.
+- [llms.txt Guide](https://retype.com/guides/llms.md): How Retype generates `llms.txt` for AI-friendly documentation discovery and how to provide a custom file.
+- [Components](https://retype.com/components/components.md): Full index of built-in authoring components. Includes: Backlinks, Badge, Button, Callout, Code Block, Code Snippet, Color Chip, Column, Comments, Container, Embed, Emoji, File Download, Google Maps, Icon, Image, Instagram, Last Updated, List, Math Formulas, Mermaid diagrams, Octicons, Panel, Reference Link, Steps, Tab, Table, and YouTube.
+- [Templating](https://retype.com/templating/index.md): Scriban-powered templating engine for embedding dynamic content — variables, loops, conditionals, and includes — directly in Markdown pages with no separate build step.
+- [Blogging](https://retype.com/guides/blogging.md): Set up a blog within a Retype project; covers post layout, tags, and RSS.
 
-### System & Backup
+## Hosting and Deployment
 
-- [NAND Backup erstellen](https://docs.niklascfw.de/switch/system-backup/nand_backup.md): SysNAND (BOOT0, BOOT1, RAW GPP) in Hekate sichern und auf dem PC archivieren.
-- [NAND Backup wiederherstellen](https://docs.niklascfw.de/switch/system-backup/nand_backup_restore.md): Ein zuvor erstelltes SysNAND-Backup über Hekate auf die eMMC zurückspielen.
-- [SD Partition Backup und Restore (emuMMC)](https://docs.niklascfw.de/switch/system-backup/sd_partition_backup_restore.md): Partition-basierten emuMMC auf der SD-Karte sichern, SD tauschen und wiederherstellen.
-- [prod.keys dumpen mit Lockpick RCM](https://docs.niklascfw.de/switch/system-backup/prodkeys.md): prod.keys mit Lockpick RCM in Hekate auslesen und speichern.
+- [GitHub Actions](https://retype.com/guides/github-actions.md): Automate Retype build and publish using the official Retype Build and GitHub Pages Actions.
+- [GitHub Pages](https://retype.com/hosting/github-pages.md): Publish a Retype site with GitHub Pages.
+- [GitLab Pages](https://retype.com/hosting/gitlab-pages.md): Publish a Retype site with GitLab Pages.
+- [Netlify](https://retype.com/hosting/netlify.md): Publish a Retype site with Netlify.
+- [Cloudflare](https://retype.com/hosting/cloudflare.md): Publish a Retype site with Cloudflare Pages.
+- [Docker](https://retype.com/hosting/docker.md): Run or deploy a Retype site using Docker.
+- [Heroku](https://retype.com/hosting/heroku.md): Deploy a Retype site to Heroku.
+- [FTP](https://retype.com/hosting/ftp.md): Deploy a Retype site via FTP.
+- [Web Server](https://retype.com/hosting/web-server.md): Serve a Retype site from any static web server or VPS.
 
-### Nachher
+## Pricing Context
 
-- [Auto RCM aktivieren](https://docs.niklascfw.de/switch/nachher/auto_rcm_aktivieren.md): JIG umgehen – Switch startet per Power direkt in RCM; Payload muss weiterhin geladen werden (ohne Modchip).
-- [Autoboot aktivieren](https://docs.niklascfw.de/switch/nachher/autoboot_aktivieren.md): Hekate so einstellen, dass die Switch automatisch in die CFW bootet.
-- [Forwarder installieren mit Sphaira](https://docs.niklascfw.de/switch/nachher/forwarder_installieren.md): Homescreen-Verknüpfungen für Homebrew-Apps mit Sphaira anlegen.
-- [Uhrzeit synchronisieren](https://docs.niklascfw.de/switch/nachher/time_sync.md): Systemzeit der Switch per QuickNTP (UltraHand) oder DBI per NTP synchronisieren.
+- [Retype Pro](https://retype.com/pro/pro.md): Current public pricing and feature comparison.
 
-### Gut zu wissen
+Current public pricing, subject to change:
 
-#### Erweiterte Systeme
+- Free: no key required, up to 100 pages per project.
+- Pro: $149, one Pro project, 3 years of upgrades.
+- Enterprise: $499, unlimited projects for one domain and its subdomains, 3 years of upgrades.
 
-- [Android und Linux installieren (UltraHand)](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/android-und-linux-installieren-ultrahand.md): Android und Linux per UltraHand herunterladen und auf SD Partition oder SD File emuMMC installieren.
-- [Lakka installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/lakka_install.md): Lakka (RetroArch/LibreELEC) über UltraHand oder PC installieren und booten.
-- [RetroArch installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/erweiterte-systeme/retroarch_install.md): RetroArch installieren, Forwarder einrichten und ROMs hinzufügen.
+When pricing precision matters, treat the Retype Pro page as the source of truth.
 
-#### System
+## Source Repositories
 
-- [Sind Nintendo-Server blockiert?](https://docs.niklascfw.de/switch/gut-zu-wissen/system/nintendo-server.md): OmniNX blockiert Kommunikation zu Nintendo-Servern standardmäßig über DNS-MitM.
-- [Welchen emuMMC hab ich?](https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_arten.md): SD Partition vs. SD File emuMMC am PC oder in Hekate erkennen.
-- [SD kopieren mit NX Migrator Pro](https://docs.niklascfw.de/switch/gut-zu-wissen/system/nxmigatorpro.md): Komplette SD inkl. aller Partitionen auf eine neue Karte mit NX Migrator Pro klonen.
-- [Switch zurücksetzen (CFW / Hekate)](https://docs.niklascfw.de/switch/gut-zu-wissen/system/switch_ruecksetzmodus.md): Switch im Rücksetzmodus zurücksetzen – mit oder ohne Speicherdaten löschen.
-- [emuMMC (Partition) downgraden](https://docs.niklascfw.de/switch/gut-zu-wissen/system/emummc_downgrade.md): emuMMC (Partition) downgraden
+- [Website Source](https://github.com/retypeapp/retype): Source for the retype.com documentation website (content, configuration, and components).
+- [Retype Application](https://github.com/objectdotnet/retype-app): Core Retype application and CLI source.
+- [Build Action](https://github.com/retypeapp/action-build): GitHub Action for building a Retype project in CI.
+- [GitHub Pages Action](https://github.com/retypeapp/action-github-pages): GitHub Action for publishing a built Retype site to GitHub Pages.
 
-#### Customization
+## Optional
 
-- [Theme installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/customization/theme_install.md): NXThemes Installer einrichten und Themes von Themezer installieren.
-- [Title Override (Highmemory Mode)](https://docs.niklascfw.de/switch/gut-zu-wissen/customization/title_override.md): Sphaira und Homebrew im Highmemory-Mode starten (Title Override / R-Taste).
-
-#### Spiele
-
-- [Spiele (Gamecards) über DBI und Sphaira installieren](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/spiele_installation_dbi_sphaira.md): Physische Gamecards über DBI oder Sphaira auf die SD installieren.
-- [Backups installieren (XCI / XCZ / NSP / NSZ)](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/backups-installieren.md): XCI, XCZ, NSP und NSZ über Sphaira (MTP) oder DBI (MTP Responder) installieren.
-- [Gamecard Dump Anleitung](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/gamecard_mit_spaira_dumpen.md): Eigene Gamecards mit Sphaira dumpen – Video-Anleitungen inklusive.
-- [OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/ofw_to_emummc_guide.md): OFW-Spiele und Updates in die emuMMC übernehmen, ohne Spielstände zu verlieren.
-- [Sphaira: Games und Updates aus der OFW dumpen](https://docs.niklascfw.de/switch/gut-zu-wissen/spiele/sphaira_games_und_updates_aus_der_ofw_dumpen.md): Spiele, Updates und DLCs aus der OFW mit Sphaira dumpen und in der CFW installieren.
-
-#### Apps & Tools
-
-- [Homebrew & CFW Tools](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/hb_cfw_tools.md): Glossar häufiger Homebrew-, CFW- und Emulator-Begriffe in der Switch-Szene.
-- [Spielstände sichern und wiederherstellen mit JKSV](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv.md): Spielstände mit JKSV sichern, wiederherstellen und auf andere Switches übertragen.
-- [JKSV Cloud Backup einrichten](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/jksv_cloud.md): JKSV-Spielstände nach Google Drive oder WebDAV sichern.
-- [Sphaira (ersetzt hbmenu)](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/sphaira.md): Homebrew-Menü als hbmenu-Ersatz – Features und Hinweise im Überblick.
-- [UltraHand (Tesla Menu Ersatz)](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand.md): Overlay-Menü und Package-System – Funktionen, Steuerung und Pakete.
-- [UltraHand im OmniNX-Pack](https://docs.niklascfw.de/switch/gut-zu-wissen/apps-tools/ultrahand_cfwpack.md): Vorinstallierte UltraHand-Packages und Overlays im OmniNX-Pack.
-
-### Fehlerbehebung
-
-#### Hardware
-
-- [Switch mit MacBook verbinden](https://docs.niklascfw.de/switch/fehlerbehebung/hardware/switch_macbook.md): Switch per DBI MTP mit einem MacBook verbinden.
-
-#### Apps & Tools
-
-- [UltraHand lässt sich nicht öffnen](https://docs.niklascfw.de/switch/fehlerbehebung/apps-tools/ultrahand_oeffnen.md): UltraHand im Dock- und Handheldmodus öffnen.
-- [NiklasCFW Downloader Fehlerbehebung](https://docs.niklascfw.de/switch/fehlerbehebung/apps-tools/niklascfwdownloadprobleme.md): Abgebrochene Downloads im NiklasCFW Downloader beheben.
-
-#### Spiele
-
-- [Defekten Legenden Z-A Spielstand reparieren](https://docs.niklascfw.de/switch/fehlerbehebung/spiele/plza_save.md): Defekten Savegame-Stand von Legenden Z-A mit plza-recovery reparieren.
-
-#### System & Boot
-
-- [Fehlercode 420000000000010 beheben](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/420000000000010_beheben_(ldn_mitm).md): Fehler mit ldn_mitm per Tegra Explorer oder manuell entfernen.
-- [Fehlercode 2123-0011 beheben](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/21230011_beheben.md): Fehlercode 2123-0011 durch fehlenden TitleID-Ordner in atmosphere/contents beheben.
-- [Fehlercode 2001-0123 beheben](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/fehlercode_2001-0123_ultrahand_anleitung.md): UltraHand-Fehler 2001-0123 mit kompatibler Firmware 22.5.0 via OmniNX Downloader beheben.
-- [Fehlercode 0100000000000bd00 beheben](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/0100000000000bd00_beheben.md): Fehlercode 0100000000000bd00 per Tegra Explorer oder manuell entfernen.
-- [Hekate: Fix Archive Bits](https://docs.niklascfw.de/switch/fehlerbehebung/system-boot/hekate_fix_archive_bits.md): Archive-Bit-Probleme nach macOS-Nutzung direkt in Hekate beheben.
-
-#### Theme & Visual
-
-- [Leere Lade-Icons im HOME-Menü beheben](https://docs.niklascfw.de/switch/fehlerbehebung/theme-visual/leere_lade_icons_switch_dbifix.md): Fehlerhafte Lade-Icons im HOME-Menü direkt über DBI entfernen.
-- [Fehlercode 0100000000000001000 beheben](https://docs.niklascfw.de/switch/fehlerbehebung/theme-visual/0100000000000001000_beheben_(custom_theme).md): Fehlercode 0100000000000001000 durch Entfernen eines Custom Themes beheben.
-
-### Erweiterte Guides
-
-- [OFW-Spiele + Updates in emuMMC übernehmen (ohne Saves zu verlieren)](https://docs.niklascfw.de/switch/erweiterte-guides/ofw_to_emummc_guide.md): OFW-Spiele und Updates in die emuMMC übernehmen, ohne Spielstände zu verlieren.
-
-### Updates
-
-- [OmniNX-Pack aktualisieren](https://docs.niklascfw.de/switch/updates/omninx-update.md): Hier geht es um das Aktualisieren des OmniNX-Packs (z. B. Standard/Light/OC) in der CFW/emuMMC – per UltraHand, OmniNX Downloader und OmniNX Installer.
-- [Firmware updaten](https://docs.niklascfw.de/switch/updates/firmware-update.md): Hier geht es um das Aktualisieren der Switch-Firmware (Horizon OS) in der CFW/emuMMC mit Daybreak.
-
-### Overclocking (OC)
-
-- [Overclocking / Undervolting (nur für Fortgeschrittene)](https://docs.niklascfw.de/switch/overclocking/uebersicht.md): Falsches bzw. zu starkes Übertakten kann zu irreparablen Schäden an der Hardware führen. Wir übernehmen hierfür keine Haftung. Außerdem wird davon abgeraten, im Handheldbetrieb die Konsole über 8,6 W (V2/OLED) bzw.
-- [Installation](https://docs.niklascfw.de/switch/overclocking/installation.md): In der Regel ist die CFW nach Installation des OmniNX OC Pack bereits overclocking-ready. Wichtig:
-- [Begrifflichkeiten](https://docs.niklascfw.de/switch/overclocking/begrifflichkeiten.md): Menüpunkt
-- [Arbeitsspeicher (RAM)](https://docs.niklascfw.de/switch/overclocking/ram.md): Nintendo verbaut unterschiedliche Speichermodule (Samsung, Toshiba, Hynix usw.). Vor dem RAM-OC musst du wissen, welches Modul in deiner Konsole steckt, da jedes Modul anders übertaktbar ist.
-- [CPU / GPU](https://docs.niklascfw.de/switch/overclocking/cpu-gpu.md): Um CPU und/oder GPU zu übertakten sind weniger Schritte nötig als beim RAM, aber dennoch einiges zu beachten.
-- [Monitoring](https://docs.niklascfw.de/switch/overclocking/monitoring.md): Horizon OC Monitor (erweiterte Version von Status Monitor) zeigt Frequenzen, Stromverbrauch, Auflösung, FPS und Temperaturen.
-- [Bildqualität / Auflösung](https://docs.niklascfw.de/switch/overclocking/bildqualitaet.md): Wenn die nötige Leistung aus der Konsole geholt ist, kannst du mit dem ReverseNX-RT-Overlay mehr Grafikqualität und Auflösung aus den Spielen holen (ohne Mods).
-- [Bildwiederholrate / FPS](https://docs.niklascfw.de/switch/overclocking/fps.md): Für viele wichtiger als reine Auflösung ist eine stabile, hohe Bildwiederholungsrate (FPS). Dafür sorgt der FPSLocker.
-- [Problembehebung](https://docs.niklascfw.de/switch/overclocking/problembehebung.md): Solltest du z. B. den GPU-Takt trotz Uncapped Clocks nicht über 998/1075 MHz betreiben können, sind zwei Ursachen wahrscheinlich:
-- [Vom NiklasCFW Pack zu OmniNX](https://docs.niklascfw.de/switch/omni-migrate.md): Das NiklasCFW Pack ist eingestellt und erhält keinen Support mehr. OmniNX ist der Nachfolger. Diese Anleitung zeigt, wie du auf der Konsole per Ultrahand und NiklasCFW Downloader wechselst, ohne einen PC.
-- [Von einem anderen Pack zu OmniNX](https://docs.niklascfw.de/switch/omni-migrate-other-pack.md): Von einem beliebigen anderen CFW-Pack zu OmniNX wechseln (Download + SD überschreiben).
-
-## PlayStation 4
-
-### Vue Exploit
-
-- [Vue After Free](https://docs.niklascfw.de/ps4/vue-exploit/index.md): Vue After Free: Jailbreak bis 13.00 – Methodenwahl und Überblick.
-
-#### Extended Storage
-
-- [Extended Storage – Voraussetzungen](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/voraussetzungen.md): Was du für Extended Storage brauchst.
-- [Netzwerk vorbereiten](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/netzwerk.md): DNS und Auto-Downloads vor dem Extended-Storage-Setup.
-- [Image flashen (PC)](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/image-flashen.md): VueExtStorage herunterladen und mit balenaEtcher flashen.
-- [Vue auf die Konsole holen](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/vue-installieren.md): Extended Storage anschließen, Vue 1.24 auf Systemspeicher verschieben, einmal starten.
-- [Save resignen & Payload](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/save-und-payload.md): Account-ID, Online-Save per Garlic Saves resignen, GoldHEN als payload.bin.
-- [Jailbreak starten](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/jailbreak-starten.md): Save importieren, DNS für Internet, Installer Full/Lite, Jailbreak.
-- [Danach (optional)](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/danach.md): Fake-Sign-In, Auto-Loader und Payloads nach dem Jailbreak.
-- [FAQ & Fehlerbehebung](https://docs.niklascfw.de/ps4/vue-exploit/extended-storage/haeufige-fragen.md): Probleme beim Extended-Storage-Setup.
-
-#### Bereits jailbroken
-
-- [Bereits jailbroken – Voraussetzungen](https://docs.niklascfw.de/ps4/vue-exploit/bereits-jailbroken/voraussetzungen.md): Was du brauchst, wenn die PS4 schon jailbroken ist.
-- [Netzwerk einrichten](https://docs.niklascfw.de/ps4/vue-exploit/bereits-jailbroken/netzwerk.md): DNS und Auto-Downloads für das Manual-Setup.
-- [Bereits jailbroken – Setup](https://docs.niklascfw.de/ps4/vue-exploit/bereits-jailbroken/setup.md): Vue After Free per FTP und Apollo auf einer jailbroken PS4 einrichten.
-- [Danach (optional)](https://docs.niklascfw.de/ps4/vue-exploit/bereits-jailbroken/danach.md): Fake-Sign-In, Auto-Loader und Payloads.
-- [FAQ & Fehlerbehebung](https://docs.niklascfw.de/ps4/vue-exploit/bereits-jailbroken/haeufige-fragen.md): Probleme beim Manual-Setup.
-
-#### System Backup
-
-- [System Backup – Voraussetzungen](https://docs.niklascfw.de/ps4/vue-exploit/system-backup/voraussetzungen.md): Was du für das System-Backup-Setup brauchst.
-- [Netzwerk einrichten](https://docs.niklascfw.de/ps4/vue-exploit/system-backup/netzwerk.md): DNS und Auto-Downloads nach dem System-Backup-Restore.
-- [System Backup – Setup](https://docs.niklascfw.de/ps4/vue-exploit/system-backup/setup.md): Vue After Free per System-Restore – löscht alle Konsolendaten.
-- [Danach (optional)](https://docs.niklascfw.de/ps4/vue-exploit/system-backup/danach.md): Fake-Sign-In, Auto-Loader und Payloads.
-- [FAQ & Fehlerbehebung](https://docs.niklascfw.de/ps4/vue-exploit/system-backup/haeufige-fragen.md): Probleme beim System-Backup-Setup.
+- [FAQ](https://retype.com/faq.md): Common product and licensing questions.
+- [Troubleshooting](https://retype.com/guides/troubleshooting.md): Diagnose and resolve common Retype issues, including key validation and configuration errors.
+- [Community](https://retype.com/community.md): Community resources and support links.
+- [Changelog](https://retype.com/changelog.md): Release history.
+- [Feature Log](https://retype.com/feature-log.md): Highlights from recent releases.
+- [Blog](https://retype.com/blog/index.md): Announcements, updates, and articles.
