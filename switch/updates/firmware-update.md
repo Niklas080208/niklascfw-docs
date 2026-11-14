@@ -8,6 +8,14 @@ Installierte **Custom Themes müssen vor dem Firmware-Update zwingend deinstalli
 
 [!ref text="Custom Theme Fehler beheben"](/switch/fehlerbehebung/theme-visual/0100000000000001000_beheben_(custom_theme))
 
+!!!warning Reihenfolge beachten: erst CFW, dann OFW
+1. **OmniNX** aktualisieren ([OmniNX-Pack updaten](/switch/updates/omninx-update))
+2. **CFW (emuMMC)** auf die neue Firmware aktualisieren (diese Seite)
+3. **Erst danach die OFW (sysNAND)** aktualisieren ([siehe unten](#ofw-sysnand-updaten))
+
+Aktualisierst du zuerst die OFW, kann es passieren, dass deine CFW danach nicht mehr startet, weil OmniNX bzw. Atmosphère die neue Firmware noch nicht unterstützt.
+!!!
+
 ---
 
 ## Voraussetzungen
@@ -68,6 +76,19 @@ Die **neueste Firmware** ist nicht immer nötig. Spätestens wenn ein **Spiel** 
 ![Reboot](/images/switch/omninx/updates/firmware/daybreak-install-finished.jpg)
 
 10. Nach dem Neustart ist die neue Firmware aktiv.
+
+---
+
+## OFW (sysNAND) updaten
+
+Die **OFW** aktualisierst du **erst, wenn die CFW (emuMMC) auf der neuen Firmware läuft** und alles funktioniert.
+
+1. Konsole in die **OFW (sysNAND)** starten.
+2. **Systemeinstellungen → System → Systemaktualisierung** wählen und das Update installieren.
+
+!!!info Ist das OFW-Update nötig?
+Nein. Die OFW muss nicht auf dem gleichen Stand wie die CFW sein. Aktualisiere sie nur, wenn du sie wirklich brauchst (z. B. für Online-Spiele in der OFW).
+!!!
 
 ---
 
