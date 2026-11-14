@@ -82,3 +82,11 @@ Nach dem Neustart in **Hekate** die **Uhrzeit** setzen.
 !!!success Fertig
 OmniNX-Pack-Update ist abgeschlossen. Bei Problemen: [Fehlerbehebung](/switch/fehlerbehebung/system-boot/hekate_fix_archive_bits).
 !!!
+
+---
+
+## Nächster Schritt: Firmware
+
+Willst du auch die **Firmware** aktualisieren? Die Reihenfolge ist immer: **OmniNX** (diese Seite) → **CFW (emuMMC)** → **erst danach OFW (sysNAND)**.
+
+[!ref text="Firmware updaten"](/switch/updates/firmware-update)
